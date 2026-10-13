@@ -15,7 +15,3 @@ __pycache__/
 # Local DuckDB copy of raw tables (rebuildable by scripts/profile_raw_data.py)
 data/interim/
 
-# Processed files over GitHub 100 MB limit (kept locally / on Drive)
-data/processed/pair_quarter_counts.parquet
-data/processed/pair_quarter_stats.parquet
-data/processed/ps_drug_event_cases.parquet

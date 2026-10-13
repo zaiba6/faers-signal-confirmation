@@ -1,0 +1,183 @@
+{
+ "n_rows": 847,
+ "n_quarters": 50,
+ "skipped": [
+  [
+   "2008Q1",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2008Q2",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2008Q3",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2008Q4",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2009Q1",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2009Q2",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2009Q3",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2010Q1",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2010Q3",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2010Q4",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2011Q1",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2011Q2",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2011Q3",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2013Q1",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2013Q2",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2013Q3",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2013Q4",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2014Q3",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2014Q4",
+   "quarantined_robots_disallowed"
+  ],
+  [
+   "2015Q4",
+   "quarantined_robots_disallowed"
+  ]
+ ],
+ "rows_per_quarter": {
+  "2009Q4": 7,
+  "2011Q4": 16,
+  "2012Q1": 5,
+  "2012Q2": 8,
+  "2012Q4": 3,
+  "2014Q2": 1,
+  "2015Q2": 13,
+  "2015Q3": 16,
+  "2016Q1": 17,
+  "2016Q2": 27,
+  "2016Q3": 9,
+  "2016Q4": 11,
+  "2017Q1": 14,
+  "2017Q2": 19,
+  "2017Q3": 17,
+  "2017Q4": 12,
+  "2018Q1": 17,
+  "2018Q2": 15,
+  "2018Q3": 18,
+  "2018Q4": 26,
+  "2019Q1": 19,
+  "2019Q2": 24,
+  "2019Q3": 15,
+  "2019Q4": 10,
+  "2020Q1": 15,
+  "2020Q2": 24,
+  "2020Q3": 19,
+  "2020Q4": 16,
+  "2021Q1": 22,
+  "2021Q2": 23,
+  "2021Q3": 27,
+  "2021Q4": 20,
+  "2022Q1": 13,
+  "2022Q2": 17,
+  "2022Q3": 16,
+  "2022Q4": 16,
+  "2023Q1": 19,
+  "2023Q2": 31,
+  "2023Q3": 20,
+  "2023Q4": 20,
+  "2024Q1": 30,
+  "2024Q2": 18,
+  "2024Q3": 9,
+  "2024Q4": 33,
+  "2025Q1": 11,
+  "2025Q2": 22,
+  "2025Q3": 13,
+  "2025Q4": 10,
+  "2026Q1": 20,
+  "2026Q2": 24
+ },
+ "outcome_counts": {
+  "labeling_changed": 410,
+  "still_evaluating": 224,
+  "no_action": 131,
+  "other_unclear": 82
+ },
+ "n_distinct_action_strings": 510,
+ "rules": {
+  "labeling_changed": [
+   "\\b(was|were|has been|have been|had been)\\s+(updated|revised|added|modified|strengthened|changed|approved)",
+   "\\bsections? of (the )?(product )?label(ing)?\\b.{0,80}\\b(updated|revised|added|modified)",
+   "\\blabel(ing)? (was|were|has been|have been) (updated|revised|changed|modified)",
+   "\\b(added|adding) to the (boxed warning|warnings?|precautions|adverse reactions|contraindications|drug interactions|warnings and precautions|use in specific populations|label)",
+   "\\blabeling changes? (was|were|has been|have been|approved)",
+   "\\bapproved (a )?(labeling|label) (change|supplement)",
+   "\\brequired (a )?(class )?label(ing)? change",
+   "\\bfda has required\\b.{0,60}\\blabel",
+   "\\bsafety labeling change",
+   "\\blabel(ing)? (was|were) updated",
+   "\\bupdate[sd]? (the )?label",
+   "\\bsections? (was |were |is |are )?(updated|revised) to (include|add)"
+  ],
+  "no_action": [
+   "no (further )?(regulatory )?action (is|was|will be|has been) (necessary|needed|required|planned)",
+   "no (further )?(regulatory )?action (is )?(necessary|needed|required|planned)",
+   "decided that no (regulatory )?action",
+   "determined that no (regulatory )?action",
+   "does not (plan|intend) to (take|pursue) (any )?(further |regulatory )?action",
+   "no (additional|further) (regulatory )?action",
+   "no (regulatory )?action is (currently )?(warranted|indicated)",
+   "not (taking|planning) (any )?(further |regulatory )?action"
+  ],
+  "still_evaluating": [
+   "\\bis (currently )?(still )?(being )?(evaluat|review|assess|investigat)",
+   "\\bare (currently )?(still )?(being )?(evaluat|review|assess)",
+   "\\b(evaluation|review|assessment|investigation) (is|are|remains?) (ongoing|continuing|in progress|underway)",
+   "\\bcontinues? to (evaluate|review|assess|monitor)",
+   "\\bongoing (evaluation|review|assessment)",
+   "\\bunder (evaluation|review)\\b",
+   "\\bfda is (continuing|currently)",
+   "\\bbeing evaluated\\b",
+   "\\bfurther evaluation\\b"
+  ],
+  "other_unclear": "none matched, or more than one of the three classes matched, or action text blank"
+ }
+}

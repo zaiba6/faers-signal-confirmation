@@ -1,0 +1,89 @@
+{
+ "rows": 20536224,
+ "rows_raw_demo": 20536224,
+ "age": {
+  "raw_non_blank": 11862774,
+  "non_numeric_to_null": 13,
+  "numeric_but_no_valid_unit": 13921,
+  "out_of_range_to_null": 191,
+  "valid_age_years": 11848649,
+  "min": 0.0,
+  "median": 59.0,
+  "max": 120.0,
+  "under_1_year": 70889
+ },
+ "sex": {
+  "F": 10676415,
+  "M": 7036329,
+  "UNK": 2823480
+ },
+ "country": {
+  "null": 980262,
+  "us": 13767342,
+  "non_us": 5788620,
+  "distinct_countries": 254,
+  "us_flag_null_matches_country_null": true
+ },
+ "occp_cod": {
+  "CN": 9179036,
+  "MD": 4490333,
+  "HP": 2228480,
+  "OT": 1721295,
+  "PH": 1223211,
+  "<blank>": 1119777,
+  "LW": 565429,
+  "RN": 8653,
+  "SALES": 10
+ },
+ "occp_groups": {
+  "occp_physician": {
+   "0": 14926114,
+   "1": 4490333,
+   "NULL": 1119777
+  },
+  "occp_pharmacist": {
+   "1": 1223211,
+   "NULL": 1119777,
+   "0": 18193236
+  },
+  "occp_other_hcp": {
+   "0": 15458019,
+   "1": 3958428,
+   "NULL": 1119777
+  },
+  "occp_consumer": {
+   "0": 10237411,
+   "1": 9179036,
+   "NULL": 1119777
+  },
+  "occp_lawyer": {
+   "0": 18851018,
+   "NULL": 1119777,
+   "1": 565429
+  }
+ },
+ "occp_row_sums": {
+  "0": 10,
+  "1": 19416437,
+  "NULL": 1119777
+ },
+ "occp_groups_def": {
+  "occp_physician": [
+   "MD"
+  ],
+  "occp_pharmacist": [
+   "PH"
+  ],
+  "occp_other_hcp": [
+   "HP",
+   "RN",
+   "OT"
+  ],
+  "occp_consumer": [
+   "CN"
+  ],
+  "occp_lawyer": [
+   "LW"
+  ]
+ }
+}

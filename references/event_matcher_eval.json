@@ -1,0 +1,30 @@
+{
+ "judged": {
+  "matched": 50,
+  "unmatched": 49
+ },
+ "stratum_sizes": {
+  "matched": 7954,
+  "unmatched": 1396168,
+  "total": 1404122
+ },
+ "matched_stratum_true_rate": 86.0,
+ "unmatched_stratum_true_rate": 2.04,
+ "precision_pct": 86.0,
+ "precision_ci95": [
+  73.8,
+  93.0
+ ],
+ "recall_pct": 19.4,
+ "estimated_true_positives_in_candidate_set": 35333,
+ "note": "Recall is extrapolated: the unmatched stratum is ~176x larger than the matched one, so each missed case in the sample stands for many.",
+ "unmatched_true_rate_ci95": [
+  0.4,
+  10.7
+ ],
+ "recall_ci95": [
+  4.4,
+  55.1
+ ],
+ "verdict": "Precision is well estimated. Recall is NOT: it rests on 1 positive(s) in 49 judged unmatched rows, and the interval spans 4-55%, which is too wide to act on."
+}

@@ -67,6 +67,14 @@ Pair-level outputs (`scripts/build_pair_stats.py`): `pair_quarter_counts.parquet
 | 34 | Drug matching | Reuses `match_srlc_ingredients.py` (exact / salt_stripped / component_any). 41,200 drug-mapped rows over 2,088 FAERS drugs. A strict-only variant (exact + salt_stripped) is written alongside every primary flag. |
 | 35 | 921 and DSC | Drug-level supplementary flags only, not folded into the primary target. DSC titles in the index are truncated, so DSC drug matching is name-in-title/URL and is weaker than the SrLC match. |
 
+### Event-matcher validation (step 10, 2026-10-26)
+| # | Topic | Decision |
+|---|---|---|
+| 36 | Design | Candidate set = every (detected pair x risk-section SrLC change for that drug within 3 years), rule T1, 1,404,122 rows. Strata are the matcher's own answer: 7,954 matched, 1,396,168 unmatched. 50 sampled from each, seed 20261026, adjudicated by reading the label text (`references/event_matcher_judged.csv`). |
+| 37 | Precision | 86% (95% CI 74-93). The 7 false positives are all one failure mode: the PT names the trial POPULATION or a contraindication criterion rather than an adverse event - gastric cancer in KEYNOTE-059, ankylosing spondylitis as the indication, hyperthyroidism as the at-risk group for thyroid storm, migraine as a contraceptive contraindication - plus the vacuous umbrella PT ADVERSE REACTION. |
+| 38 | Recall is not estimable from this design | 1 genuine miss in 49 judged unmatched rows. Extrapolated over a stratum 176x larger that gives recall 19%, but the 95% interval is 4-55%, which is too wide to use. Reported as such rather than quoted as a number. |
+| 39 | Adjudication limits | Judgements were made by reading the evidence window (the match context, or the first ~600 characters for unmatched rows), not the whole change, and by one non-clinician adjudicator. Stub rows cannot be judged at all (1 of the 50 unmatched). Treat the precision figure as approximate and the labels as a single rater's. |
+
 ## Limitations (for the report)
 
 - `prod_ai` is FDA-supplied and can contain combination products (7.3% of link rows) and spelling variants of one ingredient; each distinct string is one drug, so a combination and its components are different "drugs".
@@ -81,6 +89,8 @@ Pair-level outputs (`scripts/build_pair_stats.py`): `pair_quarter_counts.parquet
 - The confirmation target is bracketed, not pinned down. `confirmed_drug` at 3 years is 57.8% of T1 pairs, which is close to "did this drug change its label at all"; `confirmed_event` is 1.0%, because label prose rarely uses the MedDRA PT verbatim. The true confirmation rate lies between, and the choice of target will dominate any AUROC reported.
 - Event matching is lexical, not semantic. A label that adds "severe hepatic injury" does not match the PT LIVER INJURY, and no MedDRA synonym or PT-to-HLT rollup is applied. `confirmed_event` is therefore a lower bound.
 - SrLC covers 2016 onward (plus 4 stray 2014 rows), so a pair detected in 2016Q1 can only be confirmed by a change recorded from 2016 on. Earlier regulatory action is invisible to this target.
+- Measured precision of the event matcher is 86%, so roughly one in seven `confirmed_event` positives is spurious - usually because the PT names the study population rather than an adverse event. Recall could not be pinned down (4-55%), so the number of missed confirmations is genuinely unknown.
+- Positive rate falls with detection year: 1.88% (2016) to 0.63% (2021) on T1. Train and test in a temporal split therefore have materially different prevalence (1.15% vs 0.72% at a 2020Q4 cut), so a model fitted on train will over-predict on test unless recalibrated.
 - At detection, median ROR is slightly *lower* for confirmed pairs (4.21) than unconfirmed (5.04) on T3. Disproportionality alone does not separate the classes, which is the point of the modeling step but also a warning that a weak model is a plausible outcome.
 - The stricter detection rule enriches for confirmation: T3 confirms at 1.39% versus T1 at 1.03%, on 29% fewer pairs. This is the first evidence that the detection rules differ in a way that matters.
 

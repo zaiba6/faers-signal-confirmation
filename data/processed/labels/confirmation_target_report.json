@@ -25,36 +25,36 @@
    "2023Q2"
   ],
   "positives": {
-   "drug_1y": 128240,
-   "event_1y": 1457,
-   "drug_2y": 181183,
-   "event_2y": 2570,
-   "drug_3y": 210055,
-   "event_3y": 3424,
-   "drug_5y": 238394,
-   "event_5y": 4736
+   "drug_1y": 151190,
+   "event_1y": 1858,
+   "drug_2y": 212197,
+   "event_2y": 3219,
+   "drug_3y": 243909,
+   "event_3y": 4285,
+   "drug_5y": 273315,
+   "event_5y": 5902
   },
   "rates": {
-   "drug_1y": 35.28,
-   "event_1y": 0.4,
-   "drug_2y": 49.84,
-   "event_2y": 0.71,
-   "drug_3y": 57.79,
-   "event_3y": 0.94,
-   "drug_5y": 65.58,
-   "event_5y": 1.3
+   "drug_1y": 41.59,
+   "event_1y": 0.51,
+   "drug_2y": 58.38,
+   "event_2y": 0.89,
+   "drug_3y": 67.1,
+   "event_3y": 1.18,
+   "drug_5y": 75.19,
+   "event_5y": 1.62
   },
   "strict_only_3y": {
-   "drug": 199199,
-   "event": 3157
+   "drug": 234565,
+   "event": 4010
   },
-  "median_days_to_confirm": 443,
+  "median_days_to_confirm": 437,
   "first_confirm_section": {
-   "(none)": 360078,
-   "AR": 1842,
-   "WP": 1493,
-   "BW": 77,
-   "CONTRA": 12
+   "(none)": 359217,
+   "AR": 2246,
+   "WP": 1934,
+   "BW": 92,
+   "CONTRA": 13
   },
   "supplementary": {
    "dsc_drug_3y": 5176,
@@ -70,36 +70,36 @@
    "2023Q2"
   ],
   "positives": {
-   "drug_1y": 122013,
-   "event_1y": 1308,
-   "drug_2y": 172682,
-   "event_2y": 2319,
-   "drug_3y": 200314,
-   "event_3y": 3090,
-   "drug_5y": 227416,
-   "event_5y": 4296
+   "drug_1y": 144169,
+   "event_1y": 1681,
+   "drug_2y": 202698,
+   "event_2y": 2910,
+   "drug_3y": 233052,
+   "event_3y": 3876,
+   "drug_5y": 261252,
+   "event_5y": 5380
   },
   "rates": {
-   "drug_1y": 34.93,
-   "event_1y": 0.37,
-   "drug_2y": 49.44,
-   "event_2y": 0.66,
-   "drug_3y": 57.35,
-   "event_3y": 0.88,
-   "drug_5y": 65.11,
-   "event_5y": 1.23
+   "drug_1y": 41.28,
+   "event_1y": 0.48,
+   "drug_2y": 58.04,
+   "event_2y": 0.83,
+   "drug_3y": 66.73,
+   "event_3y": 1.11,
+   "drug_5y": 74.8,
+   "event_5y": 1.54
   },
   "strict_only_3y": {
-   "drug": 189856,
-   "event": 2836
+   "drug": 224084,
+   "event": 3619
   },
-  "median_days_to_confirm": 443,
+  "median_days_to_confirm": 436,
   "first_confirm_section": {
-   "(none)": 346169,
-   "AR": 1656,
-   "WP": 1345,
-   "BW": 77,
-   "CONTRA": 12
+   "(none)": 345383,
+   "AR": 2030,
+   "WP": 1737,
+   "BW": 94,
+   "CONTRA": 15
   },
   "supplementary": {
    "dsc_drug_3y": 4970,
@@ -115,36 +115,36 @@
    "2023Q2"
   ],
   "positives": {
-   "drug_1y": 95161,
-   "event_1y": 1395,
-   "drug_2y": 133700,
-   "event_2y": 2460,
-   "drug_3y": 154909,
-   "event_3y": 3317,
-   "drug_5y": 175446,
-   "event_5y": 4498
+   "drug_1y": 111040,
+   "event_1y": 1739,
+   "drug_2y": 155275,
+   "event_2y": 3025,
+   "drug_3y": 178301,
+   "event_3y": 4066,
+   "drug_5y": 199422,
+   "event_5y": 5540
   },
   "rates": {
-   "drug_1y": 36.69,
-   "event_1y": 0.54,
-   "drug_2y": 51.55,
-   "event_2y": 0.95,
-   "drug_3y": 59.73,
-   "event_3y": 1.28,
-   "drug_5y": 67.65,
-   "event_5y": 1.73
+   "drug_1y": 42.82,
+   "event_1y": 0.67,
+   "drug_2y": 59.87,
+   "event_2y": 1.17,
+   "drug_3y": 68.75,
+   "event_3y": 1.57,
+   "drug_5y": 76.89,
+   "event_5y": 2.14
   },
   "strict_only_3y": {
-   "drug": 147553,
-   "event": 3074
+   "drug": 171927,
+   "event": 3821
   },
-  "median_days_to_confirm": 445,
+  "median_days_to_confirm": 441,
   "first_confirm_section": {
-   "(none)": 256028,
-   "AR": 1811,
-   "WP": 1412,
-   "BW": 89,
-   "CONTRA": 5
+   "(none)": 255279,
+   "AR": 2157,
+   "WP": 1816,
+   "BW": 85,
+   "CONTRA": 8
   },
   "supplementary": {
    "dsc_drug_3y": 3855,
@@ -153,13 +153,13 @@
  },
  "label_changes_mapped": {
   "rows_in": 29500,
-  "rows_mapped_to_faers_drug": 41200,
-  "distinct_faers_drugs": 2088,
-  "risk_section_rows": 22027,
-  "stub_rows": 1465,
+  "rows_mapped_to_faers_drug": 56990,
+  "distinct_faers_drugs": 2438,
+  "risk_section_rows": 30790,
+  "stub_rows": 2094,
   "by_match_level": {
-   "exact": 25100,
-   "salt_stripped": 1197,
+   "exact": 20178,
+   "salt_stripped": 6119,
    "component_any": 662
   }
  }

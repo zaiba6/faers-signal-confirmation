@@ -1,0 +1,15 @@
+{
+ "rule": "T3",
+ "passed": true,
+ "notes": [
+  "check1 outcome columns in features: none",
+  "check2 n_cases: 0/300 mismatches",
+  "check2 drug_n_events: 0/300 mismatches",
+  "check2 frac_serious: 0/300 mismatches",
+  "check3 rows counting post-detection cases: 0",
+  "check4 features with single-feature AUROC > 0.90: none",
+  "check5 split temporal: train<=2020Q4 test>=2021Q1 -> True"
+ ],
+ "fails": [],
+ "known_limitation": "Case content comes from the latest version but is placed in the init_fda_dt quarter (DECISIONS.md), so the counting universe itself carries a documented look-ahead this audit cannot remove."
+}

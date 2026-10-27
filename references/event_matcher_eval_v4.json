@@ -1,0 +1,18 @@
+{
+ "sample": "v4",
+ "seed": 20261028,
+ "matched_stratum": 9253,
+ "candidate_set": 1763305,
+ "precision_pct": 90.0,
+ "precision_ci95": [
+  78.6,
+  95.7
+ ],
+ "judged": 50,
+ "false_positive_modes": {
+  "compound_term": 1,
+  "soc_or_section_heading": 2,
+  "indication_population": 1,
+  "pre_existing_condition": 1
+ }
+}

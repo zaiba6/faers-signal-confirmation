@@ -20,10 +20,10 @@ from event_match import event_match, pt_regex
 ROOT = Path(__file__).resolve().parents[1]
 P, L = ROOT / "data/processed", ROOT / "data/processed/labels"
 REF = ROOT / "references"
-WORK = REF / "event_matcher_sample_v3.csv"
-JUDGED = REF / "event_matcher_judged_v3.csv"
+WORK = REF / "event_matcher_sample_v4.csv"
+JUDGED = REF / "event_matcher_judged_v4.csv"
 N_PER_STRATUM = 50
-SEED = 20261027
+SEED = 20261028
 RISK = ("BW", "WP", "AR", "CONTRA")
 
 
@@ -79,7 +79,7 @@ def do_sample():
     out.insert(0, "id", range(1, len(out) + 1))
     REF.mkdir(exist_ok=True)
     out.to_csv(WORK, index=False)
-    (REF / "event_matcher_sample_sizes_v3.json").write_text(json.dumps(sizes, indent=1))
+    (REF / "event_matcher_sample_sizes_v4.json").write_text(json.dumps(sizes, indent=1))
     print(json.dumps(sizes, indent=1))
     print("worksheet:", WORK.relative_to(ROOT), len(out), "rows")
 
@@ -96,7 +96,7 @@ def wilson(k, n, z=1.96):
 
 def do_score():
     d = pd.read_csv(JUDGED, keep_default_na=False)
-    sizes = json.loads((REF / "event_matcher_sample_sizes_v3.json").read_text())
+    sizes = json.loads((REF / "event_matcher_sample_sizes_v4.json").read_text())
     d = d[d.judgement.isin(["yes", "no"])]
     m, u = d[d.stratum == "matched"], d[d.stratum == "unmatched"]
     tp_r, fn_r = (m.judgement == "yes").mean(), (u.judgement == "yes").mean()
@@ -122,7 +122,7 @@ def do_score():
     res["verdict"] = ("Precision is well estimated. Recall is NOT: it rests on %d positive(s) in %d judged "
                       "unmatched rows, and the interval spans %.0f-%.0f%%, which is too wide to act on."
                       % (int((u.judgement == "yes").sum()), len(u), 100 * rec_lo, 100 * rec_hi))
-    (REF / "event_matcher_eval_v3.json").write_text(json.dumps(res, indent=1, default=str))
+    (REF / "event_matcher_eval_v4.json").write_text(json.dumps(res, indent=1, default=str))
     print(json.dumps(res, indent=1, default=str))
 
 

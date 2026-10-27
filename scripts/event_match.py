@@ -44,7 +44,6 @@ POP_CUES = [
     r"\b(?:history|diagnos[ei]s)\s+of\s+",
     r"\b(?:among|a total of|enrolled in|indicated for|indication[s]?:|treatment of|management of)\b",
     r"\bcontraindicated in\b",
-    r"\bsuch as\b",
 ]
 RISK_CUES = [
     r"\b(?:risks? of|can cause|may cause|cause[sd]?|associated with|reports? of|reported"
@@ -52,6 +51,12 @@ RISK_CUES = [
     r"|cases of|secondary to|due to|precipitate[sd]?|induced?|worsening of|exacerbation of"
     r"|has been observed|were observed|led to)\b",
 ]
+# "such as" introduces examples of whatever precedes it - a patient group ("disorders, such as
+# myasthenia gravis") or an adverse-event list ("skin reactions, such as rash"). It counts as a
+# population cue ONLY when a patient-subject phrase comes before it in the same sentence. Treating
+# it as one unconditionally wrongly vetoed roughly 1,042 event-noun cases.
+SUCH_AS = re.compile(r"\bsuch as\b", re.I)
+SUBJECT_ONLY = re.compile(rf"\b{SUBJECTS}\s+(?:who\s+(?:have|had|are|were)\s+|with\s+|having\s+|without\s+)", re.I)
 POP_C = [re.compile(p, re.I) for p in POP_CUES]
 RISK_C = [re.compile(p, re.I) for p in RISK_CUES]
 SENT_END = re.compile(r"[.;:]\s|\u2026")
@@ -98,6 +103,9 @@ def event_match(text, pt, rx=None, section_code="", lookback=140):
         if cut:
             before = before[cut:]
         risk, pop = _nearest(RISK_C, before), _nearest(POP_C, before)
+        sa = _nearest([SUCH_AS], before)
+        if sa >= 0 and SUBJECT_ONLY.search(before[:sa]):
+            pop = max(pop, sa)                      # "patients with ..., such as X" -> population
         if risk > pop:
             return True, "risk_context"
         if pop >= 0:

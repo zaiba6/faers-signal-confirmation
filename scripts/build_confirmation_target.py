@@ -72,18 +72,18 @@ def map_drugs(con):
     out = []
     for ai, grp in lc.groupby("active_ingredient", sort=False):
         if not str(ai).strip():
-            lvl, hits = "blank_ingredient", []
+            levels = {}
         else:
             k_ex = ";".join(p.strip() for p in re.split(r"[;\\]", ai.upper())).replace(" ;", ";")
             k_n = "|".join(sorted(comps(ai, True)))
-            if k_ex in ex:
-                lvl, hits = "exact", ex[k_ex]
-            elif k_n in nrm:
-                lvl, hits = "salt_stripped", nrm[k_n]
-            else:
-                hits = sorted({d for c in comps(ai, True) for d in comp_ix.get(c, [])})
-                lvl = "component_any" if hits else "none"
-        for d in set(hits):
+            # Take exact AND salt-stripped together. Returning on the first exact hit meant a FAERS
+            # drug never reached the salt-stripped class a variant had landed in: FAERS PANTOPRAZOLE
+            # got nothing although SrLC has 82 rows for PANTOPRAZOLE SODIUM.
+            hits_ex, hits_n = set(ex.get(k_ex, [])), set(nrm.get(k_n, []))
+            levels = {d: ("exact" if d in hits_ex else "salt_stripped") for d in hits_ex | hits_n}
+            if not levels:
+                levels = {d: "component_any" for c in comps(ai, True) for d in comp_ix.get(c, [])}
+        for d, lvl in levels.items():
             g = grp.copy(); g["drug_ai"] = d; g["match_level"] = lvl
             out.append(g)
     m = pd.concat(out, ignore_index=True) if out else pd.DataFrame()

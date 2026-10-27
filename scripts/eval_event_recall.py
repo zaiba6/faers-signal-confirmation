@@ -110,7 +110,9 @@ def do_sample():
         s["evidence"] = [evidence(r) for r in s.itertuples()]
         rows.append(s)
     out = pd.concat(rows, ignore_index=True)[
-        ["stratum", "tok_frac", "drug_name", "pt_clean", "detection_quarter", "cd",
+        # drug_ai is the exact join key back to the target tables; keep it so these judgements can
+        # be re-weighted after a rebuild moves the matched/unmatched boundary, without re-adjudicating.
+        ["stratum", "tok_frac", "drug_ai", "drug_name", "pt_clean", "detection_quarter", "cd",
          "section_code", "is_stub", "evidence"]]
     out["judgement"] = ""          # yes = this change really does confirm this event
     out["judge_note"] = ""

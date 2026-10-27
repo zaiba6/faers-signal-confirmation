@@ -1,0 +1,7 @@
+source,n_pairs,pct_of_eligible
+"SrLC label change (event-matched, = the target)",3424,0.94
+DSC within 3y (drug-level flag),5176,1.42
+Section 921 'labeling changed' (drug-level flag),94463,25.99
+SrLC event-match AND DSC,67,0.02
+SrLC event-match AND 921,1151,0.32
+SrLC event-match only (neither flag),2262,0.62

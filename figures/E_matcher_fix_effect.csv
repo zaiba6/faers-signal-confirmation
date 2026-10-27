@@ -1,0 +1,5 @@
+stage,T1_event_positives,T1_contra_first_confirms
+original (substring),4055,
+word-boundary,3739,85.0
+after fix 1 (population veto),3535,6.0
+after fix 2 (nearest-cue),3424,12.0

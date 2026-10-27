@@ -1,0 +1,11 @@
+,value
+ties_on_ror,13575
+pairs_with_a_le_5,278140
+pct_a_le_5,76.5
+median_a,3.0
+median_a_confirmed,4.0
+median_ror_confirmed,4.58
+median_ror_unconfirmed,6.22
+duplicate_pair_rows,0
+stub_label_rows,1465
+pairs_confirmed_by_stub_impossible,True

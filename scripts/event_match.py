@@ -58,9 +58,20 @@ SENT_END = re.compile(r"[.;:]\s|\u2026")
 
 
 def pt_regex(pt):
-    """Word-boundary matcher for a PT, singular or plural."""
-    base = pt.rstrip("s") if len(pt) > 4 and pt.endswith("s") else pt
-    return re.compile(r"\b" + re.escape(base) + r"s?\b", re.I)
+    """Word-boundary matcher for a PT, singular or plural.
+
+    str.rstrip("s") strips EVERY trailing s, so DIZZINESS became DIZZINE and matched nothing.
+    Terms ending in a double s take -es; a single trailing s is a plural to be made optional.
+    """
+    t = pt.strip()
+    low = t.lower()
+    if len(t) > 4 and low.endswith("ss"):
+        body = re.escape(t) + r"(?:es)?"
+    elif len(t) > 4 and low.endswith("s"):
+        body = re.escape(t[:-1]) + r"s?"
+    else:
+        body = re.escape(t) + r"s?"
+    return re.compile(r"\b" + body + r"\b", re.I)
 
 
 def _nearest(patterns, text):

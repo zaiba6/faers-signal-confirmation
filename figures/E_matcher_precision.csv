@@ -1,0 +1,4 @@
+sample,n,true_positives,precision_pct,ci95_low,ci95_high,role
+v1 (pre-fix),50,42,84.0,71.5,91.7,measured the original matcher; used to DESIGN fix pass 1
+"v2 (fresh, after fix 1)",50,46,92.0,81.2,96.8,EVALUATED fix 1; its 4 failures were used to DESIGN fix pass 2
+"v3 (fresh, after fix 2)",50,46,92.0,81.2,96.8,EVALUATED fix 2; independent of both designs

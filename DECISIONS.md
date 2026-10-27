@@ -92,6 +92,15 @@ Pair-level outputs (`scripts/build_pair_stats.py`): `pair_quarter_counts.parquet
 | 47 | Cost in positives | T1 event positives 3,739 -> 3,535 -> 3,340, a 10.7% reduction overall. Every removed row was a match the adjudication judged wrong, so this is precision bought at no cost in true positives that we can detect - but recall was never measurable, so an unknown number of genuine confirmations remain missed either way. |
 | 48 | Two residual failure modes, left unfixed | (a) a PT matching a label SECTION HEADING rather than an event (PT DRUG INTERACTION vs the "Drug Interactions" section); (b) a PT matching inside a compound term naming a different event (PT DEPRESSION inside "Respiratory Depression", PT PAIN inside "back pain"). Both are fixable, but fixing them against this sample would make the 96% optimistic; a fourth fresh sample would be needed to score it. Stopped here. |
 
+### Matcher fix pass 2 and presentation stats (step 12, 2026-10-27)
+| # | Topic | Decision |
+|---|---|---|
+| 44 | Nearest-cue rule | Each PT hit is judged by the cue CLOSEST to it inside its own sentence: risk wording confirms, patient-group wording does not. Checking for a risk cue anywhere got "may cause parkinsonism in patients with Huntington's disease or tardive dyskinesia" backwards. Procedure/care-setting PTs (TRANSPLANT, SURGERY, HOSPITALISATION) joined the blocklist. A 22-case regression test covers every known decision. |
+| 45 | Precision has plateaued at 92% | Fix 2 removed all four v2 failure modes, yet a third fresh sample (v3, seed 20261027) again scored 46/50 = 92% (CI 81-97). Four different failures appeared: indication lists, procedure context, NEGATION ("no deaths reported"), and a PT matching inside a compound term for another concept (DEPRESSION in "respiratory depression"). Negation and longest-term-wins are the next fixes; further passes are not obviously worth it. |
+| 46 | Cumulative cost | Event positives on T1: 4,055 (substring) -> 3,739 (word boundary) -> 3,535 (population veto) -> 3,340 (nearest cue), a 17.6% reduction from the original matcher. |
+| 47 | Salt-form mapping defect (OPEN BUG) | The ingredient matcher takes an exact hit first, so a FAERS drug never reaches the salt-stripped class a variant landed in: FAERS `PANTOPRAZOLE` gets nothing although SrLC has 82 rows for `PANTOPRAZOLE SODIUM`. 1,415 of 3,275 drugs (22.5% of eligible pairs) have no mapped change at all, and for 309 of them - 39,568 pairs, 10.9% of T1 - a salt variant did map. Fixing this would raise the positive count. Not yet fixed. |
+| 48 | Figures are regenerated as a set | `scripts/compile_presentation_stats.py` deletes `figures/*` before writing, because a forked session had produced an overlapping set and macOS's case-insensitive filesystem silently merged `b_x.csv` into `B_x.csv`, leaving fresh and stale numbers side by side. |
+
 ## Limitations (for the report)
 
 - `prod_ai` is FDA-supplied and can contain combination products (7.3% of link rows) and spelling variants of one ingredient; each distinct string is one drug, so a combination and its components are different "drugs".

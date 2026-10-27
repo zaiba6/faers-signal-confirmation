@@ -194,14 +194,25 @@ negative. "Pre-window" = detected before 2016Q1, when SrLC coverage starts.
 Three samples of 50 matched candidates each, drawn from a 1,404,122-row candidate set and
 hand-adjudicated by reading the label text (`references/event_matcher_judged{,_v2,_v3}.csv`).
 
-| Sample | n | True positives | Precision | 95% CI | Role |
-|---|---|---|---|---|---|
-| v1 (pre-fix) | 50 | 42 | **84.0%** | 71.5 – 91.7 | measured original; **designed** fix 1 |
-| v2 (fresh, after fix 1) | 50 | 46 | **92.0%** | 81.2 – 96.8 | **evaluated** fix 1; designed fix 2 |
-| v3 (fresh, after fix 2) | 50 | 46 | **92.0%** | 81.2 – 96.8 | **evaluated** fix 2; independent |
+**These are not three rounds of one thing. Read the "what it measured" column before quoting any
+number.** Until commit `978446b` the target build and the validation script ran *different*
+matchers: the build lower-cased the PT before matching and the evaluator did not, so the plural
+rule fired in one path and not the other. Every PT ending in a double s diverged between them.
 
-Design and evaluation samples are always different draws, so no fix was scored on the data used to
-build it.
+| Sample | n | True positives | Precision | 95% CI | What it measured |
+|---|---|---|---|---|---|
+| v1 | 50 | 42 | **84.0%** | 71.5 – 91.7 | the build's matcher, before any fix |
+| v2 | 50 | 46 | 92.0% | 81.2 – 96.8 | **the eval path only** — not the matcher the build was running |
+| v3 | 50 | 46 | 92.0% | 81.2 – 96.8 | **the eval path only** — same divergence |
+| v4 | — | — | **not available** | — | the current unified matcher — **not yet drawn** |
+
+So the defensible claim is narrow: **84% before the fixes**, measured on the artifact that was
+actually producing the target. The v2 and v3 figures describe a code path that never generated a
+label. Precision for the matcher that produced the numbers everywhere else in this document
+**has not been measured**; it needs a fourth fresh sample of 50.
+
+The fix *designs* were still never scored on their own design sample, so the methodology is sound —
+it is the object under measurement that moved.
 
 ### Effect of each pass (T1) → `E_matcher_fix_effect.csv`
 
@@ -219,10 +230,12 @@ Fix 3 repaired `str.rstrip("s")`, which strips *every* trailing s: `DIZZINESS` b
 and matched nothing, so all 248 PTs ending in a double s were structurally unconfirmable.
 It recovered 84 positives (DIZZINESS alone went 0 → 34).
 
-### Precision has plateaued
+### Precision appeared to plateau
 
 Fix 2 removed all four v2 failure modes (verified by a 22-case regression test) yet precision stayed
-at 92%: four *different* failures appeared in v3.
+at 92%: four *different* failures appeared in v3. Treat this as suggestive, not established — both
+figures come from the eval path described above, so the plateau is a property of that path and may
+not hold for the unified matcher.
 
 **Remaining known failure modes (v3):**
 1. **Indication lists** — "hidradenitis suppurativa (HS) and another indication" (adalimumab).
@@ -232,8 +245,10 @@ at 92%: four *different* failures appeared in v3.
 
 5. **British vs American spelling — the largest known gap.** MedDRA PTs use `DYSPNOEA`,
    `DIARRHOEA`, `OEDEMA`, `ANAEMIA`, `PARAESTHESIA`; US labels write *dyspnea*, *diarrhea*. Of
-   29,500 label-change rows, 562 contain "dyspnea" and **0** contain "dyspnoea". **1,292 PT terms /
-   33,572 pairs (9.2% of T1)** carry these digraphs and confirm at **0.11%** against 0.94% overall,
+   29,500 label-change rows, 562 contain "dyspnea" and **0** contain "dyspnoea". **933 PT terms /
+   27,065 pairs (7.4% of T1)** carry a British spelling and confirm at **0.07%** against 0.94%
+   overall — a 13x deficit. (An earlier, looser pattern matching any oe/ae digraph gave 1,292 terms
+   / 33,572 pairs / 0.11%; it also catches non-British terms, so the tighter figure is used here.)
    an ~8× deficit. Normalising the digraphs would likely add 250–300 positives (~+8%). Not fixed.
 
 Modes 3 and 4 are new kinds, not variants of the population problem. Negation handling and

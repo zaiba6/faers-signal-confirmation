@@ -15,12 +15,13 @@ import duckdb, pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent))
 from match_srlc_ingredients import comps
+from event_match import event_match, pt_regex
 
 ROOT = Path(__file__).resolve().parents[1]
 P, L = ROOT / "data/processed", ROOT / "data/processed/labels"
 REF = ROOT / "references"
-WORK = REF / "event_matcher_sample.csv"
-JUDGED = REF / "event_matcher_judged.csv"
+WORK = REF / "event_matcher_sample_v2.csv"
+JUDGED = REF / "event_matcher_judged_v2.csv"
 N_PER_STRATUM = 50
 SEED = 20261026
 RISK = ("BW", "WP", "AR", "CONTRA")
@@ -44,9 +45,10 @@ def candidates(con):
         from pr join ch on ch.drug_ai = pr.drug_ai and ch.is_risk
         where ch.change_date_iso::date > pr.detect_dt
           and ch.change_date_iso::date <= pr.detect_dt + interval '3 years'""").df()
-    pt_rx = {t: re.compile(r"\b" + re.escape(t.rstrip("s") if len(t) > 4 and t.endswith("s") else t) + r"s?\b", re.I)
-             for t in j.pt_clean.unique()}
-    j["matched"] = [bool(pt_rx[p].search(x)) for p, x in zip(j.pt_clean, j.label_text)]
+    pt_rx = {t: pt_regex(t) for t in j.pt_clean.unique()}
+    res = [event_match(x, p, pt_rx[p], sc) for p, x, sc in zip(j.pt_clean, j.label_text, j.section_code)]
+    j["matched"] = [r[0] for r in res]
+    j["why"] = [r[1] for r in res]
     j["rx"] = j.pt_clean.map(lambda t: pt_rx[t])
     return j
 
@@ -71,13 +73,13 @@ def do_sample():
         s["evidence"] = [window(r) for r in s.itertuples()]
         rows.append(s)
     out = pd.concat(rows, ignore_index=True)[
-        ["stratum", "drug_ai", "drug_name", "pt_clean", "detection_quarter", "cd", "section_code", "is_stub", "evidence"]]
+        ["stratum", "drug_ai", "drug_name", "pt_clean", "detection_quarter", "cd", "section_code", "is_stub", "why", "evidence"]]
     out["judgement"] = ""          # to fill: yes | no | unclear
     out["judge_note"] = ""
     out.insert(0, "id", range(1, len(out) + 1))
     REF.mkdir(exist_ok=True)
     out.to_csv(WORK, index=False)
-    (REF / "event_matcher_sample_sizes.json").write_text(json.dumps(sizes, indent=1))
+    (REF / "event_matcher_sample_sizes_v2.json").write_text(json.dumps(sizes, indent=1))
     print(json.dumps(sizes, indent=1))
     print("worksheet:", WORK.relative_to(ROOT), len(out), "rows")
 
@@ -94,7 +96,7 @@ def wilson(k, n, z=1.96):
 
 def do_score():
     d = pd.read_csv(JUDGED, keep_default_na=False)
-    sizes = json.loads((REF / "event_matcher_sample_sizes.json").read_text())
+    sizes = json.loads((REF / "event_matcher_sample_sizes_v2.json").read_text())
     d = d[d.judgement.isin(["yes", "no"])]
     m, u = d[d.stratum == "matched"], d[d.stratum == "unmatched"]
     tp_r, fn_r = (m.judgement == "yes").mean(), (u.judgement == "yes").mean()
@@ -120,7 +122,7 @@ def do_score():
     res["verdict"] = ("Precision is well estimated. Recall is NOT: it rests on %d positive(s) in %d judged "
                       "unmatched rows, and the interval spans %.0f-%.0f%%, which is too wide to act on."
                       % (int((u.judgement == "yes").sum()), len(u), 100 * rec_lo, 100 * rec_hi))
-    (REF / "event_matcher_eval.json").write_text(json.dumps(res, indent=1, default=str))
+    (REF / "event_matcher_eval_v2.json").write_text(json.dumps(res, indent=1, default=str))
     print(json.dumps(res, indent=1, default=str))
 
 

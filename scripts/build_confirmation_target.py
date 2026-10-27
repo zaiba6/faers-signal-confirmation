@@ -27,7 +27,9 @@ DEFINITIONS (all recorded in the report; see DECISIONS.md)
 - Drug matching reuses the ingredient logic of match_srlc_ingredients.py (exact / salt_stripped /
   component_any). component_any is the loosest; a strict-only variant is reported alongside.
 - Event matching is a case-insensitive substring test of the MedDRA PT in the label text, also
-  matched on word boundaries with an optional plural S. This is high precision, low recall: label prose rarely
+  matched on word boundaries with an optional plural S, then vetoed where the PT names a patient
+  population rather than an outcome (scripts/event_match.py). Measured precision 86% before the
+  veto. This is high precision, low recall: label prose rarely
   uses the PT verbatim. Treat confirmed_event as a LOWER bound.
 - Section 921 and DSC contribute drug-level flags only. 921 gives a posting quarter and an outcome
   class; DSC titles in the index are truncated, so DSC drug matching is name-in-title/URL and is
@@ -39,6 +41,7 @@ import duckdb, pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent))
 from match_srlc_ingredients import comps          # same normalisation as the drug-level match
+from event_match import event_match, pt_regex
 
 ROOT = Path(__file__).resolve().parents[1]
 P = ROOT / "data/processed"
@@ -122,11 +125,11 @@ def main():
             where ch.change_date_iso::date > pr.detect_dt
               and ch.change_date_iso::date <= pr.detect_dt + interval '{max(YEARS)} years'""").df()
         joined["cd"] = pd.to_datetime(joined.cd)
-        # Word-boundary match, singular or plural. A plain substring test gives false positives
-        # wherever a short PT sits inside a longer word (TENSION inside "hypertension").
-        pt_rx = {t: re.compile(r"\b" + re.escape(t.rstrip("s") if len(t) > 4 and t.endswith("s") else t) + r"s?\b")
-                 for t in joined.pt.unique()}
-        joined["ev"] = [bool(pt_rx[p].search(x)) for x, p in zip(joined.txt, joined.pt)]
+        # See scripts/event_match.py: word-boundary hit, minus population/indication context,
+        # contraindication-only mentions, and PTs that name no clinical event.
+        rxs = {t: pt_regex(t) for t in joined.pt.unique()}
+        joined["ev"] = [event_match(x, p, rxs[p], sc)[0]
+                        for x, p, sc in zip(joined.txt, joined.pt, joined.section_code)]
         joined["yrs"] = ((joined.cd - joined.detect_dt).dt.days / 365.25)
 
         for n in YEARS:

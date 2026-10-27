@@ -60,9 +60,9 @@ downloaded directly from FDA, not the openFDA API. If the slide must say openFDA
 
 | Rule | Eligible signals | Confirmed | Unconfirmed | % confirmed | Unique drugs | Unique events |
 |---|---|---|---|---|---|---|
-| **T1** | 363,502 | 3,340 | 360,162 | **0.92%** | 3,275 | 14,110 |
-| **T2** | 349,259 | 3,023 | 346,236 | **0.87%** | 3,275 | 14,112 |
-| **T3** | 259,345 | 3,235 | 256,110 | **1.25%** | 2,861 | 11,482 |
+| **T1** | 363,502 | 3,424 | 360,078 | **0.94%** | 3,275 | 14,110 |
+| **T2** | 349,259 | 3,090 | 346,169 | **0.88%** | 3,275 | 14,112 |
+| **T3** | 259,345 | 3,317 | 256,028 | **1.28%** | 2,861 | 11,482 |
 
 Signal date range: **2016Q1 – 2023Q2** for all three rules.
 Drug-level (secondary) confirmation: T1 210,055 (57.8%), T2 200,314 (57.4%), T3 154,909 (59.7%).
@@ -74,39 +74,39 @@ drug-level flags, not alternative label sources.
 
 | Source | Pairs | % of eligible |
 |---|---|---|
-| SrLC label change, event-matched (**= the target**) | 3,340 | 0.92% |
+| SrLC label change, event-matched (**= the target**) | 3,424 | 0.94% |
 | DSC within 3y (drug-level flag) | 5,176 | 1.42% |
 | Section 921 "labeling changed" (drug-level flag) | 94,463 | 25.99% |
-| Target **and** DSC | 64 | 0.02% |
-| Target **and** 921 | 1,131 | 0.31% |
-| Target only, neither flag | 2,198 | 0.60% |
+| Target **and** DSC | 67 | 0.02% |
+| Target **and** 921 | 1,151 | 0.32% |
+| Target only, neither flag | 2,262 | 0.62% |
 
-**Caveat:** only 64 of 3,340 confirmed pairs also have a DSC. DSC titles in the index are truncated,
+**Caveat:** only 67 of 3,424 confirmed pairs also have a DSC. DSC titles in the index are truncated,
 so DSC drug matching is name-in-title/URL and is weak — do not present DSC as a validated source.
 
-### Which section first confirms (T1, n=3,340)
+### Which section first confirms (T1, n=3,424)
 
 | Section | n |
 |---|---|
-| Adverse Reactions | 1,801 |
-| Warnings and Precautions | 1,454 |
-| Boxed Warning | 74 |
-| Contraindications | 11 |
+| Adverse Reactions | 1,842 |
+| Warnings and Precautions | 1,493 |
+| Boxed Warning | 77 |
+| Contraindications | 12 |
 
 ---
 
 ## C. EDA
 
-**Class balance** → `C1_class_balance.png`. T1: 360,162 unconfirmed vs 3,340 confirmed (0.92%).
+**Class balance** → `C1_class_balance.png`. T1: 360,078 unconfirmed vs 3,424 confirmed (0.94%).
 
 **ROR and PRR by label** → `C_ror_prr_by_label.csv`, `C2_ror_prr_boxplot.png` (log scale; heavily skewed).
 
 | Rule | Metric | Label | n | Median | IQR (Q1–Q3) | Min | Max |
 |---|---|---|---|---|---|---|---|
 | T1 | ROR | unconfirmed | 360,162 | 6.22 | 3.30 – 17.97 | 1.03 | 25,105,591 |
-| T1 | ROR | **confirmed** | 3,340 | **4.61** | 2.52 – 12.34 | 1.05 | 76,623 |
+| T1 | ROR | **confirmed** | 3,424 | **4.58** | 2.49 – 12.28 | 1.05 | 76,623 |
 | T1 | PRR | unconfirmed | 360,162 | 6.17 | 3.29 – 17.73 | 1.03 | 4,707,299 |
-| T1 | PRR | **confirmed** | 3,340 | **4.53** | 2.49 – 11.99 | 1.05 | 55,726 |
+| T1 | PRR | **confirmed** | 3,424 | **4.50** | 2.47 – 11.88 | 1.05 | 55,726 |
 
 **Confirmed signals have a LOWER median ROR than unconfirmed ones.** This holds on all three rules.
 It is the single most important slide-worthy fact here: disproportionality alone does not separate
@@ -210,9 +210,14 @@ build it.
 | Original (substring) | 4,055 | not available |
 | Word-boundary | 3,739 | 85 |
 | After fix 1 (population veto) | 3,535 | 6 |
-| After fix 2 (nearest-cue) | **3,340** | 11 |
+| After fix 2 (nearest-cue) | 3,340 | 11 |
+| **After fix 3 (plural)** | **3,424** | 12 |
 
-Cumulative loss from the substring version: **−17.6%** of positives.
+Cumulative change from the substring version: **−15.6%** of positives.
+
+Fix 3 repaired `str.rstrip("s")`, which strips *every* trailing s: `DIZZINESS` became `DIZZINE`
+and matched nothing, so all 248 PTs ending in a double s were structurally unconfirmable.
+It recovered 84 positives (DIZZINESS alone went 0 → 34).
 
 ### Precision has plateaued
 
@@ -224,6 +229,12 @@ at 92%: four *different* failures appeared in v3.
 2. **Procedure/concomitant-treatment context** — "concomitant phase with radiotherapy".
 3. **Negation** — "There were **no** deaths reported in either trial" counted as confirming DEATH.
 4. **Compound term, different concept** — PT DEPRESSION matched inside "respiratory depression".
+
+5. **British vs American spelling — the largest known gap.** MedDRA PTs use `DYSPNOEA`,
+   `DIARRHOEA`, `OEDEMA`, `ANAEMIA`, `PARAESTHESIA`; US labels write *dyspnea*, *diarrhea*. Of
+   29,500 label-change rows, 562 contain "dyspnea" and **0** contain "dyspnoea". **1,292 PT terms /
+   33,572 pairs (9.2% of T1)** carry these digraphs and confirm at **0.11%** against 0.94% overall,
+   an ~8× deficit. Normalising the digraphs would likely add 250–300 positives (~+8%). Not fixed.
 
 Modes 3 and 4 are new kinds, not variants of the population problem. Negation handling and
 longest-term-wins matching would be the next fixes.

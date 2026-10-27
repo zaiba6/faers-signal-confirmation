@@ -1,0 +1,154 @@
+{
+ "rule": "T1",
+ "target": "confirmed_event_3y",
+ "n_train": 259304,
+ "n_test": 104198,
+ "pos_train": 2747,
+ "pos_test": 677,
+ "prevalence_train_pct": 1.059,
+ "prevalence_test_pct": 0.65,
+ "cv_logistic_ap_by_C": {
+  "0.01": 0.03187900285938442,
+  "0.1": 0.0318169109057417,
+  "1.0": 0.03165007714750211
+ },
+ "chosen_C": 0.01,
+ "cv_lightgbm_ap_by_n": {
+  "50": 0.0334,
+  "150": 0.0309,
+  "400": 0.0236,
+  "800": 0.0191
+ },
+ "chosen_n_estimators": 50,
+ "features": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "ror",
+  "ror_lcl",
+  "prr",
+  "chi2",
+  "q_value",
+  "n_quarters_observed",
+  "is_combo",
+  "a_growth_1q",
+  "a_growth_1q_rel",
+  "drug_n_events",
+  "drug_sum_a",
+  "event_n_drugs",
+  "event_sum_a",
+  "drug_event_share",
+  "event_drug_share",
+  "n_cases",
+  "frac_death",
+  "frac_serious",
+  "frac_hcp",
+  "frac_consumer",
+  "frac_lawyer",
+  "frac_us",
+  "median_age",
+  "frac_female",
+  "log_ror",
+  "log_prr",
+  "log_a"
+ ],
+ "models": {
+  "logistic_l2": {
+   "auprc": 0.0228,
+   "auprc_lift_vs_prevalence": 3.51,
+   "auroc": 0.7683,
+   "precision_at_100": 0.03,
+   "precision_at_100_by_test_year": {
+    "2021": 0.01,
+    "2022": 0.05,
+    "2023": 0.06
+   }
+  },
+  "lightgbm": {
+   "auprc": 0.0247,
+   "auprc_lift_vs_prevalence": 3.8,
+   "auroc": 0.7847,
+   "precision_at_100": 0.09,
+   "precision_at_100_by_test_year": {
+    "2021": 0.02,
+    "2022": 0.06,
+    "2023": 0.05
+   }
+  },
+  "prevalence_baseline": {
+   "auprc": 0.0062,
+   "auprc_lift_vs_prevalence": 0.96,
+   "auroc": 0.4818,
+   "precision_at_100": 0.0,
+   "precision_at_100_by_test_year": {
+    "2021": 0.0,
+    "2022": 0.02,
+    "2023": 0.0
+   },
+   "note": "random scores; AUPRC should sit at test prevalence"
+  }
+ },
+ "lightgbm_top_features": [
+  [
+   "median_age",
+   186
+  ],
+  [
+   "d",
+   124
+  ],
+  [
+   "drug_n_events",
+   104
+  ],
+  [
+   "b",
+   96
+  ],
+  [
+   "drug_sum_a",
+   77
+  ],
+  [
+   "event_n_drugs",
+   75
+  ],
+  [
+   "frac_us",
+   72
+  ],
+  [
+   "drug_event_share",
+   69
+  ],
+  [
+   "event_drug_share",
+   65
+  ],
+  [
+   "frac_female",
+   61
+  ],
+  [
+   "frac_serious",
+   54
+  ],
+  [
+   "frac_hcp",
+   54
+  ],
+  [
+   "event_sum_a",
+   51
+  ],
+  [
+   "c",
+   49
+  ],
+  [
+   "chi2",
+   46
+  ]
+ ]
+}

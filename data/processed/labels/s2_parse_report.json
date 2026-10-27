@@ -1,0 +1,84 @@
+{
+ "n_pages": 3262,
+ "n_pages_with_rows": 3262,
+ "n_rows": 29500,
+ "n_distinct_changes": 11102,
+ "n_drugs": 2838,
+ "n_ingredients": 1828,
+ "date_range": [
+  "2014-12-19",
+  "2026-10-06"
+ ],
+ "unparseable_dates": 0,
+ "rows_per_year": {
+  "2014": 4,
+  "2016": 2595,
+  "2017": 3625,
+  "2018": 3054,
+  "2019": 3440,
+  "2020": 2551,
+  "2021": 2751,
+  "2022": 2188,
+  "2023": 2577,
+  "2024": 2325,
+  "2025": 2683,
+  "2026": 1707
+ },
+ "section_code_counts": {
+  "WP": 6869,
+  "AR": 6626,
+  "PCI/PI/MG": 6186,
+  "USP": 4685,
+  "DI": 2328,
+  "CONTRA": 1445,
+  "BW": 825,
+  "OTHER": 536
+ },
+ "top_section_names": {
+  "Warnings and Precautions": 6869,
+  "Adverse Reactions": 6626,
+  "PCI/PI/MG (Patient Counseling Information/Patient Information/Medication Guide)": 6186,
+  "Use in Specific Populations": 4685,
+  "Drug Interactions": 2328,
+  "Contraindications": 1445,
+  "Boxed Warning": 825,
+  "Other": 536
+ },
+ "n_stub_rows": 1307,
+ "n_empty_text": 2,
+ "label_text_chars": {
+  "median": 710,
+  "p95": 4195,
+  "max": 31960
+ },
+ "notes": {
+  "blank_active_ingredient": 174
+ },
+ "note_examples": [
+  "830: blank_active_ingredient",
+  "2624: blank_active_ingredient",
+  "2809: blank_active_ingredient",
+  "2777: blank_active_ingredient",
+  "826: blank_active_ingredient",
+  "2262: blank_active_ingredient",
+  "2798: blank_active_ingredient",
+  "1842: blank_active_ingredient",
+  "2782: blank_active_ingredient",
+  "1680: blank_active_ingredient",
+  "2805: blank_active_ingredient",
+  "1395: blank_active_ingredient",
+  "2043: blank_active_ingredient",
+  "2385: blank_active_ingredient",
+  "1679: blank_active_ingredient",
+  "579: blank_active_ingredient",
+  "1854: blank_active_ingredient",
+  "2794: blank_active_ingredient",
+  "294: blank_active_ingredient",
+  "447: blank_active_ingredient",
+  "1878: blank_active_ingredient",
+  "2203: blank_active_ingredient",
+  "2716: blank_active_ingredient",
+  "1839: blank_active_ingredient",
+  "1993: blank_active_ingredient"
+ ]
+}

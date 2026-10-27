@@ -15,3 +15,7 @@ __pycache__/
 # Local DuckDB copy of raw tables (rebuildable by scripts/profile_raw_data.py)
 data/interim/
 
+
+# Large derived CSVs (rebuildable from the parquets by their scripts)
+data/processed/confirmation_target_T*.csv
+data/processed/labels/s2_label_changes.csv

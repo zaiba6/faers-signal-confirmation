@@ -1,3 +1,7 @@
 data/processed/pair_quarter_stats.parquet filter=lfs diff=lfs merge=lfs -text
 data/processed/ps_drug_event_cases.parquet filter=lfs diff=lfs merge=lfs -text
 data/processed/pair_quarter_counts.parquet filter=lfs diff=lfs merge=lfs -text
+data/processed/confirmation_target_T1.parquet filter=lfs diff=lfs merge=lfs -text
+data/processed/confirmation_target_T2.parquet filter=lfs diff=lfs merge=lfs -text
+data/processed/confirmation_target_T3.parquet filter=lfs diff=lfs merge=lfs -text
+data/processed/labels/s2_label_changes.parquet filter=lfs diff=lfs merge=lfs -text

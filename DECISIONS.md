@@ -52,6 +52,21 @@ All demographic rules were verified against raw lines by separate code (sanity_c
 
 Pair-level outputs (`scripts/build_pair_stats.py`): `pair_quarter_counts.parquet` (29,560,557 rows), `pair_quarter_stats.parquet` (same rows plus statistics), `detected_pairs_T1/T2/T3.parquet` (1,079,815 pairs each). Checks and samples: `references/sanity_check_3.md`.
 
+### SrLC label-text parse and confirmation target (steps 8-9, 2026-10-26)
+| # | Topic | Decision |
+|---|---|---|
+| 25 | SrLC parse unit | One row per (DrugNameID, approval date, supplement, changed label section): 29,500 rows from all 3,262 pages, 11,102 distinct approved changes, 2014-12-19 to 2026-10-06. A page carries a drug's whole change history, so pages are not rows. |
+| 26 | What counts as a section | Only `<h4>` elements that are direct children of the accordion content div. FDA also uses `<h4>` for sub-headings *inside* a section body (e.g. "Risk Summary"), which would otherwise split one change into several rows and truncate the first. Fixing this removed 60 spurious rows and 8 of 10 empty-text rows. |
+| 27 | Section codes | Mapped to FDA's own legend on the page: BW, WP, AR, DI, USP, PCI/PI/MG, CONTRA, plus OTHER. All 29,500 rows code; no uncoded bucket. |
+| 28 | Stub rows | 1,307 rows read "Extensive changes; please refer to label for complete information." FDA writes this instead of reproducing the change. Date and section are valid, the text is absent; flagged `is_stub`, so they can support a drug-level confirmation but never an event-level one. |
+| 29 | Confirmation clock | Starts at the END of the detection quarter (2018Q2 -> 2018-06-30), since a signal is only knowable once the quarter closes. Windows of 1, 2, 3 and 5 years are all computed; 3 years is primary. |
+| 30 | Eligible pairs | `status == 'in_window'` only (detected 2016Q1-2023Q2). Earlier pairs predate SrLC coverage; later ones cannot be followed a full 3 years, so counting them as negatives would mislabel right-censored signals. |
+| 31 | Safety-related change | SrLC section code in BW / WP / AR / CONTRA. PCI/PI/MG, dosing, indications and the rest are excluded as not risk-bearing. 22,027 of 41,200 drug-mapped rows qualify. |
+| 32 | Two targets, both kept | `confirmed_drug` (the drug got a risk-section change in the window, any event) and `confirmed_event` (as above AND the event term appears in the changed text). They bracket the truth: 57.8% vs 1.0% at 3 years on T1. Neither is "the" answer; the modeling step chooses, and the gap is the main threat to validity. |
+| 33 | Event matching | Case-insensitive word-boundary match of the MedDRA PT in the label text, singular or plural. A plain substring test was tried first and rejected: it matched TENSION inside "hypertension". Word boundaries cut T1 event positives from 4,055 to 3,739 (-7.8%). |
+| 34 | Drug matching | Reuses `match_srlc_ingredients.py` (exact / salt_stripped / component_any). 41,200 drug-mapped rows over 2,088 FAERS drugs. A strict-only variant (exact + salt_stripped) is written alongside every primary flag. |
+| 35 | 921 and DSC | Drug-level supplementary flags only, not folded into the primary target. DSC titles in the index are truncated, so DSC drug matching is name-in-title/URL and is weaker than the SrLC match. |
+
 ## Limitations (for the report)
 
 - `prod_ai` is FDA-supplied and can contain combination products (7.3% of link rows) and spelling variants of one ingredient; each distinct string is one drug, so a combination and its components are different "drugs".
@@ -62,6 +77,12 @@ Pair-level outputs (`scripts/build_pair_stats.py`): `pair_quarter_counts.parquet
 - Counting universe starts at 2014Q3: 1,418,268 cases with a latest version in 2012Q4-2014Q2 and 157,383 cases first received before 2014Q3 are excluded from counts, and 92,758 cases are removed as deleted. Detection starts at 2016Q1, so the first 6 quarters are burn-in only and no pair can be detected before 2016Q1.
 - Cases first received before 2014Q3 may have follow-up versions in the universe period; their reports are not counted, so counts for long-marketed drugs are lower than the true cumulative reporting history (the cumulative 2x2 tables start from zero at 2014Q3).
 - Age is missing for 43% of cases; `reporter_country` for 4.5% (placeholders).
+
+- The confirmation target is bracketed, not pinned down. `confirmed_drug` at 3 years is 57.8% of T1 pairs, which is close to "did this drug change its label at all"; `confirmed_event` is 1.0%, because label prose rarely uses the MedDRA PT verbatim. The true confirmation rate lies between, and the choice of target will dominate any AUROC reported.
+- Event matching is lexical, not semantic. A label that adds "severe hepatic injury" does not match the PT LIVER INJURY, and no MedDRA synonym or PT-to-HLT rollup is applied. `confirmed_event` is therefore a lower bound.
+- SrLC covers 2016 onward (plus 4 stray 2014 rows), so a pair detected in 2016Q1 can only be confirmed by a change recorded from 2016 on. Earlier regulatory action is invisible to this target.
+- At detection, median ROR is slightly *lower* for confirmed pairs (4.21) than unconfirmed (5.04) on T3. Disproportionality alone does not separate the classes, which is the point of the modeling step but also a warning that a weak model is a plausible outcome.
+- The stricter detection rule enriches for confirmation: T3 confirms at 1.39% versus T1 at 1.03%, on 29% fewer pairs. This is the first evidence that the detection rules differ in a way that matters.
 
 - Pair statistics are computed on cases with a PS drug and use cumulative counts from zero at 2014Q3, so pairs whose reports mostly predate 2014Q3 look weaker than they are. Counts per pair can be dominated by a few bulk submissions (e.g. ADAPALENE / DRY SKIN has 46,649 cases, 79% of them reported in 2018Q2-2020Q2; ADAPALENE as a whole has 184,206).
 - A detected pair is not a confirmed signal: with thresholds this lenient 33% (T1) of all pairs ever reaching a >= 3 are `in_window`, so base rates in the label step will matter. Rankings by `ror_lcl` at detection favor pairs with tiny b and c (a = 3 to 13) in a large N.

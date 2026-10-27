@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.zaiba.faers.srlc</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/zaiba/Developer/faers-signal-confirmation/scripts/s2_nightly.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>23</integer><key>Minute</key><integer>5</integer></dict>
+  <key>RunAtLoad</key><false/>
+  <key>StandardOutPath</key><string>/Users/zaiba/Developer/faers-signal-confirmation/data/raw/labels/s2_launchd.log</string>
+  <key>StandardErrorPath</key><string>/Users/zaiba/Developer/faers-signal-confirmation/data/raw/labels/s2_launchd.log</string>
+</dict>
+</plist>

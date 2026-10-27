@@ -1,0 +1,62 @@
+{
+ "srlc_rows": 3262,
+ "srlc_distinct_ingredient": 1827,
+ "faers_drugs_in_detected": 3925,
+ "rows_by_level": {
+  "exact": 2774,
+  "blank_ingredient": 175,
+  "salt_stripped": 147,
+  "none": 86,
+  "component_any": 80
+ },
+ "rows_in_scope": 3001,
+ "pct_rows_in_scope": 92.0,
+ "rows_strict_only": 2921,
+ "by_year_in_scope": {
+  "2016": {
+   "in_scope": 60,
+   "rows": 71
+  },
+  "2017": {
+   "in_scope": 169,
+   "rows": 182
+  },
+  "2018": {
+   "in_scope": 186,
+   "rows": 204
+  },
+  "2019": {
+   "in_scope": 234,
+   "rows": 274
+  },
+  "2020": {
+   "in_scope": 178,
+   "rows": 198
+  },
+  "2021": {
+   "in_scope": 207,
+   "rows": 217
+  },
+  "2022": {
+   "in_scope": 187,
+   "rows": 192
+  },
+  "2023": {
+   "in_scope": 300,
+   "rows": 360
+  },
+  "2024": {
+   "in_scope": 403,
+   "rows": 420
+  },
+  "2025": {
+   "in_scope": 569,
+   "rows": 614
+  },
+  "2026": {
+   "in_scope": 508,
+   "rows": 530
+  }
+ },
+ "faers_drugs_matched": 1920
+}

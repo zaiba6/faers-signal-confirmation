@@ -142,3 +142,42 @@ One probe zip is cached at `data/raw/dailymed/_probe/` with its checksum recorde
 history call plus one zip per distinct detection quarter, the request count runs to tens of
 thousands. At 1 request per second that is hours, not minutes, and it should be cached and
 resumable in the same style as the SrLC scrape.
+
+## A6. Split options at H = 36 (addendum, after the horizon decision)
+
+From `scripts/phase_a_splits.py`, saved to `a6_split_options.csv` and `.json`.
+
+Cohort 2016Q1-2023Q2: 363,502 signals, 4,285 positives. A 36 month horizon means a **12 quarter
+gap** between train end and test start, because a training label is only safe once it has resolved.
+The cohort is 30 quarters long, so the gap consumes 40 percent of it.
+
+Three affordable designs:
+
+**Option 1. Three non-overlapping yearly folds, no lock-box**
+
+| Train | Test | Train n | Train pos | Test n | Test pos | Test prevalence |
+|---|---|---|---|---|---|---|
+| 2016Q1-2016Q4 | 2020 | 54,301 | 1,172 | 50,347 | 459 | 0.912% |
+| 2016Q1-2017Q4 | 2021 | 104,270 | 1,903 | 43,590 | 291 | 0.668% |
+| 2016Q1-2018Q4 | 2022 | 157,900 | 2,498 | 40,776 | 345 | 0.846% |
+
+1,095 test positives across folds. 2023Q1-2023Q2 goes unused.
+
+**Option 2. Two folds plus a real lock-box**
+
+Same first two folds, with **2022Q3-2023Q2 reserved untouched** (39,951 signals, 334 positives,
+0.836%). 750 test positives across the two development folds.
+
+**Option 3. Sliding quarterly folds**
+
+Up to 11 folds stepping one quarter at a time, 291 to 459 positives each. More folds, but the test
+windows overlap heavily, so fold results are not independent and a bootstrap across folds would
+understate uncertainty.
+
+For comparison, the current design, which has **no gap and no lock-box**, trains on 259,304 signals
+with 3,476 positives and tests on 104,198 with 809. Adding a proper gap costs roughly two thirds of
+the training data, because the first fold can only train on 2016.
+
+Recommendation: **Option 2.** Two folds is thin, but a lock-box that is never touched is worth more
+for the writeup than a third fold, and 334 lock-box positives is enough to report AUPRC with a
+bootstrap interval. The honest cost to state is that the earliest fold trains on one year only.

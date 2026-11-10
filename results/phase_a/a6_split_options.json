@@ -1,0 +1,35 @@
+{
+ "horizon_months": 36,
+ "gap_quarters": 12,
+ "cohort": "2016Q1-2023Q2",
+ "cohort_n": 363502,
+ "cohort_pos": 4285,
+ "lockbox_if_last_4q": {
+  "period": "2022Q3-2023Q2",
+  "n": 39951,
+  "pos": 334,
+  "prev_pct": 0.836
+ },
+ "designs": {
+  "expanding_gap36_1yr_test": {
+   "folds": 11,
+   "total_test_positives": 3865,
+   "min_test_positives": 291
+  },
+  "expanding_gap36_1yr_test_plus_lockbox": {
+   "folds": 7,
+   "total_test_positives": 2534,
+   "min_test_positives": 291
+  },
+  "single_split_gap36_plus_lockbox": {
+   "folds": 1,
+   "total_test_positives": 184,
+   "min_test_positives": 184
+  },
+  "current_no_gap_no_lockbox": {
+   "folds": 1,
+   "total_test_positives": 809,
+   "min_test_positives": 809
+  }
+ }
+}

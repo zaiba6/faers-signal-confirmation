@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "filter": "spls.json?drug_name",
+      "relied_on": true,
+      "passed": true,
+      "detail": "all=158,914 PANTOPRAZOLE=207"
+    },
+    {
+      "filter": "spls.json?application_number",
+      "relied_on": true,
+      "passed": true,
+      "detail": "NDA020987=9"
+    },
+    {
+      "filter": "spls.json?unii_code",
+      "relied_on": true,
+      "passed": true,
+      "detail": "UNII D8TST4O562=208"
+    },
+    {
+      "filter": "spls.json?marketing_category",
+      "relied_on": false,
+      "passed": false,
+      "detail": "{'NDA': 207, 'ANDA': 207, 'BLA': 207} vs unfiltered 207 -> silently ignored, do not use"
+    },
+    {
+      "filter": "getFile.cfm?version",
+      "relied_on": true,
+      "passed": true,
+      "detail": "v1 effectiveTime=20160322, v15 effectiveTime=20261026"
+    },
+    {
+      "filter": "downloadzipfile.cfm?version",
+      "relied_on": false,
+      "passed": false,
+      "detail": "asked v1, got effectiveTime=20261026 (v1 is 20160322) -> silently ignored, do not use"
+    }
+  ],
+  "relied_on_failures": []
+}

@@ -1,0 +1,18 @@
+{
+ "sampled": 150,
+ "responded": 150,
+ "nda_bla_applications": 4132,
+ "setids_per_application": {
+  "mean": 2.47,
+  "median": 1.0,
+  "p90": 5,
+  "max": 19,
+  "zero": 0
+ },
+ "scope_a_all_setids_estimate": 10192,
+ "scope_a_ci_rough": [
+  8468,
+  11917
+ ],
+ "scope_b_one_per_application": 4132
+}

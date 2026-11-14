@@ -54,7 +54,13 @@ checks = dict(
                              "table and no Drugs@FDA or other approval source has been collected")
 
 # ---------------------------------------------------------------- sample
-pool = f[(f.a >= MIN_A) & (~f.pt_clean.str.upper().str.contains(NON_CLINICAL, regex=True))].copy()
+# Use the pre-registered rule (scripts/nonclinical_pts.py, decisions 68 and 79) rather
+# than this file's own regex, so the slide shows the same cohort the pipeline will build.
+# The cohort rebuild that applies decision 79 has not run yet; filtering here keeps the
+# sample consistent with the committed rule instead of ahead of or behind it.
+import sys as _sys; _sys.path.insert(0, str(Path(__file__).parent))
+from nonclinical_pts import is_nonclinical
+pool = f[(f.a >= MIN_A) & (~f.pt_clean.map(is_nonclinical))].copy()
 pool["year"] = pool.detection_quarter.str[:4]
 rng = np.random.default_rng(SEED)
 
@@ -120,7 +126,7 @@ disp["Drug"] = [textwrap.fill(v, 24) for v in disp["Drug"]]
 disp["Event (PT)"] = [textwrap.fill(v, 26) for v in disp["Event (PT)"]]
 widths = [0.19, 0.22, 0.09, 0.10, 0.07, 0.11, 0.07, 0.09, 0.05]
 
-fig, ax = plt.subplots(figsize=(14, 5.0))
+fig, ax = plt.subplots(figsize=(14, 5.9))
 ax.axis("off")
 t = ax.table(cellText=disp.astype(str).values, colLabels=disp.columns,
              colWidths=widths, cellLoc="center", loc="center")
@@ -133,6 +139,20 @@ for (r, c), cell in t.get_celld().items():
     elif tbl.iloc[r - 1]["Y"] == 1:
         cell.set_facecolor("#fdf3e3")
 fig.patch.set_facecolor("white")
+
+# Two caveats carried ON the figure so the slide cannot overclaim. The a >= 20 filter is
+# a readability choice for this table only; the cohort keeps its own a_min (decision 23).
+# The Y column is the OLD definition and is being replaced by decisions 74-78.
+CAPTION = (
+    f"Illustrative rows only, drawn with a >= {MIN_A} so \"% serious\" is a meaningful "
+    f"fraction. The cohort threshold is unchanged (T1: a >= 3).\n"
+    "Y is the provisional outcome: a safety labelling change naming this event within 36 "
+    "months of detection. It does NOT yet require the event to have been\nabsent from the "
+    "label beforehand, so some Y=1 rows are events the label already carried. That rule is "
+    "being added and the positive count will fall."
+)
+fig.text(0.5, 0.045, CAPTION, ha="center", va="top", fontsize=8.6,
+         color="#444444", linespacing=1.5)
 plt.savefig(FIG / "sample_rows.png", dpi=200, facecolor="white", bbox_inches="tight")
 plt.close()
 

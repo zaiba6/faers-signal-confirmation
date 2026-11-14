@@ -1,0 +1,1106 @@
+drug_ai,signals,is_combo,match_level,n_setids,setids,why
+PREDNISONE,1585,0,none,0,,absent_from_nda_bla_universe
+OXALIPLATIN,889,0,none,0,,absent_from_nda_bla_universe
+ONDANSETRON HYDROCHLORIDE,816,0,none,0,,absent_from_nda_bla_universe
+RAMIPRIL,752,0,none,0,,absent_from_nda_bla_universe
+VALPROATE SODIUM,698,0,none,0,,absent_from_nda_bla_universe
+HUMAN IMMUNOGLOBULIN G\HYALURONIDASE (HUMAN RECOMBINANT),586,1,none,0,,all_components_present_matcher_gap
+VALPROIC ACID,552,0,none,0,,absent_from_nda_bla_universe
+CABOZANTINIB S-MALATE,539,0,none,0,,absent_from_nda_bla_universe
+ONDANSETRON,534,0,none,0,,absent_from_nda_bla_universe
+ETANERCEPT-SZZS,487,0,none,0,,absent_from_nda_bla_universe
+CORTICOTROPIN,480,0,none,0,,all_components_present_matcher_gap
+AMOXICILLIN\CLAVULANIC ACID,443,1,none,0,,some_components_present
+FLUDARABINE PHOSPHATE,435,0,none,0,,absent_from_nda_bla_universe
+RIFAMPIN,426,0,none,0,,absent_from_nda_bla_universe
+ALENDRONIC ACID,402,0,none,0,,absent_from_nda_bla_universe
+RUCAPARIB CAMSYLATE,378,0,none,0,,absent_from_nda_bla_universe
+RIBAVIRIN,347,0,none,0,,all_components_present_matcher_gap
+LAPINE T-LYMPHOCYTE IMMUNE GLOBULIN,321,0,none,0,,absent_from_nda_bla_universe
+MYCOPHENOLATE SODIUM,313,0,none,0,,all_components_present_matcher_gap
+OMBITASVIR\PARITAPREVIR\RITONAVIR,309,1,none,0,,some_components_present
+METFORMIN HYDROCHLORIDE\VILDAGLIPTIN,293,1,none,0,,some_components_present
+HALOPERIDOL,293,0,none,0,,all_components_present_matcher_gap
+VINCRISTINE SULFATE,292,0,none,0,,absent_from_nda_bla_universe
+PRAMIPEXOLE,284,0,none,0,,all_components_present_matcher_gap
+AMITRIPTYLINE,281,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\OXYCODONE HYDROCHLORIDE,278,1,none,0,,all_components_present_matcher_gap
+OBETICHOLIC ACID,275,0,none,0,,absent_from_nda_bla_universe
+LANADELUMAB,266,0,none,0,,all_components_present_matcher_gap
+PRAVASTATIN,260,0,none,0,,absent_from_nda_bla_universe
+CANDESARTAN,260,0,none,0,,all_components_present_matcher_gap
+FERRIC CARBOXYMALTOSE,254,0,none,0,,all_components_present_matcher_gap
+GLYCOPYRROLATE\INDACATEROL MALEATE,253,1,none,0,,some_components_present
+ACETAMINOPHEN\HYDROCODONE BITARTRATE,252,1,none,0,,all_components_present_matcher_gap
+MERCAPTOPURINE,246,0,none,0,,all_components_present_matcher_gap
+HUMAN IMMUNOGLOBULIN G\HYALURONIDASE RECOMBINANT HUMAN,241,1,none,0,,all_components_present_matcher_gap
+DAPAGLIFLOZIN PROPANEDIOL,241,0,none,0,,absent_from_nda_bla_universe
+"ESTROGENS, CONJUGATED",237,0,none,0,,all_components_present_matcher_gap
+ABOBOTULINUMTOXINA,234,0,none,0,,absent_from_nda_bla_universe
+BAMLANIVIMAB,229,0,none,0,,absent_from_nda_bla_universe
+CASIRIVIMAB\IMDEVIMAB,226,1,none,0,,absent_from_nda_bla_universe
+TEPROTUMUMAB-TRBW,217,0,none,0,,absent_from_nda_bla_universe
+PALIVIZUMAB,217,0,none,0,,absent_from_nda_bla_universe
+TRAZODONE HYDROCHLORIDE,214,0,none,0,,all_components_present_matcher_gap
+CEPHALEXIN,209,0,none,0,,absent_from_nda_bla_universe
+BUROSUMAB-TWZA,207,0,none,0,,absent_from_nda_bla_universe
+BROLUCIZUMAB-DBLL,203,0,none,0,,absent_from_nda_bla_universe
+TRIAMCINOLONE,203,0,none,0,,all_components_present_matcher_gap
+PARATHYROID HORMONE,202,0,none,0,,absent_from_nda_bla_universe
+AMLODIPINE BESYLATE\HYDROCHLOROTHIAZIDE\VALSARTAN,198,1,none,0,,all_components_present_matcher_gap
+THEOPHYLLINE ANHYDROUS,196,0,none,0,,absent_from_nda_bla_universe
+ACITRETIN,196,0,none,0,,absent_from_nda_bla_universe
+MIDOSTAURIN,192,0,none,0,,absent_from_nda_bla_universe
+ROPEGINTERFERON ALFA-2B-NJFT,187,0,none,0,,absent_from_nda_bla_universe
+HYDROXYPROGESTERONE CAPROATE,184,0,none,0,,absent_from_nda_bla_universe
+TOZINAMERAN,184,0,none,0,,absent_from_nda_bla_universe
+CABERGOLINE,181,0,none,0,,all_components_present_matcher_gap
+TRAMETINIB DIMETHYL SULFOXIDE,181,0,none,0,,absent_from_nda_bla_universe
+VINCRISTINE,178,0,none,0,,absent_from_nda_bla_universe
+OLMESARTAN,175,0,none,0,,all_components_present_matcher_gap
+BUSPIRONE HYDROCHLORIDE,175,0,none,0,,absent_from_nda_bla_universe
+"THYROID, PORCINE",172,0,none,0,,all_components_present_matcher_gap
+DICLOFENAC DIETHYLAMINE,167,0,none,0,,absent_from_nda_bla_universe
+DACLIZUMAB,167,0,none,0,,absent_from_nda_bla_universe
+HYDROXYZINE HYDROCHLORIDE,164,0,none,0,,absent_from_nda_bla_universe
+LUTETIUM OXODOTREOTIDE LU-177,164,0,none,0,,absent_from_nda_bla_universe
+EFGARTIGIMOD ALFA-FCAB,161,0,none,0,,absent_from_nda_bla_universe
+UNSPECIFIED INGREDIENT,160,0,none,0,,absent_from_nda_bla_universe
+TENOFOVIR,159,0,none,0,,all_components_present_matcher_gap
+IBANDRONIC ACID,158,0,none,0,,absent_from_nda_bla_universe
+GLYCOPYRRONIUM\INDACATEROL,157,1,none,0,,some_components_present
+ENFORTUMAB VEDOTIN-EJFV,156,0,none,0,,absent_from_nda_bla_universe
+KETOPROFEN,156,0,none,0,,absent_from_nda_bla_universe
+CARBIDOPA\ENTACAPONE\LEVODOPA,155,1,none,0,,all_components_present_matcher_gap
+LEVOTHYROXINE\LIOTHYRONINE,153,1,none,0,,all_components_present_matcher_gap
+MOBOCERTINIB,150,0,none,0,,absent_from_nda_bla_universe
+FLECAINIDE,148,0,none,0,,absent_from_nda_bla_universe
+RADIUM RA-223 DICHLORIDE,146,0,none,0,,absent_from_nda_bla_universe
+ACETAZOLAMIDE,145,0,none,0,,absent_from_nda_bla_universe
+EMICIZUMAB-KXWH,145,0,none,0,,absent_from_nda_bla_universe
+EMTRICITABINE\TENOFOVIR,144,1,none,0,,all_components_present_matcher_gap
+ASPARAGINASE,144,0,none,0,,all_components_present_matcher_gap
+GADOLINIUM,144,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\HYDROCODONE,143,1,none,0,,all_components_present_matcher_gap
+PRAVASTATIN SODIUM,143,0,none,0,,absent_from_nda_bla_universe
+VINORELBINE TARTRATE,142,0,none,0,,absent_from_nda_bla_universe
+INFLIXIMAB-ABDA,138,0,none,0,,absent_from_nda_bla_universe
+ISONIAZID,136,0,none,0,,absent_from_nda_bla_universe
+SOTROVIMAB,134,0,none,0,,absent_from_nda_bla_universe
+BEBTELOVIMAB,133,0,none,0,,absent_from_nda_bla_universe
+ENTACAPONE,130,0,none,0,,all_components_present_matcher_gap
+BUDESONIDE\FORMOTEROL\GLYCOPYRRONIUM,129,1,none,0,,all_components_present_matcher_gap
+SACITUZUMAB GOVITECAN-HZIY,126,0,none,0,,absent_from_nda_bla_universe
+"ESTROGENS, CONJUGATED\MEDROXYPROGESTERONE ACETATE",125,1,none,0,,all_components_present_matcher_gap
+TEDUGLUTIDE\WATER,124,1,none,0,,all_components_present_matcher_gap
+RAVULIZUMAB-CWVZ,124,0,none,0,,absent_from_nda_bla_universe
+DAPAGLIFLOZIN PROPANEDIOL\METFORMIN HYDROCHLORIDE,123,1,none,0,,some_components_present
+LEVOCETIRIZINE,119,0,none,0,,all_components_present_matcher_gap
+GENTAMICIN,116,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\CODEINE PHOSPHATE,114,1,none,0,,all_components_present_matcher_gap
+CAPLACIZUMAB-YHDP,114,0,none,0,,absent_from_nda_bla_universe
+INDACATEROL,114,0,none,0,,absent_from_nda_bla_universe
+CILGAVIMAB\TIXAGEVIMAB,112,1,none,0,,absent_from_nda_bla_universe
+BECAPLERMIN,111,0,none,0,,all_components_present_matcher_gap
+DESOGESTREL\ETHINYL ESTRADIOL,104,1,none,0,,some_components_present
+"BACILLUS CALMETTE-GUERIN ANTIGEN, UNSPECIFIED SUBSTRAIN",103,0,none,0,,absent_from_nda_bla_universe
+HALOPERIDOL DECANOATE,103,0,none,0,,all_components_present_matcher_gap
+GADOPENTETATE DIMEGLUMINE,103,0,none,0,,absent_from_nda_bla_universe
+BAMLANIVIMAB\ETESEVIMAB,100,1,none,0,,absent_from_nda_bla_universe
+ERENUMAB,99,0,none,0,,all_components_present_matcher_gap
+METHIMAZOLE,99,0,none,0,,absent_from_nda_bla_universe
+CILOSTAZOL,96,0,none,0,,absent_from_nda_bla_universe
+MOLNUPIRAVIR,94,0,none,0,,absent_from_nda_bla_universe
+DASABUVIR\OMBITASVIR\PARITAPREVIR\RITONAVIR,92,1,none,0,,some_components_present
+HYDROCHLOROTHIAZIDE\TRIAMTERENE,91,1,none,0,,all_components_present_matcher_gap
+BLEOMYCIN SULFATE,91,0,none,0,,absent_from_nda_bla_universe
+DACLATASVIR DIHYDROCHLORIDE,90,0,none,0,,absent_from_nda_bla_universe
+FLUVOXAMINE,89,0,none,0,,all_components_present_matcher_gap
+ISAVUCONAZOLE,89,0,none,0,,absent_from_nda_bla_universe
+EFTRENONACOG ALFA,89,0,none,0,,absent_from_nda_bla_universe
+PROPAFENONE,88,0,none,0,,absent_from_nda_bla_universe
+HUMAN RHO(D) IMMUNE GLOBULIN,87,0,none,0,,absent_from_nda_bla_universe
+CARBOXYMETHYLCELLULOSE SODIUM,87,0,none,0,,absent_from_nda_bla_universe
+HYOSCYAMINE SULFATE,86,0,none,0,,absent_from_nda_bla_universe
+INTERFERON ALFA-2B,85,0,none,0,,all_components_present_matcher_gap
+ISOSORBIDE MONONITRATE,85,0,none,0,,all_components_present_matcher_gap
+.DELTA.8-TETRAHYDROCANNABINOL\HERBALS,84,1,none,0,,absent_from_nda_bla_universe
+PEANUT,83,0,none,0,,all_components_present_matcher_gap
+ETESEVIMAB,82,0,none,0,,absent_from_nda_bla_universe
+DABIGATRAN,82,0,none,0,,all_components_present_matcher_gap
+MOGAMULIZUMAB,81,0,none,0,,all_components_present_matcher_gap
+CAPTOPRIL,81,0,none,0,,absent_from_nda_bla_universe
+MITOXANTRONE HYDROCHLORIDE,81,0,none,0,,absent_from_nda_bla_universe
+CEMIPLIMAB,80,0,none,0,,all_components_present_matcher_gap
+HOMEOPATHICS,80,0,none,0,,absent_from_nda_bla_universe
+TRIAZOLAM,79,0,none,0,,all_components_present_matcher_gap
+DACTINOMYCIN,79,0,none,0,,absent_from_nda_bla_universe
+LAPATINIB DITOSYLATE,79,0,none,0,,absent_from_nda_bla_universe
+AMITRIPTYLINE HYDROCHLORIDE,76,0,none,0,,absent_from_nda_bla_universe
+BENZONATATE,75,0,none,0,,absent_from_nda_bla_universe
+CEFDINIR,74,0,none,0,,absent_from_nda_bla_universe
+CARBOXYMETHYLCELLULOSE SODIUM\GLYCERIN,74,1,none,0,,some_components_present
+PIROXICAM,73,0,none,0,,absent_from_nda_bla_universe
+DISULFIRAM,73,0,none,0,,absent_from_nda_bla_universe
+COBICISTAT\ELVITEGRAVIR\EMTRICITABINE\TENOFOVIR,72,1,none,0,,all_components_present_matcher_gap
+CROTALIDAE POLYVALENT IMMUNE FAB (OVINE),72,0,none,0,,absent_from_nda_bla_universe
+NYSTATIN,71,0,none,0,,all_components_present_matcher_gap
+HERBALS\MITRAGYNINE,71,1,none,0,,absent_from_nda_bla_universe
+ARFORMOTEROL TARTRATE,71,0,none,0,,absent_from_nda_bla_universe
+ADALIMUMAB\ISOPROPYL ALCOHOL,71,1,none,0,,all_components_present_matcher_gap
+EFMOROCTOCOG ALFA,71,0,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\HOMOSALATE\OCTISALATE\OCTOCRYLENE,71,1,none,0,,absent_from_nda_bla_universe
+OXAZEPAM,70,0,none,0,,absent_from_nda_bla_universe
+GENTAMICIN SULFATE,69,0,none,0,,absent_from_nda_bla_universe
+NALOXONE HYDROCHLORIDE\OXYCODONE HYDROCHLORIDE,68,1,none,0,,all_components_present_matcher_gap
+PAMIDRONATE DISODIUM,68,0,none,0,,absent_from_nda_bla_universe
+CLOFARABINE,68,0,none,0,,absent_from_nda_bla_universe
+CRIZANLIZUMAB-TMCA,68,0,none,0,,absent_from_nda_bla_universe
+POLATUZUMAB VEDOTIN-PIIQ,68,0,none,0,,absent_from_nda_bla_universe
+FERRIC OXYHYDROXIDE,67,0,none,0,,all_components_present_matcher_gap
+MICAFUNGIN SODIUM,67,0,none,0,,all_components_present_matcher_gap
+CHOLESTYRAMINE,67,0,none,0,,absent_from_nda_bla_universe
+CEFPROZIL,66,0,none,0,,absent_from_nda_bla_universe
+POLYETHYLENE GLYCOL 400\PROPYLENE GLYCOL,65,1,none,0,,absent_from_nda_bla_universe
+FLECAINIDE ACETATE,65,0,none,0,,absent_from_nda_bla_universe
+FLUVOXAMINE MALEATE,65,0,none,0,,all_components_present_matcher_gap
+COAGULATION FACTOR IX RECOMBINANT HUMAN\ISOPROPYL ALCOHOL,65,1,none,0,,all_components_present_matcher_gap
+CASIRIVIMAB,65,0,none,0,,absent_from_nda_bla_universe
+STANNOUS FLUORIDE,65,0,none,0,,absent_from_nda_bla_universe
+DACLATASVIR,64,0,none,0,,absent_from_nda_bla_universe
+DICYCLOMINE HYDROCHLORIDE,64,0,none,0,,absent_from_nda_bla_universe
+MEPIVACAINE HYDROCHLORIDE,64,0,none,0,,absent_from_nda_bla_universe
+OMACETAXINE MEPESUCCINATE,63,0,none,0,,absent_from_nda_bla_universe
+PASIREOTIDE DIASPARTATE,63,0,none,0,,absent_from_nda_bla_universe
+TRASTUZUMAB DERUXTECAN,63,0,none,0,,all_components_present_matcher_gap
+ATORVASTATIN CALCIUM\EZETIMIBE,62,1,none,0,,all_components_present_matcher_gap
+FERUMOXYTOL NON-STOICHIOMETRIC MAGNETITE,62,0,none,0,,absent_from_nda_bla_universe
+METHAMPHETAMINE,61,0,none,0,,absent_from_nda_bla_universe
+"(1-743)-(1638-2332)-BLOOD-COAGULATION FACTOR VIII (SYNTHETIC HUMAN) FUSION PROTEIN WITH IMMUNOGLOBULIN G1 (SYNTHETIC HUMAN FC DOMAIN FRAGMENT), (1444-6'),(1447-9')-BIS(DISULFIDE) WITH IMMUNOGLOBULIN G1 (SYNTHETIC HUMAN FC DOMAIN FRAGMENT)",60,0,none,0,,absent_from_nda_bla_universe
+INVESTIGATIONAL PRODUCT,60,0,none,0,,absent_from_nda_bla_universe
+BRINZOLAMIDE\TIMOLOL MALEATE,60,1,none,0,,all_components_present_matcher_gap
+GANIRELIX ACETATE,58,0,none,0,,all_components_present_matcher_gap
+ALUMINUM ZIRCONIUM TRICHLOROHYDREX GLY,58,0,none,0,,absent_from_nda_bla_universe
+LUSPATERCEPT-AAMT,58,0,none,0,,absent_from_nda_bla_universe
+TAGRAXOFUSP-ERZS,57,0,none,0,,absent_from_nda_bla_universe
+MICAFUNGIN,57,0,none,0,,all_components_present_matcher_gap
+HUMAN COAGULATION FACTOR VIII/VON WILLEBRAND FACTOR COMPLEX,56,0,none,0,,all_components_present_matcher_gap
+PROPYLTHIOURACIL,56,0,none,0,,all_components_present_matcher_gap
+ETORICOXIB,56,0,none,0,,absent_from_nda_bla_universe
+ARGATROBAN,55,0,none,0,,all_components_present_matcher_gap
+SODIUM POLYSTYRENE SULFONATE,55,0,none,0,,absent_from_nda_bla_universe
+"ANTIHEMOPHILIC FACTOR, PEGYLATED (MW 20000) HUMAN SEQUENCE RECOMBINANT",55,0,none,0,,all_components_present_matcher_gap
+ISONIAZID\RIFAMPIN,54,1,none,0,,absent_from_nda_bla_universe
+TRASTUZUMAB-PKRB,54,0,none,0,,absent_from_nda_bla_universe
+"BAZEDOXIFENE ACETATE\ESTROGENS, CONJUGATED",54,1,none,0,,all_components_present_matcher_gap
+ASPIRIN\CARISOPRODOL,54,1,none,0,,all_components_present_matcher_gap
+CYCLOPENTOLATE HYDROCHLORIDE,54,0,none,0,,absent_from_nda_bla_universe
+COLLAGENASE CLOSTRIDIUM HISTOLYTICUM-AAES,54,0,none,0,,absent_from_nda_bla_universe
+GADOVERSETAMIDE,53,0,none,0,,absent_from_nda_bla_universe
+LACTULOSE,53,0,none,0,,absent_from_nda_bla_universe
+ANTHOXANTHUM ODORATUM POLLEN\DACTYLIS GLOMERATA POLLEN\LOLIUM PERENNE POLLEN\PHLEUM PRATENSE POLLEN\POA PRATENSIS POLLEN,53,1,none,0,,all_components_present_matcher_gap
+DEVICE,53,0,none,0,,all_components_present_matcher_gap
+CHLOROQUINE PHOSPHATE,52,0,none,0,,all_components_present_matcher_gap
+NADOLOL,52,0,none,0,,absent_from_nda_bla_universe
+SALICYLIC ACID,52,0,none,0,,all_components_present_matcher_gap
+HYPROMELLOSE 2910 (4000 MPA.S),52,0,none,0,,absent_from_nda_bla_universe
+POTASSIUM NITRATE\SODIUM FLUORIDE,51,1,none,0,,some_components_present
+DIDANOSINE,51,0,none,0,,absent_from_nda_bla_universe
+BISACODYL,49,0,none,0,,absent_from_nda_bla_universe
+ELAGOLIX SODIUM\ESTRADIOL\NORETHINDRONE,49,1,none,0,,all_components_present_matcher_gap
+ESTRADIOL CYPIONATE,49,0,none,0,,absent_from_nda_bla_universe
+PROPAFENONE HYDROCHLORIDE,49,0,none,0,,absent_from_nda_bla_universe
+TITANIUM DIOXIDE\ZINC OXIDE,48,1,none,0,,some_components_present
+INGENOL MEBUTATE,48,0,none,0,,absent_from_nda_bla_universe
+TIMOLOL MALEATE\TRAVOPROST,48,1,none,0,,all_components_present_matcher_gap
+SATRALIZUMAB-MWGE,48,0,none,0,,absent_from_nda_bla_universe
+FARICIMAB-SVOA,48,0,none,0,,absent_from_nda_bla_universe
+ATRACURIUM BESYLATE,47,0,none,0,,absent_from_nda_bla_universe
+MORPHINE SULFATE\NALTREXONE HYDROCHLORIDE,47,1,none,0,,all_components_present_matcher_gap
+POLYETHYLENE GLYCOLS,46,0,none,0,,absent_from_nda_bla_universe
+HYOSCYAMINE,46,0,none,0,,absent_from_nda_bla_universe
+LETROZOLE\RIBOCICLIB,46,1,none,0,,all_components_present_matcher_gap
+PENICILLIN V,46,0,none,0,,absent_from_nda_bla_universe
+HYDROXYPROPYL CELLULOSE,46,0,none,0,,absent_from_nda_bla_universe
+HYDROCORTISONE BUTYRATE,46,0,none,0,,all_components_present_matcher_gap
+CANNABIDIOL\HERBALS,45,1,none,0,,some_components_present
+IRON ISOMALTOSIDE 1000,45,0,none,0,,absent_from_nda_bla_universe
+DOCONEXENT\ICOSAPENT\PHOSPHATIDYL SERINE,44,1,none,0,,some_components_present
+TECLISTAMAB,44,0,none,0,,all_components_present_matcher_gap
+BIMATOPROST\TIMOLOL,44,1,none,0,,all_components_present_matcher_gap
+FAMCICLOVIR,44,0,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\HOMOSALATE\OCTISALATE\OCTOCRYLENE\OXYBENZONE,44,1,none,0,,absent_from_nda_bla_universe
+DIETARY SUPPLEMENT,44,0,none,0,,absent_from_nda_bla_universe
+ATENOLOL\CHLORTHALIDONE,44,1,none,0,,all_components_present_matcher_gap
+SUNITINIB,44,0,none,0,,all_components_present_matcher_gap
+DEXTROSE MONOHYDRATE\THEOPHYLLINE\THEOPHYLLINE ANHYDROUS,43,1,none,0,,some_components_present
+ADUCANUMAB-AVWA,43,0,none,0,,absent_from_nda_bla_universe
+HALOPERIDOL LACTATE,43,0,none,0,,all_components_present_matcher_gap
+THEOPHYLLINE,43,0,none,0,,absent_from_nda_bla_universe
+TECHNETIUM TC-99M SESTAMIBI,43,0,none,0,,absent_from_nda_bla_universe
+INVESTIGATIONAL BIOSIMILARS,43,0,none,0,,absent_from_nda_bla_universe
+TAVABOROLE,43,0,none,0,,absent_from_nda_bla_universe
+TETRAFERRIC TRICITRATE DECAHYDRATE,42,0,none,0,,absent_from_nda_bla_universe
+FISH OIL\MEDIUM-CHAIN TRIGLYCERIDES\OLIVE OIL\SOYBEAN OIL,42,1,none,0,,some_components_present
+ACETAMINOPHEN\DEXTROMETHORPHAN HYDROBROMIDE\GUAIFENESIN\PHENYLEPHRINE HYDROCHLORIDE,42,1,none,0,,all_components_present_matcher_gap
+BIVALIRUDIN,42,0,none,0,,all_components_present_matcher_gap
+CHLORPROMAZINE,42,0,none,0,,absent_from_nda_bla_universe
+VERTEPORFIN,42,0,none,0,,all_components_present_matcher_gap
+METFORMIN HYDROCHLORIDE\SAXAGLIPTIN HYDROCHLORIDE,42,1,none,0,,all_components_present_matcher_gap
+DACARBAZINE,41,0,none,0,,absent_from_nda_bla_universe
+EGG PHOSPHOLIPIDS\GLYCERIN\MEDIUM-CHAIN TRIGLYCERIDES\SOYBEAN OIL,41,1,none,0,,some_components_present
+OLARATUMAB,41,0,none,0,,absent_from_nda_bla_universe
+COLCHICINE\PROBENECID,41,1,none,0,,all_components_present_matcher_gap
+IRON,40,0,none,0,,absent_from_nda_bla_universe
+METHYLDOPA,40,0,none,0,,all_components_present_matcher_gap
+CYCLOPENTOLATE,40,0,none,0,,absent_from_nda_bla_universe
+LUTETIUM LU-177 VIPIVOTIDE TETRAXETAN,40,0,none,0,,absent_from_nda_bla_universe
+TICLOPIDINE,39,0,none,0,,absent_from_nda_bla_universe
+BENZOCAINE,39,0,none,0,,absent_from_nda_bla_universe
+TRASTUZUMAB-DTTB,39,0,none,0,,absent_from_nda_bla_universe
+"(1-743)-(1638-2332)-BLOOD-COAGULATION FACTOR VIII (SYNTHETIC HUMAN) FUSION PROTEIN WITH IMMUNOGLOBULIN G1 (SYNTHETIC HUMAN FC DOMAIN FRAGMENT), (1444-6^),(1447-9^)-BIS(DISULFIDE) WITH IMMUNOGLOBULIN G1 (SYNTHETIC HUMAN FC DOMAIN FRAGMENT)",39,0,none,0,,absent_from_nda_bla_universe
+GEMFIBROZIL,39,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\DIPHENHYDRAMINE,39,1,none,0,,all_components_present_matcher_gap
+QUINAPRIL,38,0,none,0,,all_components_present_matcher_gap
+ALBIGLUTIDE,38,0,none,0,,absent_from_nda_bla_universe
+EDOXABAN TOSILATE MONOHYDRATE,38,0,none,0,,absent_from_nda_bla_universe
+INFIGRATINIB,38,0,none,0,,absent_from_nda_bla_universe
+HYDROXYZINE PAMOATE,37,0,none,0,,absent_from_nda_bla_universe
+RIBOFLAVIN 5'-PHOSPHATE SODIUM,37,0,none,0,,absent_from_nda_bla_universe
+CHLOROQUINE,37,0,none,0,,all_components_present_matcher_gap
+BENZYL ALCOHOL\ETANERCEPT,37,1,none,0,,all_components_present_matcher_gap
+COPANLISIB,35,0,none,0,,absent_from_nda_bla_universe
+PEGINTERFERON ALFA-2B,35,0,none,0,,all_components_present_matcher_gap
+PRABOTULINUMTOXINA-XVFS,35,0,none,0,,absent_from_nda_bla_universe
+PRAZOSIN HYDROCHLORIDE,35,0,none,0,,all_components_present_matcher_gap
+DESOGESTREL,35,0,none,0,,absent_from_nda_bla_universe
+TAFASITAMAB,34,0,none,0,,all_components_present_matcher_gap
+CEFADROXIL,34,0,none,0,,absent_from_nda_bla_universe
+PERPHENAZINE,34,0,none,0,,absent_from_nda_bla_universe
+SELENIUM SULFIDE,34,0,none,0,,absent_from_nda_bla_universe
+IMIPRAMINE,34,0,none,0,,all_components_present_matcher_gap
+NARATRIPTAN HYDROCHLORIDE,34,0,none,0,,absent_from_nda_bla_universe
+BREXANOLONE,34,0,none,0,,absent_from_nda_bla_universe
+FLURAZEPAM HYDROCHLORIDE,34,0,none,0,,absent_from_nda_bla_universe
+FLURBIPROFEN,33,0,none,0,,all_components_present_matcher_gap
+TRILACICLIB DIHYDROCHLORIDE,33,0,none,0,,absent_from_nda_bla_universe
+ERTUGLIFLOZIN PIDOLATE,33,0,none,0,,absent_from_nda_bla_universe
+MITRAGYNINE\HERBALS,33,1,none,0,,absent_from_nda_bla_universe
+LATANOPROST\NETARSUDIL MESYLATE,32,1,none,0,,all_components_present_matcher_gap
+BETAMETHASONE DIPROPIONATE\CLOTRIMAZOLE,32,1,none,0,,all_components_present_matcher_gap
+RIBOFLAVIN 5^-PHOSPHATE SODIUM,32,0,none,0,,absent_from_nda_bla_universe
+SENNOSIDES,32,0,none,0,,absent_from_nda_bla_universe
+FAMOTIDINE\IBUPROFEN,32,1,none,0,,all_components_present_matcher_gap
+CICLOPIROX,32,0,none,0,,all_components_present_matcher_gap
+MINERALS\VITAMINS,31,1,none,0,,some_components_present
+PROPARACAINE HYDROCHLORIDE,31,0,none,0,,absent_from_nda_bla_universe
+TIRAGOLUMAB,31,0,none,0,,absent_from_nda_bla_universe
+CLORAZEPATE DIPOTASSIUM,31,0,none,0,,absent_from_nda_bla_universe
+PROPYLENE GLYCOL,31,0,none,0,,absent_from_nda_bla_universe
+IBALIZUMAB-UIYK,31,0,none,0,,absent_from_nda_bla_universe
+CISATRACURIUM BESYLATE,31,0,none,0,,absent_from_nda_bla_universe
+BISACODYL OR DOCUSATE SODIUM,31,0,none,0,,absent_from_nda_bla_universe
+RISEDRONIC ACID,31,0,none,0,,absent_from_nda_bla_universe
+DOCUSATE SODIUM,31,0,none,0,,absent_from_nda_bla_universe
+NAXITAMAB-GQGK,31,0,none,0,,absent_from_nda_bla_universe
+VILDAGLIPTIN,31,0,none,0,,absent_from_nda_bla_universe
+COVID-19 VACCINE NOS,30,0,none,0,,absent_from_nda_bla_universe
+NECITUMUMAB,30,0,none,0,,absent_from_nda_bla_universe
+SODIUM IODIDE I-131,30,0,none,0,,absent_from_nda_bla_universe
+TIOCONAZOLE,30,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\DEXTROMETHORPHAN HYDROBROMIDE\PHENYLEPHRINE HYDROCHLORIDE,30,1,none,0,,all_components_present_matcher_gap
+TISOTUMAB VEDOTIN-TFTV,30,0,none,0,,absent_from_nda_bla_universe
+MEFLOQUINE HYDROCHLORIDE,30,0,none,0,,absent_from_nda_bla_universe
+EUCALYPTOL\MENTHOL\METHYL SALICYLATE\THYMOL,29,1,none,0,,some_components_present
+CETYLPYRIDINIUM CHLORIDE,29,0,none,0,,absent_from_nda_bla_universe
+MINERAL OIL\PETROLATUM,29,1,none,0,,some_components_present
+PENICILLIN V POTASSIUM,29,0,none,0,,absent_from_nda_bla_universe
+HYDROCHLOROTHIAZIDE\RAMIPRIL,29,1,none,0,,some_components_present
+LORCASERIN HYDROCHLORIDE,29,0,none,0,,absent_from_nda_bla_universe
+TIMOLOL\TRAVOPROST,29,1,none,0,,all_components_present_matcher_gap
+ENFUVIRTIDE,29,0,none,0,,absent_from_nda_bla_universe
+DASABUVIR,29,0,none,0,,absent_from_nda_bla_universe
+ALUMINUM HYDROXIDE\MAGNESIUM CARBONATE,29,1,none,0,,some_components_present
+BENZTROPINE MESYLATE,29,0,none,0,,all_components_present_matcher_gap
+ADENOSINE,28,0,none,0,,absent_from_nda_bla_universe
+MENTHOL\ZINC OXIDE,28,1,none,0,,all_components_present_matcher_gap
+PRAVASTATIN\PRAVASTATIN SODIUM,28,1,none,0,,absent_from_nda_bla_universe
+TELBIVUDINE,28,0,none,0,,absent_from_nda_bla_universe
+PETROLATUM,28,0,none,0,,all_components_present_matcher_gap
+INSULIN NOS,28,0,none,0,,absent_from_nda_bla_universe
+INEBILIZUMAB-CDON,28,0,none,0,,absent_from_nda_bla_universe
+AMG-510,28,0,none,0,,absent_from_nda_bla_universe
+BISOPROLOL FUMARATE\HYDROCHLOROTHIAZIDE,28,1,none,0,,all_components_present_matcher_gap
+MEFLOQUINE,28,0,none,0,,absent_from_nda_bla_universe
+CLOMIPHENE CITRATE,28,0,none,0,,all_components_present_matcher_gap
+CARTEOLOL HYDROCHLORIDE,28,0,none,0,,absent_from_nda_bla_universe
+TILDRAKIZUMAB,28,0,none,0,,all_components_present_matcher_gap
+PROTAMINE SULFATE,27,0,none,0,,all_components_present_matcher_gap
+CALCIUM CHLORIDE\DEXTROSE MONOHYDRATE\HYDROCHLORIC ACID\MAGNESIUM CHLORIDE\SODIUM BICARBONATE\SODIUM CHLORIDE\SODIUM HYDROXIDE\SODIUM LACTATE,27,1,none,0,,some_components_present
+ROMOSOZUMAB,27,0,none,0,,all_components_present_matcher_gap
+EPTIFIBATIDE,27,0,none,0,,absent_from_nda_bla_universe
+"ANTIHEMOPHILIC FACTOR, HUMAN RECOMBINANT RESIDUES 743-1636 DELETED",27,0,none,0,,all_components_present_matcher_gap
+DEXTRAN 70\HYPROMELLOSE 2910 (4000 MPA.S),27,1,none,0,,absent_from_nda_bla_universe
+VINORELBINE\VINORELBINE TARTRATE,27,1,none,0,,absent_from_nda_bla_universe
+VITAMINS,26,0,none,0,,all_components_present_matcher_gap
+DROPERIDOL,26,0,none,0,,absent_from_nda_bla_universe
+TECHNETIUM TC-99M OXIDRONATE,26,0,none,0,,absent_from_nda_bla_universe
+QUINAPRIL HYDROCHLORIDE,26,0,none,0,,all_components_present_matcher_gap
+DAMOCTOCOG ALFA PEGOL,25,0,none,0,,absent_from_nda_bla_universe
+EGG PHOSPHOLIPIDS\GLYCERIN\SOYBEAN OIL,25,1,none,0,,some_components_present
+MEPIVACAINE\MEPIVACAINE HYDROCHLORIDE,25,1,none,0,,absent_from_nda_bla_universe
+ASPIRIN\CARISOPRODOL\CODEINE PHOSPHATE,25,1,none,0,,all_components_present_matcher_gap
+"CALCIUM CHLORIDE\DEXTROSE\MAGNESIUM CHLORIDE\OXIGLUTATIONE\POTASSIUM CHLORIDE\SODIUM BICARBONATE\SODIUM CHLORIDE\SODIUM PHOSPHATE\SODIUM PHOSPHATE, DIBASIC",25,1,none,0,,some_components_present
+PROCHLORPERAZINE,25,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\DEXTROMETHORPHAN HYDROBROMIDE\DOXYLAMINE SUCCINATE,25,1,none,0,,all_components_present_matcher_gap
+ANHYDROUS CITRIC ACID\ASPIRIN\SODIUM BICARBONATE,25,1,none,0,,all_components_present_matcher_gap
+TECHNETIUM TC-99M SODIUM PERTECHNETATE,24,0,none,0,,absent_from_nda_bla_universe
+CARBOXYMETHYLCELLULOSE SODIUM\HYPROMELLOSES,24,1,none,0,,absent_from_nda_bla_universe
+NABILONE,24,0,none,0,,absent_from_nda_bla_universe
+DEXRAZOXANE,24,0,none,0,,absent_from_nda_bla_universe
+ISONIAZID\PYRAZINAMIDE\RIFAMPIN,24,1,none,0,,absent_from_nda_bla_universe
+DOTATATE GALLIUM GA-68,23,0,none,0,,absent_from_nda_bla_universe
+BACILLUS CALMETTE-GUERIN SUBSTRAIN CONNAUGHT LIVE ANTIGEN,23,0,none,0,,absent_from_nda_bla_universe
+IMIPRAMINE HYDROCHLORIDE,23,0,none,0,,all_components_present_matcher_gap
+NABUMETONE,23,0,none,0,,absent_from_nda_bla_universe
+HYDROCHLOROTHIAZIDE\QUINAPRIL HYDROCHLORIDE,23,1,none,0,,all_components_present_matcher_gap
+HYDROCORTISONE ACETATE\PRAMOXINE HYDROCHLORIDE,23,1,none,0,,some_components_present
+SIMEPREVIR,23,0,none,0,,absent_from_nda_bla_universe
+CEFOPERAZONE SODIUM,23,0,none,0,,absent_from_nda_bla_universe
+LEVORPHANOL TARTRATE,23,0,none,0,,absent_from_nda_bla_universe
+CARBOXYMETHYLCELLULOSE SODIUM\GLYCERIN\POLYSORBATE 80,23,1,none,0,,some_components_present
+METRONIDAZOLE BENZOATE,23,0,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\HOMOSALATE\OCTISALATE\OCTOCRYLENE OR AVOBENZONE\HOMOSALATE\OCTISALATE\OCTOCRYLENE\OXYBENZONE,22,1,none,0,,absent_from_nda_bla_universe
+SODIUM MONOFLUOROPHOSPHATE,22,0,none,0,,absent_from_nda_bla_universe
+CEFPODOXIME PROXETIL,22,0,none,0,,absent_from_nda_bla_universe
+TEBENTAFUSP-TEBN,22,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\DIPHENHYDRAMINE HYDROCHLORIDE,22,1,none,0,,all_components_present_matcher_gap
+COSMETICS,22,0,none,0,,absent_from_nda_bla_universe
+DICLOXACILLIN SODIUM,22,0,none,0,,absent_from_nda_bla_universe
+HERBALS,22,0,none,0,,absent_from_nda_bla_universe
+INSULIN ASPART\INSULIN DEGLUDEC,22,1,none,0,,all_components_present_matcher_gap
+NEFAZODONE HYDROCHLORIDE,21,0,none,0,,absent_from_nda_bla_universe
+BOCEPREVIR,21,0,none,0,,absent_from_nda_bla_universe
+THYMOCYTE IMMUNE GLOBULIN NOS,21,0,none,0,,absent_from_nda_bla_universe
+CLOMIPHENE,21,0,none,0,,all_components_present_matcher_gap
+PROCHLORPERAZINE MALEATE,21,0,none,0,,absent_from_nda_bla_universe
+UMBRALISIB,21,0,none,0,,absent_from_nda_bla_universe
+METHAMPHETAMINE HYDROCHLORIDE,21,0,none,0,,absent_from_nda_bla_universe
+PIPERONYL BUTOXIDE\PYRETHRUM EXTRACT,21,1,none,0,,absent_from_nda_bla_universe
+BELANTAMAB MAFODOTIN-BLMF,21,0,none,0,,absent_from_nda_bla_universe
+ALOGLIPTIN BENZOATE\METFORMIN HYDROCHLORIDE,21,1,none,0,,all_components_present_matcher_gap
+FOSINOPRIL,21,0,none,0,,absent_from_nda_bla_universe
+DASABUVIR SODIUM MONOHYDRATE\OMBITASVIR HEMINONAHYDRATE\PARITAPREVIR DIHYDRATE\RITONAVIR,21,1,none,0,,some_components_present
+ESTAZOLAM,21,0,none,0,,absent_from_nda_bla_universe
+OXACILLIN SODIUM,21,0,none,0,,all_components_present_matcher_gap
+CHLORZOXAZONE,21,0,none,0,,absent_from_nda_bla_universe
+RECOMBINANT VARICELLA ZOSTER VIRUS (VZV) GLYCOPROTEIN E,20,0,none,0,,absent_from_nda_bla_universe
+GALCANEZUMAB,20,0,none,0,,all_components_present_matcher_gap
+NAFCILLIN SODIUM,20,0,none,0,,all_components_present_matcher_gap
+AVOBENZONE\HOMOSALATE\OCTINOXATE\OCTISALATE\OCTOCRYLENE\OXYBENZONE\TITANIUM DIOXIDE\ZINC OXIDE,20,1,none,0,,some_components_present
+AVOBENZONE\OCTISALATE\OCTOCRYLENE,20,1,none,0,,absent_from_nda_bla_universe
+CEFPODOXIME,20,0,none,0,,absent_from_nda_bla_universe
+BACITRACIN,20,0,none,0,,absent_from_nda_bla_universe
+ALLERGENIC EXTRACT- PEANUT ARACHIS HYPOGAEA,19,0,none,0,,absent_from_nda_bla_universe
+GLYCERIN\SORBITOL,19,1,none,0,,all_components_present_matcher_gap
+PIT VIPER (CROTALINAE) IMMUNE GLOBULIN ANTIVENIN (EQUINE),19,0,none,0,,absent_from_nda_bla_universe
+SODIUM PHENYLBUTYRATE\TAURURSODIOL,19,1,none,0,,some_components_present
+ACETAMINOPHEN\DEXTROMETHORPHAN HYDROBROMIDE\DOXYLAMINE SUCCINATE\PHENYLEPHRINE,19,1,none,0,,all_components_present_matcher_gap
+NAFCILLIN\NAFCILLIN SODIUM,19,1,none,0,,all_components_present_matcher_gap
+VONICOG ALFA,19,0,none,0,,absent_from_nda_bla_universe
+TECHNETIUM TC-99M TETROFOSMIN,19,0,none,0,,absent_from_nda_bla_universe
+MEFENAMIC ACID,19,0,none,0,,absent_from_nda_bla_universe
+PRAZOSIN,19,0,none,0,,all_components_present_matcher_gap
+AZD-1222,19,0,none,0,,absent_from_nda_bla_universe
+TETRAHYDROZOLINE HYDROCHLORIDE,19,0,none,0,,absent_from_nda_bla_universe
+BISMUTH SUBSALICYLATE,19,0,none,0,,absent_from_nda_bla_universe
+INDACATEROL MALEATE,18,0,none,0,,absent_from_nda_bla_universe
+FLUMAZENIL,18,0,none,0,,absent_from_nda_bla_universe
+FLUPHENAZINE HYDROCHLORIDE,18,0,none,0,,absent_from_nda_bla_universe
+TREPROSTINIL DIOLAMINE,18,0,none,0,,absent_from_nda_bla_universe
+.DELTA.8-TETRAHYDROCANNABINOL\DEVICE\HERBALS,18,1,none,0,,some_components_present
+PRIMAQUINE PHOSPHATE,18,0,none,0,,all_components_present_matcher_gap
+CYPROHEPTADINE,18,0,none,0,,absent_from_nda_bla_universe
+VECURONIUM BROMIDE,18,0,none,0,,absent_from_nda_bla_universe
+CLINDAMYCIN PALMITATE HYDROCHLORIDE,18,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\DEXTROMETHORPHAN HYDROBROMIDE\DOXYLAMINE SUCCINATE\PHENYLEPHRINE HYDROCHLORIDE,18,1,none,0,,all_components_present_matcher_gap
+FLUPHENAZINE,18,0,none,0,,absent_from_nda_bla_universe
+AUTOLOGOUS CULTURED CHONDROCYTES\SUS SCROFA COLLAGEN,18,1,none,0,,some_components_present
+ETHINYL ESTRADIOL\NORGESTREL,18,1,none,0,,all_components_present_matcher_gap
+ONASEMNOGENE ABEPARVOVEC,18,0,none,0,,all_components_present_matcher_gap
+ERGOLOID MESYLATES,17,0,none,0,,absent_from_nda_bla_universe
+BROMPHENIRAMINE MALEATE\DEXTROMETHORPHAN HYDROBROMIDE\PSEUDOEPHEDRINE HYDROCHLORIDE,17,1,none,0,,some_components_present
+PYRAZINAMIDE,17,0,none,0,,absent_from_nda_bla_universe
+BACITRACIN ZINC\NEOMYCIN SULFATE\POLYMYXIN B SULFATE,17,1,none,0,,some_components_present
+CYPROHEPTADINE HYDROCHLORIDE,17,0,none,0,,absent_from_nda_bla_universe
+GLYCOPYRROLATE\INDACATEROL\MOMETASONE FUROATE,17,1,none,0,,some_components_present
+NEFAZODONE,16,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\CAFFEINE\PYRILAMINE MALEATE,16,1,none,0,,some_components_present
+DEXTROMETHORPHAN HYDROBROMIDE\GUAIFENESIN\PHENYLEPHRINE HYDROCHLORIDE,16,1,none,0,,all_components_present_matcher_gap
+GRANULOCYTE COLONY-STIMULATING FACTOR NOS,16,0,none,0,,absent_from_nda_bla_universe
+PSYLLIUM HUSK,16,0,none,0,,absent_from_nda_bla_universe
+OMBITASVIR HEMINONAHYDRATE\PARITAPREVIR DIHYDRATE\RITONAVIR,16,1,none,0,,some_components_present
+ALUMINUM ZIRCONIUM TETRACHLOROHYDREX GLY,16,0,none,0,,absent_from_nda_bla_universe
+HYDROXYPROGESTERONE,16,0,none,0,,absent_from_nda_bla_universe
+.DELTA.8-TETRAHYDROCANNABINOL\CANNABIDIOL\HERBALS,16,1,none,0,,some_components_present
+BENZTROPINE,16,0,none,0,,all_components_present_matcher_gap
+THIOTHIXENE,16,0,none,0,,absent_from_nda_bla_universe
+ETODOLAC,16,0,none,0,,absent_from_nda_bla_universe
+PHENAZOPYRIDINE HYDROCHLORIDE,16,0,none,0,,absent_from_nda_bla_universe
+FOLLITROPIN BETA,16,0,none,0,,absent_from_nda_bla_universe
+ALUMINUM CHLOROHYDRATE,16,0,none,0,,absent_from_nda_bla_universe
+AMINOPHYLLINE,16,0,none,0,,absent_from_nda_bla_universe
+FECAL MICROBIOTA,15,0,none,0,,all_components_present_matcher_gap
+CLEMASTINE FUMARATE,15,0,none,0,,absent_from_nda_bla_universe
+MOXIFLOXACIN\TRIAMCINOLONE,15,1,none,0,,all_components_present_matcher_gap
+OPIUM,15,0,none,0,,all_components_present_matcher_gap
+METHYLCELLULOSE (4000 MPA.S),15,0,none,0,,absent_from_nda_bla_universe
+NYSTATIN\TRIAMCINOLONE ACETONIDE,15,1,none,0,,all_components_present_matcher_gap
+.ALPHA.-TOCOPHEROL ACETATE\ASCORBIC ACID\BIOTIN\CHOLECALCIFEROL\CYANOCOBALAMIN\DEXPANTHENOL\FOLIC ACID\NIACINAMIDE\PHYTONADIONE\PYRIDOXINE HYDROCHLORIDE\RIBOFLAVIN 5^-PHOSPHATE SODIUM\THIAMINE HYDROCHLORIDE\VITAMIN A PALMITATE,15,1,none,0,,some_components_present
+CALASPARGASE PEGOL-MKNL,15,0,none,0,,absent_from_nda_bla_universe
+EQUINE BOTULINUM NEUROTOXIN A/B/C/D/E/F/G IMMUNE FAB2,15,0,none,0,,absent_from_nda_bla_universe
+ATRACURIUM,15,0,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\OCTINOXATE\OCTISALATE\OXYBENZONE,15,1,none,0,,absent_from_nda_bla_universe
+TECHNETIUM TC-99M MEDRONATE,15,0,none,0,,absent_from_nda_bla_universe
+VINBLASTINE,15,0,none,0,,absent_from_nda_bla_universe
+IMDEVIMAB,15,0,none,0,,absent_from_nda_bla_universe
+LEVOCETIRIZINE HYDROCHLORIDE,15,0,none,0,,all_components_present_matcher_gap
+CHLORPHENIRAMINE MALEATE\DEXTROMETHORPHAN HYDROBROMIDE,15,1,none,0,,all_components_present_matcher_gap
+MIRVETUXIMAB SORAVTANSINE-GYNX,15,0,none,0,,absent_from_nda_bla_universe
+FLUDROCORTISONE ACETATE,15,0,none,0,,absent_from_nda_bla_universe
+CLOPIDOGREL BESILATE,14,0,none,0,,absent_from_nda_bla_universe
+NAPROXEN SODIUM\PSEUDOEPHEDRINE HYDROCHLORIDE,14,1,none,0,,all_components_present_matcher_gap
+SULFADIAZINE,14,0,none,0,,all_components_present_matcher_gap
+DOXERCALCIFEROL,14,0,none,0,,absent_from_nda_bla_universe
+CHLORPROMAZINE HYDROCHLORIDE,14,0,none,0,,absent_from_nda_bla_universe
+AMPICILLIN TRIHYDRATE,14,0,none,0,,absent_from_nda_bla_universe
+DANAPAROID SODIUM,14,0,none,0,,absent_from_nda_bla_universe
+AMINO ACIDS\ANHYDROUS DEXTROSE\CALCIUM CHLORIDE\MAGNESIUM SULFATE HEPTAHYDRATE\POTASSIUM CHLORIDE\SODIUM ACETATE\SODIUM GLYCEROPHOSPHATE ANHYDROUS\SOYBEAN OIL,14,1,none,0,,some_components_present
+CICLOPIROX OLAMINE,14,0,none,0,,all_components_present_matcher_gap
+FLUDROCORTISONE,14,0,none,0,,absent_from_nda_bla_universe
+"CITRIC ACID MONOHYDRATE\LACTIC ACID, L-\POTASSIUM BITARTRATE",14,1,none,0,,all_components_present_matcher_gap
+BACITRACIN\NEOMYCIN\POLYMYXIN B,13,1,none,0,,some_components_present
+ACETAMINOPHEN\DIPHENHYDRAMINE HYDROCHLORIDE\PHENYLEPHRINE HYDROCHLORIDE,13,1,none,0,,all_components_present_matcher_gap
+COCOA BUTTER\PHENYLEPHRINE HYDROCHLORIDE,13,1,none,0,,some_components_present
+"ANTIHEMOPHILIC FACTOR PORCINE, B-DOMAIN TRUNCATED RECOMBINANT",13,0,none,0,,absent_from_nda_bla_universe
+ETHAMBUTOL\ISONIAZID\PYRAZINAMIDE\RIFAMYCIN,13,1,none,0,,some_components_present
+AMLODIPINE\HYDROCHLOROTHIAZIDE\OLMESARTAN,13,1,none,0,,all_components_present_matcher_gap
+ACETAMINOPHEN\CHLORPHENIRAMINE\DEXTROMETHORPHAN\PHENYLEPHRINE,13,1,none,0,,all_components_present_matcher_gap
+FOLLITROPIN\LUTEINIZING HORMONE,13,1,none,0,,some_components_present
+CORTICOSTEROID NOS,12,0,none,0,,absent_from_nda_bla_universe
+AMMONIUM LACTATE,12,0,none,0,,absent_from_nda_bla_universe
+DOCUSATE SODIUM\SENNOSIDES,12,1,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\GUAIFENESIN\PHENYLEPHRINE HYDROCHLORIDE,12,1,none,0,,all_components_present_matcher_gap
+CODEINE PHOSPHATE\PROMETHAZINE HYDROCHLORIDE,12,1,none,0,,all_components_present_matcher_gap
+ROFECOXIB,12,0,none,0,,absent_from_nda_bla_universe
+ZAFIRLUKAST,12,0,none,0,,all_components_present_matcher_gap
+ISOSORBIDE,12,0,none,0,,all_components_present_matcher_gap
+ESTRAMUSTINE PHOSPHATE SODIUM,12,0,none,0,,absent_from_nda_bla_universe
+AMMONIA,12,0,none,0,,all_components_present_matcher_gap
+AMLODIPINE\HYDROCHLOROTHIAZIDE\VALSARTAN,12,1,none,0,,all_components_present_matcher_gap
+HYDROXYETHYL STARCH 130/0.4,12,0,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\HOMOSALATE\OCTOCRYLENE,12,1,none,0,,absent_from_nda_bla_universe
+CORTISONE ACETATE,11,0,none,0,,all_components_present_matcher_gap
+ALMOTRIPTAN,11,0,none,0,,all_components_present_matcher_gap
+DOLUTEGRAVIR\LAMIVUDINE\TENOFOVIR DISOPROXIL FUMARATE,11,1,none,0,,all_components_present_matcher_gap
+METFORMIN HYDROCHLORIDE\SAXAGLIPTIN,11,1,none,0,,all_components_present_matcher_gap
+"ESTROGENS, ESTERIFIED",11,0,none,0,,all_components_present_matcher_gap
+TECHNETIUM TC-99M TIATIDE,11,0,none,0,,absent_from_nda_bla_universe
+AMILORIDE HYDROCHLORIDE\HYDROCHLOROTHIAZIDE,11,1,none,0,,all_components_present_matcher_gap
+".ALPHA.-TOCOPHEROL\.ALPHA.-TOCOPHEROL ACETATE\.ALPHA.-TOCOPHEROL ACETATE, DL-\ASCORBIC ACID\CHOLECALCIFEROL\COBALAMIN\CYANOCOBALAMIN\FLUORIDE ION\FOLIC ACID\NIACIN\NIACINAMIDE\PYRIDOXINE\PYRIDOXINE HYDROCHLORIDE\RIBOFLAVIN\SODIUM ASCORBATE\SODIUM FLUORIDE\THIAMINE\THIAMINE MONONITRATE\VITAMIN A\VITA",11,1,none,0,,some_components_present
+PREDNISONE ACETATE,11,0,none,0,,absent_from_nda_bla_universe
+.ALPHA.-TOCOPHEROL ACETATE\ASCORBIC ACID\BIOTIN\CHOLECALCIFEROL\CYANOCOBALAMIN\DEXPANTHENOL\FOLIC ACID\NIACINAMIDE\PHYTONADIONE\PYRIDOXINE HYDROCHLORIDE\RIBOFLAVIN 5'-PHOSPHATE SODIUM\THIAMINE HYDROCHLORIDE\VITAMIN A PALMITATE,11,1,none,0,,some_components_present
+CAMPHOR (SYNTHETIC)\EUCALYPTUS OIL\MENTHOL,11,1,none,0,,some_components_present
+CAMPHOR (SYNTHETIC)\MENTHOL\METHYL SALICYLATE,11,1,none,0,,some_components_present
+CHLORPHENIRAMINE MALEATE\HYDROCODONE BITARTRATE,11,1,none,0,,all_components_present_matcher_gap
+DAXIBOTULINUMTOXIN A-LANM,11,0,none,0,,absent_from_nda_bla_universe
+NATEGLINIDE,11,0,none,0,,absent_from_nda_bla_universe
+ISOPROPYL ALCOHOL\LEUPROLIDE ACETATE,11,1,none,0,,all_components_present_matcher_gap
+METRONIDAZOLE\SODIUM CHLORIDE,11,1,none,0,,all_components_present_matcher_gap
+LEVOBUPIVACAINE HYDROCHLORIDE,11,0,none,0,,absent_from_nda_bla_universe
+CANNABIS SATIVA SUBSP. INDICA TOP,11,0,none,0,,absent_from_nda_bla_universe
+LEUPROLIDE ACETATE\NORETHINDRONE ACETATE,11,1,none,0,,all_components_present_matcher_gap
+FREMANEZUMAB,11,0,none,0,,all_components_present_matcher_gap
+PENICILLIN,10,0,none,0,,all_components_present_matcher_gap
+ETHINYL ESTRADIOL\ETHYNODIOL DIACETATE,10,1,none,0,,some_components_present
+VARDENAFIL HYDROCHLORIDE TRIHYDRATE,10,0,none,0,,absent_from_nda_bla_universe
+TECHNETIUM TC-99M PYROPHOSPHATE,10,0,none,0,,absent_from_nda_bla_universe
+UMIFENOVIR,10,0,none,0,,absent_from_nda_bla_universe
+PYRITHIONE ZINC,10,0,none,0,,absent_from_nda_bla_universe
+ORPHENADRINE CITRATE,10,0,none,0,,absent_from_nda_bla_universe
+MILRINONE,10,0,none,0,,absent_from_nda_bla_universe
+BUTORPHANOL TARTRATE,10,0,none,0,,absent_from_nda_bla_universe
+LAMIVUDINE\TENOFOVIR,10,1,none,0,,all_components_present_matcher_gap
+AZITHROMYCIN OR METHOTREXATE SODIUM,10,0,none,0,,absent_from_nda_bla_universe
+TERBUTALINE,10,0,none,0,,all_components_present_matcher_gap
+LIGHT MINERAL OIL\MINERAL OIL,10,1,none,0,,absent_from_nda_bla_universe
+EVINACUMAB-DGNB,10,0,none,0,,absent_from_nda_bla_universe
+BENZOCAINE\MENTHOL,10,1,none,0,,some_components_present
+DEXRAZOXANE HYDROCHLORIDE,10,0,none,0,,absent_from_nda_bla_universe
+CODEINE PHOSPHATE\DICLOFENAC SODIUM,10,1,none,0,,all_components_present_matcher_gap
+DEXTRAN 70\HYPROMELLOSES,10,1,none,0,,absent_from_nda_bla_universe
+RISANKIZUMAB,10,0,none,0,,all_components_present_matcher_gap
+TOLNAFTATE,10,0,none,0,,absent_from_nda_bla_universe
+NALBUPHINE HYDROCHLORIDE,10,0,none,0,,absent_from_nda_bla_universe
+DICLOXACILLIN,10,0,none,0,,absent_from_nda_bla_universe
+AMLODIPINE\OLMESARTAN,10,1,none,0,,all_components_present_matcher_gap
+PROTAMINE,10,0,none,0,,all_components_present_matcher_gap
+BACITRACIN ZINC\POLYMYXIN B SULFATE,9,1,none,0,,some_components_present
+LAMIVUDINE\NEVIRAPINE\ZIDOVUDINE,9,1,none,0,,all_components_present_matcher_gap
+TERBUTALINE SULFATE,9,0,none,0,,all_components_present_matcher_gap
+ABCIXIMAB,9,0,none,0,,absent_from_nda_bla_universe
+METHYSERGIDE MALEATE,9,0,none,0,,absent_from_nda_bla_universe
+MOXETUMOMAB PASUDOTOX-TDFK,9,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\CAFFEINE\PHENYLEPHRINE HYDROCHLORIDE,9,1,none,0,,all_components_present_matcher_gap
+COCOA BUTTER\PETROLATUM\PHENYLEPHRINE HYDROCHLORIDE\PHENYLEPHRINE HYDROCHLORIDE OR MINERAL OIL,9,1,none,0,,some_components_present
+LECANEMAB-IRMB,9,0,none,0,,all_components_present_matcher_gap
+POLYVINYL ALCOHOL\POVIDONE,9,1,none,0,,some_components_present
+MELPHALAN FLUFENAMIDE,9,0,none,0,,absent_from_nda_bla_universe
+ZOPICLONE,9,0,none,0,,all_components_present_matcher_gap
+POLYETHYLENE GLYCOL,9,0,none,0,,all_components_present_matcher_gap
+CAMPHOR (SYNTHETIC)\CAPSICUM OLEORESIN\MENTHOL\METHYL SALICYLATE,9,1,none,0,,some_components_present
+ACETAMINOPHEN AND OR DEXTROMETHORPHAN AND OR DIPHENHYDRAMINE AND OR GUAIFENESIN AND OR PHENYLEPHRINE AND OR PSEUDOEPHEDRINE,9,0,none,0,,all_components_present_matcher_gap
+ACETAMINOPHEN\CHLORPHENIRAMINE MALEATE,9,1,none,0,,all_components_present_matcher_gap
+NEOSTIGMINE,9,0,none,0,,all_components_present_matcher_gap
+OCTISALATE\TITANIUM DIOXIDE\ZINC OXIDE,9,1,none,0,,some_components_present
+PENTAZOCINE LACTATE,9,0,none,0,,absent_from_nda_bla_universe
+SUFENTANIL,9,0,none,0,,all_components_present_matcher_gap
+TIXAGEVIMAB,9,0,none,0,,absent_from_nda_bla_universe
+PRETOMANID,9,0,none,0,,all_components_present_matcher_gap
+HEPARIN SODIUM\SODIUM CHLORIDE,9,1,none,0,,all_components_present_matcher_gap
+DIMENHYDRINATE,9,0,none,0,,absent_from_nda_bla_universe
+RURIOCTOCOG ALFA PEGOL,8,0,none,0,,absent_from_nda_bla_universe
+MELATONIN,8,0,none,0,,absent_from_nda_bla_universe
+HYDROXYZINE\HYDROXYZINE HYDROCHLORIDE,8,1,none,0,,absent_from_nda_bla_universe
+PENICILLIN V BENZATHINE,8,0,none,0,,absent_from_nda_bla_universe
+SODIUM IODIDE I-123,8,0,none,0,,absent_from_nda_bla_universe
+APIS MELLIFERA VENOM,8,0,none,0,,absent_from_nda_bla_universe
+INDIUM IN-111 CHLORIDE\INDIUM IN-111 PENTETREOTIDE,8,1,none,0,,some_components_present
+LONCASTUXIMAB TESIRINE-LPYL,8,0,none,0,,absent_from_nda_bla_universe
+DEXTROMETHORPHAN HYDROBROMIDE\DOXYLAMINE SUCCINATE,8,1,none,0,,all_components_present_matcher_gap
+FLUOXETINE HYDROCHLORIDE\OLANZAPINE,8,1,none,0,,all_components_present_matcher_gap
+GLYCERIN\LECITHIN\MEDIUM-CHAIN TRIGLYCERIDES\SOYBEAN OIL,8,1,none,0,,some_components_present
+HOMEOPATHICS\ZINC ACETATE\ZINC GLUCONATE,8,1,none,0,,absent_from_nda_bla_universe
+SULINDAC,8,0,none,0,,absent_from_nda_bla_universe
+CISAPRIDE,8,0,none,0,,absent_from_nda_bla_universe
+CONESTAT ALFA,8,0,none,0,,absent_from_nda_bla_universe
+ASPARAGINASE ERWINIA CHRYSANTHEMI (RECOMBINANT)-RYWN,8,0,none,0,,absent_from_nda_bla_universe
+SAMSCA,8,0,none,0,,all_components_present_matcher_gap
+ASPIRIN\LANSOPRAZOLE,8,1,none,0,,all_components_present_matcher_gap
+NIZATIDINE,8,0,none,0,,absent_from_nda_bla_universe
+OCRIPLASMIN,8,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\CHLORPHENIRAMINE MALEATE\DEXTROMETHORPHAN HYDROBROMIDE,8,1,none,0,,all_components_present_matcher_gap
+BENZNIDAZOLE,8,0,none,0,,all_components_present_matcher_gap
+DIPHENHYDRAMINE HYDROCHLORIDE\PHENYLEPHRINE HYDROCHLORIDE,8,1,none,0,,all_components_present_matcher_gap
+OMEGA-3 FATTY ACIDS,8,0,none,0,,absent_from_nda_bla_universe
+BALSALAZIDE,8,0,none,0,,absent_from_nda_bla_universe
+PLANTAGO SEED,8,0,none,0,,absent_from_nda_bla_universe
+BACITRACIN ZINC\HYDROCORTISONE\NEOMYCIN SULFATE\POLYMYXIN B SULFATE,8,1,none,0,,some_components_present
+FLUNISOLIDE,8,0,none,0,,absent_from_nda_bla_universe
+EZOGABINE,8,0,none,0,,absent_from_nda_bla_universe
+BALSALAZIDE DISODIUM,8,0,none,0,,absent_from_nda_bla_universe
+INTERFERON GAMMA,8,0,none,0,,all_components_present_matcher_gap
+IODINE\IOFLUPANE I-123,8,1,none,0,,all_components_present_matcher_gap
+PENTAMIDINE,8,0,none,0,,all_components_present_matcher_gap
+DEVICE\NICOTINE,8,1,none,0,,all_components_present_matcher_gap
+BENZALKONIUM CHLORIDE,8,0,none,0,,absent_from_nda_bla_universe
+BROMAZEPAM,8,0,none,0,,absent_from_nda_bla_universe
+FLUDEOXYGLUCOSE F-18,8,0,none,0,,absent_from_nda_bla_universe
+THALLOUS CHLORIDE TL-201,8,0,none,0,,absent_from_nda_bla_universe
+GLYCERIN\PROPYLENE GLYCOL,8,1,none,0,,some_components_present
+ASPIRIN\CHLORPHENIRAMINE MALEATE\PHENYLEPHRINE BITARTRATE,8,1,none,0,,all_components_present_matcher_gap
+ACETAMINOPHEN\ASPIRIN\DIPHENHYDRAMINE CITRATE,8,1,none,0,,all_components_present_matcher_gap
+DEXTROSE MONOHYDRATE\DEXTROSE MONOHYDRATE\DOBUTAMINE HYDROCHLORIDE\DOBUTAMINE HYDROCHLORIDE,7,1,none,0,,all_components_present_matcher_gap
+BETAMETHASONE\CLOTRIMAZOLE,7,1,none,0,,all_components_present_matcher_gap
+HYDROCHLOROTHIAZIDE\SPIRONOLACTONE,7,1,none,0,,all_components_present_matcher_gap
+OATMEAL,7,0,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\OCTOCRYLENE\OXYBENZONE,7,1,none,0,,absent_from_nda_bla_universe
+IOBENGUANE I-131,7,0,none,0,,absent_from_nda_bla_universe
+BUTORPHANOL,7,0,none,0,,absent_from_nda_bla_universe
+PHENAZOPYRIDINE,7,0,none,0,,absent_from_nda_bla_universe
+CARTEOLOL,7,0,none,0,,absent_from_nda_bla_universe
+HOMEOPATHICS\ZINC ACETATE ANHYDROUS\ZINC GLUCONATE,7,1,none,0,,absent_from_nda_bla_universe
+IODINE,7,0,none,0,,all_components_present_matcher_gap
+AMINO ACIDS\DEXTROSE\ELECTROLYTES NOS\SOYBEAN OIL,7,1,none,0,,some_components_present
+TECHNETIUM TC-99M RED BLOOD CELLS,7,0,none,0,,absent_from_nda_bla_universe
+PENTOBARBITAL,7,0,none,0,,absent_from_nda_bla_universe
+ECHOTHIOPHATE IODIDE,7,0,none,0,,all_components_present_matcher_gap
+CAMPHOR (SYNTHETIC)\MENTHOL,7,1,none,0,,some_components_present
+TRISODIUM CITRATE DIHYDRATE,7,0,none,0,,absent_from_nda_bla_universe
+HYDROCORTISONE\OXYTETRACYCLINE HYDROCHLORIDE\POLYMYXIN B SULFATE,7,1,none,0,,some_components_present
+CARBAMIDE PEROXIDE,7,0,none,0,,absent_from_nda_bla_universe
+IBREXAFUNGERP CITRATE,7,0,none,0,,absent_from_nda_bla_universe
+SULFAMETHIZOLE\TRIMETHOPRIM,7,1,none,0,,some_components_present
+"GONADOTROPHIN, CHORIONIC",7,0,none,0,,all_components_present_matcher_gap
+NILUTAMIDE,7,0,none,0,,absent_from_nda_bla_universe
+TECHNETIUM TC-99M SULFUR COLLOID,7,0,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\HOMOSALATE\OCTINOXATE\OCTISALATE,6,1,none,0,,absent_from_nda_bla_universe
+HYALURONATE SODIUM,6,0,none,0,,absent_from_nda_bla_universe
+ATROPINE SULFATE\HYOSCYAMINE SULFATE\PHENOBARBITAL\SCOPOLAMINE HYDROBROMIDE,6,1,none,0,,some_components_present
+CALCIUM CL\DEXTROSE\MAGNESIUM CL\SODIUM BICAR\SODIUM CL\SODIUM LACT,6,1,none,0,,some_components_present
+FLURAZEPAM\FLURAZEPAM HYDROCHLORIDE,6,1,none,0,,absent_from_nda_bla_universe
+RITODRINE HYDROCHLORIDE,6,0,none,0,,absent_from_nda_bla_universe
+DOCONEXENT\ICOSAPENT\OMEGA-3 FATTY ACIDS,6,1,none,0,,some_components_present
+HERBALS\TETRAHYDROCANNABINOL MIXED,6,1,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\ECAMSULE\OCTOCRYLENE,6,1,none,0,,absent_from_nda_bla_universe
+EBASTINE,6,0,none,0,,absent_from_nda_bla_universe
+CODEINE PHOSPHATE\GUAIFENESIN,6,1,none,0,,all_components_present_matcher_gap
+DIHYDROCODEINE,6,0,none,0,,absent_from_nda_bla_universe
+ASPIRIN\BUTALBITAL\CAFFEINE,6,1,none,0,,all_components_present_matcher_gap
+CANNABIS SATIVA SUBSP. INDICA TOP\DEVICE,6,1,none,0,,some_components_present
+DORIPENEM MONOHYDRATE,6,0,none,0,,absent_from_nda_bla_universe
+ALUMINUM HYDROXIDE\DIMETHICONE\MAGNESIUM HYDROXIDE,6,1,none,0,,some_components_present
+ALVIMOPAN,6,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\DEXTROMETHORPHAN HYDROBROMIDE\GUAIFENESIN,6,1,none,0,,all_components_present_matcher_gap
+CHLORAMPHENICOL,6,0,none,0,,absent_from_nda_bla_universe
+CANIS LUPUS FAMILIARIS DANDER\CANIS LUPUS FAMILIARIS HAIR,6,1,none,0,,absent_from_nda_bla_universe
+AMYLASE\LIPASE\PROTEASE,6,1,none,0,,all_components_present_matcher_gap
+AMILORIDE HYDROCHLORIDE,6,0,none,0,,all_components_present_matcher_gap
+CALCIUM POLYCARBOPHIL,6,0,none,0,,absent_from_nda_bla_universe
+EMACTUZUMAB,6,0,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\HOMOSALATE\OCTISALATE\OXYBENZONE,6,1,none,0,,absent_from_nda_bla_universe
+HOMATROPINE METHYLBROMIDE\HYDROCODONE BITARTRATE,6,1,none,0,,all_components_present_matcher_gap
+VORETIGENE NEPARVOVEC,6,0,none,0,,all_components_present_matcher_gap
+OMEGA-3-CARBOXYLIC ACIDS,6,0,none,0,,absent_from_nda_bla_universe
+TELAPREVIR,6,0,none,0,,absent_from_nda_bla_universe
+DOSTARLIMAB-GXLY,6,0,none,0,,absent_from_nda_bla_universe
+APROTININ,6,0,none,0,,absent_from_nda_bla_universe
+LESINURAD,6,0,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\HOMOSALATE\OCTINOXATE\OCTISALATE\OXYBENZONE,6,1,none,0,,absent_from_nda_bla_universe
+BIOTIN,5,0,none,0,,absent_from_nda_bla_universe
+PROPYLHEXEDRINE,5,0,none,0,,absent_from_nda_bla_universe
+CEVOSTAMAB,5,0,none,0,,absent_from_nda_bla_universe
+DIETARY SUPPLEMENT\HERBALS,5,1,none,0,,absent_from_nda_bla_universe
+MILRINONE LACTATE,5,0,none,0,,absent_from_nda_bla_universe
+DIETARY SUPPLEMENT\PROBIOTICS,5,1,none,0,,absent_from_nda_bla_universe
+MAGNESIUM SALICYLATE,5,0,none,0,,all_components_present_matcher_gap
+LUTROPIN ALFA,5,0,none,0,,absent_from_nda_bla_universe
+GLYCERIN,5,0,none,0,,all_components_present_matcher_gap
+FLUTAMIDE,5,0,none,0,,absent_from_nda_bla_universe
+VARICELLA-ZOSTER VIRUS STRAIN OKA/MERCK LIVE ANTIGEN,5,0,none,0,,absent_from_nda_bla_universe
+MIGLITOL,5,0,none,0,,absent_from_nda_bla_universe
+CELECOXIB\TRAMADOL HYDROCHLORIDE,5,1,none,0,,all_components_present_matcher_gap
+DEXBROMPHENIRAMINE MALEATE\DEXTROMETHORPHAN HYDROBROMIDE\PSEUDOEPHEDRINE HYDROCHLORIDE,5,1,none,0,,some_components_present
+BISMUTH SUBSALICYLATE\METRONIDAZOLE\TETRACYCLINE HYDROCHLORIDE,5,1,none,0,,some_components_present
+CISATRACURIUM,5,0,none,0,,absent_from_nda_bla_universe
+CORTISONE\HYDROCORTISONE,5,1,none,0,,all_components_present_matcher_gap
+ACETAMINOPHEN\CHLORPHENIRAMINE\DEXTROMETHORPHAN\DIPHENHYDRAMINE\DOXYLAMINE\PSEUDOEPHEDRINE,5,1,none,0,,all_components_present_matcher_gap
+HETASTARCH\SODIUM CHLORIDE,5,1,none,0,,some_components_present
+EFAVIRENZ\LAMIVUDINE\TENOFOVIR,5,1,none,0,,all_components_present_matcher_gap
+ERISMODEGIB,5,0,none,0,,absent_from_nda_bla_universe
+VITAMIN D NOS,5,0,none,0,,absent_from_nda_bla_universe
+TIANEPTINE,5,0,none,0,,absent_from_nda_bla_universe
+"CLOSTRIDIUM TETANI TOXOID ANTIGEN (FORMALDEHYDE INACTIVATED)\MENINGOCOCCAL POLYSACCHARIDE VACCINE, GROUPS A, C, Y,W135 COMBINED",5,1,none,0,,all_components_present_matcher_gap
+CYCLOPENTOLATE HYDROCHLORIDE\PHENYLEPHRINE HYDROCHLORIDE,5,1,none,0,,some_components_present
+METHYLPREDNISOLONE ACEPONATE,5,0,none,0,,absent_from_nda_bla_universe
+CHLOROXYLENOL,5,0,none,0,,absent_from_nda_bla_universe
+DOMPERIDONE,5,0,none,0,,absent_from_nda_bla_universe
+EPCORITAMAB,4,0,none,0,,all_components_present_matcher_gap
+DANAZOL,4,0,none,0,,absent_from_nda_bla_universe
+.DELTA.8-TETRAHYDROCANNABINOL,4,0,none,0,,absent_from_nda_bla_universe
+SODIUM TETRADECYL SULFATE,4,0,none,0,,absent_from_nda_bla_universe
+KETOPROFEN LYSINE,4,0,none,0,,absent_from_nda_bla_universe
+PODOFILOX,4,0,none,0,,all_components_present_matcher_gap
+CANNABIDIOL\DEVICE\HERBALS,4,1,none,0,,some_components_present
+ALUMINUM CHLORIDE,4,0,none,0,,absent_from_nda_bla_universe
+CALCITONIN,4,0,none,0,,all_components_present_matcher_gap
+ALCLOMETASONE DIPROPIONATE,4,0,none,0,,absent_from_nda_bla_universe
+PENTAZOCINE,4,0,none,0,,absent_from_nda_bla_universe
+POLYETHYLENE GLYCOL 400,4,0,none,0,,absent_from_nda_bla_universe
+NORFLOXACIN,4,0,none,0,,absent_from_nda_bla_universe
+NALOXONE HYDROCHLORIDE\PENTAZOCINE HYDROCHLORIDE,4,1,none,0,,some_components_present
+CAFFEINE\ERGOTAMINE TARTRATE,4,1,none,0,,all_components_present_matcher_gap
+ESTRIOL,4,0,none,0,,absent_from_nda_bla_universe
+DEXTRAN,4,0,none,0,,all_components_present_matcher_gap
+ACENOCOUMAROL,4,0,none,0,,absent_from_nda_bla_universe
+GLYCERIN\PETROLATUM\PHENYLEPHRINE HYDROCHLORIDE\PRAMOXINE HYDROCHLORIDE,4,1,none,0,,some_components_present
+THIORIDAZINE,4,0,none,0,,absent_from_nda_bla_universe
+THIAMINE,4,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\CHLORPHENIRAMINE MALEATE\DEXTROMETHORPHAN HYDROBROMIDE\PHENYLEPHRINE HYDROCHLORIDE,4,1,none,0,,all_components_present_matcher_gap
+ERAVACYCLINE DIHYDROCHLORIDE,4,0,none,0,,absent_from_nda_bla_universe
+PROCAINAMIDE HYDROCHLORIDE,4,0,none,0,,absent_from_nda_bla_universe
+PHENPROCOUMON,4,0,none,0,,absent_from_nda_bla_universe
+COPPER OR LEVONORGESTREL,4,0,none,0,,absent_from_nda_bla_universe
+ATROPA BELLADONNA\CALCIUM PHOSPHATE\CHAMOMILE\COFFEA ARABICA FRUIT,4,1,none,0,,absent_from_nda_bla_universe
+CEFTAROLINE,4,0,none,0,,all_components_present_matcher_gap
+INSULIN PORK\INSULIN PURIFIED PORK,4,1,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\ASPIRIN\CAFFEINE\SALICYLAMIDE,4,1,none,0,,some_components_present
+UBLITUXIMAB-XIIY,4,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\CHLORPHENIRAMINE MALEATE\DEXTROMETHORPHAN HYDROBROMIDE\PHENYLEPHRINE HYDROCHLORIDE OR ACETAMINOPHEN\DEXTROMETHORPHAN HYDROBROMIDE\DOXYLAMINE SUCCINATE\PHENYLEPHRINE HYDROCHLORIDE OR HOMEOPATHICS,4,1,none,0,,some_components_present
+BETRIXABAN,4,0,none,0,,absent_from_nda_bla_universe
+SPARTALIZUMAB,4,0,none,0,,absent_from_nda_bla_universe
+DEXTRAN 70\GLYCERIN\HYPROMELLOSES,4,1,none,0,,some_components_present
+AGROSTIS GIGANTEA POLLEN\ANTHOXANTHUM ODORATUM POLLEN\DACTYLIS GLOMERATA POLLEN\FESTUCA PRATENSIS POLLEN\LOLIUM PERENNE POLLEN\PHLEUM PRATENSE POLLEN\POA PRATENSIS POLLEN,4,1,none,0,,some_components_present
+PROMETHAZINE HYDROCHLORIDE\THIOUREA,4,1,none,0,,some_components_present
+ACETAMINOPHEN\ASPIRIN\CHLORPHENIRAMINE MALEATE\DEXTROMETHORPHAN HYDROBROMIDE\DIPHENHYDRAMINE HYDROCHLORIDE\DOXYLAMINE SUCCINATE\PHENYLEPHRINE BITARTRATE\PHENYLEPHRINE HYDROCHLORIDE,4,1,none,0,,all_components_present_matcher_gap
+ALUMINUM CHLOROHYDRATE OR ALUMINUM ZIRCONIUM TETRACHLOROHYDREX GLY,4,0,none,0,,absent_from_nda_bla_universe
+PRIMAQUINE,4,0,none,0,,all_components_present_matcher_gap
+MEPROBAMATE,4,0,none,0,,absent_from_nda_bla_universe
+INTERFERON ALFA-1B,4,0,none,0,,absent_from_nda_bla_universe
+INTERFERON ALFA-2A,4,0,none,0,,all_components_present_matcher_gap
+TREBANANIB,4,0,none,0,,absent_from_nda_bla_universe
+MEXILETINE,4,0,none,0,,absent_from_nda_bla_universe
+CEPHALEXIN HYDROCHLORIDE,4,0,none,0,,absent_from_nda_bla_universe
+EMAPALUMAB,4,0,none,0,,all_components_present_matcher_gap
+"AMPHOTERICIN B\DIMYRISTOYLPHOSPHATIDYLCHOLINE, DL-\DIMYRISTOYLPHOSPHATIDYLGLYCEROL, DL-",3,1,none,0,,some_components_present
+PAROMOMYCIN SULFATE,3,0,none,0,,absent_from_nda_bla_universe
+OCTINOXATE\OCTOCRYLENE,3,1,none,0,,absent_from_nda_bla_universe
+TRIFLUOPERAZINE HYDROCHLORIDE,3,0,none,0,,absent_from_nda_bla_universe
+HUMAN BOTULINUM NEUROTOXIN A/B IMMUNE GLOBULIN,3,0,none,0,,all_components_present_matcher_gap
+OCTINOXATE\OCTISALATE\ZINC OXIDE,3,1,none,0,,some_components_present
+CANNABIDIOL\CANNABIS SATIVA SEED OIL,3,1,none,0,,some_components_present
+SENNOSIDES A AND B,3,0,none,0,,absent_from_nda_bla_universe
+HERBALS\TETRAHYDROCANNABINOL UNSPECIFIED,3,1,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\DEXTROMETHORPHAN HYDROBROMIDE\DOXYLAMINE SUCCINATE\GUAIFENESIN\PHENYLEPHRINE HYDROCHLORIDE,3,1,none,0,,all_components_present_matcher_gap
+EPHEDRINE SULFATE\GUAIFENESIN,3,1,none,0,,all_components_present_matcher_gap
+TITANIUM DIOXIDE,3,0,none,0,,absent_from_nda_bla_universe
+METFORMIN\VILDAGLIPTIN,3,1,none,0,,some_components_present
+BUPIVACAINE HYDROCHLORIDE\FENTANYL CITRATE,3,1,none,0,,all_components_present_matcher_gap
+INFLIXIMAB-QBTX,3,0,none,0,,absent_from_nda_bla_universe
+GLICLAZIDE,3,0,none,0,,absent_from_nda_bla_universe
+HALCINONIDE,3,0,none,0,,all_components_present_matcher_gap
+"ESTROGENS, CONJUGATED SYNTHETIC B",3,0,none,0,,all_components_present_matcher_gap
+TRIHEXYPHENIDYL,3,0,none,0,,absent_from_nda_bla_universe
+SORGHUM HALEPENSE POLLEN,3,0,none,0,,absent_from_nda_bla_universe
+ERGOTAMINE TARTRATE,3,0,none,0,,all_components_present_matcher_gap
+VESTRONIDASE ALFA-VJBK,3,0,none,0,,absent_from_nda_bla_universe
+OXYTETRACYCLINE\OXYTETRACYCLINE HYDROCHLORIDE,3,1,none,0,,absent_from_nda_bla_universe
+ANASTROZOLE\TESTOSTERONE,3,1,none,0,,all_components_present_matcher_gap
+AVOBENZONE\HOMOSALATE\OCTINOXATE\OCTISALATE\OCTOCRYLENE\OXYBENZONE,3,1,none,0,,absent_from_nda_bla_universe
+BUPIVACAINE\DEXTROSE,3,1,none,0,,all_components_present_matcher_gap
+"CALCIUM CL\MAGNESIUM CL\POTASSIUM CL\SODIUM BICAR\SODIUM CL\SODIUM PHOSPHATE,DIB",3,1,none,0,,some_components_present
+PAMIDRONIC ACID,3,0,none,0,,absent_from_nda_bla_universe
+GLYCOPYRRONIUM\FORMOTEROL FUMARATE,3,1,none,0,,all_components_present_matcher_gap
+TICLOPIDINE HYDROCHLORIDE,3,0,none,0,,absent_from_nda_bla_universe
+NANDROLONE DECANOATE,3,0,none,0,,absent_from_nda_bla_universe
+MALATHION,3,0,none,0,,absent_from_nda_bla_universe
+CORTISONE,3,0,none,0,,all_components_present_matcher_gap
+XYLOMETAZOLINE,3,0,none,0,,absent_from_nda_bla_universe
+ESTROPIPATE,3,0,none,0,,absent_from_nda_bla_universe
+DIMETHICONE\OCTINOXATE\OXYBENZONE,3,1,none,0,,some_components_present
+QUINAPRIL\QUINAPRIL HYDROCHLORIDE,3,1,none,0,,all_components_present_matcher_gap
+"ALANINE\AMINO ACIDS\ARGININE\CALCIUM CHLORIDE\DEXTROSE\GLYCINE\HISTIDINE\ISOLEUCINE\LEUCINE\LYSINE\MAGNESIUM CHLORIDE\METHIONINE\PHENYLALANINE\POTASSIUM PHOSPHATE, DIBASIC\PROLINE\PROLINE, DL-\SERINE\SODIUM ACETATE\SODIUM CHLORIDE\THREONINE\TRYPTOPHAN\TYROSINE\VALINE",3,1,none,0,,some_components_present
+CODEINE\IBUPROFEN,3,1,none,0,,all_components_present_matcher_gap
+ISOPROPYL ALCOHOL\LEUPROLIDE ACETATE\NORETHINDRONE ACETATE,3,1,none,0,,all_components_present_matcher_gap
+GLYCERIN\HYPROMELLOSES\POLYETHYLENE GLYCOL 400,3,1,none,0,,some_components_present
+ASUNAPREVIR\BECLABUVIR HYDROCHLORIDE\DACLATASVIR DIHYDROCHLORIDE,3,1,none,0,,absent_from_nda_bla_universe
+NAPHAZOLINE HYDROCHLORIDE\POLYSORBATE 80,3,1,none,0,,all_components_present_matcher_gap
+.ALPHA.-TOCOPHEROL ACETATE\ASCORBIC ACID\BIOTIN\CHOLECALCIFEROL\CYANOCOBALAMIN\DEXPANTHENOL\FOLIC ACID\NIACINAMIDE\PHYTONADIONE\PYRIDOXINE\RIBOFLAVIN\THIAMINE\VITAMIN A,3,1,none,0,,some_components_present
+HYPROMELLOSES\TETRAHYDROZOLINE HYDROCHLORIDE\ZINC SULFATE,3,1,none,0,,absent_from_nda_bla_universe
+DIAMORPHINE,3,0,none,0,,absent_from_nda_bla_universe
+GLIPIZIDE\METFORMIN HYDROCHLORIDE,3,1,none,0,,all_components_present_matcher_gap
+MINERALS\OMEGA-3 FATTY ACIDS\VITAMINS,3,1,none,0,,some_components_present
+FINASTERIDE\MINOXIDIL,3,1,none,0,,all_components_present_matcher_gap
+FLUCLOXACILLIN,3,0,none,0,,absent_from_nda_bla_universe
+ERTUGLIFLOZIN PIDOLATE\SITAGLIPTIN PHOSPHATE,3,1,none,0,,some_components_present
+FLUPHENAZINE DECANOATE,3,0,none,0,,absent_from_nda_bla_universe
+EGG PHOSPHOLIPIDS\SAFFLOWER OIL\SOYBEAN OIL,3,1,none,0,,some_components_present
+HEPATITIS B VIRUS VACCINE,3,0,none,0,,absent_from_nda_bla_universe
+BENZOCAINE\BUTAMBEN\TETRACAINE HYDROCHLORIDE,3,1,none,0,,some_components_present
+DEXAMETHASONE SODIUM PHOSPHATE\MOXIFLOXACIN HYDROCHLORIDE,3,1,none,0,,all_components_present_matcher_gap
+TASELISIB,3,0,none,0,,absent_from_nda_bla_universe
+BACITRACIN\NEOMYCIN\POLYMYXIN,3,1,none,0,,some_components_present
+CEPHALEXIN MONOHYDRATE,3,0,none,0,,absent_from_nda_bla_universe
+FARICIMAB\FARICIMAB-SVOA,3,1,none,0,,some_components_present
+AMINOSALICYLIC ACID,3,0,none,0,,absent_from_nda_bla_universe
+WITCH HAZEL,3,0,none,0,,absent_from_nda_bla_universe
+ADUCANUMAB,3,0,none,0,,absent_from_nda_bla_universe
+SALSOLA KALI POLLEN,3,0,none,0,,absent_from_nda_bla_universe
+ELECTROLYTES NOS,3,0,none,0,,absent_from_nda_bla_universe
+LEVOSIMENDAN,3,0,none,0,,absent_from_nda_bla_universe
+MENTHOL\TROLAMINE SALICYLATE,3,1,none,0,,some_components_present
+POVIDONE,3,0,none,0,,all_components_present_matcher_gap
+BENZETHONIUM CHLORIDE,3,0,none,0,,absent_from_nda_bla_universe
+AMOXICILLIN\CLARITHROMYCIN\RABEPRAZOLE,3,1,none,0,,all_components_present_matcher_gap
+LEVOBUNOLOL HYDROCHLORIDE,3,0,none,0,,absent_from_nda_bla_universe
+CEFACLOR,3,0,none,0,,absent_from_nda_bla_universe
+ISOPROTERENOL,3,0,none,0,,absent_from_nda_bla_universe
+SUFENTANIL CITRATE,3,0,none,0,,all_components_present_matcher_gap
+IPATASERTIB,3,0,none,0,,absent_from_nda_bla_universe
+CHLORPHENIRAMINE\HYDROCODONE,2,1,none,0,,all_components_present_matcher_gap
+POLYSTYRENE SULFONIC ACID,2,0,none,0,,absent_from_nda_bla_universe
+ISCALIMAB,2,0,none,0,,absent_from_nda_bla_universe
+ANIFROLUMAB,2,0,none,0,,all_components_present_matcher_gap
+SIMLUKAFUSP ALFA,2,0,none,0,,absent_from_nda_bla_universe
+U-47700,2,0,none,0,,absent_from_nda_bla_universe
+PROCHLORPERAZINE EDISYLATE,2,0,none,0,,absent_from_nda_bla_universe
+TRIFLUOPERAZINE\TRIFLUOPERAZINE HYDROCHLORIDE,2,1,none,0,,absent_from_nda_bla_universe
+CAMPHOR (SYNTHETIC)\MENTHOL\PETROLATUM\PHENOL,2,1,none,0,,some_components_present
+CYPROTERONE ACETATE\ETHINYL ESTRADIOL,2,1,none,0,,some_components_present
+CANNABIDIOL\.DELTA.8-TETRAHYDROCANNABINOL\DEVICE\HERBALS,2,1,none,0,,some_components_present
+CHLORPROPAMIDE,2,0,none,0,,absent_from_nda_bla_universe
+BENDROFLUMETHIAZIDE,2,0,none,0,,absent_from_nda_bla_universe
+ESTROGENS\TESTOSTERONE,2,1,none,0,,all_components_present_matcher_gap
+AD26.COV2.S,2,0,none,0,,absent_from_nda_bla_universe
+SULPIRIDE,2,0,none,0,,absent_from_nda_bla_universe
+TRIMIPRAMINE,2,0,none,0,,absent_from_nda_bla_universe
+PARKINSONIA FLORIDA POLLEN,2,0,none,0,,absent_from_nda_bla_universe
+EUGENOL,2,0,none,0,,absent_from_nda_bla_universe
+PEGADEMASE BOVINE,2,0,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\OCTISALATE\OCTOCRYLENE\OXYBENZONE,2,1,none,0,,absent_from_nda_bla_universe
+LACTOBACILLUS PLANTARUM,2,0,none,0,,absent_from_nda_bla_universe
+INDAPAMIDE\PERINDOPRIL,2,1,none,0,,all_components_present_matcher_gap
+EPINEPHRINE\MEPIVACAINE HYDROCHLORIDE,2,1,none,0,,some_components_present
+AMLODIPINE BENZOATE,2,0,none,0,,absent_from_nda_bla_universe
+STRONTIUM CHLORIDE SR-89,2,0,none,0,,absent_from_nda_bla_universe
+CIBISATAMAB,2,0,none,0,,absent_from_nda_bla_universe
+CANNABIS SATIVA SEED OIL,2,0,none,0,,absent_from_nda_bla_universe
+ASPIRIN\CALCIUM CARBONATE,2,1,none,0,,all_components_present_matcher_gap
+THIAMINE HYDROCHLORIDE,2,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\DEXTROMETHORPHAN HYDROBROMIDE\DOXYLAMINE SUCCINATE\GUAIFENESIN,2,1,none,0,,all_components_present_matcher_gap
+CAPSICUM OLEORESIN,2,0,none,0,,absent_from_nda_bla_universe
+GLYCERIN\LIDOCAINE,2,1,none,0,,all_components_present_matcher_gap
+METHAZOLAMIDE,2,0,none,0,,absent_from_nda_bla_universe
+VITAMIN A PALMITATE,2,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\CHLORPHENIRAMINE HYDROCHLORIDE\DEXTROMETHORPHAN\GUAIFENESIN\PHENYLPROPANOLAMINE HYDROCHLORIDE\PSEUDOEPHEDRINE HYDROCHLORIDE,2,1,none,0,,some_components_present
+DEXTROSE\LACTIC ACID\MAGNESIUM CL\POTASSIUM CL\SODIUM BICARBONATE\SODIUM CL,2,1,none,0,,some_components_present
+MOSUNETUZUMAB-AXGB,2,0,none,0,,absent_from_nda_bla_universe
+CEFAZOLIN\DEXTROSE,2,1,none,0,,all_components_present_matcher_gap
+HYDROQUINONE\OCTINOXATE,2,1,none,0,,some_components_present
+ENALAPRILAT,2,0,none,0,,absent_from_nda_bla_universe
+MINERAL OIL,2,0,none,0,,absent_from_nda_bla_universe
+DIPHENHYDRAMINE HYDROCHLORIDE\ZINC ACETATE,2,1,none,0,,some_components_present
+PHENYLEPHRINE HYDROCHLORIDE\WITCH HAZEL,2,1,none,0,,some_components_present
+BUPIVACAINE\FENTANYL,2,1,none,0,,all_components_present_matcher_gap
+ECHINACEA ANGUSTIFOLIA\HOMEOPATHICS\ZINC ACETATE\ZINC GLUCONATE OR HOMEOPATHICS\ZINC ACETATE\ZINC GLUCONATE,2,1,none,0,,absent_from_nda_bla_universe
+AMBROSIA ARTEMISIIFOLIA POLLEN\AMBROSIA BIDENTATA POLLEN\AMBROSIA PSILOSTACHYA POLLEN\AMBROSIA TRIFIDA POLLEN,2,1,none,0,,some_components_present
+TRIHEXYPHENIDYL HYDROCHLORIDE,2,0,none,0,,absent_from_nda_bla_universe
+TROLAMINE SALICYLATE,2,0,none,0,,absent_from_nda_bla_universe
+SCORPION (CENTRUROIDES) IMMUNE FAB2 ANTIVENIN (EQUINE),2,0,none,0,,absent_from_nda_bla_universe
+METHYLENEDIOXYPYROVALERONE HYDROCHLORIDE,2,0,none,0,,absent_from_nda_bla_universe
+FLURBIPROFEN SODIUM,2,0,none,0,,all_components_present_matcher_gap
+TEZEPELUMAB,2,0,none,0,,all_components_present_matcher_gap
+UMBRALISIB TOSYLATE,2,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\PHENIRAMINE MALEATE\PHENYLEPHRINE HYDROCHLORIDE,2,1,none,0,,all_components_present_matcher_gap
+VITAMIN A,2,0,none,0,,absent_from_nda_bla_universe
+ETIDRONATE DISODIUM,2,0,none,0,,absent_from_nda_bla_universe
+DEXAMETHASONE SODIUM PHOSPHATE\MOXIFLOXACIN HYDROCHLORIDE MONOHYDRATE,2,1,none,0,,all_components_present_matcher_gap
+CLARITHROMYCIN LACTOBIONATE,2,0,none,0,,absent_from_nda_bla_universe
+GLYCERIN\HYPROMELLOSES\POLYETHYLENE GLYCOL 400\TETRAHYDROZOLINE HYDROCHLORIDE\ZINC SULFATE,2,1,none,0,,some_components_present
+STREPTOMYCIN\STREPTOMYCIN SULFATE,2,1,none,0,,absent_from_nda_bla_universe
+MEROPENEM\SODIUM CHLORIDE,2,1,none,0,,all_components_present_matcher_gap
+TECHNETIUM TC-99M TILMANOCEPT,2,0,none,0,,absent_from_nda_bla_universe
+DEVICE\HERBALS,2,1,none,0,,some_components_present
+"AMINO ACIDS, SOURCE UNSPECIFIED",2,0,none,0,,absent_from_nda_bla_universe
+XYLITOL,2,0,none,0,,absent_from_nda_bla_universe
+ATAZANAVIR\RITONAVIR,2,1,none,0,,all_components_present_matcher_gap
+TECHNETIUM TC-99M MEBROFENIN,2,0,none,0,,absent_from_nda_bla_universe
+CYCLOPHOSPHAMIDE\DOXORUBICIN\ETOPOSIDE\PREDNISONE\RITUXIMAB\VINCRISTINE,2,1,none,0,,some_components_present
+CLOBETASONE BUTYRATE,2,0,none,0,,absent_from_nda_bla_universe
+ISOPROTERENOL HYDROCHLORIDE,2,0,none,0,,absent_from_nda_bla_universe
+GANIRELIX,2,0,none,0,,all_components_present_matcher_gap
+"COAGULATION FACTOR IX (RECOMBINANT), GLYCOPEGYLATED",2,0,none,0,,all_components_present_matcher_gap
+DIFLUNISAL,2,0,none,0,,absent_from_nda_bla_universe
+TECHNETIUM TC-99M ALBUMIN AGGREGATED,2,0,none,0,,absent_from_nda_bla_universe
+ETHINYL ESTRADIOL\GESTODENE,2,1,none,0,,some_components_present
+LAMIVUDINE\NEVIRAPINE\STAVUDINE,2,1,none,0,,all_components_present_matcher_gap
+FLUOCINOLONE,2,0,none,0,,all_components_present_matcher_gap
+FOSINOPRIL SODIUM,2,0,none,0,,absent_from_nda_bla_universe
+APIS MELLIFERA,2,0,none,0,,absent_from_nda_bla_universe
+FAVIPIRAVIR,2,0,none,0,,absent_from_nda_bla_universe
+FERRIC SUBSULFATE,2,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\DEXTROMETHORPHAN\PHENYLEPHRINE,2,1,none,0,,all_components_present_matcher_gap
+ACETAMINOPHEN\BUTALBITAL\CAFFEINE\CODEINE PHOSPHATE,2,1,none,0,,all_components_present_matcher_gap
+MITRAGYNINE,2,0,none,0,,absent_from_nda_bla_universe
+LEVOBUPIVACAINE,2,0,none,0,,absent_from_nda_bla_universe
+ALUMINUM ZIRCONIUM OCTACHLOROHYDREX GLY,2,0,none,0,,absent_from_nda_bla_universe
+EUCALYPTOL\MENTHOL,2,1,none,0,,some_components_present
+DELORAZEPAM,2,0,none,0,,absent_from_nda_bla_universe
+EPHEDRINE HYDROCHLORIDE\GUAIFENESIN,2,1,none,0,,all_components_present_matcher_gap
+COPPER OXODOTREOTIDE CU-64,2,0,none,0,,absent_from_nda_bla_universe
+INDIUM IN-111 CHLORIDE\INDIUM IN-111 PENTETREOTIDE\PENTETREOTIDE,2,1,none,0,,some_components_present
+JUNIPERUS ASHEI POLLEN,2,0,none,0,,absent_from_nda_bla_universe
+LEVOTHYROXINE SODIUM\LIOTHYRONINE SODIUM,2,1,none,0,,all_components_present_matcher_gap
+CIPROFLOXACIN HYDROCHLORIDE\DEXTROSE,2,1,none,0,,all_components_present_matcher_gap
+ACETAMINOPHEN\CAFFEINE\SALICYLIC ACID,2,1,none,0,,all_components_present_matcher_gap
+LIDOCAINE\MENTHOL,2,1,none,0,,all_components_present_matcher_gap
+AMOXICILLIN\CLARITHROMYCIN\ESOMEPRAZOLE,2,1,none,0,,all_components_present_matcher_gap
+MEROPENEM\VABORBACTAM,2,1,none,0,,all_components_present_matcher_gap
+SULFANILAMIDE,2,0,none,0,,absent_from_nda_bla_universe
+FOLLICLE STIMULATING HORMONE BETA POLYPEPTIDE\LUTROPIN ALFA,2,1,none,0,,absent_from_nda_bla_universe
+AMLODIPINE BESYLATE\ATENOLOL,2,1,none,0,,all_components_present_matcher_gap
+CYANOCOBALAMIN\SEMAGLUTIDE,2,1,none,0,,all_components_present_matcher_gap
+LUTEIN\MINERALS\VITAMINS\ZEAXANTHIN,2,1,none,0,,some_components_present
+PROPIOMAZINE,2,0,none,0,,absent_from_nda_bla_universe
+AMLODIPINE\LOSARTAN,2,1,none,0,,all_components_present_matcher_gap
+IODINE I-125,2,0,none,0,,absent_from_nda_bla_universe
+SECOBARBITAL SODIUM,2,0,none,0,,absent_from_nda_bla_universe
+GONADORELIN,2,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\PHENYLEPHRINE HYDROCHLORIDE,2,1,none,0,,all_components_present_matcher_gap
+DAPAGLIFLOZIN\SAXAGLIPTIN HYDROCHLORIDE,2,1,none,0,,all_components_present_matcher_gap
+GADOFOSVESET TRISODIUM,2,0,none,0,,absent_from_nda_bla_universe
+NALBUPHINE,2,0,none,0,,absent_from_nda_bla_universe
+DIMETHICONE\PETROLATUM,1,1,none,0,,all_components_present_matcher_gap
+SELENIOUS ACID,1,0,none,0,,all_components_present_matcher_gap
+FOSNETUPITANT\PALONOSETRON HYDROCHLORIDE,1,1,none,0,,all_components_present_matcher_gap
+ALLERGENIC EXTRACTS,1,0,none,0,,absent_from_nda_bla_universe
+ALISERTIB,1,0,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\OCTOCRYLENE\TRICLOSAN,1,1,none,0,,some_components_present
+ANTITHROMBIN ALFA,1,0,none,0,,absent_from_nda_bla_universe
+BACITRACIN\NEOMYCIN\POLYMYXIN B SULFATE,1,1,none,0,,some_components_present
+GRAMICIDIN\NEOMYCIN SULFATE\POLYMYXIN B SULFATE,1,1,none,0,,some_components_present
+BETAMETHASONE DIPROPIONATE\SALICYLIC ACID,1,1,none,0,,all_components_present_matcher_gap
+BENZODIAZEPINE,1,0,none,0,,absent_from_nda_bla_universe
+ETHYL ICOSAPENTATE,1,0,none,0,,absent_from_nda_bla_universe
+OXYTETRACYCLINE HYDROCHLORIDE,1,0,none,0,,absent_from_nda_bla_universe
+"ESTROGENS, CONJUGATED SYNTHETIC A",1,0,none,0,,all_components_present_matcher_gap
+LIDOCAINE\PHENYLEPHRINE,1,1,none,0,,all_components_present_matcher_gap
+CEDIRANIB,1,0,none,0,,absent_from_nda_bla_universe
+ECHINACEA ANGUSTIFOLIA\ZINC ACETATE ANHYDROUS\ZINC GLUCONATE,1,1,none,0,,absent_from_nda_bla_universe
+OMACETAXINE,1,0,none,0,,absent_from_nda_bla_universe
+BETULA LENTA POLLEN,1,0,none,0,,all_components_present_matcher_gap
+AMOXAPINE,1,0,none,0,,absent_from_nda_bla_universe
+PINUS STROBUS POLLEN,1,0,none,0,,absent_from_nda_bla_universe
+OPICINUMAB,1,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\BROMPHENIRAMINE\CHLORPHENIRAMINE\DEXTROMETHORPHAN\GUAIFENESIN\IBUPROFEN\PHENYLEPHRINE\PHENYLPROPANOLAMINE\PSEUDOEPHEDRINE,1,1,none,0,,some_components_present
+AMOXICILLIN\METRONIDAZOLE\RABEPRAZOLE,1,1,none,0,,all_components_present_matcher_gap
+DIMETHICONE\MENTHOL,1,1,none,0,,all_components_present_matcher_gap
+EGG WHITE,1,0,none,0,,all_components_present_matcher_gap
+INSULIN BEEF,1,0,none,0,,absent_from_nda_bla_universe
+PINDOLOL,1,0,none,0,,absent_from_nda_bla_universe
+LODOXAMIDE TROMETHAMINE,1,0,none,0,,absent_from_nda_bla_universe
+ALLOPURINOL\LESINURAD,1,1,none,0,,some_components_present
+NYSTATIN\TRIAMCINOLONE,1,1,none,0,,all_components_present_matcher_gap
+MEXILETINE HYDROCHLORIDE,1,0,none,0,,absent_from_nda_bla_universe
+SODIUM SULFIDE,1,0,none,0,,absent_from_nda_bla_universe
+MESTRANOL\NORETHINDRONE,1,1,none,0,,some_components_present
+BILASTINE,1,0,none,0,,absent_from_nda_bla_universe
+CARYA ILLINOINENSIS POLLEN,1,0,none,0,,all_components_present_matcher_gap
+CAPSAICIN\MENTHOL,1,1,none,0,,all_components_present_matcher_gap
+CAMPHOR\MENTHOL\PHENOL\POTASSIUM ALUM\SALICYLIC ACID,1,1,none,0,,some_components_present
+CALENDULA OFFICINALIS FLOWERING TOP\MELALEUCA CAJUPUTI LEAF OIL\OLEA EUROPAEA FRUIT VOLATILE OIL,1,1,none,0,,absent_from_nda_bla_universe
+CALCIUM CARBONATE\CHOLECALCIFEROL,1,1,none,0,,all_components_present_matcher_gap
+HERBALS\HONEY,1,1,none,0,,some_components_present
+PRAMIPEXOLE\PRAMIPEXOLE DIHYDROCHLORIDE,1,1,none,0,,all_components_present_matcher_gap
+SAVOLITINIB,1,0,none,0,,absent_from_nda_bla_universe
+GALLIUM CITRATE GA-67,1,0,none,0,,absent_from_nda_bla_universe
+HETASTARCH,1,0,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\HOMOSALATE\OCTISALATE\OXYBENZONE\PETROLATUM,1,1,none,0,,some_components_present
+PRASTERONE\TESTOSTERONE,1,1,none,0,,all_components_present_matcher_gap
+IOXAGLATE MEGLUMINE\IOXAGLATE SODIUM,1,1,none,0,,absent_from_nda_bla_universe
+ATORVASTATIN\EZETIMIBE,1,1,none,0,,all_components_present_matcher_gap
+TRIMIPRAMINE MALEATE,1,0,none,0,,absent_from_nda_bla_universe
+DOCUSATE,1,0,none,0,,absent_from_nda_bla_universe
+AMINO ACIDS,1,0,none,0,,absent_from_nda_bla_universe
+CALCIUM CHLORIDE\DEXTROSE\MAGNESIUM CHLORIDE\SODIUM CHLORIDE SOLUTION,1,1,none,0,,all_components_present_matcher_gap
+MENTHOL\ZINC ACETATE\ZINC GLUCONATE,1,1,none,0,,some_components_present
+PHENCYCLIDINE,1,0,none,0,,absent_from_nda_bla_universe
+IMIPRAMINE PAMOATE,1,0,none,0,,all_components_present_matcher_gap
+BENZOCAINE\DEXTROMETHORPHAN HYDROBROMIDE,1,1,none,0,,some_components_present
+METAMIZOLE SODIUM,1,0,none,0,,absent_from_nda_bla_universe
+PLATELET RICH PLASMA,1,0,none,0,,absent_from_nda_bla_universe
+MINERALS\POTASSIUM IODIDE\VITAMINS,1,1,none,0,,some_components_present
+NALTREXONE HYDROCHLORIDE\OXYCODONE HYDROCHLORIDE,1,1,none,0,,all_components_present_matcher_gap
+BETAMETHASONE\BETAMETHASONE DIPROPIONATE\CLOTRIMAZOLE,1,1,none,0,,all_components_present_matcher_gap
+BACITRACIN ZINC,1,0,none,0,,absent_from_nda_bla_universe
+BUTYLSCOPOLAMINE BROMIDE,1,0,none,0,,absent_from_nda_bla_universe
+BROMPHENIRAMINE MALEATE\DEXTROMETHORPHAN HYDROBROMIDE\PHENYLEPHRINE HYDROCHLORIDE,1,1,none,0,,some_components_present
+GONADORELIN ACETATE,1,0,none,0,,absent_from_nda_bla_universe
+PEGAPTANIB SODIUM,1,0,none,0,,absent_from_nda_bla_universe
+MELPERONE,1,0,none,0,,absent_from_nda_bla_universe
+"HYALURONIDASE, OVINE",1,0,none,0,,all_components_present_matcher_gap
+ACETAMINOPHEN\CHLORPHENIRAMINE MALEATE\PHENYLEPHRINE HYDROCHLORIDE,1,1,none,0,,all_components_present_matcher_gap
+CANIS LUPUS FAMILIARIS SKIN,1,0,none,0,,all_components_present_matcher_gap
+SABATOLIMAB,1,0,none,0,,absent_from_nda_bla_universe
+"HEPARIN SODIUM, BOVINE",1,0,none,0,,all_components_present_matcher_gap
+HOMOSALATE\OCTINOXATE\OCTISALATE\OXYBENZONE,1,1,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\CHLORPHENIRAMINE MALEATE\DEXTROMETHORPHAN HYDROBROMIDE\PHENYLEPHRINE HYDROCHLORIDE OR ACETAMINOPHEN\DEXTROMETHORPHAN HYDROBROMIDE\DOXYLAMINE SUCCINATE\PHENYLEPHRINE HYDROCHLORIDE,1,1,none,0,,some_components_present
+POLYETHYLENE GLYCOL 4000,1,0,none,0,,absent_from_nda_bla_universe
+CEFOPERAZONE,1,0,none,0,,absent_from_nda_bla_universe
+ALPROSTADIL ALFADEX,1,0,none,0,,absent_from_nda_bla_universe
+DENDRYPHIELLA VINOSA,1,0,none,0,,absent_from_nda_bla_universe
+DIENOGEST\ETHINYL ESTRADIOL,1,1,none,0,,all_components_present_matcher_gap
+MOXIFLOXACIN\NEPAFENAC\PREDNISOLONE ACETATE,1,1,none,0,,all_components_present_matcher_gap
+CORIFOLLITROPIN ALFA,1,0,none,0,,absent_from_nda_bla_universe
+DABRAFENIB\TRAMETINIB,1,1,none,0,,all_components_present_matcher_gap
+APROTININ\CALCIUM CHLORIDE\FIBRINOGEN HUMAN\FACTOR XIII CONCENTRATE (HUMAN)\THROMBIN,1,1,none,0,,some_components_present
+PROPARACAINE,1,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\CHLORPHENIRAMINE\DEXTROMETHORPHAN,1,1,none,0,,all_components_present_matcher_gap
+LIPEGFILGRASTIM,1,0,none,0,,absent_from_nda_bla_universe
+PIRBUTEROL ACETATE,1,0,none,0,,absent_from_nda_bla_universe
+BACITRACIN ZINC\NEOMYCIN SULFATE\POLYMYXIN B SULFATE\PRAMOXINE HYDROCHLORIDE,1,1,none,0,,some_components_present
+ARNICA MONTANA\CAUSTICUM\COMFREY ROOT\HOMEOPATHICS\LEDUM PALUSTRE TWIG\PSEUDOGNAPHALIUM OBTUSIFOLIUM\TOXICODENDRON PUBESCENS LEAF,1,1,none,0,,absent_from_nda_bla_universe
+SUTIMLIMAB,1,0,none,0,,all_components_present_matcher_gap
+FLORBETAPIR F-18,1,0,none,0,,absent_from_nda_bla_universe
+ALBUMIN HUMAN OR GLYCERIN OR PHENOL,1,0,none,0,,absent_from_nda_bla_universe
+TIANEPTINE SODIUM,1,0,none,0,,absent_from_nda_bla_universe
+HUMAN ROTAVIRUS A TYPE G1P(8) STRAIN RIX4414 LIVE ANTIGEN,1,0,none,0,,absent_from_nda_bla_universe
+OCTINOXATE\OXYBENZONE\PETROLATUM,1,1,none,0,,some_components_present
+MOROCTOCOG ALFA,1,0,none,0,,absent_from_nda_bla_universe
+KD-033,1,0,none,0,,absent_from_nda_bla_universe
+LEUCOVORIN CALCIUM PENTAHYDRATE,1,0,none,0,,absent_from_nda_bla_universe
+ALPROSTADIL\PAPAVERINE\PHENTOLAMINE,1,1,none,0,,some_components_present
+DIACETYLMORPHINE HYDROCHLORIDE,1,0,none,0,,absent_from_nda_bla_universe
+BENZOYL PEROXIDE\SALICYLIC ACID,1,1,none,0,,all_components_present_matcher_gap
+THIOTHIXENE HYDROCHLORIDE,1,0,none,0,,absent_from_nda_bla_universe
+AVOBENZONE\OCTINOXATE\OCTISALATE,1,1,none,0,,absent_from_nda_bla_universe
+ALUMINUM ZIRCONIUM OCTACHLOROHYDREX GLY\ALUMINUM ZIRCONIUM TRICHLOROHYDREX GLY,1,1,none,0,,absent_from_nda_bla_universe
+BEPOTASTINE,1,0,none,0,,all_components_present_matcher_gap
+PISTACHIO,1,0,none,0,,absent_from_nda_bla_universe
+CASANTHRANOL\DOCUSATE SODIUM,1,1,none,0,,absent_from_nda_bla_universe
+TRALOKINUMAB,1,0,none,0,,all_components_present_matcher_gap
+COAL TAR,1,0,none,0,,absent_from_nda_bla_universe
+STREPTOMYCIN SULFATE,1,0,none,0,,absent_from_nda_bla_universe
+PEGZEREPOETIN ALFA,1,0,none,0,,absent_from_nda_bla_universe
+AMOXICILLIN\CLARITHROMYCIN\VONOPRAZAN FUMURATE,1,1,none,0,,some_components_present
+CLAVULANATE POTASSIUM\TICARCILLIN DISODIUM,1,1,none,0,,some_components_present
+ESTRAMUSTINE,1,0,none,0,,absent_from_nda_bla_universe
+TNB-383B,1,0,none,0,,absent_from_nda_bla_universe
+ALANINE\ARGININE\ASPARTIC ACID\CYSTEINE\GLUTAMIC ACID\GLYCINE\HISTIDINE\ISOLEUCINE\LEUCINE\LYSINE\METHIONINE\ORNITHINE HYDROCHLORIDE\PHENYLALANINE\PROLINE\SERINE\TAURINE\THREONINE\TRYPTOPHAN\TYROSINE\VALINE,1,1,none,0,,all_components_present_matcher_gap
+ADENOSINE PHOSPHATE,1,0,none,0,,absent_from_nda_bla_universe
+PYRANTEL PAMOATE,1,0,none,0,,absent_from_nda_bla_universe
+FLUOROURACIL\IRINOTECAN\LEUCOVORIN\OXALIPLATIN,1,1,none,0,,some_components_present
+DEXTROMETHORPHAN\PHENYLEPHRINE,1,1,none,0,,all_components_present_matcher_gap
+ACER SACCHARUM POLLEN\BETULA NIGRA POLLEN\CARYA OVATA POLLEN\FAGUS GRANDIFOLIA POLLEN\FRAXINUS AMERICANA POLLEN\POPULUS DELTOIDES POLLEN\QUERCUS RUBRA POLLEN\ULMUS AMERICANA POLLEN,1,1,none,0,,some_components_present
+ALLANTOIN\BENZOCAINE\CAMPHOR (NATURAL)\DIMETHICONE\MENTHOL,1,1,none,0,,some_components_present
+ARNICA MONTANA,1,0,none,0,,absent_from_nda_bla_universe
+DIETARY SUPPLEMENT\FLAVOCOXID,1,1,none,0,,absent_from_nda_bla_universe
+ERTUGLIFLOZIN PIDOLATE\METFORMIN HYDROCHLORIDE,1,1,none,0,,some_components_present
+METAMIZOLE,1,0,none,0,,absent_from_nda_bla_universe
+SODIUM CHLORITE,1,0,none,0,,absent_from_nda_bla_universe
+ESTRADIOL\TESTOSTERONE,1,1,none,0,,all_components_present_matcher_gap
+RO-6870810,1,0,none,0,,absent_from_nda_bla_universe
+AMILORIDE,1,0,none,0,,all_components_present_matcher_gap
+EPINASTINE HYDROCHLORIDE,1,0,none,0,,absent_from_nda_bla_universe
+ACETAMINOPHEN\CAFFEINE\DIHYDROCODEINE BITARTRATE,1,1,none,0,,some_components_present
+ASPIRIN\BUTALBITAL\CAFFEINE\CODEINE PHOSPHATE,1,1,none,0,,all_components_present_matcher_gap
+EPTINEZUMAB,1,0,none,0,,all_components_present_matcher_gap
+ALOE VERA LEAF,1,0,none,0,,absent_from_nda_bla_universe
+MINERAL OIL\PARAFFIN\PETROLATUM,1,1,none,0,,some_components_present
+DEXPANTHENOL,1,0,none,0,,absent_from_nda_bla_universe
+FOLLITROPIN\LUTROPIN ALFA,1,1,none,0,,some_components_present
+BUTOCONAZOLE NITRATE,1,0,none,0,,absent_from_nda_bla_universe
+CODEINE\PROMETHAZINE,1,1,none,0,,all_components_present_matcher_gap
+"RINGER'S SOLUTION, LACTATED",1,0,none,0,,all_components_present_matcher_gap
+BCG VACCINE,1,0,none,0,,all_components_present_matcher_gap
+DOLICHOVESPULA ARENARIA VENOM PROTEIN\ DOLICHOVESPULA MACULATA VENOM PROTEIN\ VESPULA MACULIFRONS VENOM PROTEIN,1,1,none,0,,absent_from_nda_bla_universe
+OXYMETAZOLINE HYDROCHLORIDE OR PHENYLEPHRINE HYDROCHLORIDE,1,0,none,0,,absent_from_nda_bla_universe
+PAPAVERINE HYDROCHLORIDE,1,0,none,0,,absent_from_nda_bla_universe
+RUNIMOTAMAB,1,0,none,0,,absent_from_nda_bla_universe
+PASPALUM NOTATUM POLLEN,1,0,none,0,,absent_from_nda_bla_universe
+MEASLES VIRUS STRAIN ENDERS' ATTENUATED EDMONSTON LIVE ANTIGEN\MUMPS VIRUS STRAIN B LEVEL JERYL LYNN LIVE ANTIGEN\RUBELLA VIRUS STRAIN WISTAR RA 27/3 LIVE ANTIGEN\VARICELLA-ZOSTER VIRUS STRAIN OKA/MERCK LIVE ANTIGEN,1,1,none,0,,absent_from_nda_bla_universe
+BROMPHENIRAMINE\PSEUDOEPHEDRINE,1,1,none,0,,some_components_present
+RINGER'S SOLUTION,1,0,none,0,,absent_from_nda_bla_universe
+SALSALATE,1,0,none,0,,absent_from_nda_bla_universe
+FELIS CATUS HAIR,1,0,none,0,,absent_from_nda_bla_universe
+LANOLIN\MINERAL OIL,1,1,none,0,,absent_from_nda_bla_universe
+TRIMETHADIONE,1,0,none,0,,absent_from_nda_bla_universe
+HUMAN ROTAVIRUS A,1,0,none,0,,absent_from_nda_bla_universe
+PRAMOXINE HYDROCHLORIDE,1,0,none,0,,absent_from_nda_bla_universe
+INTERFERON,1,0,none,0,,all_components_present_matcher_gap
+IDASANUTLIN,1,0,none,0,,absent_from_nda_bla_universe
+"HYOSCYAMINE SULFATE\METHENAMINE\METHYLENE BLUE\PHENYL SALICYLATE\SODIUM PHOSPHATE, MONOBASIC, MONOHYDRATE",1,1,none,0,,some_components_present
+UPROSERTIB,1,0,none,0,,absent_from_nda_bla_universe
+SELENIUM,1,0,none,0,,absent_from_nda_bla_universe
+EUCALYPTOL\MENTHOL\THYMOL,1,1,none,0,,some_components_present
+ANHYDROUS CITRIC ACID\DEXTROSE MONOHYDRATE\SODIUM CITRATE,1,1,none,0,,all_components_present_matcher_gap
+EUCALYPTUS OIL,1,0,none,0,,absent_from_nda_bla_universe
+TOLMETIN,1,0,none,0,,absent_from_nda_bla_universe
+CITRIC ACID MONOHYDRATE\DEXTROSE\SODIUM CITRATE,1,1,none,0,,all_components_present_matcher_gap
+BRILLIANT BLUE,1,0,none,0,,all_components_present_matcher_gap
+AMINO ACIDS\CALCIUM CHLORIDE\MAGNESIUM CHLORIDE\SODIUM CHLORIDE\SODIUM LACTATE,1,1,none,0,,some_components_present
+RO-6874281,1,0,none,0,,absent_from_nda_bla_universe
+OCTINOXATE\ZINC OXIDE,1,1,none,0,,some_components_present
+CICLOPIROX\CICLOPIROX OLAMINE,1,1,none,0,,all_components_present_matcher_gap
+THIORIDAZINE HYDROCHLORIDE,1,0,none,0,,absent_from_nda_bla_universe
+ALLERGEN PATCH TEST,1,0,none,0,,absent_from_nda_bla_universe

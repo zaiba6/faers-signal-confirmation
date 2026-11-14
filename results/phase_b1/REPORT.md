@@ -65,18 +65,129 @@ listed" from the wrong product, and a wrong "yes" removes a pair from the cohort
 Scope: 776 of 3,275 cohort drugs are combinations, carrying 36,530 of 363,502 signals (10.0%).
 Recorded as decision 64.
 
-## 3 and 4. Coverage and hand-checked precision: NOT YET PRODUCED
+## 3. Coverage (crawl complete, 2026-11-14)
 
-These two items need the actual name to set id mapping, which needs the 4,132 list calls above.
-The brief says not to fetch set ids yet, so they are deliberately not in this report.
+The application-number index returns 4,132 NDA/BLA rows but only **3,737 distinct**
+application numbers (395 duplicate rows). All 3,737 were fetched; 54 BLAs failed on a
+transient ConnectionError in the first pass and were picked up on the resume. The
+resulting universe is **8,292 distinct set ids**.
 
-Producing them costs about **1.1 hours** of crawling at one request per second, cached and
-resumable, and downloads no label versions. Once that completes this report gains:
+Coverage is measured as the share of **cohort signals** (T1, 349,242 pairs) whose
+`drug_ai` maps to at least one NDA/BLA set id.
 
-- coverage as the share of cohort signals with at least one mapped NDA/BLA set id, overall and by
-  detection year
-- the top 20 unmapped drugs by signal count
-- a hand-checked random sample of 50 name to set id mappings with precision and the wrong ones listed
+| | drugs | signals |
+|---|---|---|
+| cohort | 3,198 | 349,242 |
+| mapped | 2,093 (65.4%) | **305,275 (87.4%)** |
+
+By match level:
+
+| level | drugs | signals |
+|---|---|---|
+| single_exact | 1,629 | 274,407 |
+| combo_all_components | 363 | 24,912 |
+| combo_fallback (flagged, not clean) | 101 | 5,956 |
+| none | 1,105 | 43,967 |
+
+By detection year (`results/phase_b1/b1_coverage_by_year.csv`) coverage is flat, so the
+mapping does not bias the time axis:
+
+| year | signals | mapped % |
+|---|---|---|
+| 2016 | 52,206 | 87.8 |
+| 2017 | 47,936 | 87.7 |
+| 2018 | 51,504 | 88.3 |
+| 2019 | 48,987 | 88.1 |
+| 2020 | 48,422 | 87.7 |
+| 2021 | 41,932 | 85.8 |
+| 2022 | 39,156 | 86.2 |
+| 2023 | 19,099 | 86.5 |
+
+### Top 20 unmapped drugs by signal count
+
+| drug_ai | signals | | drug_ai | signals |
+|---|---|---|---|---|
+| PREDNISONE | 1,585 | | CORTICOTROPIN | 480 |
+| OXALIPLATIN | 889 | | AMOXICILLIN\\CLAVULANIC ACID | 443 |
+| ONDANSETRON HYDROCHLORIDE | 816 | | FLUDARABINE PHOSPHATE | 435 |
+| RAMIPRIL | 752 | | RIFAMPIN | 426 |
+| VALPROATE SODIUM | 698 | | ALENDRONIC ACID | 402 |
+| HUMAN IMMUNOGLOBULIN G\\HYALURONIDASE | 586 | | RUCAPARIB CAMSYLATE | 378 |
+| VALPROIC ACID | 552 | | RIBAVIRIN | 347 |
+| CABOZANTINIB S-MALATE | 539 | | LAPINE T-LYMPHOCYTE IMMUNE GLOBULIN | 321 |
+| ONDANSETRON | 534 | | MYCOPHENOLATE SODIUM | 313 |
+| ETANERCEPT-SZZS | 487 | | OMBITASVIR\\PARITAPREVIR\\RITONAVIR | 309 |
+
+The 1,105 unmapped drugs split into two causes
+(`results/phase_b1/b1_unmapped_diagnosis.csv`):
+
+| cause | drugs | signals | % of cohort |
+|---|---|---|---|
+| absent from the NDA/BLA set-id universe | 636 | 28,359 | 8.1 |
+| all components present, matcher did not join | 325 | 12,535 | 3.6 |
+| some components present | 144 | 3,073 | 0.9 |
+
+The first group is a real limit of the NDA/BLA-only route, not a bug. Probing the
+universe directly: ZOFRAN, ELOXATIN, ALTACE, RIFADIN and any PREDNISONE product return
+**zero** titles. These are old molecules whose currently posted SPLs are ANDA generics;
+the originator NDA label is no longer listed. Restricting to NDA/BLA buys a clean
+marketing category at the cost of most pre-2000 drugs.
+
+The second group is fixable: CABOMETYX is in the universe but `CABOZANTINIB S-MALATE`
+did not join to it, so the salt list is missing entries.
+
+## 4. Hand-checked precision of the mapping
+
+A random sample of 50 mapped drugs (seed 42, `results/phase_b1/b1_handcheck_sample.csv`)
+was checked by reading the SPL titles of its set ids against the `drug_ai` string.
+
+**Precision 42/50 = 84%, Wilson 95% CI [71%, 92%].**
+
+Caveat on independence: the matcher keys on the parenthesised ingredient list inside the
+title, and the check reads the same titles. The check therefore catches wrong-product and
+wrong-salt joins, which is what it is for, but it cannot catch a title that is itself
+wrong about its product.
+
+The 8 errors fall into three classes, none random:
+
+**A. Salt and ester conflation (3 of 8).** The salt stripper treats chemically distinct
+esters as one moiety, so it joins products that have separate labels:
+
+- `METOPROLOL SUCCINATE` → LOPRESSOR (metoprolol **tartrate**)
+- `BETAMETHASONE SODIUM PHOSPHATE` → DIPROLENE (betamethasone **dipropionate**)
+- `HYDROCORTISONE VALERATE` → CORTIFOAM (hydrocortisone **acetate**)
+
+**B. Superset contamination (4 of 8).** The combination rule requires every component of
+`drug_ai` to appear in the label, but does not forbid the label carrying **extra**
+ingredients, so a pair maps onto a larger fixed-dose product:
+
+- `ABACAVIR SULFATE\\LAMIVUDINE` → TRIUMEQ (adds dolutegravir)
+- `FEXOFENADINE` → ALLEGRA-D (adds pseudoephedrine)
+- `CIPROFLOXACIN` → CIPRO HC (adds hydrocortisone, benzyl alcohol)
+- `AMLODIPINE\\TELMISARTAN` → WIDAPLIK (adds indapamide)
+
+Sized across the whole mapping: **199 mapped drugs, 13,596 signals (3.9% of the cohort)**
+have at least one strict-superset set id, and 80 of those already have an exact-set label
+available, so most of the damage is reversible by preferring the exact set.
+
+**C. combo_fallback (1 of 8).** `GLYBURIDE` → GLUCOVANCE. This is wrong as a product
+match, but the pipeline already labels it `combo_fallback` rather than counting it clean
+(101 drugs, 5,956 signals, 1.7%). Dropping this level outright costs 1.7% of signals and
+removes the class.
+
+### What this means for the gate
+
+87.4% signal coverage at 84% mapping precision is usable but not yet clean. Three fixes,
+in order of value per unit of work:
+
+1. Require the label ingredient set to **equal** the `drug_ai` component set, falling back
+   to superset only when no exact-set label exists and flagging it. Removes class B.
+2. Remove ester-type salts (succinate, tartrate, valerate, dipropionate, acetate,
+   phosphate) from the stripper where they distinguish products. Removes class A, and
+   should also recover part of the 3.6% matcher-gap group.
+3. Drop `combo_fallback` from the clean mapping. Removes class C at 1.7% of signals.
+
+None of these is applied yet. Stopping here per the gate instruction.
 
 ## Known risks before the crawl
 

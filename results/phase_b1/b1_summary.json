@@ -1,0 +1,116 @@
+{
+ "cohort_signals": 349242,
+ "cohort_drugs": 3198,
+ "nda_bla_applications": 3737,
+ "setids_in_universe": 8292,
+ "drugs_mapped": 2093,
+ "drugs_mapped_pct": 65.4,
+ "signals_mapped": 305275,
+ "signals_mapped_pct": 87.4,
+ "by_level": {
+  "combo_all_components": {
+   "drugs": 363,
+   "signals": 24912
+  },
+  "combo_fallback": {
+   "drugs": 101,
+   "signals": 5956
+  },
+  "none": {
+   "drugs": 1105,
+   "signals": 43967
+  },
+  "single_exact": {
+   "drugs": 1629,
+   "signals": 274407
+  }
+ },
+ "combos": {
+  "drugs": 743,
+  "signals": 34082,
+  "mapped_signals": 24912
+ },
+ "coverage_by_detection_year": "see b1_coverage_by_year.csv",
+ "top20_unmapped": [
+  {
+   "drug_ai": "PREDNISONE",
+   "signals": 1585
+  },
+  {
+   "drug_ai": "OXALIPLATIN",
+   "signals": 889
+  },
+  {
+   "drug_ai": "ONDANSETRON HYDROCHLORIDE",
+   "signals": 816
+  },
+  {
+   "drug_ai": "RAMIPRIL",
+   "signals": 752
+  },
+  {
+   "drug_ai": "VALPROATE SODIUM",
+   "signals": 698
+  },
+  {
+   "drug_ai": "HUMAN IMMUNOGLOBULIN G\\HYALURONIDASE (HUMAN RECOMBINANT)",
+   "signals": 586
+  },
+  {
+   "drug_ai": "VALPROIC ACID",
+   "signals": 552
+  },
+  {
+   "drug_ai": "CABOZANTINIB S-MALATE",
+   "signals": 539
+  },
+  {
+   "drug_ai": "ONDANSETRON",
+   "signals": 534
+  },
+  {
+   "drug_ai": "ETANERCEPT-SZZS",
+   "signals": 487
+  },
+  {
+   "drug_ai": "CORTICOTROPIN",
+   "signals": 480
+  },
+  {
+   "drug_ai": "AMOXICILLIN\\CLAVULANIC ACID",
+   "signals": 443
+  },
+  {
+   "drug_ai": "FLUDARABINE PHOSPHATE",
+   "signals": 435
+  },
+  {
+   "drug_ai": "RIFAMPIN",
+   "signals": 426
+  },
+  {
+   "drug_ai": "ALENDRONIC ACID",
+   "signals": 402
+  },
+  {
+   "drug_ai": "RUCAPARIB CAMSYLATE",
+   "signals": 378
+  },
+  {
+   "drug_ai": "RIBAVIRIN",
+   "signals": 347
+  },
+  {
+   "drug_ai": "LAPINE T-LYMPHOCYTE IMMUNE GLOBULIN",
+   "signals": 321
+  },
+  {
+   "drug_ai": "MYCOPHENOLATE SODIUM",
+   "signals": 313
+  },
+  {
+   "drug_ai": "OMBITASVIR\\PARITAPREVIR\\RITONAVIR",
+   "signals": 309
+  }
+ ]
+}

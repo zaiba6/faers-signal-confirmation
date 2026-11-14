@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 P = ROOT / "data/processed"
 FIG = ROOT / "figures"; FIG.mkdir(exist_ok=True)
 RES = ROOT / "results"; RES.mkdir(exist_ok=True)
-SEED, MIN_A, N_PER = 42, 5, 4
+SEED, MIN_A, N_PER = 42, 20, 4
 # Product-use and circumstance PTs are valid MedDRA terms but are not adverse effects, and they
 # almost never attract a label change: 320 such terms carry 15,589 signals at a 0.071% confirmation
 # rate against 1.228% for clinical terms. They are excluded from the SAMPLE here; excluding them

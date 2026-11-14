@@ -1,9 +1,9 @@
 {
  "dataset": "data/processed/features_T1.parquet",
- "rows": 363502,
- "y1": 3916,
- "y0": 359586,
- "pct_confirmed": 1.077,
+ "rows": 349242,
+ "y1": 3912,
+ "y0": 345330,
+ "pct_confirmed": 1.12,
  "detection_range": [
   "2016Q1",
   "2023Q2"
@@ -52,101 +52,101 @@
   "days_to_confirm"
  ],
  "nulls": {
-  "a_growth_1q_rel": 278399,
-  "frac_us": 945,
-  "median_age": 30283,
-  "frac_female": 12142,
-  "first_confirm_date": 359586,
-  "days_to_confirm": 359586
+  "a_growth_1q_rel": 268845,
+  "frac_us": 923,
+  "median_age": 27851,
+  "frac_female": 11037,
+  "first_confirm_date": 345330,
+  "days_to_confirm": 345330
  },
  "confirm_before_detection": 0,
- "rows_with_a_lt_5": 250267,
+ "rows_with_a_lt_5": 333427,
  "missing_requested_column": "years since approval - no approval-date field exists in any processed table and no Drugs@FDA or other approval source has been collected",
  "row_checks": [
   {
-   "drug": "ASCORBIC ACID\\POLYETHYLENE GLYCOL 3350\\POTASSIUM CHLORIDE\\SODIUM ASCORBATE\\SODIUM CHLORIDE\\SODIUM SULFATE",
-   "event": "SEIZURE",
-   "quarter": "2017Q1",
-   "y": 1,
-   "a": 8,
-   "ror_lcl": 1.35,
-   "days_to_confirm": 616,
-   "ok": true,
-   "issues": []
-  },
-  {
-   "drug": "PIPERACILLIN SODIUM\\TAZOBACTAM SODIUM",
-   "event": "JAUNDICE",
-   "quarter": "2018Q1",
-   "y": 1,
-   "a": 5,
-   "ror_lcl": 1.05,
-   "days_to_confirm": 744,
-   "ok": true,
-   "issues": []
-  },
-  {
-   "drug": "CIPROFLOXACIN HYDROCHLORIDE",
-   "event": "COLITIS",
-   "quarter": "2019Q3",
-   "y": 1,
-   "a": 14,
-   "ror_lcl": 1.27,
-   "days_to_confirm": 157,
-   "ok": true,
-   "issues": []
-  },
-  {
-   "drug": "SULFAMETHOXAZOLE\\TRIMETHOPRIM",
-   "event": "TORSADE DE POINTES",
-   "quarter": "2020Q1",
-   "y": 1,
-   "a": 5,
-   "ror_lcl": 1.39,
-   "days_to_confirm": 232,
-   "ok": true,
-   "issues": []
-  },
-  {
-   "drug": "CERTOLIZUMAB PEGOL",
-   "event": "OROPHARYNGEAL PAIN",
+   "drug": "BECLOMETHASONE DIPROPIONATE",
+   "event": "RASH",
    "quarter": "2016Q1",
-   "y": 0,
-   "a": 36,
+   "y": 1,
+   "a": 21,
+   "ror_lcl": 1.17,
+   "days_to_confirm": 482,
+   "ok": true,
+   "issues": []
+  },
+  {
+   "drug": "ATORVASTATIN",
+   "event": "PAIN",
+   "quarter": "2017Q4",
+   "y": 1,
+   "a": 136,
+   "ror_lcl": 1.08,
+   "days_to_confirm": 467,
+   "ok": true,
+   "issues": []
+  },
+  {
+   "drug": "OMEPRAZOLE",
+   "event": "INFLAMMATION",
+   "quarter": "2019Q1",
+   "y": 1,
+   "a": 25,
    "ror_lcl": 1.04,
+   "days_to_confirm": 1069,
+   "ok": true,
+   "issues": []
+  },
+  {
+   "drug": "LARONIDASE",
+   "event": "FATIGUE",
+   "quarter": "2021Q4",
+   "y": 1,
+   "a": 91,
+   "ror_lcl": 1.01,
+   "days_to_confirm": 713,
+   "ok": true,
+   "issues": []
+  },
+  {
+   "drug": "ABALOPARATIDE",
+   "event": "PALPITATIONS",
+   "quarter": "2017Q4",
+   "y": 0,
+   "a": 20,
+   "ror_lcl": 10.36,
    "days_to_confirm": null,
    "ok": true,
    "issues": []
   },
   {
-   "drug": "NIRAPARIB",
-   "event": "RENAL IMPAIRMENT",
-   "quarter": "2017Q3",
+   "drug": "METFORMIN HYDROCHLORIDE",
+   "event": "HYPERTHYROIDISM",
+   "quarter": "2019Q1",
    "y": 0,
-   "a": 11,
-   "ror_lcl": 3.43,
+   "a": 24,
+   "ror_lcl": 1.02,
    "days_to_confirm": null,
    "ok": true,
    "issues": []
   },
   {
-   "drug": "LIRAGLUTIDE",
-   "event": "REGURGITATION",
-   "quarter": "2019Q2",
+   "drug": "ATEZOLIZUMAB",
+   "event": "ILL-DEFINED DISORDER",
+   "quarter": "2021Q3",
    "y": 0,
-   "a": 5,
-   "ror_lcl": 1.13,
+   "a": 30,
+   "ror_lcl": 1.03,
    "days_to_confirm": null,
    "ok": true,
    "issues": []
   },
   {
-   "drug": "REGORAFENIB",
-   "event": "PHARYNGEAL SWELLING",
-   "quarter": "2020Q3",
+   "drug": "PEGVALIASE-PQPZ",
+   "event": "HYPOAESTHESIA",
+   "quarter": "2023Q1",
    "y": 0,
-   "a": 5,
-   "ror_lcl": 1.37,
+   "a": 42,
+   "ror_lcl": 1.01,
    "days_to_confirm": null,
    "ok": true,
    "issues": []
@@ -154,5 +154,5 @@
  ],
  "seed": 42,
  "sample_excludes_non_clinical_pts": true,
- "pool_rows_after_filters": 105933
+ "pool_rows_after_filters": 15542
 }

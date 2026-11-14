@@ -1,9 +1,9 @@
 Drug,Event (PT),Detected,Reports (a),ROR,ROR 95% LCL,PRR,% serious,Y
-Ascorbic Acid + Polyethylene Glycol 3350 (+4 more),Seizure,2017Q1,8,2.72,1.35,2.69,88,1
-Piperacillin Sodium + Tazobactam Sodium,Jaundice,2018Q1,5,2.53,1.05,2.53,80,1
-Ciprofloxacin Hydrochloride,Colitis,2019Q3,14,2.15,1.27,2.14,43,1
-Sulfamethoxazole + Trimethoprim,Torsade De Pointes,2020Q1,5,3.35,1.39,3.35,80,1
-Certolizumab Pegol,Oropharyngeal Pain,2016Q1,36,1.45,1.04,1.45,25,0
-Niraparib,Renal Impairment,2017Q3,11,6.23,3.43,6.12,55,0
-Liraglutide,Regurgitation,2019Q2,5,2.72,1.13,2.71,0,0
-Regorafenib,Pharyngeal Swelling,2020Q3,5,3.29,1.37,3.29,0,0
+Beclomethasone Dipropionate,Rash,2016Q1,21,1.81,1.17,1.78,0,1
+Atorvastatin,Pain,2017Q4,136,1.29,1.08,1.28,38,1
+Omeprazole,Inflammation,2019Q1,25,1.54,1.04,1.54,48,1
+Laronidase,Fatigue,2021Q4,91,1.24,1.01,1.23,52,1
+Abaloparatide,Palpitations,2017Q4,20,16.39,10.36,15.04,0,0
+Metformin Hydrochloride,Hyperthyroidism,2019Q1,24,1.53,1.02,1.53,38,0
+Atezolizumab,Ill-Defined Disorder,2021Q3,30,1.47,1.03,1.47,43,0
+Pegvaliase-Pqpz,Hypoaesthesia,2023Q1,42,1.37,1.01,1.37,17,0

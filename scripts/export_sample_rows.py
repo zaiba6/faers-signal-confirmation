@@ -126,35 +126,41 @@ disp["Drug"] = [textwrap.fill(v, 24) for v in disp["Drug"]]
 disp["Event (PT)"] = [textwrap.fill(v, 26) for v in disp["Event (PT)"]]
 widths = [0.19, 0.22, 0.09, 0.10, 0.07, 0.11, 0.07, 0.09, 0.05]
 
-fig, ax = plt.subplots(figsize=(14, 5.9))
+# Layout computed in inches so the table gets exactly the room it needs. Row heights
+# follow the wrapped line count: with a fixed height a 3-line cell pushes the table past
+# its axes.
+lines = [1] + [max(str(v).count("\n") + 1 for v in row) for row in disp.astype(str).values]
+row_in = [0.30 * l + 0.20 for l in lines]          # inches per row
+table_in = sum(row_in)
+
+fig = plt.figure(figsize=(15, table_in + 0.12))
+ax = fig.add_axes([0.01, 0.06 / (table_in + 0.12), 0.98, table_in / (table_in + 0.12)])
 ax.axis("off")
+
 t = ax.table(cellText=disp.astype(str).values, colLabels=disp.columns,
-             colWidths=widths, cellLoc="center", loc="center")
+             colWidths=widths, cellLoc="center", loc="upper center")
 t.auto_set_font_size(False); t.set_fontsize(10.5)
 for (r, c), cell in t.get_celld().items():
     cell.set_edgecolor("#cccccc")
-    cell.set_height(0.15)
+    cell.set_height(row_in[r] / table_in)          # axes fraction: table fills the axes
     if r == 0:
         cell.set_facecolor("#e8eef4"); cell.set_text_props(weight="bold")
     elif tbl.iloc[r - 1]["Y"] == 1:
         cell.set_facecolor("#fdf3e3")
 fig.patch.set_facecolor("white")
-
-# Two caveats carried ON the figure so the slide cannot overclaim. The a >= 20 filter is
-# a readability choice for this table only; the cohort keeps its own a_min (decision 23).
-# The Y column is the OLD definition and is being replaced by decisions 74-78.
-CAPTION = (
-    f"Illustrative rows only, drawn with a >= {MIN_A} so \"% serious\" is a meaningful "
-    f"fraction. The cohort threshold is unchanged (T1: a >= 3).\n"
-    "Y is the provisional outcome: a safety labelling change naming this event within 36 "
-    "months of detection. It does NOT yet require the event to have been\nabsent from the "
-    "label beforehand, so some Y=1 rows are events the label already carried. That rule is "
-    "being added and the positive count will fall."
-)
-fig.text(0.5, 0.045, CAPTION, ha="center", va="top", fontsize=8.6,
-         color="#444444", linespacing=1.5)
 plt.savefig(FIG / "sample_rows.png", dpi=200, facecolor="white", bbox_inches="tight")
 plt.close()
+
+# The caveats are no longer drawn on the figure (the slide carries the table alone), so
+# they are written out separately for speaker notes. They still matter: a >= MIN_A is a
+# readability filter for this table only, and Y is the pre-decision-74 definition.
+(FIG / "sample_rows_caption.txt").write_text(
+    f"Illustrative rows only, drawn with a >= {MIN_A} so \"% serious\" is a meaningful "
+    f"fraction. The cohort threshold is unchanged (T1: a >= 3).\n\n"
+    "Y is provisional: a safety labelling change naming this event within 36 months of "
+    "detection. It does NOT yet require the event to have been absent from the label "
+    "beforehand, so some Y=1 rows are events the label already carried. That rule is "
+    "being added (decisions 74-78) and the positive count will fall.\n")
 
 # ---------------------------------------------------------------- per-row checks
 rowchecks = []

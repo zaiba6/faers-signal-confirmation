@@ -1,0 +1,3 @@
+Illustrative rows only, drawn with a >= 20 so "% serious" is a meaningful fraction. The cohort threshold is unchanged (T1: a >= 3).
+
+Y is provisional: a safety labelling change naming this event within 36 months of detection. It does NOT yet require the event to have been absent from the label beforehand, so some Y=1 rows are events the label already carried. That rule is being added (decisions 74-78) and the positive count will fall.

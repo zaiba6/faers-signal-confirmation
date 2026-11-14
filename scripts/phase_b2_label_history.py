@@ -114,29 +114,35 @@ def step_size():
     m = pd.read_csv(ROOT / "results/phase_b1/b1_drug_to_setid_clean.csv")
     d2s = {r.drug_ai: [x for x in str(r.setids).split(";") if x] for r in m.itertuples()}
 
+    # One PRIMARY label per drug, not every set id. Checking all of them would need
+    # 118,491 version downloads (33 hours at one request per second) to answer a yes/no
+    # question that one label already answers: whether the event was in the product's
+    # labelling before detection. The primary is the set id with the longest version
+    # history, tie-broken by the earliest first version, which is the originator's own
+    # label rather than a repackager's short-lived copy. Recorded as decision 80, with
+    # the sensitivity check in decision 81.
+    def primary(sids):
+        cand = [(len(hist[s]), -hist[s][-1][0].value, s) for s in sids if hist.get(s)]
+        return max(cand)[2] if cand else None
+
+    prim = {d: primary(s) for d, s in d2s.items()}
     need, no_base, no_hist = set(), 0, 0
     for r in pairs.itertuples():
-        sids = d2s.get(r.drug_ai)
-        if not sids:
+        s = prim.get(r.drug_ai)
+        if s is None:
+            no_hist += 1
             continue
-        cut = q_end(r.detection_quarter)
-        got = False
-        for s in sids:
-            h = hist.get(s)
-            if not h:
-                no_hist += 1
-                continue
-            before = [(dt, v) for dt, v in h if dt <= cut]
-            if before:
-                need.add((s, max(before, key=lambda x: x[0])[1]))
-                got = True
-        if not got:
+        before = [(dt, v) for dt, v in hist[s] if dt <= q_end(r.detection_quarter)]
+        if before:
+            need.add((s, max(before, key=lambda x: x[0])[1]))
+        else:
             no_base += r.n
     rep = dict(histories_cached=len(hist),
                drug_quarter_combos=len(pairs),
                version_downloads_needed=len(need),
                pairs_with_no_baseline_version=int(no_base),
-               setids_with_no_history=no_hist,
+               drug_quarters_with_no_history=no_hist,
+               primary_setids=len({v for v in prim.values() if v}),
                est_hours_at_1_per_sec=round(len(need) / 3600, 1))
     (OUT / "b2_sizing.json").write_text(json.dumps(rep, indent=1))
     pd.DataFrame(sorted(need), columns=["setid", "version"]).to_csv(OUT / "b2_versions_needed.csv", index=False)

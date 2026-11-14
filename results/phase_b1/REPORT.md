@@ -197,3 +197,56 @@ None of these is applied yet. Stopping here per the gate instruction.
 - `drug_ai` keeps salt variants separate (PANTOPRAZOLE and PANTOPRAZOLE SODIUM are two drugs), so
   salt-stripped matching is needed on both sides and will pull in more set ids than a strict match.
 - Biologics named with a suffix (DENOSUMAB-BMWO) may not match the DailyMed ingredient string.
+
+## 5. Post-fix results (2026-11-14)
+
+The three error classes from section 4 were fixed in one commit each. Section 4's numbers
+are the pre-fix state and are kept as written.
+
+| | before | after |
+|---|---|---|
+| any mapping | 87.4% of cohort signals | 86.4% |
+| clean mapping (what later phases read) | n/a | **84.5%** |
+| maps only through a flagged level | n/a | 1.9% |
+| hand-checked precision | 42/50 = 84% [71, 92] | **48/50 = 96% [87, 99]** |
+
+Precision was re-scored on a **fresh** random 50 (seed 2026), not the sample the fixes
+were designed from. Two targeted strata of 25, drawn from exactly the classes the fixes
+touch, scored **50/50**:
+
+| stratum | score |
+|---|---|
+| fresh random 50 | 48/50 = 96% [87, 99] |
+| ester-bearing drug names | 25/25 |
+| combination products | 25/25 |
+
+The 2 residual errors are new classes, both small, both left in place and recorded:
+a NOVOLOG MIX title whose parenthesised list names only `INSULIN ASPART`, and
+`ZINC GLUCONATE` colliding with `ZINC CHLORIDE` once counterions are stripped.
+
+### Excluding unmapped signals
+
+A pair with no clean set ID cannot be put through the label-history rule, so it is
+excluded rather than scored Y=0. Scoring it Y=0 would record "we could not find the
+label" as "FDA did not act".
+
+| | pairs | positives | confirm rate |
+|---|---|---|---|
+| clean-mapped | 294,954 (84.5%) | 3,504 | 1.19% |
+| unmapped | 54,288 (15.5%) | 408 | 0.75% |
+
+Prevalence rises from 1.120% to 1.188% on exclusion. The lower confirm rate among
+unmapped pairs is the direction that supports excluding rather than zeroing them.
+
+Concentration check: the loss is **not** uniform across drug types, and is worst for
+combinations.
+
+| drug type | pairs | clean-mapped |
+|---|---|---|
+| biologic-like | 42,907 | 91.4% |
+| small molecule | 272,253 | 85.1% |
+| combination | 34,082 | 70.2% |
+
+By detection year it is flat (82.8% to 85.5%), so the temporal split is not skewed.
+
+Recorded as decisions 69 to 73.

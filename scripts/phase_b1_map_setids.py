@@ -220,6 +220,10 @@ def step_match():
     CLEAN = {"single_exact_salt", "single_exact", "combo_exact_set"}
     m["is_clean"] = m.match_level.isin(CLEAN).astype(int)
     m.to_csv(OUT / "b1_drug_to_setid.csv", index=False)
+    # Fix C: later phases read the CLEAN file only, so a flagged level cannot be picked up
+    # by accident. combo_fallback (a single ingredient reached only through a combination
+    # label) and combo_superset are kept in the full file for audit and dropped here.
+    m[m.is_clean == 1].to_csv(OUT / "b1_drug_to_setid_clean.csv", index=False)
 
     tot_sig = int(m.signals.sum()); tot_drug = len(m)
     mapped = m[m.n_setids > 0]
@@ -230,17 +234,22 @@ def step_match():
         drugs_mapped=int(len(mapped)), drugs_mapped_pct=round(100 * len(mapped) / tot_drug, 1),
         signals_mapped=int(mapped.signals.sum()),
         signals_mapped_pct=round(100 * mapped.signals.sum() / tot_sig, 1),
+        drugs_clean=int(m.is_clean.sum()),
+        signals_clean=int(m[m.is_clean == 1].signals.sum()),
+        signals_clean_pct=round(100 * m[m.is_clean == 1].signals.sum() / tot_sig, 1),
+        signals_flagged_only_pct=round(
+            100 * m[(m.n_setids > 0) & (m.is_clean == 0)].signals.sum() / tot_sig, 1),
         by_level={k: dict(drugs=int(v.drug_ai.count()), signals=int(v.signals.sum()))
                   for k, v in m.groupby("match_level")},
         combos=dict(drugs=int(m.is_combo.sum()), signals=int(m[m.is_combo == 1].signals.sum()),
                     mapped_signals=int(m[(m.is_combo == 1) & (m.n_setids > 0)].signals.sum())),
         coverage_by_detection_year="see b1_coverage_by_year.csv",
-        top20_unmapped=m[m.n_setids == 0].nlargest(20, "signals")[["drug_ai", "signals"]].to_dict("records"))
+        top20_unmapped=m[m.is_clean == 0].nlargest(20, "signals")[["drug_ai", "signals"]].to_dict("records"))
     # coverage by detection year, weighted by signals
     cov = con.execute(f"""select substr(detection_quarter,1,4) as year, drug_ai, count(*) as signals
         from read_parquet('{ROOT}/data/processed/confirmation_target_T1.parquet')
-        group by 1,2""").df().merge(m[["drug_ai", "n_setids"]], on="drug_ai", how="left")
-    cov["mapped"] = (cov.n_setids.fillna(0) > 0).astype(int)
+        group by 1,2""").df().merge(m[["drug_ai", "n_setids", "is_clean"]], on="drug_ai", how="left")
+    cov["mapped"] = cov.is_clean.fillna(0).astype(int)
     by_year = cov.groupby("year").apply(
         lambda g: pd.Series(dict(signals=int(g.signals.sum()),
                                  mapped_signals=int((g.signals * g.mapped).sum()),

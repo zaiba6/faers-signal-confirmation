@@ -7,6 +7,10 @@
  "drugs_mapped_pct": 63.9,
  "signals_mapped": 301762,
  "signals_mapped_pct": 86.4,
+ "drugs_clean": 1915,
+ "signals_clean": 294954,
+ "signals_clean_pct": 84.5,
+ "signals_flagged_only_pct": 1.9,
  "by_level": {
   "combo_exact_set": {
    "drugs": 325,
@@ -65,6 +69,10 @@
    "signals": 698
   },
   {
+   "drug_ai": "BISOPROLOL",
+   "signals": 657
+  },
+  {
    "drug_ai": "HUMAN IMMUNOGLOBULIN G\\HYALURONIDASE (HUMAN RECOMBINANT)",
    "signals": 586
   },
@@ -73,8 +81,16 @@
    "signals": 552
   },
   {
+   "drug_ai": "CYTARABINE",
+   "signals": 546
+  },
+  {
    "drug_ai": "ONDANSETRON",
    "signals": 534
+  },
+  {
+   "drug_ai": "AMOXICILLIN",
+   "signals": 505
   },
   {
    "drug_ai": "ETANERCEPT-SZZS",
@@ -107,18 +123,6 @@
   {
    "drug_ai": "LAPINE T-LYMPHOCYTE IMMUNE GLOBULIN",
    "signals": 321
-  },
-  {
-   "drug_ai": "MYCOPHENOLATE SODIUM",
-   "signals": 313
-  },
-  {
-   "drug_ai": "OMBITASVIR\\PARITAPREVIR\\RITONAVIR",
-   "signals": 309
-  },
-  {
-   "drug_ai": "HALOPERIDOL",
-   "signals": 293
   }
  ]
 }

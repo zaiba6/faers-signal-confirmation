@@ -24,8 +24,9 @@ DEFINITIONS (all recorded in the report; see DECISIONS.md)
   as not risk-bearing.
 - Stub rows ("Extensive changes; please refer to label...") carry a valid date and section but no
   text, so they can support confirmed_drug and never confirmed_event. Counted separately.
-- Drug matching reuses the ingredient logic of match_srlc_ingredients.py (exact / salt_stripped /
-  component_any). component_any is the loosest; a strict-only variant is reported alongside.
+- Drug matching requires the SAME product: equal component sets and equal component counts, after a
+  salt normalisation that never deletes a whole component. component_any was removed after it was
+  measured to confirm 763 of 4,285 positives (17.8%) from a different product's label.
 - Event matching is a case-insensitive substring test of the MedDRA PT in the label text, also
   matched on word boundaries with an optional plural S, then vetoed where the PT names a patient
   population rather than an outcome (scripts/event_match.py). Measured precision 86% before the
@@ -40,7 +41,28 @@ from pathlib import Path
 import duckdb, pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent))
-from match_srlc_ingredients import comps          # same normalisation as the drug-level match
+from match_srlc_ingredients import comps, SALT_RE   # same normalisation as the drug-level match
+
+
+def raw_components(s):
+    """Split a product string into its ingredient components WITHOUT salt stripping."""
+    return [c.strip() for c in re.split(r"[;\\/,]| AND ", str(s).upper()) if c.strip()]
+
+
+def safe_components(s):
+    """Normalised components, but a component is never allowed to vanish.
+
+    comps() strips salt words, and the salt list contains SODIUM and BICARBONATE, so
+    "SODIUM BICARBONATE" - a real active ingredient in ZEGERID - normalised to nothing and a
+    two-ingredient product looked like plain omeprazole. Any component that empties out keeps its
+    unstripped form instead.
+    """
+    out = []
+    for c in raw_components(s):
+        stripped = re.sub(r"[^A-Z0-9\- ]", " ", SALT_RE.sub(" ", c))
+        stripped = re.sub(r"\s+", " ", stripped).strip()
+        out.append(stripped or re.sub(r"\s+", " ", re.sub(r"[^A-Z0-9\- ]", " ", c)).strip())
+    return sorted(set(c for c in out if c))
 from event_match import event_match, pt_regex
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -61,12 +83,12 @@ def map_drugs(con):
     fdrugs = con.execute(" union ".join(
         f"select distinct drug_ai from read_parquet('{P}/detected_pairs_{t}.parquet')" for t in ("T1", "T2", "T3")
     )).df().drug_ai.tolist()
-    ex, nrm, comp_ix = {}, {}, {}
+    # Index FAERS drugs by their component SET. A label may only confirm a pair when it describes
+    # the same product, so the match requires the same components and the same component count.
+    ex, nrm = {}, {}
     for d in fdrugs:
         ex.setdefault(d.upper().replace("\\", ";").replace(" ;", ";"), []).append(d)
-        nrm.setdefault("|".join(sorted(comps(d, True))), []).append(d)
-        for c in comps(d, True):
-            comp_ix.setdefault(c, []).append(d)
+        nrm.setdefault("|".join(safe_components(d)), []).append(d)
 
     lc = con.execute(f"select * from read_parquet('{L}/s2_label_changes.parquet')").df()
     out = []
@@ -75,14 +97,14 @@ def map_drugs(con):
             levels = {}
         else:
             k_ex = ";".join(p.strip() for p in re.split(r"[;\\]", ai.upper())).replace(" ;", ";")
-            k_n = "|".join(sorted(comps(ai, True)))
-            # Take exact AND salt-stripped together. Returning on the first exact hit meant a FAERS
-            # drug never reached the salt-stripped class a variant had landed in: FAERS PANTOPRAZOLE
-            # got nothing although SrLC has 82 rows for PANTOPRAZOLE SODIUM.
-            hits_ex, hits_n = set(ex.get(k_ex, [])), set(nrm.get(k_n, []))
+            key = "|".join(safe_components(ai))
+            n_src = len(raw_components(ai))
+            hits_ex = {d for d in ex.get(k_ex, [])}
+            hits_n = {d for d in nrm.get(key, []) if len(raw_components(d)) == n_src}
             levels = {d: ("exact" if d in hits_ex else "salt_stripped") for d in hits_ex | hits_n}
-            if not levels:
-                levels = {d: "component_any" for c in comps(ai, True) for d in comp_ix.get(c, [])}
+            # component_any is gone on purpose: it matched a single-ingredient drug to any label
+            # that happened to contain that ingredient, which is how a ZEGERID
+            # (omeprazole + sodium bicarbonate) label confirmed plain OMEPRAZOLE MAGNESIUM.
         for d, lvl in levels.items():
             g = grp.copy(); g["drug_ai"] = d; g["match_level"] = lvl
             out.append(g)

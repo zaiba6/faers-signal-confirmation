@@ -25,36 +25,36 @@
    "2023Q2"
   ],
   "positives": {
-   "drug_1y": 151190,
-   "event_1y": 1858,
-   "drug_2y": 212197,
-   "event_2y": 3219,
-   "drug_3y": 243909,
-   "event_3y": 4285,
-   "drug_5y": 273315,
-   "event_5y": 5902
+   "drug_1y": 142809,
+   "event_1y": 1682,
+   "drug_2y": 202110,
+   "event_2y": 2925,
+   "drug_3y": 233153,
+   "event_3y": 3916,
+   "drug_5y": 262820,
+   "event_5y": 5388
   },
   "rates": {
-   "drug_1y": 41.59,
-   "event_1y": 0.51,
-   "drug_2y": 58.38,
-   "event_2y": 0.89,
-   "drug_3y": 67.1,
-   "event_3y": 1.18,
-   "drug_5y": 75.19,
-   "event_5y": 1.62
+   "drug_1y": 39.29,
+   "event_1y": 0.46,
+   "drug_2y": 55.6,
+   "event_2y": 0.8,
+   "drug_3y": 64.14,
+   "event_3y": 1.08,
+   "drug_5y": 72.3,
+   "event_5y": 1.48
   },
   "strict_only_3y": {
-   "drug": 234565,
-   "event": 4010
+   "drug": 233153,
+   "event": 3916
   },
-  "median_days_to_confirm": 437,
+  "median_days_to_confirm": 439,
   "first_confirm_section": {
-   "(none)": 359217,
-   "AR": 2246,
-   "WP": 1934,
-   "BW": 92,
-   "CONTRA": 13
+   "(none)": 359586,
+   "AR": 2084,
+   "WP": 1742,
+   "BW": 76,
+   "CONTRA": 14
   },
   "supplementary": {
    "dsc_drug_3y": 5176,
@@ -70,35 +70,35 @@
    "2023Q2"
   ],
   "positives": {
-   "drug_1y": 144169,
-   "event_1y": 1681,
-   "drug_2y": 202698,
-   "event_2y": 2910,
-   "drug_3y": 233052,
-   "event_3y": 3876,
-   "drug_5y": 261252,
-   "event_5y": 5380
+   "drug_1y": 136115,
+   "event_1y": 1523,
+   "drug_2y": 193018,
+   "event_2y": 2641,
+   "drug_3y": 222720,
+   "event_3y": 3534,
+   "drug_5y": 251153,
+   "event_5y": 4900
   },
   "rates": {
-   "drug_1y": 41.28,
-   "event_1y": 0.48,
-   "drug_2y": 58.04,
-   "event_2y": 0.83,
-   "drug_3y": 66.73,
-   "event_3y": 1.11,
-   "drug_5y": 74.8,
-   "event_5y": 1.54
+   "drug_1y": 38.97,
+   "event_1y": 0.44,
+   "drug_2y": 55.27,
+   "event_2y": 0.76,
+   "drug_3y": 63.77,
+   "event_3y": 1.01,
+   "drug_5y": 71.91,
+   "event_5y": 1.4
   },
   "strict_only_3y": {
-   "drug": 224084,
-   "event": 3619
+   "drug": 222720,
+   "event": 3534
   },
-  "median_days_to_confirm": 436,
+  "median_days_to_confirm": 437,
   "first_confirm_section": {
-   "(none)": 345383,
-   "AR": 2030,
-   "WP": 1737,
-   "BW": 94,
+   "(none)": 345725,
+   "AR": 1859,
+   "WP": 1590,
+   "BW": 70,
    "CONTRA": 15
   },
   "supplementary": {
@@ -115,36 +115,36 @@
    "2023Q2"
   ],
   "positives": {
-   "drug_1y": 111040,
-   "event_1y": 1739,
-   "drug_2y": 155275,
-   "event_2y": 3025,
-   "drug_3y": 178301,
-   "event_3y": 4066,
-   "drug_5y": 199422,
-   "event_5y": 5540
+   "drug_1y": 105250,
+   "event_1y": 1603,
+   "drug_2y": 148463,
+   "event_2y": 2800,
+   "drug_3y": 170997,
+   "event_3y": 3752,
+   "drug_5y": 192302,
+   "event_5y": 5138
   },
   "rates": {
-   "drug_1y": 42.82,
-   "event_1y": 0.67,
-   "drug_2y": 59.87,
-   "event_2y": 1.17,
-   "drug_3y": 68.75,
-   "event_3y": 1.57,
-   "drug_5y": 76.89,
-   "event_5y": 2.14
+   "drug_1y": 40.58,
+   "event_1y": 0.62,
+   "drug_2y": 57.25,
+   "event_2y": 1.08,
+   "drug_3y": 65.93,
+   "event_3y": 1.45,
+   "drug_5y": 74.15,
+   "event_5y": 1.98
   },
   "strict_only_3y": {
-   "drug": 171927,
-   "event": 3821
+   "drug": 170997,
+   "event": 3752
   },
-  "median_days_to_confirm": 441,
+  "median_days_to_confirm": 439,
   "first_confirm_section": {
-   "(none)": 255279,
-   "AR": 2157,
-   "WP": 1816,
-   "BW": 85,
-   "CONTRA": 8
+   "(none)": 255593,
+   "AR": 2028,
+   "WP": 1655,
+   "BW": 62,
+   "CONTRA": 7
   },
   "supplementary": {
    "dsc_drug_3y": 3855,
@@ -153,14 +153,13 @@
  },
  "label_changes_mapped": {
   "rows_in": 29500,
-  "rows_mapped_to_faers_drug": 56990,
-  "distinct_faers_drugs": 2438,
-  "risk_section_rows": 30790,
-  "stub_rows": 2094,
+  "rows_mapped_to_faers_drug": 39320,
+  "distinct_faers_drugs": 2074,
+  "risk_section_rows": 21039,
+  "stub_rows": 1637,
   "by_match_level": {
-   "exact": 20178,
-   "salt_stripped": 6119,
-   "component_any": 662
+   "exact": 20938,
+   "salt_stripped": 5343
   }
  }
 }

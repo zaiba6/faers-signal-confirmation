@@ -62,8 +62,36 @@ RISK_C = [re.compile(p, re.I) for p in RISK_CUES]
 SENT_END = re.compile(r"[.;:]\s|\u2026")
 
 
+# MedDRA writes PTs in British English; US prescribing information does not. Without this,
+# DYSPNOEA can never match "dyspnea", DIARRHOEA never matches "diarrhea" and OEDEMA
+# PERIPHERAL never matches "peripheral edema". Measured before the fix: 1,383 PTs carrying
+# 34,393 T1 signals (9.8% of the cohort) confirmed at 0.12% against 1.23% for the rest,
+# a tenfold deficit on some of the most commonly labelled events there are.
+# Each entry maps a British fragment to a pattern accepting both spellings. Applied to the
+# ESCAPED pattern, longest first, so the digraph rules cannot cut a word-level rule in half.
+SPELLING = [
+    ("oesophag", "(?:oe|e)sophag"), ("anaesth", "an(?:ae|e)sth"), ("gynaec", "gyn(?:ae|e)c"),
+    ("orthopaed", "orthop(?:ae|e)d"), ("paediatr", "p(?:ae|e)diatr"), ("coeliac", "c(?:oe|e)liac"),
+    ("oestr", "(?:oe|e)str"), ("caecum", "c(?:ae|e)cum"), ("tumour", "tumou?r"),
+    ("leuco", "leu[ck]o"), ("leuko", "leu[ck]o"), ("sulph", "sul(?:ph|f)"),
+    ("ae", "(?:ae|e)"), ("oe", "(?:oe|e)"),
+]
+
+
+def _spell(escaped):
+    out, i = [], 0
+    low = escaped.lower()
+    while i < len(low):
+        for frag, pat in SPELLING:
+            if low.startswith(frag, i):
+                out.append(pat); i += len(frag); break
+        else:
+            out.append(escaped[i]); i += 1
+    return "".join(out)
+
+
 def pt_regex(pt):
-    """Word-boundary matcher for a PT, singular or plural.
+    """Word-boundary matcher for a PT: singular or plural, British or US spelling.
 
     str.rstrip("s") strips EVERY trailing s, so DIZZINESS became DIZZINE and matched nothing.
     Terms ending in a double s take -es; a single trailing s is a plural to be made optional.
@@ -71,11 +99,11 @@ def pt_regex(pt):
     t = pt.strip()
     low = t.lower()
     if len(t) > 4 and low.endswith("ss"):
-        body = re.escape(t) + r"(?:es)?"
+        body = _spell(re.escape(t)) + r"(?:es)?"
     elif len(t) > 4 and low.endswith("s"):
-        body = re.escape(t[:-1]) + r"s?"
+        body = _spell(re.escape(t[:-1])) + r"s?"
     else:
-        body = re.escape(t) + r"s?"
+        body = _spell(re.escape(t)) + r"s?"
     return re.compile(r"\b" + body + r"\b", re.I)
 
 

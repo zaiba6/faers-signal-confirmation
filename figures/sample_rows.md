@@ -1,10 +1,10 @@
 | Drug | Event (PT) | Detected | Reports (a) | ROR | ROR 95% LCL | PRR | % serious | Y |
 |---|---|---|---|---|---|---|---|---|
-| Sunitinib Malate | Thrombotic Thrombocytopenic Purpura | 2016Q4 | 5 | 3.49 | 1.45 | 3.49 | 60 | 1 |
-| Irbesartan | Urticaria | 2018Q3 | 18 | 1.63 | 1.02 | 1.62 | 11 | 1 |
-| Omeprazole Magnesium | Pain | 2019Q1 | 175 | 1.5 | 1.29 | 1.48 | 10 | 1 |
-| Esomeprazole Magnesium | Drug Reaction With Eosinophilia And Systemic Symptoms | 2021Q4 | 56 | 1.32 | 1.01 | 1.32 | 79 | 1 |
-| Arformoterol Tartrate | Back Pain | 2017Q3 | 7 | 3.61 | 1.69 | 3.49 | 14 | 0 |
-| Selegiline | Wrong Technique In Product Usage Process | 2019Q1 | 9 | 2.24 | 1.15 | 2.21 | 0 | 0 |
-| .Delta.8-Tetrahydrocannabinol\Herbals | Heart Rate Increased | 2021Q3 | 5 | 42.31 | 16.29 | 35.85 | 60 | 0 |
-| Dupilumab | Corrective Lens User | 2022Q4 | 9 | 1.99 | 1.03 | 1.99 | 33 | 0 |
+| Ascorbic Acid + Polyethylene Glycol 3350 (+4 more) | Seizure | 2017Q1 | 8 | 2.72 | 1.35 | 2.69 | 88 | 1 |
+| Piperacillin Sodium + Tazobactam Sodium | Jaundice | 2018Q1 | 5 | 2.53 | 1.05 | 2.53 | 80 | 1 |
+| Ciprofloxacin Hydrochloride | Colitis | 2019Q3 | 14 | 2.15 | 1.27 | 2.14 | 43 | 1 |
+| Sulfamethoxazole + Trimethoprim | Torsade De Pointes | 2020Q1 | 5 | 3.35 | 1.39 | 3.35 | 80 | 1 |
+| Certolizumab Pegol | Oropharyngeal Pain | 2016Q1 | 36 | 1.45 | 1.04 | 1.45 | 25 | 0 |
+| Niraparib | Renal Impairment | 2017Q3 | 11 | 6.23 | 3.43 | 6.12 | 55 | 0 |
+| Liraglutide | Regurgitation | 2019Q2 | 5 | 2.72 | 1.13 | 2.71 | 0 | 0 |
+| Regorafenib | Pharyngeal Swelling | 2020Q3 | 5 | 3.29 | 1.37 | 3.29 | 0 | 0 |

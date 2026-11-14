@@ -19,6 +19,18 @@ P = ROOT / "data/processed"
 FIG = ROOT / "figures"; FIG.mkdir(exist_ok=True)
 RES = ROOT / "results"; RES.mkdir(exist_ok=True)
 SEED, MIN_A, N_PER = 42, 5, 4
+# Product-use and circumstance PTs are valid MedDRA terms but are not adverse effects, and they
+# almost never attract a label change: 320 such terms carry 15,589 signals at a 0.071% confirmation
+# rate against 1.228% for clinical terms. They are excluded from the SAMPLE here; excluding them
+# from the dataset is a separate decision. Keyword based, because the processed tables carry PT
+# strings only and the MedDRA hierarchy (which would give the Product Issues and Social
+# Circumstances SOCs directly) is a licensed file this project does not have.
+NON_CLINICAL = (r"PRODUCT USE|OFF LABEL|DRUG INEFFECTIVE|WRONG |INCORRECT |ACCIDENTAL |DEVICE |"
+                r"USER$|THERAPY |NO ADVERSE EVENT|DOSE OMI|EXPIRED PRODUCT|UNDERDOSE|"
+                r"PRODUCT QUALITY|PRODUCT SUBSTITUT|MEDICATION ERROR|TREATMENT NONCOMP|"
+                r"INTERCEPTED|PRESCRIBED|DISPENSING|LABEL|CONTRAINDICATED PRODUCT|"
+                r"PRODUCT PREPARATION|PRODUCT STORAGE|UNEVALUABLE|SOCIAL |CIRCUMSTANCE|"
+                r"TEST ABNORMAL|INVESTIGATION")
 Y = "confirmed_event_3y"
 
 con = duckdb.connect()
@@ -42,9 +54,18 @@ checks = dict(
                              "table and no Drugs@FDA or other approval source has been collected")
 
 # ---------------------------------------------------------------- sample
-pool = f[f.a >= MIN_A].copy()
+pool = f[(f.a >= MIN_A) & (~f.pt_clean.str.upper().str.contains(NON_CLINICAL, regex=True))].copy()
 pool["year"] = pool.detection_quarter.str[:4]
 rng = np.random.default_rng(SEED)
+
+
+def short_drug(name, max_parts=2):
+    """FAERS writes combinations with a backslash. Render as " + ", and keep long multi-ingredient
+    products from overflowing their cell by naming the first two and counting the rest."""
+    parts = [p.strip().title() for p in name.split("\\") if p.strip()]
+    if len(parts) <= max_parts:
+        return " + ".join(parts)
+    return " + ".join(parts[:max_parts]) + f" (+{len(parts) - max_parts} more)"
 
 
 def pick(df, n):
@@ -68,7 +89,7 @@ samp = pd.concat([pick(pool[pool[Y] == 1], N_PER), pick(pool[pool[Y] == 0], N_PE
 samp = samp.sort_values([Y, "detection_quarter"], ascending=[False, True]).reset_index(drop=True)
 
 tbl = pd.DataFrame({
-    "Drug": samp.drug_ai.str.title(),
+    "Drug": samp.drug_ai.map(short_drug),
     "Event (PT)": samp.pt_clean.str.title(),
     "Detected": samp.detection_quarter,
     "Reports (a)": samp.a.astype(int),
@@ -95,18 +116,18 @@ import textwrap
 
 disp = tbl.copy()
 # Long drug and event names overflow their cell and collide with neighbours, so wrap them.
-disp["Drug"] = [textwrap.fill(v, 22) for v in disp["Drug"]]
+disp["Drug"] = [textwrap.fill(v, 24) for v in disp["Drug"]]
 disp["Event (PT)"] = [textwrap.fill(v, 26) for v in disp["Event (PT)"]]
 widths = [0.19, 0.22, 0.09, 0.10, 0.07, 0.11, 0.07, 0.09, 0.05]
 
-fig, ax = plt.subplots(figsize=(14, 4.6))
+fig, ax = plt.subplots(figsize=(14, 5.0))
 ax.axis("off")
 t = ax.table(cellText=disp.astype(str).values, colLabels=disp.columns,
              colWidths=widths, cellLoc="center", loc="center")
 t.auto_set_font_size(False); t.set_fontsize(10.5)
 for (r, c), cell in t.get_celld().items():
     cell.set_edgecolor("#cccccc")
-    cell.set_height(0.13)
+    cell.set_height(0.15)
     if r == 0:
         cell.set_facecolor("#e8eef4"); cell.set_text_props(weight="bold")
     elif tbl.iloc[r - 1]["Y"] == 1:
@@ -141,6 +162,8 @@ for i, r in samp.iterrows():
                           ok=not issues, issues=issues))
 checks["row_checks"] = rowchecks
 checks["seed"] = SEED
+checks["sample_excludes_non_clinical_pts"] = True
+checks["pool_rows_after_filters"] = int(len(pool))
 (RES / "sample_rows_checks.json").write_text(json.dumps(checks, indent=1, default=str))
 
 print(json.dumps({k: v for k, v in checks.items() if k not in ("columns", "row_checks")}, indent=1, default=str))

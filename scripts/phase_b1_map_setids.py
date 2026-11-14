@@ -85,8 +85,44 @@ def step_spls(apps):
             print(f"  {i}/{len(apps)} applications", flush=True)
 
 
+# Fix A, error class A of the B1 gate: the shared salt stripper removes ester and prodrug
+# moieties as if they were counterions. They are not. METOPROLOL SUCCINATE and METOPROLOL
+# TARTRATE, BETAMETHASONE SODIUM PHOSPHATE and BETAMETHASONE DIPROPIONATE, HYDROCORTISONE
+# VALERATE and HYDROCORTISONE ACETATE are different products with different labels, so
+# collapsing them answers "was this event already listed" from the wrong label.
+# Counterions (sodium, hydrochloride, maleate, ...) stay strippable: they do not change the
+# active moiety and the label may write the name either way.
+ESTER = re.compile(r"\b(ACETATE|DIACETATE|PHOSPHATE|VALERATE|DIPROPIONATE|PROPIONATE|"
+                   r"DECANOATE|ENANTHATE|CYPIONATE|UNDECANOATE|PALMITATE|CAPROATE|HEXANOATE|"
+                   r"BUTYRATE|PIVALATE|FUROATE|ETABONATE|AXETIL)\b")
+
+
+def clean(s):
+    """Punctuation-normalised, nothing removed."""
+    return re.sub(r"\s+", " ", re.sub(r"[^A-Z0-9\- ]", " ", (s or "").upper())).strip()
+
+
+# Counterions the shared SALTS list does not carry. Added locally rather than to
+# match_srlc_ingredients.SALTS so this fix cannot move the confirmation target.
+# Only true counterions: DERUXTECAN, CARBOXYMALTOSE, IMMUNE GLOBULIN and the like are
+# part of the drug name and are deliberately absent.
+EXTRA_SALT = re.compile(r"\b(S-MALATE|MALATE|CAMSYLATE|DITOSYLATE|DIASPARTATE|DIETHYLAMINE)\b")
+
+
+def strip_counterions(p):
+    """comps() stripping, but any ester/prodrug token it would have removed is put back."""
+    p = EXTRA_SALT.sub(" ", p.upper())
+    keep = ESTER.findall(p)
+    out = comps(p, True)
+    base = out[0] if out else clean(p)
+    for e in keep:
+        if e not in base.split():
+            base = f"{base} {e}"
+    return base.strip()
+
+
 def norm_key(s):
-    return "|".join(sorted(comps(s, True)))
+    return "|".join(sorted(strip_counterions(p) for p in re.split(r"[;\\/,]| AND ", str(s).upper()) if p.strip()))
 
 
 def step_match():
@@ -129,11 +165,12 @@ def step_match():
     # which is flagged as combo_fallback rather than counted as a clean match. Mapping
     # SACUBITRIL\\VALSARTAN to a valsartan-only label would answer "was this already listed"
     # from the wrong product.
-    single_only = {}
+    single_only, single_raw = {}, {}
     for r in spl.itertuples():
         ings = ingredients(r.title)
         if len(ings) == 1:
             single_only.setdefault(norm_key(ings[0]), set()).add(r.setid)
+            single_raw.setdefault(clean(ings[0]), set()).add(r.setid)
 
     rows = []
     for r in cohort.itertuples():
@@ -146,7 +183,12 @@ def step_match():
             hits = set.intersection(*sets) if sets and all(sets) else set()
             level = "combo_all_components" if hits else "none"
         else:
-            if norm_key(name) in single_only:
+            # Fix A, tier order: a label that spells the salt exactly as FAERS does beats a
+            # label reached only by stripping. Without this, METOPROLOL SUCCINATE is normalised
+            # to METOPROLOL and collects LOPRESSOR (tartrate) alongside TOPROL XL (succinate).
+            if clean(name) in single_raw:
+                hits, level = single_raw[clean(name)], "single_exact_salt"
+            elif norm_key(name) in single_only:
                 hits, level = single_only[norm_key(name)], "single_exact"
             elif name in idx_exact:
                 hits, level = idx_exact[name], "exact_in_any_label"

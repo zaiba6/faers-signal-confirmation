@@ -3,35 +3,43 @@
  "cohort_drugs": 3198,
  "nda_bla_applications": 3737,
  "setids_in_universe": 8292,
- "drugs_mapped": 2093,
- "drugs_mapped_pct": 65.4,
- "signals_mapped": 305275,
- "signals_mapped_pct": 87.4,
+ "drugs_mapped": 2045,
+ "drugs_mapped_pct": 63.9,
+ "signals_mapped": 301762,
+ "signals_mapped_pct": 86.4,
  "by_level": {
   "combo_all_components": {
-   "drugs": 363,
-   "signals": 24912
+   "drugs": 343,
+   "signals": 24418
   },
   "combo_fallback": {
-   "drugs": 101,
-   "signals": 5956
+   "drugs": 112,
+   "signals": 6321
   },
   "none": {
-   "drugs": 1105,
-   "signals": 43967
+   "drugs": 1153,
+   "signals": 47480
   },
   "single_exact": {
-   "drugs": 1629,
-   "signals": 274407
+   "drugs": 268,
+   "signals": 31162
+  },
+  "single_exact_salt": {
+   "drugs": 1322,
+   "signals": 239861
   }
  },
  "combos": {
   "drugs": 743,
   "signals": 34082,
-  "mapped_signals": 24912
+  "mapped_signals": 24418
  },
  "coverage_by_detection_year": "see b1_coverage_by_year.csv",
  "top20_unmapped": [
+  {
+   "drug_ai": "PREDNISOLONE",
+   "signals": 1648
+  },
   {
    "drug_ai": "PREDNISONE",
    "signals": 1585
@@ -59,10 +67,6 @@
   {
    "drug_ai": "VALPROIC ACID",
    "signals": 552
-  },
-  {
-   "drug_ai": "CABOZANTINIB S-MALATE",
-   "signals": 539
   },
   {
    "drug_ai": "ONDANSETRON",
@@ -93,10 +97,6 @@
    "signals": 402
   },
   {
-   "drug_ai": "RUCAPARIB CAMSYLATE",
-   "signals": 378
-  },
-  {
    "drug_ai": "RIBAVIRIN",
    "signals": 347
   },
@@ -111,6 +111,10 @@
   {
    "drug_ai": "OMBITASVIR\\PARITAPREVIR\\RITONAVIR",
    "signals": 309
+  },
+  {
+   "drug_ai": "HALOPERIDOL",
+   "signals": 293
   }
  ]
 }

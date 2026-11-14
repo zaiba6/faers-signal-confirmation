@@ -65,13 +65,14 @@ pool["year"] = pool.detection_quarter.str[:4]
 rng = np.random.default_rng(SEED)
 
 
-def short_drug(name, max_parts=2):
-    """FAERS writes combinations with a backslash. Render as " + ", and keep long multi-ingredient
-    products from overflowing their cell by naming the first two and counting the rest."""
-    parts = [p.strip().title() for p in name.split("\\") if p.strip()]
-    if len(parts) <= max_parts:
-        return " + ".join(parts)
-    return " + ".join(parts[:max_parts]) + f" (+{len(parts) - max_parts} more)"
+def short_drug(name):
+    """FAERS writes combinations with a backslash; render as " + ".
+
+    Every ingredient is named. "(+1 more)" hid which product the row is actually about,
+    which matters when the whole point of decision 70 is that a combination's label is a
+    different label. The Drug column is widened to take it.
+    """
+    return " + ".join(p.strip().title() for p in name.split("\\") if p.strip())
 
 
 def pick(df, n):
@@ -105,7 +106,13 @@ tbl = pd.DataFrame({
     "% serious": (100 * samp.frac_serious).round(0).astype("Int64"),
     "Y": samp[Y].astype(int)})
 
-tbl.to_csv(FIG / "sample_rows.csv", index=False)
+tbl.to_csv(FIG / "sample_rows.csv", index=False)   # CSV keeps the raw numbers
+
+# Fixed 2 decimals for every RENDERED output: .round(2) still prints 1.0 next to 1.34,
+# which reads as sloppy on a slide. The CSV above is untouched.
+tbl_fmt = tbl.copy()
+for _c in ("ROR", "ROR 95% LCL", "PRR"):
+    tbl_fmt[_c] = [f"{v:,.2f}" for v in tbl[_c]]
 def to_md(df):
     """Plain markdown table; avoids adding a tabulate dependency to this environment."""
     cols = list(df.columns)
@@ -115,16 +122,16 @@ def to_md(df):
     return "\n".join([head, rule] + body) + "\n"
 
 
-(FIG / "sample_rows.md").write_text(to_md(tbl))
+(FIG / "sample_rows.md").write_text(to_md(tbl_fmt))
 
 # ---------------------------------------------------------------- png
 import textwrap
 
-disp = tbl.copy()
+disp = tbl_fmt.copy()
 # Long drug and event names overflow their cell and collide with neighbours, so wrap them.
-disp["Drug"] = [textwrap.fill(v, 24) for v in disp["Drug"]]
+disp["Drug"] = [textwrap.fill(v, 32) for v in disp["Drug"]]
 disp["Event (PT)"] = [textwrap.fill(v, 26) for v in disp["Event (PT)"]]
-widths = [0.19, 0.22, 0.09, 0.10, 0.07, 0.11, 0.07, 0.09, 0.05]
+widths = [0.25, 0.20, 0.08, 0.09, 0.08, 0.10, 0.08, 0.08, 0.04]
 
 # Layout computed in inches so the table gets exactly the room it needs. Row heights
 # follow the wrapped line count: with a fixed height a 3-line cell pushes the table past
@@ -133,8 +140,15 @@ lines = [1] + [max(str(v).count("\n") + 1 for v in row) for row in disp.astype(s
 row_in = [0.30 * l + 0.20 for l in lines]          # inches per row
 table_in = sum(row_in)
 
-fig = plt.figure(figsize=(15, table_in + 0.12))
-ax = fig.add_axes([0.01, 0.06 / (table_in + 0.12), 0.98, table_in / (table_in + 0.12)])
+# One caption line, on the figure rather than only in speaker notes: what Y means is the
+# most important thing on this table, and "labelling change" is the honest wording, not
+# "confirmed". The longer caveats stay in sample_rows_caption.txt.
+CAP = ("Y = 1: a safety labelling change named this event within 36 months of detection. "
+       f"Rows drawn with a \u2265 {MIN_A}; the cohort threshold is unchanged.")
+cap_in = 0.46
+fig_h = table_in + cap_in + 0.12
+fig = plt.figure(figsize=(15, fig_h))
+ax = fig.add_axes([0.01, (cap_in + 0.06) / fig_h, 0.98, table_in / fig_h])
 ax.axis("off")
 
 t = ax.table(cellText=disp.astype(str).values, colLabels=disp.columns,
@@ -148,6 +162,8 @@ for (r, c), cell in t.get_celld().items():
     elif tbl.iloc[r - 1]["Y"] == 1:
         cell.set_facecolor("#fdf3e3")
 fig.patch.set_facecolor("white")
+fig.text(0.5, (cap_in - 0.14) / fig_h, CAP, ha="center", va="top",
+         fontsize=9.6, color="#444444")
 plt.savefig(FIG / "sample_rows.png", dpi=200, facecolor="white", bbox_inches="tight")
 plt.close()
 
@@ -194,7 +210,7 @@ checks["pool_rows_after_filters"] = int(len(pool))
 
 print(json.dumps({k: v for k, v in checks.items() if k not in ("columns", "row_checks")}, indent=1, default=str))
 print()
-print(to_md(tbl))
+print(to_md(tbl_fmt))
 print()
 for c in rowchecks:
     print(("OK   " if c["ok"] else "FLAG ") + f"{c['drug'][:26]:28} {c['event'][:30]:32} Y={c['y']} a={c['a']:>4} lcl={c['ror_lcl']:>6} "

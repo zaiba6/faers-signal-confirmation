@@ -64,6 +64,7 @@ def safe_components(s):
         out.append(stripped or re.sub(r"\s+", " ", re.sub(r"[^A-Z0-9\- ]", " ", c)).strip())
     return sorted(set(c for c in out if c))
 from event_match import event_match, pt_regex
+from nonclinical_pts import is_nonclinical
 
 ROOT = Path(__file__).resolve().parents[1]
 P = ROOT / "data/processed"
@@ -135,6 +136,16 @@ def main():
         pairs = con.execute(f"""
             select drug_ai, pt_clean, detection_quarter, a, b, c, d, ror, ror_lcl, prr, chi2, q_value
             from read_parquet('{P}/detected_pairs_{t}.parquet') where status = 'in_window'""").df()
+        # Non-clinical PTs leave the cohort entirely (scripts/nonclinical_pts.py, decision 68).
+        # They are product-use, efficacy and medication-error terms, not clinical effects of a drug,
+        # and they confirm at 0.028% against 1.120% for the rest, so they would act as free
+        # negatives that the model could separate on event type rather than on safety.
+        n_before = len(pairs)
+        drop = pairs.pt_clean.map(is_nonclinical)
+        pairs = pairs[~drop].reset_index(drop=True)
+        report.setdefault("nonclinical_excluded", {})[t] = dict(
+            before=n_before, removed=int(drop.sum()), after=len(pairs),
+            removed_pct=round(100 * drop.sum() / n_before, 2))
         pairs["detect_dt"] = pairs.detection_quarter.map(quarter_end)
         con.register("pr", pairs)
 

@@ -56,6 +56,12 @@ PATTERNS = {
                                   r"\bUNEVALUABLE EVENT\b|\bSOCIAL\b|\bCIRCUMSTANCE\b|\bCORRECTIVE LENS USER\b|"
                                   r"\bDEVICE (USE|MALFUNCTION|FAILURE|ISSUE|DIFFICULTY)\b|\bEXPIRED PRODUCT\b",
 }
+# Decision 83. An OUTCOME, not an adverse event. FAERS already records death in the
+# outcome field, which is what frac_serious is built from, so DEATH as a PT adds no
+# information about WHAT the drug did and a labelling change naming it says nothing
+# about the signal. Separate justification from NONSPECIFIC below, hence its own set.
+OUTCOME_NOT_EVENT = {"DEATH"}
+
 # Decision 79. Exact match on the whole PT, never substring.
 NONSPECIFIC = {
     "PAIN", "INFLAMMATION", "SWELLING", "DISCOMFORT", "ILL-DEFINED DISORDER",
@@ -70,7 +76,7 @@ RULE = re.compile("|".join(f"(?:{p})" for p in PATTERNS.values()), re.I)
 
 def is_nonclinical(pt):
     s = str(pt).upper().strip()
-    return s in NONSPECIFIC or bool(RULE.search(s))
+    return s in NONSPECIFIC or s in OUTCOME_NOT_EVENT or bool(RULE.search(s))
 
 
 def which(pt):

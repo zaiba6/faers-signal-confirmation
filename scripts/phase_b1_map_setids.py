@@ -165,9 +165,16 @@ def step_match():
     # which is flagged as combo_fallback rather than counted as a clean match. Mapping
     # SACUBITRIL\\VALSARTAN to a valsartan-only label would answer "was this already listed"
     # from the wrong product.
-    single_only, single_raw = {}, {}
+    # Fix B, error class B of the B1 gate: requiring every component of the pair's drug to
+    # appear in the label did not forbid the label carrying EXTRA ingredients, so
+    # ABACAVIR\\LAMIVUDINE mapped onto TRIUMEQ (adds dolutegravir), FEXOFENADINE onto
+    # ALLEGRA-D (adds pseudoephedrine) and AMLODIPINE\\TELMISARTAN onto WIDAPLIK (adds
+    # indapamide). A larger fixed-dose product has its own label and its own safety sections.
+    # by_set keys a label by its WHOLE normalised ingredient set, so equality can be required.
+    single_only, single_raw, by_set = {}, {}, {}
     for r in spl.itertuples():
         ings = ingredients(r.title)
+        by_set.setdefault(frozenset(norm_key(i) for i in ings), set()).add(r.setid)
         if len(ings) == 1:
             single_only.setdefault(norm_key(ings[0]), set()).add(r.setid)
             single_raw.setdefault(clean(ings[0]), set()).add(r.setid)
@@ -179,9 +186,15 @@ def step_match():
         is_combo = len(parts) > 1
         hits, level = set(), "none"
         if is_combo:
-            sets = [idx_norm.get(norm_key(p), set()) for p in parts]
-            hits = set.intersection(*sets) if sets and all(sets) else set()
-            level = "combo_all_components" if hits else "none"
+            want = frozenset(norm_key(p) for p in parts)
+            if want in by_set:
+                hits, level = by_set[want], "combo_exact_set"
+            else:
+                # no label lists exactly these ingredients; fall back to a superset label but
+                # flag it, never counting it as a clean match
+                sets = [idx_norm.get(norm_key(p), set()) for p in parts]
+                hits = set.intersection(*sets) if sets and all(sets) else set()
+                level = "combo_superset" if hits else "none"
         else:
             # Fix A, tier order: a label that spells the salt exactly as FAERS does beats a
             # label reached only by stripping. Without this, METOPROLOL SUCCINATE is normalised
@@ -202,6 +215,10 @@ def step_match():
                          match_level=level, n_setids=len(hits),
                          setids=";".join(sorted(hits)[:50])))
     m = pd.DataFrame(rows)
+    # A clean mapping is one where the label is for the SAME product. combo_superset and
+    # combo_fallback reach a different product and are flagged, not counted clean.
+    CLEAN = {"single_exact_salt", "single_exact", "combo_exact_set"}
+    m["is_clean"] = m.match_level.isin(CLEAN).astype(int)
     m.to_csv(OUT / "b1_drug_to_setid.csv", index=False)
 
     tot_sig = int(m.signals.sum()); tot_drug = len(m)

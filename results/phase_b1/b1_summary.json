@@ -8,13 +8,17 @@
  "signals_mapped": 301762,
  "signals_mapped_pct": 86.4,
  "by_level": {
-  "combo_all_components": {
-   "drugs": 343,
-   "signals": 24418
+  "combo_exact_set": {
+   "drugs": 325,
+   "signals": 23931
   },
   "combo_fallback": {
    "drugs": 112,
    "signals": 6321
+  },
+  "combo_superset": {
+   "drugs": 18,
+   "signals": 487
   },
   "none": {
    "drugs": 1153,

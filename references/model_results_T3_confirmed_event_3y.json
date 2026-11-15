@@ -1,25 +1,25 @@
 {
  "rule": "T3",
  "target": "confirmed_event_3y",
- "n_train": 183651,
- "n_test": 75694,
- "pos_train": 3039,
- "pos_test": 713,
- "prevalence_train_pct": 1.655,
- "prevalence_test_pct": 0.942,
+ "n_train": 118879,
+ "n_test": 51215,
+ "pos_train": 734,
+ "pos_test": 146,
+ "prevalence_train_pct": 0.617,
+ "prevalence_test_pct": 0.285,
  "cv_logistic_ap_by_C": {
-  "0.01": 0.0367196926184856,
-  "0.1": 0.036625980136014834,
-  "1.0": 0.036380391853497784
+  "0.01": 0.015059138037990583,
+  "0.1": 0.014880004899243944,
+  "1.0": 0.014842853448801882
  },
  "chosen_C": 0.01,
  "cv_lightgbm_ap_by_n": {
-  "50": 0.0411,
-  "150": 0.0412,
-  "400": 0.0374,
-  "800": 0.0342
+  "50": 0.0107,
+  "150": 0.013,
+  "400": 0.0137,
+  "800": 0.0116
  },
- "chosen_n_estimators": 150,
+ "chosen_n_estimators": 400,
  "features": [
   "a",
   "b",
@@ -30,6 +30,7 @@
   "prr",
   "chi2",
   "q_value",
+  "burst_share",
   "n_quarters_observed",
   "is_combo",
   "a_growth_1q",
@@ -55,36 +56,36 @@
  ],
  "models": {
   "logistic_l2": {
-   "auprc": 0.0265,
-   "auprc_lift_vs_prevalence": 2.81,
-   "auroc": 0.7443,
-   "precision_at_100": 0.04,
+   "auprc": 0.0091,
+   "auprc_lift_vs_prevalence": 3.19,
+   "auroc": 0.7177,
+   "precision_at_100": 0.02,
    "precision_at_100_by_test_year": {
-    "2021": 0.02,
-    "2022": 0.07,
-    "2023": 0.05
+    "2021": 0.01,
+    "2022": 0.04,
+    "2023": 0.01
    }
   },
   "lightgbm": {
-   "auprc": 0.0312,
-   "auprc_lift_vs_prevalence": 3.31,
-   "auroc": 0.7559,
-   "precision_at_100": 0.07,
+   "auprc": 0.0054,
+   "auprc_lift_vs_prevalence": 1.9,
+   "auroc": 0.6552,
+   "precision_at_100": 0.0,
    "precision_at_100_by_test_year": {
-    "2021": 0.07,
-    "2022": 0.06,
-    "2023": 0.07
+    "2021": 0.0,
+    "2022": 0.01,
+    "2023": 0.01
    }
   },
   "prevalence_baseline": {
-   "auprc": 0.01,
-   "auprc_lift_vs_prevalence": 1.06,
-   "auroc": 0.5234,
-   "precision_at_100": 0.01,
+   "auprc": 0.0029,
+   "auprc_lift_vs_prevalence": 1.03,
+   "auroc": 0.4896,
+   "precision_at_100": 0.0,
    "precision_at_100_by_test_year": {
     "2021": 0.0,
     "2022": 0.0,
-    "2023": 0.01
+    "2023": 0.0
    },
    "note": "random scores; AUPRC should sit at test prevalence"
   }
@@ -92,63 +93,63 @@
  "lightgbm_top_features": [
   [
    "median_age",
-   444
-  ],
-  [
-   "drug_n_events",
-   322
+   1051
   ],
   [
    "d",
-   307
+   894
   ],
   [
-   "b",
-   243
-  ],
-  [
-   "drug_event_share",
-   236
+   "drug_n_events",
+   739
   ],
   [
    "event_n_drugs",
-   219
-  ],
-  [
-   "a_growth_1q_rel",
-   197
-  ],
-  [
-   "frac_us",
-   196
-  ],
-  [
-   "frac_female",
-   195
+   586
   ],
   [
    "drug_sum_a",
-   184
+   571
   ],
   [
-   "frac_consumer",
-   180
+   "drug_event_share",
+   541
+  ],
+  [
+   "frac_female",
+   531
+  ],
+  [
+   "b",
+   516
   ],
   [
    "event_drug_share",
-   174
+   498
+  ],
+  [
+   "frac_us",
+   494
   ],
   [
    "frac_serious",
-   174
+   489
+  ],
+  [
+   "a_growth_1q_rel",
+   488
   ],
   [
    "frac_hcp",
-   151
+   485
   ],
   [
-   "event_sum_a",
-   145
+   "q_value",
+   420
+  ],
+  [
+   "burst_share",
+   418
   ]
  ]
 }

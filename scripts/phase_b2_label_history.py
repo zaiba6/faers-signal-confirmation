@@ -301,8 +301,19 @@ def step_rule(tag="T1"):
             f = SEC / f"{sid}_{ver}.json"
             seccache[(sid, ver)] = json.loads(f.read_text()) if f.exists() else None
         secs = seccache[(sid, ver)]
-        if secs is None:                       # version text not downloaded or failed
-            out.append((r.drug_ai, r.pt_clean, r.detection_quarter, sid, ver, None, None))
+        # secs is None   -> the version text could not be fetched or parsed
+        # secs is empty  -> an old pre-PLR label: everything sits in SPL UNCLASSIFIED
+        #                   SECTION (42229-5) with no structured Warnings, Adverse
+        #                   Reactions or Contraindications codes at all. We cannot tell
+        #                   which section any text belongs to, so we cannot apply
+        #                   decision 75. Scoring these 0 would say "not already labelled"
+        #                   when the warning may well be there unclassified, handing the
+        #                   pair a free pass into the cohort as a possible false Y=1.
+        #                   Both are "cannot check", recorded as null, and both leave the
+        #                   cohort at the baseline_text_unavailable step.
+        if not secs:
+            out.append((r.drug_ai, r.pt_clean, r.detection_quarter, sid, ver, None,
+                        "no_counted_sections" if secs == {} else None))
             continue
         if r.pt_clean not in rxc:
             rxc[r.pt_clean] = pt_regex(r.pt_clean)

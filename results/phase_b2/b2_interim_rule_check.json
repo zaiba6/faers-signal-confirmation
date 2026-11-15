@@ -1,17 +1,30 @@
 {
  "status": "INTERIM, not final",
- "basis": "1,618 of 9,357 section files downloaded (17%), ordered by set id, NOT a random sample",
- "testable_pairs": 44786,
- "testable_Y1": 488,
- "already_labelled_among_Y1_pct": 65.6,
- "ci": [
-  61.3,
-  69.7
- ],
- "already_labelled_among_Y0_pct": 6.8,
- "ci_Y0": [
-  6.3,
-  7.4
- ],
- "implication": "decision 76 would remove roughly two thirds of current positives as prevalent labelling"
+ "basis": "4,058 of 9,357 section files (43%); 114,190 testable pairs (33% of cohort)",
+ "already_labelled_among_Y1": {
+  "k": 946,
+  "n": 1399,
+  "pct": 67.6,
+  "ci": [
+   65.1,
+   70.0
+  ]
+ },
+ "already_labelled_among_Y0": {
+  "k": 1366,
+  "n": 20000,
+  "pct": 6.8,
+  "ci": [
+   6.5,
+   7.2
+  ]
+ },
+ "earlier_estimate_at_17pct": {
+  "pct": 65.6,
+  "ci": [
+   61.3,
+   69.7
+  ]
+ },
+ "note": "stable across 17 to 43 percent coverage; expect decision 76 to remove about two thirds of positives"
 }

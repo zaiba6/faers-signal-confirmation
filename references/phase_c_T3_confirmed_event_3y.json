@@ -1,0 +1,148 @@
+{
+ "rule": "T3",
+ "target": "confirmed_event_3y",
+ "design": "decision 60: gap-36m folds + lock-box",
+ "horizon_months": 36,
+ "gap_quarters": 12,
+ "hyperparameters": {
+  "logistic_C": 1.0,
+  "lightgbm_n_estimators": 100,
+  "tuned": false,
+  "why": "no gapped inner CV fits in a 4-quarter train; fit_models.py's CV scored 2020, which is fold 1's test"
+ },
+ "features": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "ror",
+  "ror_lcl",
+  "prr",
+  "chi2",
+  "q_value",
+  "burst_share",
+  "n_quarters_observed",
+  "is_combo",
+  "a_growth_1q",
+  "a_growth_1q_rel",
+  "drug_n_events",
+  "drug_sum_a",
+  "event_n_drugs",
+  "event_sum_a",
+  "drug_event_share",
+  "event_drug_share",
+  "n_cases",
+  "frac_death",
+  "frac_serious",
+  "frac_hcp",
+  "frac_consumer",
+  "frac_lawyer",
+  "frac_us",
+  "median_age",
+  "frac_female",
+  "log_ror",
+  "log_prr",
+  "log_a"
+ ],
+ "folds": [
+  {
+   "name": "fold1",
+   "train": "2016Q1-2016Q4",
+   "test": "2020Q1-2020Q4",
+   "gap_quarters": 12,
+   "n_train": 23273,
+   "pos_train": 249,
+   "prevalence_train_pct": 1.07,
+   "n_test": 24466,
+   "pos_test": 83,
+   "prevalence_test_pct": 0.339,
+   "last_train_label_resolved": "2019-11-05",
+   "test_opens": "2020-01-01",
+   "models": {
+    "logistic_l2": {
+     "auprc": 0.0132,
+     "auprc_lift_vs_prevalence": 3.9,
+     "auroc": 0.6584,
+     "precision_at_100": 0.02
+    },
+    "lightgbm": {
+     "auprc": 0.0058,
+     "auprc_lift_vs_prevalence": 1.72,
+     "auroc": 0.6344,
+     "precision_at_100": 0.0
+    },
+    "ror_lcl_baseline": {
+     "auprc": 0.0027,
+     "auprc_lift_vs_prevalence": 0.8,
+     "auroc": 0.404,
+     "precision_at_100": 0.0
+    },
+    "random_baseline": {
+     "auprc": 0.0043,
+     "auprc_lift_vs_prevalence": 1.27,
+     "auroc": 0.5596,
+     "precision_at_100": 0.01
+    }
+   },
+   "random_lift_null": {
+    "median": 1.05,
+    "p95": 1.54,
+    "max": 2.17,
+    "draws": 200
+   }
+  },
+  {
+   "name": "fold2",
+   "train": "2016Q1-2017Q4",
+   "test": "2021Q1-2021Q4",
+   "gap_quarters": 12,
+   "n_train": 45435,
+   "pos_train": 391,
+   "prevalence_train_pct": 0.861,
+   "n_test": 21237,
+   "pos_test": 55,
+   "prevalence_test_pct": 0.259,
+   "last_train_label_resolved": "2020-11-27",
+   "test_opens": "2021-01-01",
+   "models": {
+    "logistic_l2": {
+     "auprc": 0.0076,
+     "auprc_lift_vs_prevalence": 2.93,
+     "auroc": 0.7215,
+     "precision_at_100": 0.02
+    },
+    "lightgbm": {
+     "auprc": 0.0042,
+     "auprc_lift_vs_prevalence": 1.64,
+     "auroc": 0.6033,
+     "precision_at_100": 0.0
+    },
+    "ror_lcl_baseline": {
+     "auprc": 0.0053,
+     "auprc_lift_vs_prevalence": 2.06,
+     "auroc": 0.5198,
+     "precision_at_100": 0.02
+    },
+    "random_baseline": {
+     "auprc": 0.0026,
+     "auprc_lift_vs_prevalence": 1.01,
+     "auroc": 0.4751,
+     "precision_at_100": 0.0
+    }
+   },
+   "random_lift_null": {
+    "median": 1.07,
+    "p95": 1.66,
+    "max": 3.82,
+    "draws": 200
+   }
+  }
+ ],
+ "lockbox": {
+  "period": "2022Q3-2023Q2",
+  "n": 19999,
+  "positives": 53,
+  "opened": false,
+  "note": "built and counted only; no model was fitted or scored on these rows. Phase G opens it."
+ }
+}

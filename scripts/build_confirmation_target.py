@@ -115,6 +115,25 @@ def map_drugs(con):
     return m, lc
 
 
+
+def cascade_step(report, t, name, pairs_before, pairs_after):
+    """Record one cohort filter: how many pairs it removed, overall and by detection year.
+
+    One rebuild applies several filters in a row. Without a per-step record you cannot
+    tell which filter caused which shift, and a filter that removes evenly overall can
+    still remove unevenly across time and quietly unbalance the temporal split.
+    """
+    yb = pairs_before.detection_quarter.str[:4].value_counts()
+    ya = pairs_after.detection_quarter.str[:4].value_counts()
+    by_year = {y: dict(before=int(yb.get(y, 0)), after=int(ya.get(y, 0)),
+                       removed_pct=round(100 * (yb.get(y, 0) - ya.get(y, 0)) / yb[y], 2))
+               for y in sorted(yb.index)}
+    report.setdefault("cohort_cascade", {}).setdefault(t, []).append(dict(
+        step=name, before=len(pairs_before), after=len(pairs_after),
+        removed=len(pairs_before) - len(pairs_after),
+        removed_pct=round(100 * (len(pairs_before) - len(pairs_after)) / max(len(pairs_before), 1), 2),
+        by_detection_year=by_year))
+
 def main():
     con = duckdb.connect()
     changes, lc_raw = map_drugs(con)
@@ -141,11 +160,13 @@ def main():
         # and they confirm at 0.028% against 1.120% for the rest, so they would act as free
         # negatives that the model could separate on event type rather than on safety.
         n_before = len(pairs)
+        pairs_before_nc = pairs
         drop = pairs.pt_clean.map(is_nonclinical)
         pairs = pairs[~drop].reset_index(drop=True)
         report.setdefault("nonclinical_excluded", {})[t] = dict(
             before=n_before, removed=int(drop.sum()), after=len(pairs),
             removed_pct=round(100 * drop.sum() / n_before, 2))
+        cascade_step(report, t, "nonclinical_pts", pairs_before_nc, pairs)
 
         # Single-source clustering leaves the cohort too (decision 87). Not because of how
         # often these pairs confirm - selecting on the outcome would be its own leakage -
@@ -159,6 +180,7 @@ def main():
         flags = con.execute(f"""select drug_ai, pt_clean, detection_quarter, source_clustered,
                                 burst_share from read_parquet('{bs}')""").df()
         n_before = len(pairs)
+        pairs_before_burst = pairs
         pairs = pairs.merge(flags, on=["drug_ai", "pt_clean", "detection_quarter"], how="left")
         pairs["source_clustered"] = pairs.source_clustered.fillna(0).astype(int)
         if os.environ.get("KEEP_CLUSTERED") != "1":
@@ -167,6 +189,7 @@ def main():
             before=n_before, removed=n_before - len(pairs), after=len(pairs),
             removed_pct=round(100 * (n_before - len(pairs)) / n_before, 2),
             sensitivity_arm=os.environ.get("KEEP_CLUSTERED") == "1")
+        cascade_step(report, t, "source_clustered", pairs_before_burst, pairs)
         pairs["detect_dt"] = pairs.detection_quarter.map(quarter_end)
         con.register("pr", pairs)
 

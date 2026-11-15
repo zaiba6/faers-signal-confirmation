@@ -104,8 +104,18 @@ def q_end(q):
     return pd.Timestamp(y, n * 3, 1) + pd.offsets.MonthEnd(0)
 
 
+def setid_to_apps():
+    """set id -> the application numbers it is registered under."""
+    out = {}
+    for f in (RAW.parent / "spls_by_application").glob("*.json"):
+        for r in json.loads(f.read_text()):
+            out.setdefault(r["setid"], set()).add(f.stem)
+    return out
+
+
 def step_size():
     hist = load_histories()
+    sid2app = setid_to_apps()
     import duckdb
     con = duckdb.connect()
     pairs = con.execute(f"""select drug_ai, detection_quarter, count(*) n
@@ -142,8 +152,18 @@ def step_size():
             # baseline against 6.4% of 2023, which would thin the train period more than
             # the test period. With it, 11.3% against 4.7%. Chosen on coverage and
             # temporal balance, both independent of the outcome.
+            # Restricted to set ids under the SAME application number as the primary.
+            # A different application number is a different product registration, often a
+            # different sponsor or an authorized generic on its own update schedule, and
+            # taking the baseline from one registration while the confirmation comes from
+            # another can make an event look newly added when the other label carried it
+            # all along. Same principle as decisions 65 and 70, applied to the fallback.
+            # Cost 4,109 T1 pairs; the no-baseline trend goes 11.3-4.7 to 13.6-4.8,
+            # against 18.6-6.4 with no fallback at all.
+            papps = sid2app.get(s, set())
             alt = [x for x in d2s[r.drug_ai]
-                   if hist.get(x) and any(dt <= cut for dt, _ in hist[x])]
+                   if hist.get(x) and any(dt <= cut for dt, _ in hist[x])
+                   and (sid2app.get(x, set()) & papps)]
             if alt:
                 s = max(alt, key=lambda x: len(hist[x]))
                 before = [(dt, v) for dt, v in hist[s] if dt <= cut]

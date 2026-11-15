@@ -18,8 +18,14 @@ RULE = (sys.argv[1] if len(sys.argv) > 1 else "T1").upper()
 OUT = P / f"features_{RULE}.parquet"
 
 SQL = f"""
+-- ALLOWLIST. Every column that reaches the feature table is named here and at the final
+-- select. Nothing is pulled in with a wildcard, so a column added to the target later -
+-- a label date, an SPL version, anything computed after detection - cannot become a
+-- predictor by accident. Outcome columns are carried deliberately and dropped by name in
+-- the model script; the leakage audit asserts they are not used as features.
 with tgt as (
     select drug_ai, pt_clean, detection_quarter, a, b, c, d, ror, ror_lcl, prr, chi2, q_value,
+           burst_share, source_clustered,
            confirmed_event_3y, confirmed_drug_3y, confirmed_event_strict
     from read_parquet('{P}/confirmation_target_{RULE}.parquet')
 ),
@@ -72,7 +78,10 @@ mix as (
       on c.caseid = l.caseid and c.in_counting_universe
     group by 1,2,3
 )
-select t.*,
+select t.drug_ai, t.pt_clean, t.detection_quarter,
+       t.a, t.b, t.c, t.d, t.ror, t.ror_lcl, t.prr, t.chi2, t.q_value,
+       t.burst_share, t.source_clustered,
+       t.confirmed_event_3y, t.confirmed_drug_3y, t.confirmed_event_strict,
        h.n_quarters_observed, h.first_quarter_at_3, h.is_combo,
        coalesce(h.a_now - h.a_prev1, 0)                                  as a_growth_1q,
        case when h.a_prev1 > 0 then (h.a_now - h.a_prev1)*1.0/h.a_prev1 end as a_growth_1q_rel,

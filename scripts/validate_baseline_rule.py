@@ -35,6 +35,11 @@ STRATA = {"random": 50, "kept_Y1": 30, "excluded_prevalent": 30, "fallback": 30}
 
 def context(sid, ver, pt, width=170):
     """The sentence the matcher fired on, so the call can be judged from the CSV alone."""
+    # baseline_version arrives as a float because the parquet column carries nulls, and
+    # "..._1.0.json" matches no cached file, which silently blanked every context cell.
+    if pd.isna(sid) or pd.isna(ver):
+        return "", ""
+    ver = int(ver)
     f = B.SEC / f"{sid}_{ver}.json"
     if not f.exists():
         return "", ""
@@ -55,10 +60,20 @@ if __name__ == "__main__":
     bl = ROOT / "data/processed/baseline_label_T1.parquet"
     if not bl.exists():
         raise SystemExit(f"missing {bl}: run phase_b2_label_history.py --step rule first")
+    # LEFT JOIN, not an inner one. The rows the rule EXCLUDES (already_labelled = 1) are
+    # by construction absent from confirmation_target, so an inner join emptied the
+    # excluded_prevalent stratum - the one stratum that checks the 18,198 exclusions.
+    # a and ror therefore come from detected_pairs, which still holds every pair; y is
+    # null for an excluded row and that is the honest value.
     d = con.execute(f"""
-        select b.*, t.confirmed_event_3y as y, t.a, t.ror
+        select b.*, t.confirmed_event_3y as y, p.a, p.ror
         from read_parquet('{bl}') b
-        join read_parquet('{ROOT}/data/processed/confirmation_target_T1.parquet') t
+        join (select drug_ai, pt_clean, detection_quarter, max(a) as a, max(ror) as ror
+              from read_parquet('{ROOT}/data/processed/detected_pairs_T1.parquet')
+              where status = 'in_window' group by 1,2,3) p
+          on p.drug_ai = b.drug_ai and p.pt_clean = b.pt_clean
+         and p.detection_quarter = b.detection_quarter
+        left join read_parquet('{ROOT}/data/processed/confirmation_target_T1.parquet') t
           on t.drug_ai = b.drug_ai and t.pt_clean = b.pt_clean
          and t.detection_quarter = b.detection_quarter
         where b.already_labelled is not null""").df()
@@ -92,7 +107,7 @@ if __name__ == "__main__":
                              detection_quarter=r.detection_quarter, a=r.a,
                              already_labelled=r.already_labelled, y_current=r.y,
                              is_fallback=int(r.is_fallback),
-                             baseline_setid=r.baseline_setid, baseline_version=r.baseline_version,
+                             baseline_setid=r.baseline_setid, baseline_version=None if pd.isna(r.baseline_version) else int(r.baseline_version),
                              matched_section=sec, context=ctx, verdict="", reason=""))
         print(f"  {name}: {min(n, len(p))} of {len(p):,} available")
     pd.DataFrame(rows).to_csv(OUT, index=False)

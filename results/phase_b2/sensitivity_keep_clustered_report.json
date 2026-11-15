@@ -1,0 +1,949 @@
+{
+ "definitions": {
+  "risk_sections": [
+   "BW",
+   "WP",
+   "AR",
+   "CONTRA"
+  ],
+  "primary_years": 3,
+  "years": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "eligible_status": "in_window",
+  "clock": "end of detection quarter"
+ },
+ "nonclinical_excluded": {
+  "T1": {
+   "before": 363502,
+   "removed": 17361,
+   "after": 346141,
+   "removed_pct": 4.78
+  },
+  "T2": {
+   "before": 349259,
+   "removed": 15917,
+   "after": 333342,
+   "removed_pct": 4.56
+  },
+  "T3": {
+   "before": 259345,
+   "removed": 14203,
+   "after": 245142,
+   "removed_pct": 5.48
+  }
+ },
+ "cohort_cascade": {
+  "T1": [
+   {
+    "step": "nonclinical_pts",
+    "before": 363502,
+    "after": 346141,
+    "removed": 17361,
+    "removed_pct": 4.78,
+    "by_detection_year": {
+     "2016": {
+      "before": 54301,
+      "after": 51726,
+      "removed_pct": 4.74
+     },
+     "2017": {
+      "before": 49969,
+      "after": 47499,
+      "removed_pct": 4.94
+     },
+     "2018": {
+      "before": 53630,
+      "after": 51110,
+      "removed_pct": 4.7
+     },
+     "2019": {
+      "before": 51057,
+      "after": 48588,
+      "removed_pct": 4.84
+     },
+     "2020": {
+      "before": 50347,
+      "after": 47951,
+      "removed_pct": 4.76
+     },
+     "2021": {
+      "before": 43590,
+      "after": 41542,
+      "removed_pct": 4.7
+     },
+     "2022": {
+      "before": 40776,
+      "after": 38787,
+      "removed_pct": 4.88
+     },
+     "2023": {
+      "before": 19832,
+      "after": 18938,
+      "removed_pct": 4.51
+     }
+    }
+   },
+   {
+    "step": "source_clustered",
+    "before": 346141,
+    "after": 346141,
+    "removed": 0,
+    "removed_pct": 0.0,
+    "by_detection_year": {
+     "2016": {
+      "before": 51726,
+      "after": 51726,
+      "removed_pct": 0.0
+     },
+     "2017": {
+      "before": 47499,
+      "after": 47499,
+      "removed_pct": 0.0
+     },
+     "2018": {
+      "before": 51110,
+      "after": 51110,
+      "removed_pct": 0.0
+     },
+     "2019": {
+      "before": 48588,
+      "after": 48588,
+      "removed_pct": 0.0
+     },
+     "2020": {
+      "before": 47951,
+      "after": 47951,
+      "removed_pct": 0.0
+     },
+     "2021": {
+      "before": 41542,
+      "after": 41542,
+      "removed_pct": 0.0
+     },
+     "2022": {
+      "before": 38787,
+      "after": 38787,
+      "removed_pct": 0.0
+     },
+     "2023": {
+      "before": 18938,
+      "after": 18938,
+      "removed_pct": 0.0
+     }
+    }
+   },
+   {
+    "step": "no_baseline_version",
+    "before": 346141,
+    "after": 263854,
+    "removed": 82287,
+    "removed_pct": 23.77,
+    "by_detection_year": {
+     "2016": {
+      "before": 51726,
+      "after": 38066,
+      "removed_pct": 26.41
+     },
+     "2017": {
+      "before": 47499,
+      "after": 35271,
+      "removed_pct": 25.74
+     },
+     "2018": {
+      "before": 51110,
+      "after": 38440,
+      "removed_pct": 24.79
+     },
+     "2019": {
+      "before": 48588,
+      "after": 37530,
+      "removed_pct": 22.76
+     },
+     "2020": {
+      "before": 47951,
+      "after": 37253,
+      "removed_pct": 22.31
+     },
+     "2021": {
+      "before": 41542,
+      "after": 32049,
+      "removed_pct": 22.85
+     },
+     "2022": {
+      "before": 38787,
+      "after": 30170,
+      "removed_pct": 22.22
+     },
+     "2023": {
+      "before": 18938,
+      "after": 15075,
+      "removed_pct": 20.4
+     }
+    }
+   },
+   {
+    "step": "baseline_text_unavailable",
+    "before": 263854,
+    "after": 263023,
+    "removed": 831,
+    "removed_pct": 0.31,
+    "by_detection_year": {
+     "2016": {
+      "before": 38066,
+      "after": 37911,
+      "removed_pct": 0.41
+     },
+     "2017": {
+      "before": 35271,
+      "after": 35073,
+      "removed_pct": 0.56
+     },
+     "2018": {
+      "before": 38440,
+      "after": 38309,
+      "removed_pct": 0.34
+     },
+     "2019": {
+      "before": 37530,
+      "after": 37428,
+      "removed_pct": 0.27
+     },
+     "2020": {
+      "before": 37253,
+      "after": 37186,
+      "removed_pct": 0.18
+     },
+     "2021": {
+      "before": 32049,
+      "after": 32003,
+      "removed_pct": 0.14
+     },
+     "2022": {
+      "before": 30170,
+      "after": 30069,
+      "removed_pct": 0.33
+     },
+     "2023": {
+      "before": 15075,
+      "after": 15044,
+      "removed_pct": 0.21
+     }
+    }
+   },
+   {
+    "step": "already_labelled_at_detection",
+    "before": 263023,
+    "after": 244321,
+    "removed": 18702,
+    "removed_pct": 7.11,
+    "by_detection_year": {
+     "2016": {
+      "before": 37911,
+      "after": 34348,
+      "removed_pct": 9.4
+     },
+     "2017": {
+      "before": 35073,
+      "after": 32321,
+      "removed_pct": 7.85
+     },
+     "2018": {
+      "before": 38309,
+      "after": 35669,
+      "removed_pct": 6.89
+     },
+     "2019": {
+      "before": 37428,
+      "after": 35040,
+      "removed_pct": 6.38
+     },
+     "2020": {
+      "before": 37186,
+      "after": 34994,
+      "removed_pct": 5.89
+     },
+     "2021": {
+      "before": 32003,
+      "after": 29928,
+      "removed_pct": 6.48
+     },
+     "2022": {
+      "before": 30069,
+      "after": 27988,
+      "removed_pct": 6.92
+     },
+     "2023": {
+      "before": 15044,
+      "after": 14033,
+      "removed_pct": 6.72
+     }
+    }
+   }
+  ],
+  "T2": [
+   {
+    "step": "nonclinical_pts",
+    "before": 349259,
+    "after": 333342,
+    "removed": 15917,
+    "removed_pct": 4.56,
+    "by_detection_year": {
+     "2016": {
+      "before": 52423,
+      "after": 50069,
+      "removed_pct": 4.49
+     },
+     "2017": {
+      "before": 48216,
+      "after": 45965,
+      "removed_pct": 4.67
+     },
+     "2018": {
+      "before": 51625,
+      "after": 49336,
+      "removed_pct": 4.43
+     },
+     "2019": {
+      "before": 49108,
+      "after": 46815,
+      "removed_pct": 4.67
+     },
+     "2020": {
+      "before": 48279,
+      "after": 46073,
+      "removed_pct": 4.57
+     },
+     "2021": {
+      "before": 41698,
+      "after": 39855,
+      "removed_pct": 4.42
+     },
+     "2022": {
+      "before": 38933,
+      "after": 37070,
+      "removed_pct": 4.79
+     },
+     "2023": {
+      "before": 18977,
+      "after": 18159,
+      "removed_pct": 4.31
+     }
+    }
+   },
+   {
+    "step": "source_clustered",
+    "before": 333342,
+    "after": 333342,
+    "removed": 0,
+    "removed_pct": 0.0,
+    "by_detection_year": {
+     "2016": {
+      "before": 50069,
+      "after": 50069,
+      "removed_pct": 0.0
+     },
+     "2017": {
+      "before": 45965,
+      "after": 45965,
+      "removed_pct": 0.0
+     },
+     "2018": {
+      "before": 49336,
+      "after": 49336,
+      "removed_pct": 0.0
+     },
+     "2019": {
+      "before": 46815,
+      "after": 46815,
+      "removed_pct": 0.0
+     },
+     "2020": {
+      "before": 46073,
+      "after": 46073,
+      "removed_pct": 0.0
+     },
+     "2021": {
+      "before": 39855,
+      "after": 39855,
+      "removed_pct": 0.0
+     },
+     "2022": {
+      "before": 37070,
+      "after": 37070,
+      "removed_pct": 0.0
+     },
+     "2023": {
+      "before": 18159,
+      "after": 18159,
+      "removed_pct": 0.0
+     }
+    }
+   },
+   {
+    "step": "no_baseline_version",
+    "before": 333342,
+    "after": 252573,
+    "removed": 80769,
+    "removed_pct": 24.23,
+    "by_detection_year": {
+     "2016": {
+      "before": 50069,
+      "after": 36611,
+      "removed_pct": 26.88
+     },
+     "2017": {
+      "before": 45965,
+      "after": 33953,
+      "removed_pct": 26.13
+     },
+     "2018": {
+      "before": 49336,
+      "after": 36857,
+      "removed_pct": 25.29
+     },
+     "2019": {
+      "before": 46815,
+      "after": 35985,
+      "removed_pct": 23.13
+     },
+     "2020": {
+      "before": 46073,
+      "after": 35549,
+      "removed_pct": 22.84
+     },
+     "2021": {
+      "before": 39855,
+      "after": 30593,
+      "removed_pct": 23.24
+     },
+     "2022": {
+      "before": 37070,
+      "after": 28659,
+      "removed_pct": 22.69
+     },
+     "2023": {
+      "before": 18159,
+      "after": 14366,
+      "removed_pct": 20.89
+     }
+    }
+   },
+   {
+    "step": "baseline_text_unavailable",
+    "before": 252573,
+    "after": 251734,
+    "removed": 839,
+    "removed_pct": 0.33,
+    "by_detection_year": {
+     "2016": {
+      "before": 36611,
+      "after": 36456,
+      "removed_pct": 0.42
+     },
+     "2017": {
+      "before": 33953,
+      "after": 33761,
+      "removed_pct": 0.57
+     },
+     "2018": {
+      "before": 36857,
+      "after": 36722,
+      "removed_pct": 0.37
+     },
+     "2019": {
+      "before": 35985,
+      "after": 35884,
+      "removed_pct": 0.28
+     },
+     "2020": {
+      "before": 35549,
+      "after": 35480,
+      "removed_pct": 0.19
+     },
+     "2021": {
+      "before": 30593,
+      "after": 30549,
+      "removed_pct": 0.14
+     },
+     "2022": {
+      "before": 28659,
+      "after": 28552,
+      "removed_pct": 0.37
+     },
+     "2023": {
+      "before": 14366,
+      "after": 14330,
+      "removed_pct": 0.25
+     }
+    }
+   },
+   {
+    "step": "already_labelled_at_detection",
+    "before": 251734,
+    "after": 235078,
+    "removed": 16656,
+    "removed_pct": 6.62,
+    "by_detection_year": {
+     "2016": {
+      "before": 36456,
+      "after": 33276,
+      "removed_pct": 8.72
+     },
+     "2017": {
+      "before": 33761,
+      "after": 31269,
+      "removed_pct": 7.38
+     },
+     "2018": {
+      "before": 36722,
+      "after": 34388,
+      "removed_pct": 6.36
+     },
+     "2019": {
+      "before": 35884,
+      "after": 33751,
+      "removed_pct": 5.94
+     },
+     "2020": {
+      "before": 35480,
+      "after": 33543,
+      "removed_pct": 5.46
+     },
+     "2021": {
+      "before": 30549,
+      "after": 28731,
+      "removed_pct": 5.95
+     },
+     "2022": {
+      "before": 28552,
+      "after": 26688,
+      "removed_pct": 6.53
+     },
+     "2023": {
+      "before": 14330,
+      "after": 13432,
+      "removed_pct": 6.27
+     }
+    }
+   }
+  ],
+  "T3": [
+   {
+    "step": "nonclinical_pts",
+    "before": 259345,
+    "after": 245142,
+    "removed": 14203,
+    "removed_pct": 5.48,
+    "by_detection_year": {
+     "2016": {
+      "before": 38032,
+      "after": 35987,
+      "removed_pct": 5.38
+     },
+     "2017": {
+      "before": 35176,
+      "after": 33224,
+      "removed_pct": 5.55
+     },
+     "2018": {
+      "before": 38059,
+      "after": 36019,
+      "removed_pct": 5.36
+     },
+     "2019": {
+      "before": 36267,
+      "after": 34258,
+      "removed_pct": 5.54
+     },
+     "2020": {
+      "before": 36117,
+      "after": 34162,
+      "removed_pct": 5.41
+     },
+     "2021": {
+      "before": 31514,
+      "after": 29757,
+      "removed_pct": 5.58
+     },
+     "2022": {
+      "before": 29830,
+      "after": 28206,
+      "removed_pct": 5.44
+     },
+     "2023": {
+      "before": 14350,
+      "after": 13529,
+      "removed_pct": 5.72
+     }
+    }
+   },
+   {
+    "step": "source_clustered",
+    "before": 245142,
+    "after": 245142,
+    "removed": 0,
+    "removed_pct": 0.0,
+    "by_detection_year": {
+     "2016": {
+      "before": 35987,
+      "after": 35987,
+      "removed_pct": 0.0
+     },
+     "2017": {
+      "before": 33224,
+      "after": 33224,
+      "removed_pct": 0.0
+     },
+     "2018": {
+      "before": 36019,
+      "after": 36019,
+      "removed_pct": 0.0
+     },
+     "2019": {
+      "before": 34258,
+      "after": 34258,
+      "removed_pct": 0.0
+     },
+     "2020": {
+      "before": 34162,
+      "after": 34162,
+      "removed_pct": 0.0
+     },
+     "2021": {
+      "before": 29757,
+      "after": 29757,
+      "removed_pct": 0.0
+     },
+     "2022": {
+      "before": 28206,
+      "after": 28206,
+      "removed_pct": 0.0
+     },
+     "2023": {
+      "before": 13529,
+      "after": 13529,
+      "removed_pct": 0.0
+     }
+    }
+   },
+   {
+    "step": "no_baseline_version",
+    "before": 245142,
+    "after": 191466,
+    "removed": 53676,
+    "removed_pct": 21.9,
+    "by_detection_year": {
+     "2016": {
+      "before": 35987,
+      "after": 27244,
+      "removed_pct": 24.29
+     },
+     "2017": {
+      "before": 33224,
+      "after": 25379,
+      "removed_pct": 23.61
+     },
+     "2018": {
+      "before": 36019,
+      "after": 27739,
+      "removed_pct": 22.99
+     },
+     "2019": {
+      "before": 34258,
+      "after": 27012,
+      "removed_pct": 21.15
+     },
+     "2020": {
+      "before": 34162,
+      "after": 27186,
+      "removed_pct": 20.42
+     },
+     "2021": {
+      "before": 29757,
+      "after": 23507,
+      "removed_pct": 21.0
+     },
+     "2022": {
+      "before": 28206,
+      "after": 22380,
+      "removed_pct": 20.66
+     },
+     "2023": {
+      "before": 13529,
+      "after": 11019,
+      "removed_pct": 18.55
+     }
+    }
+   },
+   {
+    "step": "baseline_text_unavailable",
+    "before": 191466,
+    "after": 190720,
+    "removed": 746,
+    "removed_pct": 0.39,
+    "by_detection_year": {
+     "2016": {
+      "before": 27244,
+      "after": 27135,
+      "removed_pct": 0.4
+     },
+     "2017": {
+      "before": 25379,
+      "after": 25260,
+      "removed_pct": 0.47
+     },
+     "2018": {
+      "before": 27739,
+      "after": 27619,
+      "removed_pct": 0.43
+     },
+     "2019": {
+      "before": 27012,
+      "after": 26926,
+      "removed_pct": 0.32
+     },
+     "2020": {
+      "before": 27186,
+      "after": 27110,
+      "removed_pct": 0.28
+     },
+     "2021": {
+      "before": 23507,
+      "after": 23437,
+      "removed_pct": 0.3
+     },
+     "2022": {
+      "before": 22380,
+      "after": 22269,
+      "removed_pct": 0.5
+     },
+     "2023": {
+      "before": 11019,
+      "after": 10964,
+      "removed_pct": 0.5
+     }
+    }
+   },
+   {
+    "step": "already_labelled_at_detection",
+    "before": 190720,
+    "after": 173298,
+    "removed": 17422,
+    "removed_pct": 9.13,
+    "by_detection_year": {
+     "2016": {
+      "before": 27135,
+      "after": 23797,
+      "removed_pct": 12.3
+     },
+     "2017": {
+      "before": 25260,
+      "after": 22695,
+      "removed_pct": 10.15
+     },
+     "2018": {
+      "before": 27619,
+      "after": 25114,
+      "removed_pct": 9.07
+     },
+     "2019": {
+      "before": 26926,
+      "after": 24726,
+      "removed_pct": 8.17
+     },
+     "2020": {
+      "before": 27110,
+      "after": 25074,
+      "removed_pct": 7.51
+     },
+     "2021": {
+      "before": 23437,
+      "after": 21477,
+      "removed_pct": 8.36
+     },
+     "2022": {
+      "before": 22269,
+      "after": 20365,
+      "removed_pct": 8.55
+     },
+     "2023": {
+      "before": 10964,
+      "after": 10050,
+      "removed_pct": 8.34
+     }
+    }
+   }
+  ]
+ },
+ "source_clustered_excluded": {
+  "T1": {
+   "before": 346141,
+   "removed": 0,
+   "after": 346141,
+   "removed_pct": 0.0,
+   "sensitivity_arm": true
+  },
+  "T2": {
+   "before": 333342,
+   "removed": 0,
+   "after": 333342,
+   "removed_pct": 0.0,
+   "sensitivity_arm": true
+  },
+  "T3": {
+   "before": 245142,
+   "removed": 0,
+   "after": 245142,
+   "removed_pct": 0.0,
+   "sensitivity_arm": true
+  }
+ },
+ "T1": {
+  "n_pairs": 244321,
+  "n_drugs": 1758,
+  "n_events": 13526,
+  "detection_range": [
+   "2016Q1",
+   "2023Q2"
+  ],
+  "positives": {
+   "drug_1y": 109744,
+   "event_1y": 413,
+   "drug_2y": 152549,
+   "event_2y": 743,
+   "drug_3y": 174265,
+   "event_3y": 1011,
+   "drug_5y": 195054,
+   "event_5y": 1425
+  },
+  "rates": {
+   "drug_1y": 44.92,
+   "event_1y": 0.17,
+   "drug_2y": 62.44,
+   "event_2y": 0.3,
+   "drug_3y": 71.33,
+   "event_3y": 0.41,
+   "drug_5y": 79.84,
+   "event_5y": 0.58
+  },
+  "strict_only_3y": {
+   "drug": 174265,
+   "event": 1011
+  },
+  "median_days_to_confirm": 467,
+  "first_confirm_section": {
+   "(none)": 243310,
+   "AR": 609,
+   "WP": 383,
+   "BW": 18,
+   "CONTRA": 1
+  },
+  "supplementary": {
+   "dsc_drug_3y": 4130,
+   "s921_drug_3y": 70826
+  }
+ },
+ "T2": {
+  "n_pairs": 235078,
+  "n_drugs": 1758,
+  "n_events": 13528,
+  "detection_range": [
+   "2016Q1",
+   "2023Q2"
+  ],
+  "positives": {
+   "drug_1y": 105138,
+   "event_1y": 375,
+   "drug_2y": 146402,
+   "event_2y": 685,
+   "drug_3y": 167261,
+   "event_3y": 925,
+   "drug_5y": 187265,
+   "event_5y": 1303
+  },
+  "rates": {
+   "drug_1y": 44.72,
+   "event_1y": 0.16,
+   "drug_2y": 62.28,
+   "event_2y": 0.29,
+   "drug_3y": 71.15,
+   "event_3y": 0.39,
+   "drug_5y": 79.66,
+   "event_5y": 0.55
+  },
+  "strict_only_3y": {
+   "drug": 167261,
+   "event": 925
+  },
+  "median_days_to_confirm": 465,
+  "first_confirm_section": {
+   "(none)": 234153,
+   "AR": 547,
+   "WP": 365,
+   "BW": 13
+  },
+  "supplementary": {
+   "dsc_drug_3y": 3986,
+   "s921_drug_3y": 67797
+  }
+ },
+ "T3": {
+  "n_pairs": 173298,
+  "n_drugs": 1605,
+  "n_events": 10959,
+  "detection_range": [
+   "2016Q1",
+   "2023Q2"
+  ],
+  "positives": {
+   "drug_1y": 79502,
+   "event_1y": 384,
+   "drug_2y": 110014,
+   "event_2y": 694,
+   "drug_3y": 125588,
+   "event_3y": 925,
+   "drug_5y": 140142,
+   "event_5y": 1316
+  },
+  "rates": {
+   "drug_1y": 45.88,
+   "event_1y": 0.22,
+   "drug_2y": 63.48,
+   "event_2y": 0.4,
+   "drug_3y": 72.47,
+   "event_3y": 0.53,
+   "drug_5y": 80.87,
+   "event_5y": 0.76
+  },
+  "strict_only_3y": {
+   "drug": 125588,
+   "event": 925
+  },
+  "median_days_to_confirm": 446,
+  "first_confirm_section": {
+   "(none)": 172373,
+   "AR": 581,
+   "WP": 335,
+   "BW": 9
+  },
+  "supplementary": {
+   "dsc_drug_3y": 3072,
+   "s921_drug_3y": 51054
+  }
+ },
+ "label_changes_mapped": {
+  "rows_in": 29500,
+  "rows_mapped_to_faers_drug": 39320,
+  "distinct_faers_drugs": 2074,
+  "risk_section_rows": 21039,
+  "stub_rows": 1637,
+  "by_match_level": {
+   "exact": 20434,
+   "salt_stripped": 5847
+  }
+ }
+}

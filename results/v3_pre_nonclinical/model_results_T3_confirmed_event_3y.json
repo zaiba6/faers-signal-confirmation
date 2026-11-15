@@ -1,0 +1,154 @@
+{
+ "rule": "T3",
+ "target": "confirmed_event_3y",
+ "n_train": 183651,
+ "n_test": 75694,
+ "pos_train": 3039,
+ "pos_test": 713,
+ "prevalence_train_pct": 1.655,
+ "prevalence_test_pct": 0.942,
+ "cv_logistic_ap_by_C": {
+  "0.01": 0.0367196926184856,
+  "0.1": 0.036625980136014834,
+  "1.0": 0.036380391853497784
+ },
+ "chosen_C": 0.01,
+ "cv_lightgbm_ap_by_n": {
+  "50": 0.0411,
+  "150": 0.0412,
+  "400": 0.0374,
+  "800": 0.0342
+ },
+ "chosen_n_estimators": 150,
+ "features": [
+  "a",
+  "b",
+  "c",
+  "d",
+  "ror",
+  "ror_lcl",
+  "prr",
+  "chi2",
+  "q_value",
+  "n_quarters_observed",
+  "is_combo",
+  "a_growth_1q",
+  "a_growth_1q_rel",
+  "drug_n_events",
+  "drug_sum_a",
+  "event_n_drugs",
+  "event_sum_a",
+  "drug_event_share",
+  "event_drug_share",
+  "n_cases",
+  "frac_death",
+  "frac_serious",
+  "frac_hcp",
+  "frac_consumer",
+  "frac_lawyer",
+  "frac_us",
+  "median_age",
+  "frac_female",
+  "log_ror",
+  "log_prr",
+  "log_a"
+ ],
+ "models": {
+  "logistic_l2": {
+   "auprc": 0.0265,
+   "auprc_lift_vs_prevalence": 2.81,
+   "auroc": 0.7443,
+   "precision_at_100": 0.04,
+   "precision_at_100_by_test_year": {
+    "2021": 0.02,
+    "2022": 0.07,
+    "2023": 0.05
+   }
+  },
+  "lightgbm": {
+   "auprc": 0.0312,
+   "auprc_lift_vs_prevalence": 3.31,
+   "auroc": 0.7559,
+   "precision_at_100": 0.07,
+   "precision_at_100_by_test_year": {
+    "2021": 0.07,
+    "2022": 0.06,
+    "2023": 0.07
+   }
+  },
+  "prevalence_baseline": {
+   "auprc": 0.01,
+   "auprc_lift_vs_prevalence": 1.06,
+   "auroc": 0.5234,
+   "precision_at_100": 0.01,
+   "precision_at_100_by_test_year": {
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": 0.01
+   },
+   "note": "random scores; AUPRC should sit at test prevalence"
+  }
+ },
+ "lightgbm_top_features": [
+  [
+   "median_age",
+   444
+  ],
+  [
+   "drug_n_events",
+   322
+  ],
+  [
+   "d",
+   307
+  ],
+  [
+   "b",
+   243
+  ],
+  [
+   "drug_event_share",
+   236
+  ],
+  [
+   "event_n_drugs",
+   219
+  ],
+  [
+   "a_growth_1q_rel",
+   197
+  ],
+  [
+   "frac_us",
+   196
+  ],
+  [
+   "frac_female",
+   195
+  ],
+  [
+   "drug_sum_a",
+   184
+  ],
+  [
+   "frac_consumer",
+   180
+  ],
+  [
+   "event_drug_share",
+   174
+  ],
+  [
+   "frac_serious",
+   174
+  ],
+  [
+   "frac_hcp",
+   151
+  ],
+  [
+   "event_sum_a",
+   145
+  ]
+ ]
+}

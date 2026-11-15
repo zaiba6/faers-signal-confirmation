@@ -1,0 +1,165 @@
+{
+ "definitions": {
+  "risk_sections": [
+   "BW",
+   "WP",
+   "AR",
+   "CONTRA"
+  ],
+  "primary_years": 3,
+  "years": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "eligible_status": "in_window",
+  "clock": "end of detection quarter"
+ },
+ "T1": {
+  "n_pairs": 363502,
+  "n_drugs": 3275,
+  "n_events": 14110,
+  "detection_range": [
+   "2016Q1",
+   "2023Q2"
+  ],
+  "positives": {
+   "drug_1y": 142809,
+   "event_1y": 1682,
+   "drug_2y": 202110,
+   "event_2y": 2925,
+   "drug_3y": 233153,
+   "event_3y": 3916,
+   "drug_5y": 262820,
+   "event_5y": 5388
+  },
+  "rates": {
+   "drug_1y": 39.29,
+   "event_1y": 0.46,
+   "drug_2y": 55.6,
+   "event_2y": 0.8,
+   "drug_3y": 64.14,
+   "event_3y": 1.08,
+   "drug_5y": 72.3,
+   "event_5y": 1.48
+  },
+  "strict_only_3y": {
+   "drug": 233153,
+   "event": 3916
+  },
+  "median_days_to_confirm": 439,
+  "first_confirm_section": {
+   "(none)": 359586,
+   "AR": 2084,
+   "WP": 1742,
+   "BW": 76,
+   "CONTRA": 14
+  },
+  "supplementary": {
+   "dsc_drug_3y": 5176,
+   "s921_drug_3y": 94463
+  }
+ },
+ "T2": {
+  "n_pairs": 349259,
+  "n_drugs": 3275,
+  "n_events": 14112,
+  "detection_range": [
+   "2016Q1",
+   "2023Q2"
+  ],
+  "positives": {
+   "drug_1y": 136115,
+   "event_1y": 1523,
+   "drug_2y": 193018,
+   "event_2y": 2641,
+   "drug_3y": 222720,
+   "event_3y": 3534,
+   "drug_5y": 251153,
+   "event_5y": 4900
+  },
+  "rates": {
+   "drug_1y": 38.97,
+   "event_1y": 0.44,
+   "drug_2y": 55.27,
+   "event_2y": 0.76,
+   "drug_3y": 63.77,
+   "event_3y": 1.01,
+   "drug_5y": 71.91,
+   "event_5y": 1.4
+  },
+  "strict_only_3y": {
+   "drug": 222720,
+   "event": 3534
+  },
+  "median_days_to_confirm": 437,
+  "first_confirm_section": {
+   "(none)": 345725,
+   "AR": 1859,
+   "WP": 1590,
+   "BW": 70,
+   "CONTRA": 15
+  },
+  "supplementary": {
+   "dsc_drug_3y": 4970,
+   "s921_drug_3y": 90062
+  }
+ },
+ "T3": {
+  "n_pairs": 259345,
+  "n_drugs": 2861,
+  "n_events": 11482,
+  "detection_range": [
+   "2016Q1",
+   "2023Q2"
+  ],
+  "positives": {
+   "drug_1y": 105250,
+   "event_1y": 1603,
+   "drug_2y": 148463,
+   "event_2y": 2800,
+   "drug_3y": 170997,
+   "event_3y": 3752,
+   "drug_5y": 192302,
+   "event_5y": 5138
+  },
+  "rates": {
+   "drug_1y": 40.58,
+   "event_1y": 0.62,
+   "drug_2y": 57.25,
+   "event_2y": 1.08,
+   "drug_3y": 65.93,
+   "event_3y": 1.45,
+   "drug_5y": 74.15,
+   "event_5y": 1.98
+  },
+  "strict_only_3y": {
+   "drug": 170997,
+   "event": 3752
+  },
+  "median_days_to_confirm": 439,
+  "first_confirm_section": {
+   "(none)": 255593,
+   "AR": 2028,
+   "WP": 1655,
+   "BW": 62,
+   "CONTRA": 7
+  },
+  "supplementary": {
+   "dsc_drug_3y": 3855,
+   "s921_drug_3y": 69069
+  }
+ },
+ "label_changes_mapped": {
+  "rows_in": 29500,
+  "rows_mapped_to_faers_drug": 39320,
+  "distinct_faers_drugs": 2074,
+  "risk_section_rows": 21039,
+  "stub_rows": 1637,
+  "by_match_level": {
+   "exact": 20938,
+   "salt_stripped": 5343
+  }
+ }
+}

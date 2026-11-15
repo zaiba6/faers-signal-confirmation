@@ -1,0 +1,98 @@
+[
+ {
+  "drug": "SOFOSBUVIR\\VELPATASVIR",
+  "pt": "HEADACHE",
+  "detection_quarter": "2016Q4",
+  "detection_end": "2016-12-31",
+  "confirm_date": "2017-08-01",
+  "setid": "7f30631a-ee3b-4cfe-866b-964df3f0a44f",
+  "versions": 14,
+  "before": {
+   "version": 1,
+   "published": "2016-07-12",
+   "effective_time": "20160630",
+   "pt_found": true,
+   "occurrences": 6
+  },
+  "after": {
+   "version": 3,
+   "published": "2017-08-09",
+   "effective_time": "20170808",
+   "pt_found": true,
+   "occurrences": 7
+  },
+  "verdict": "ALREADY LABELLED before detection"
+ },
+ {
+  "drug": "ELBASVIR\\GRAZOPREVIR",
+  "pt": "ASCITES",
+  "detection_quarter": "2017Q4",
+  "detection_end": "2017-12-31",
+  "confirm_date": "2019-12-11",
+  "setid": "164dc02a-9180-426a-b8b5-04ab39d2bbd4",
+  "versions": 16,
+  "before": {
+   "version": 8,
+   "published": "2017-11-30",
+   "effective_time": "20171109",
+   "pt_found": false,
+   "occurrences": 0
+  },
+  "after": {
+   "version": 13,
+   "published": "2020-01-13",
+   "effective_time": "20191211",
+   "pt_found": true,
+   "occurrences": 1
+  },
+  "verdict": "TRUE ADDITION - absent before, present after"
+ },
+ {
+  "drug": "SELINEXOR",
+  "pt": "NEUTROPENIA",
+  "detection_quarter": "2019Q3",
+  "detection_end": "2019-09-30",
+  "confirm_date": "2020-12-18",
+  "setid": "f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+  "versions": 14,
+  "before": {
+   "version": 2,
+   "published": "2019-08-21",
+   "effective_time": "20190819",
+   "pt_found": true,
+   "occurrences": 15
+  },
+  "after": {
+   "version": 6,
+   "published": "2020-12-21",
+   "effective_time": "20201218",
+   "pt_found": true,
+   "occurrences": 34
+  },
+  "verdict": "ALREADY LABELLED before detection"
+ },
+ {
+  "drug": "URSODIOL",
+  "pt": "DYSPEPSIA",
+  "detection_quarter": "2021Q4",
+  "detection_end": "2021-12-31",
+  "confirm_date": "2023-01-12",
+  "setid": "a061bb07-a85d-4b08-877f-ce02156f0de7",
+  "versions": 13,
+  "before": {
+   "version": 9,
+   "published": "2021-06-24",
+   "effective_time": "20201101",
+   "pt_found": true,
+   "occurrences": 1
+  },
+  "after": {
+   "version": 12,
+   "published": "2023-07-27",
+   "effective_time": "20230724",
+   "pt_found": true,
+   "occurrences": 1
+  },
+  "verdict": "ALREADY LABELLED before detection"
+ }
+]

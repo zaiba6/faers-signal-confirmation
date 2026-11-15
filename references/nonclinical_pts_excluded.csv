@@ -1,0 +1,133 @@
+pt_clean,signals,positives,excluded,patterns
+PRODUCT USE IN UNAPPROVED INDICATION,558,0.0,True,product_use_and_quality;off_label_and_indication
+DRUG INEFFECTIVE,544,0.0,True,efficacy_not_safety
+OFF LABEL USE,520,0.0,True,off_label_and_indication
+PRODUCT DOSE OMISSION ISSUE,391,0.0,True,medication_error
+PRODUCT DISPENSING ERROR,365,0.0,True,product_use_and_quality;medication_error
+PRODUCT USE ISSUE,327,0.0,True,product_use_and_quality
+DRUG INEFFECTIVE FOR UNAPPROVED INDICATION,318,0.0,True,off_label_and_indication;efficacy_not_safety
+PRODUCT USE COMPLAINT,317,0.0,True,product_use_and_quality
+THERAPY NON-RESPONDER,302,0.0,True,efficacy_not_safety
+PRODUCT QUALITY ISSUE,300,0.0,True,product_use_and_quality
+MEDICATION ERROR,284,4.0,True,medication_error
+NO ADVERSE EVENT,284,0.0,True,adherence_and_circumstance
+PRODUCT SUBSTITUTION ISSUE,284,0.0,True,product_use_and_quality
+INCORRECT ROUTE OF PRODUCT ADMINISTRATION,277,0.0,True,medication_error
+PRODUCT STORAGE ERROR,276,0.0,True,product_use_and_quality
+TREATMENT FAILURE,273,0.0,True,efficacy_not_safety
+PRODUCT DOSE OMISSION,271,0.0,True,medication_error
+PRODUCT AVAILABILITY ISSUE,263,0.0,True,product_use_and_quality
+INTENTIONAL PRODUCT USE ISSUE,258,0.0,True,product_use_and_quality
+EXPIRED PRODUCT ADMINISTERED,241,0.0,True,adherence_and_circumstance
+TREATMENT NONCOMPLIANCE,240,0.0,True,adherence_and_circumstance
+WRONG TECHNIQUE IN PRODUCT USAGE PROCESS,220,0.0,True,medication_error
+INTENTIONAL DOSE OMISSION,204,0.0,True,medication_error
+INCORRECT DOSE ADMINISTERED,203,0.0,True,medication_error
+WRONG PRODUCT ADMINISTERED,200,0.0,True,medication_error
+UNEVALUABLE EVENT,191,0.0,True,adherence_and_circumstance
+THERAPEUTIC RESPONSE UNEXPECTED,182,0.0,True,efficacy_not_safety
+DRUG EFFECTIVE FOR UNAPPROVED INDICATION,179,0.0,True,off_label_and_indication
+CIRCUMSTANCE OR INFORMATION CAPABLE OF LEADING TO MEDICATION ERROR,177,0.0,True,medication_error;adherence_and_circumstance
+ACCIDENTAL EXPOSURE TO PRODUCT,174,0.0,True,medication_error
+THERAPEUTIC RESPONSE DECREASED,173,0.0,True,efficacy_not_safety
+PRODUCT PACKAGING QUANTITY ISSUE,169,0.0,True,product_use_and_quality
+INCORRECT PRODUCT ADMINISTRATION DURATION,162,0.0,True,medication_error
+PRODUCT PACKAGING ISSUE,162,0.0,True,product_use_and_quality
+PRODUCT LABEL CONFUSION,161,0.0,True,product_use_and_quality
+PRODUCT LABEL ISSUE,158,0.0,True,product_use_and_quality
+DRUG DISPENSING ERROR,152,0.0,True,medication_error
+PRODUCT PREPARATION ERROR,150,0.0,True,product_use_and_quality
+PRESCRIBED OVERDOSE,139,0.0,True,medication_error
+DRUG EFFECT INCOMPLETE,134,0.0,True,efficacy_not_safety
+LABELLED DRUG-DRUG INTERACTION MEDICATION ERROR,131,0.0,True,medication_error
+PRODUCT PREPARATION ISSUE,123,0.0,True,product_use_and_quality
+DRUG DOSE OMISSION,121,0.0,True,medication_error;adherence_and_circumstance
+PRODUCT DOSE OMISSION IN ERROR,119,0.0,True,medication_error
+PRODUCT PACKAGING CONFUSION,107,0.0,True,product_use_and_quality
+DRUG ADMINISTRATION ERROR,106,0.0,True,medication_error
+WRONG DRUG ADMINISTERED,102,0.0,True,medication_error
+THERAPEUTIC RESPONSE SHORTENED,100,0.0,True,efficacy_not_safety
+WRONG PATIENT RECEIVED PRODUCT,100,0.0,True,medication_error
+DRUG EFFECT DECREASED,98,0.0,True,efficacy_not_safety
+PRODUCT CONTAMINATION,98,0.0,True,product_use_and_quality
+DEVICE ISSUE,94,0.0,True,adherence_and_circumstance
+WRONG DOSE,93,0.0,True,medication_error
+TRANSCRIPTION MEDICATION ERROR,93,0.0,True,medication_error
+SUSPECTED PRODUCT QUALITY ISSUE,88,0.0,True,product_use_and_quality
+ACCIDENTAL EXPOSURE TO PRODUCT BY CHILD,86,0.0,True,medication_error
+INCORRECT DRUG ADMINISTRATION RATE,85,0.0,True,medication_error
+INCORRECT ROUTE OF DRUG ADMINISTRATION,83,0.0,True,medication_error
+DEVICE MALFUNCTION,82,0.0,True,adherence_and_circumstance
+PRODUCT PACKAGING DIFFICULT TO OPEN,81,0.0,True,product_use_and_quality
+PRODUCT DISPENSING ISSUE,79,0.0,True,product_use_and_quality
+PRESCRIBED UNDERDOSE,74,0.0,True,medication_error
+INCORRECT DRUG ADMINISTRATION DURATION,71,0.0,True,medication_error
+INTERCEPTED MEDICATION ERROR,69,0.0,True,medication_error
+INCORRECT DOSE ADMINISTERED BY DEVICE,69,0.0,True,medication_error
+WRONG TECHNIQUE IN DEVICE USAGE PROCESS,69,0.0,True,medication_error
+PRODUCT CONTAMINATION PHYSICAL,68,0.0,True,product_use_and_quality
+INCORRECT PRODUCT STORAGE,63,0.0,True,product_use_and_quality;medication_error
+SOCIAL AVOIDANT BEHAVIOUR,62,0.0,True,adherence_and_circumstance
+DEVICE USE ISSUE,57,0.0,True,adherence_and_circumstance
+INTERCEPTED PRODUCT DISPENSING ERROR,56,0.0,True,product_use_and_quality;medication_error
+PRODUCT DELIVERY MECHANISM ISSUE,54,0.0,True,product_use_and_quality
+PRODUCT USED FOR UNKNOWN INDICATION,54,0.0,True,product_use_and_quality
+INTERCEPTED PRODUCT PRESCRIBING ERROR,52,0.0,True,medication_error
+DRUG DISPENSED TO WRONG PATIENT,52,0.0,True,medication_error
+DRUG DOSE OMISSION BY DEVICE,52,0.0,True,medication_error;adherence_and_circumstance
+INTERCEPTED PRODUCT STORAGE ERROR,51,0.0,True,product_use_and_quality;medication_error
+INTERCEPTED PRODUCT ADMINISTRATION ERROR,46,0.0,True,medication_error
+PRODUCT CONTAMINATION MICROBIAL,43,0.0,True,product_use_and_quality
+SUSPECTED PRODUCT CONTAMINATION,43,0.0,True,product_use_and_quality
+INCORRECT DOSE ADMINISTERED BY PRODUCT,42,0.0,True,medication_error
+SOCIAL ANXIETY DISORDER,40,0.0,True,adherence_and_circumstance
+PRODUCT TAMPERING,40,0.0,True,product_use_and_quality
+PHYSICAL PRODUCT LABEL ISSUE,40,0.0,True,product_use_and_quality
+DISTURBANCE IN SOCIAL BEHAVIOUR,39,0.0,True,adherence_and_circumstance
+INCORRECT PRODUCT FORMULATION ADMINISTERED,35,0.0,True,medication_error
+DEVICE FAILURE,35,0.0,True,adherence_and_circumstance
+SOCIAL PROBLEM,32,0.0,True,adherence_and_circumstance
+LABELLED DRUG-DISEASE INTERACTION MEDICATION ERROR,31,0.0,True,medication_error
+INTERCEPTED PRODUCT PREPARATION ERROR,29,0.0,True,product_use_and_quality;medication_error
+SUSPECTED PRODUCT TAMPERING,28,0.0,True,product_use_and_quality
+CIRCUMSTANCE OR INFORMATION CAPABLE OF LEADING TO DEVICE USE ERROR,27,0.0,True,adherence_and_circumstance
+DEVICE DISPENSING ERROR,26,0.0,True,medication_error
+INTERCEPTED DRUG ADMINISTRATION ERROR,24,0.0,True,medication_error
+THERAPEUTIC PRODUCT EFFECTIVE FOR UNAPPROVED INDICATION,22,0.0,True,off_label_and_indication
+LABELLED DRUG-FOOD INTERACTION MEDICATION ERROR,22,0.0,True,medication_error
+DEVICE USE ERROR,22,0.0,True,adherence_and_circumstance
+THERAPEUTIC PRODUCT INEFFECTIVE FOR UNAPPROVED INDICATION,21,0.0,True,off_label_and_indication
+INTENTIONAL DEVICE USE ISSUE,20,0.0,True,adherence_and_circumstance
+UNINTENTIONAL USE FOR UNAPPROVED INDICATION,20,0.0,True,off_label_and_indication
+INTERCEPTED DRUG DISPENSING ERROR,19,0.0,True,medication_error
+WRONG PATIENT,19,0.0,True,medication_error
+DEVICE USE CONFUSION,18,0.0,True,adherence_and_circumstance
+WRONG TECHNIQUE IN DRUG USAGE PROCESS,18,0.0,True,medication_error
+WRONG DRUG,18,0.0,True,medication_error
+WRONG PRODUCT STORED,18,0.0,True,medication_error
+INCORRECT PRODUCT DOSAGE FORM ADMINISTERED,16,0.0,True,medication_error
+PRODUCT SUBSTITUTION,16,0.0,True,product_use_and_quality
+INTERCEPTED PRODUCT SELECTION ERROR,16,0.0,True,medication_error
+ACCIDENTAL EXPOSURE TO PRODUCT PACKAGING,14,0.0,True,product_use_and_quality;medication_error
+CORRECTIVE LENS USER,14,0.0,True,adherence_and_circumstance
+WRONG PATIENT RECEIVED MEDICATION,13,0.0,True,medication_error
+OFF LABEL USE OF DEVICE,13,0.0,True,off_label_and_indication
+PRODUCT CONTAMINATION WITH BODY FLUID,12,0.0,True,product_use_and_quality
+PRODUCT CONTAMINATION CHEMICAL,12,0.0,True,product_use_and_quality
+PRODUCT LABEL ON WRONG PRODUCT,11,0.0,True,product_use_and_quality;medication_error
+MANUFACTURING PRODUCT STORAGE ISSUE,7,0.0,True,product_use_and_quality
+PRODUCT USE IN UNAPPROVED THERAPEUTIC ENVIRONMENT,7,0.0,True,product_use_and_quality;off_label_and_indication
+PRODUCT QUALITY CONTROL ISSUE,6,0.0,True,product_use_and_quality
+PERFORMANCE ENHANCING PRODUCT USE,6,0.0,True,product_use_and_quality
+PRODUCT SUBSTITUTION ERROR,6,0.0,True,product_use_and_quality
+SOCIAL FEAR,5,0.0,True,adherence_and_circumstance
+SOCIAL (PRAGMATIC) COMMUNICATION DISORDER,5,0.0,True,adherence_and_circumstance
+INCORRECT DRUG DOSAGE FORM ADMINISTERED,5,0.0,True,medication_error
+SUSPECTED OFF LABEL USE,5,0.0,True,off_label_and_indication
+OUT OF SPECIFICATION PRODUCT USE,2,0.0,True,product_use_and_quality
+ACCIDENTAL EXPOSURE TO PRODUCT PACKAGING BY CHILD,2,0.0,True,product_use_and_quality;medication_error
+INTERCEPTED WRONG PATIENT SELECTED,1,0.0,True,medication_error
+NO DEVICE MALFUNCTION,1,0.0,True,adherence_and_circumstance
+UNEVALUABLE DEVICE ISSUE,1,0.0,True,adherence_and_circumstance
+WRONG PRODUCT PROCURED,1,0.0,True,medication_error
+SOCIAL STAY HOSPITALISATION,1,0.0,True,adherence_and_circumstance

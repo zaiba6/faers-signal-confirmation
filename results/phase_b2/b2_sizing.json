@@ -1,0 +1,9 @@
+{
+ "histories_cached": 4315,
+ "drug_quarter_combos": 45918,
+ "version_downloads_needed": 9173,
+ "pairs_with_no_baseline_version": 41127,
+ "drug_quarters_with_no_history": 11530,
+ "primary_setids": 1572,
+ "est_hours_at_1_per_sec": 2.5
+}

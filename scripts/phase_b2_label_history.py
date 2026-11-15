@@ -126,13 +126,27 @@ def step_size():
         return max(cand)[2] if cand else None
 
     prim = {d: primary(s) for d, s in d2s.items()}
-    need, no_base, no_hist = set(), 0, 0
+    need, no_base, unmapped = set(), 0, 0
     for r in pairs.itertuples():
         s = prim.get(r.drug_ai)
         if s is None:
-            no_hist += 1
+            unmapped += r.n          # drug is not in the clean mapping at all (decision 73)
             continue
-        before = [(dt, v) for dt, v in hist[s] if dt <= q_end(r.detection_quarter)]
+        cut = q_end(r.detection_quarter)
+        before = [(dt, v) for dt, v in hist[s] if dt <= cut]
+        if not before:
+            # The primary has no version predating detection. Rather than lose the pair to
+            # decision 77, fall back to any other set id of the same drug that does. This
+            # recovers 16,228 T1 pairs for 189 extra downloads, and it matters because the
+            # loss is time-trended: without the fallback 18.6% of 2016 detections have no
+            # baseline against 6.4% of 2023, which would thin the train period more than
+            # the test period. With it, 11.3% against 4.7%. Chosen on coverage and
+            # temporal balance, both independent of the outcome.
+            alt = [x for x in d2s[r.drug_ai]
+                   if hist.get(x) and any(dt <= cut for dt, _ in hist[x])]
+            if alt:
+                s = max(alt, key=lambda x: len(hist[x]))
+                before = [(dt, v) for dt, v in hist[s] if dt <= cut]
         if before:
             need.add((s, max(before, key=lambda x: x[0])[1]))
         else:
@@ -141,7 +155,7 @@ def step_size():
                drug_quarter_combos=len(pairs),
                version_downloads_needed=len(need),
                pairs_with_no_baseline_version=int(no_base),
-               drug_quarters_with_no_history=no_hist,
+               pairs_drug_not_in_clean_mapping=unmapped,
                primary_setids=len({v for v in prim.values() if v}),
                est_hours_at_1_per_sec=round(len(need) / 3600, 1))
     (OUT / "b2_sizing.json").write_text(json.dumps(rep, indent=1))

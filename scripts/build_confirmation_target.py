@@ -190,6 +190,35 @@ def main():
             removed_pct=round(100 * (n_before - len(pairs)) / n_before, 2),
             sensitivity_arm=os.environ.get("KEEP_CLUSTERED") == "1")
         cascade_step(report, t, "source_clustered", pairs_before_burst, pairs)
+
+        # Baseline label checks (decisions 74-77). A pair whose event was ALREADY in a
+        # counted section of the label in force at detection is not an open question the
+        # FDA could act on, and a pair with no label version predating detection cannot be
+        # judged either way. Both leave the cohort rather than being scored Y=0, which
+        # would turn "we could not tell" into "FDA did not act".
+        bl = Path(f"{P}/baseline_label_{t}.parquet")
+        if bl.exists():
+            b = con.execute(f"""select drug_ai, pt_clean, detection_quarter, baseline_setid,
+                                baseline_version, already_labelled, baseline_section
+                                from read_parquet('{bl}')""").df()
+            pairs = pairs.merge(b, on=["drug_ai", "pt_clean", "detection_quarter"], how="left")
+
+            before = pairs
+            pairs = pairs[pairs.baseline_setid.notna()].reset_index(drop=True)
+            cascade_step(report, t, "no_baseline_version", before, pairs)
+
+            # A baseline version exists but its text could not be fetched or parsed. That
+            # is "we could not check", which is NOT the same as "not already labelled" and
+            # must not be folded into it by an `== 0` test that silently drops NaN.
+            before = pairs
+            pairs = pairs[pairs.already_labelled.notna()].reset_index(drop=True)
+            cascade_step(report, t, "baseline_text_unavailable", before, pairs)
+
+            before = pairs
+            pairs = pairs[pairs.already_labelled == 0].reset_index(drop=True)
+            cascade_step(report, t, "already_labelled_at_detection", before, pairs)
+        else:
+            report.setdefault("baseline_label", {})[t] = "NOT APPLIED: missing " + bl.name
         pairs["detect_dt"] = pairs.detection_quarter.map(quarter_end)
         con.register("pr", pairs)
 

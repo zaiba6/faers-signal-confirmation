@@ -270,7 +270,7 @@ def baseline_for(drug, cut, hist, d2s, prim, sid2app):
     return s, max(before, key=lambda x: x[0])[1]
 
 
-def step_rule():
+def step_rule(tag="T1"):
     """Was the event already in a counted section of the label in force at detection?"""
     import pandas as pd, duckdb
     sys.path.insert(0, str(Path(__file__).parent))
@@ -287,7 +287,7 @@ def step_rule():
 
     con = duckdb.connect()
     pairs = con.execute(f"""select distinct drug_ai, pt_clean, detection_quarter
-        from read_parquet('{ROOT}/data/processed/detected_pairs_T1.parquet')
+        from read_parquet('{ROOT}/data/processed/detected_pairs_{tag}.parquet')
         where status = 'in_window'""").df()
 
     rxc, seccache, out = {}, {}, []
@@ -318,7 +318,7 @@ def step_rule():
                                     "baseline_setid", "baseline_version",
                                     "already_labelled", "baseline_section"])
     con.register("df", df)
-    o = ROOT / "data/processed/baseline_label_T1.parquet"
+    o = ROOT / f"data/processed/baseline_label_{tag}.parquet"
     con.execute(f"COPY df TO '{o}' (FORMAT PARQUET)")
     n = len(df)
     print(f"pairs {n:,}")
@@ -329,4 +329,6 @@ def step_rule():
 
 
 if __name__ == "__main__" and STEP == "rule":
-    step_rule()
+    for _tag in ("T1", "T2", "T3"):
+        print(f"=== {_tag} ===", flush=True)
+        step_rule(_tag)

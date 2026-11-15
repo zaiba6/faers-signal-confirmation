@@ -118,11 +118,3268 @@ Queries ran inside the 23:00-05:00 EDT window with a 30 s delay (log: all `accep
 
 | DrugNameID | drug | size KB | supplements on page | headings seen after 'Download Data' |
 |---|---|---|---|---|
+| 10 | ORBACTIV NDA-206334 | 51 | 5 (07/23/2021, 12/11/2019, 03/20/2018, 10/17/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 100 | JETREA BLA-125422 | 34 | 2 (02/22/2017, 03/27/2016) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1000 | VEMLIDY NDA-208464 | 79 | 11 (03/27/2024, 03/27/2024, 10/17/2022, 09/15/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1001 | VIREAD NDA-021356 | 48 | 4 (04/24/2019, 12/11/2018, 07/30/2018, 04/07/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1002 | VIREAD NDA-022577 | 48 | 4 (04/24/2019, 12/11/2018, 07/30/2018, 04/07/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1003 | EMTRIVA NDA-021500 | 42 | 2 (12/10/2018, 04/07/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1004 | EMTRIVA NDA-021896 | 42 | 2 (12/10/2018, 04/07/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1005 | OPTIRAY 240 NDA-019710 | 70 | 6 (04/25/2023, 05/04/2022, 02/18/2022, 01/23/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1006 | OPTIRAY 300 NDA-019710 | 69 | 6 (04/25/2023, 05/04/2022, 02/18/2022, 01/23/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1007 | OPTIRAY 320 NDA-019710 | 69 | 6 (04/25/2023, 05/04/2022, 02/18/2022, 01/23/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1008 | OPTIRAY 350 NDA-019710 | 69 | 6 (04/25/2023, 05/04/2022, 02/18/2022, 01/23/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1009 | OMNIPAQUE 240 NDA-020608 | 87 | 6 (10/08/2024, 04/25/2023, 02/18/2022, 11/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 101 | ZALTRAP BLA-125418 | 59 | 6 (12/13/2023, 06/05/2020, 03/11/2020, 11/25/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1010 | OMNIPAQUE 300 NDA-020608 | 87 | 6 (10/08/2024, 04/25/2023, 02/18/2022, 11/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1011 | OPTIRAY 300 NDA-020923 | 70 | 7 (04/25/2023, 02/18/2022, 11/18/2020, 11/18/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1012 | OPTIRAY 320 NDA-020923 | 70 | 7 (04/25/2023, 02/18/2022, 11/18/2020, 11/18/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1013 | OPTIRAY 350 NDA-020923 | 70 | 7 (04/25/2023, 02/18/2022, 11/18/2020, 11/18/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1014 | XALATAN NDA-020597 | 42 | 3 (12/19/2022, 09/01/2020, 04/10/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1015 | MAXITROL NDA-050023 | 38 | 3 (05/14/2021, 12/18/2017, 04/10/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1016 | RAPAMUNE NDA-021083 | 60 | 6 (08/22/2022, 08/22/2022, 07/15/2019, 05/23/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1017 | RAPAMUNE NDA-021110 | 60 | 6 (08/22/2022, 08/22/2022, 07/15/2019, 05/23/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1018 | MAXITROL NDA-050065 | 37 | 2 (05/14/2021, 04/12/2017) |         	Adverse Reactions,         	Warnings and Precautions, Patient Information |
+| 1019 | IMODIUM A-D NDA-019487 | 34 | 2 (08/07/2019, 04/12/2017) |         	Warnings and Precautions, Warnings |
+| 102 | ZOMETA NDA-021223 | 40 | 3 (12/14/2018, 12/28/2016, 03/29/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1020 | IMODIUM A-D NDA-019860 | 35 | 2 (03/07/2019, 04/12/2017) |         	Warnings and Precautions, Warnings |
+| 1021 | IMODIUM A-D EZ CHEWS NDA-020448 | 33 | 1 (04/12/2017) |         	Warnings and Precautions, Warnings |
+| 1022 | IMODIUM MULTI-SYMPTOM RELIEF NDA-021140 | 34 | 2 (12/11/2018, 04/12/2017) |         	Warnings and Precautions, Warnings |
+| 1023 | IMODIUM MULTI-SYMPTOM RELIEF NDA-020606 | 33 | 1 (04/12/2017) |         	Warnings and Precautions, Warnings |
+| 1024 | EPOGEN/PROCRIT BLA-103234 | 68 | 4 (07/25/2018, 09/29/2017, 09/29/2017, 04/13/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1025 | ARANESP BLA-103951 | 49 | 4 (01/30/2019, 12/20/2018, 10/31/2017, 04/13/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1026 | COLY-MYCIN M NDA-050108 | 35 | 2 (07/03/2025, 04/14/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1027 | ADVIL CONGESTION RELIEF NDA-022565 | 36 | 2 (11/19/2021, 03/24/2017) |         	Warnings and Precautions, Warnings |
+| 1028 | ADVIL ALLERGY SINUS NDA-021441 | 35 | 2 (11/23/2021, 03/24/2017) |         	Warnings and Precautions, Warnings |
+| 1029 | MYOVIEW NDA-020372 | 41 | 1 (04/17/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 103 | AUBAGIO NDA-202992 | 87 | 9 (02/11/2026, 06/10/2024, 04/30/2021, 11/06/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Contraindications, Medication Guide, Patient Counseling Information, Warnings |
+| 1030 | MYOVIEW 30ML NDA-020372 | 41 | 1 (04/17/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1031 | BREVITAL SODIUM NDA-011559 | 40 | 1 (04/27/2017) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1032 | DIPRIVAN NDA-019627 | 48 | 2 (08/31/2022, 04/27/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1033 | PRALUENT BLA-125559 | 74 | 9 (10/09/2025, 03/08/2024, 04/01/2021, 03/10/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1034 | RIFATER NDA-050705 | 94 | 16 (12/05/2025, 10/08/2025, 02/05/2025, 10/10/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Adverse Reactions, Drug Interactions, Warnings |
+| 1035 | THYROGEN BLA-020898 | 39 | 2 (03/12/2020, 04/24/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1036 | TIROSINT NDA-021924 | 63 | 2 (12/08/2017, 04/25/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1037 | ACCURETIC NDA-020125 | 38 | 3 (02/19/2021, 08/20/2020, 04/26/2017) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 1038 | ALTACE NDA-019901 | 35 | 2 (05/07/2026, 04/26/2017) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 1039 | KETALAR NDA-016812 | 57 | 6 (03/23/2026, 10/29/2025, 06/03/2022, 08/24/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 104 | JUXTAPID NDA-203858 | 61 | 4 (02/25/2026, 12/20/2019, 07/28/2017, 05/23/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Medication Guide, Warnings |
+| 1040 | FORANE NDA-017624 | 57 | 4 (12/09/2024, 11/01/2022, 10/25/2021, 04/27/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1041 | RIFADIN NDA-050420 | 78 | 15 (12/05/2025, 10/08/2025, 10/10/2024, 12/08/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Drug Interactions |
+| 1042 | RIFADIN NDA-050627 | 74 | 14 (12/05/2025, 10/08/2025, 10/10/2024, 12/08/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Drug Interactions, Warnings |
+| 1043 | AMIDATE NDA-018227 | 38 | 1 (04/27/2017) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1044 | ULTANE NDA-020478 | 61 | 8 (02/03/2025, 11/01/2022, 05/19/2022, 03/01/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1045 | CONTRAVE NDA-200063 | 51 | 6 (11/05/2025, 05/07/2024, 11/30/2023, 08/04/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1046 | WELLBUTRIN XL NDA-021515 | 45 | 6 (11/05/2025, 05/07/2024, 03/04/2022, 07/08/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1047 | APLENZIN NDA-022108 | 45 | 5 (11/05/2025, 05/07/2024, 03/04/2022, 05/01/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1048 | PRED FORTE NDA-017011 | 39 | 2 (06/06/2018, 05/04/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1049 | PRED MILD NDA-017100 | 39 | 2 (06/06/2018, 05/04/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 105 | FARXIGA NDA-202293 | 125 | 16 (06/03/2026, 06/12/2024, 09/12/2023, 05/08/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide, Precautions, Warnings |
+| 1050 | FORFIVO XL NDA-022497 | 45 | 4 (11/05/2025, 05/07/2024, 12/10/2019, 05/04/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1051 | ADCIRCA NDA-022332 | 45 | 2 (09/15/2020, 05/05/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1052 | NOVOLOG MIX 70/30 BLA-021172 | 67 | 5 (04/28/2021, 11/15/2019, 11/15/2019, 12/20/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1053 | EPIVIR-HBV NDA-021003 | 60 | 4 (12/22/2021, 11/15/2018, 09/27/2017, 05/08/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1054 | EPIVIR-HBV NDA-021004 | 60 | 4 (12/22/2021, 11/15/2018, 09/27/2017, 05/08/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1055 | ARESTIN NDA-050781 | 36 | 2 (05/24/2024, 05/08/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1056 | PURIXAN NDA-205919 | 54 | 6 (07/16/2026, 10/23/2024, 07/09/2024, 04/07/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1057 | BACTROBAN NDA-050591 | 37 | 1 (05/08/2017) |         	Use in Specific Populations |
+| 1058 | BACTROBAN NDA-050703 | 43 | 1 (05/08/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1059 | BACTROBAN NDA-050746 | 37 | 1 (05/08/2017) |         	Use in Specific Populations |
+| 106 | FUROSEMIDE NDA-018902 | 43 | 2 (02/23/2023, 03/08/2016) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 1060 | LYSODREN NDA-016885 | 63 | 4 (10/28/2024, 01/09/2024, 06/15/2021, 05/09/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1061 | HEPARIN SODIUM NDA-017037 | 54 | 2 (10/24/2024, 05/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1062 | FARESTON NDA-020497 | 37 | 2 (12/13/2024, 05/12/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1063 | TOPAMAX NDA-020505 | 105 | 10 (03/06/2026, 05/03/2023, 10/20/2022, 01/13/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 1064 | TOPAMAX NDA-020844 | 91 | 7 (03/06/2026, 05/03/2023, 01/13/2022, 05/02/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 1065 | TOPAMAX SPRINKLE NDA-020844 | 95 | 8 (03/06/2026, 05/03/2023, 01/13/2022, 06/30/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 1066 | EMPLICITI BLA-761035 | 51 | 3 (03/22/2022, 11/06/2018, 05/11/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1067 | SYNAGIS BLA-103770 | 37 | 1 (05/12/2017) |         	Use in Specific Populations |
+| 1068 | AXERT NDA-021001 | 33 | 1 (05/15/2017) | (section heading appears as e.g. numbered text, see raw) |
+| 1069 | SENSIPAR NDA-021688 | 48 | 4 (12/05/2019, 03/29/2019, 05/23/2017, 05/15/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 107 | FUROSEMIDE NDA-018487 | 33 | 1 (03/08/2016) |         	Drug Interactions |
+| 1070 | RELISTOR NDA-021964 | 42 | 1 (05/16/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 1071 | PLETAL NDA-020863 | 34 | 1 (05/17/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1072 | LUPRON NDA-019010 | 44 | 5 (05/06/2026, 09/30/2025, 09/23/2025, 12/10/2018) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1073 | LUPRON DEPOT-PED NDA-020263 | 38 | 2 (04/07/2020, 05/19/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1074 | JUNIOR STRENGTH MOTRIN NDA-020601 | 34 | 1 (05/15/2017) |         	Warnings and Precautions, Warnings |
+| 1075 | JUNIOR STRENGTH MOTRIN NDA-020602 | 34 | 1 (05/15/2017) |         	Warnings and Precautions, Warnings |
+| 1076 | SINE-AID IB NDA-019899 | 35 | 2 (12/01/2021, 05/15/2017) |         	Warnings and Precautions, Warnings |
+| 1077 | SUPPRELIN LA NDA-022058 | 51 | 5 (09/23/2025, 04/22/2022, 11/08/2019, 05/19/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1078 | SYNAREL NDA-019886 | 47 | 5 (11/24/2025, 01/31/2023, 04/22/2022, 05/19/2017) |         	Adverse Reactions,         	Warnings and Precautions, Precautions, Warnings |
+| 1079 | STRATTERA NDA-021411 | 68 | 4 (06/29/2026, 01/06/2022, 02/25/2020, 05/19/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 108 | HECTOROL NDA-021027 | 36 | 2 (11/21/2018, 06/01/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 1080 | TORISEL NDA-022088 | 43 | 3 (03/23/2018, 03/23/2018, 05/22/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1082 | ANAFRANIL NDA-019906 | 37 | 2 (05/10/2019, 05/24/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1083 | PEGINTRON BLA-103949 | 56 | 6 (01/08/2019, 05/25/2018, 10/03/2017, 10/02/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1084 | SYNDROS NDA-205525 | 46 | 2 (09/21/2022, 05/25/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1085 | AQUAMEPHYTON NDA-012223 | 47 | 2 (03/07/2018, 05/25/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1086 | ZINBRYTA BLA-761029 | 53 | 3 (08/28/2017, 08/28/2017, 05/26/2017) |         	Adverse Reactions,         	Warnings and Precautions, Boxed Warning |
+| 1087 | VYVANSE NDA-208510 | 61 | 8 (04/23/2026, 09/23/2025, 10/13/2023, 02/25/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1088 | DEXTROSE 5% AND POTASSIUM CHLORIDE 0.3% IN PLASTIC CONTAINER NDA-017634 | 72 | 3 (07/15/2019, 05/26/2017, 05/26/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1089 | ISENTRESS NDA-022145 | 74 | 5 (05/18/2021, 07/14/2020, 03/05/2018, 11/22/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 109 | NITROMIST NDA-021780 | 39 | 2 (06/24/2022, 06/10/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1090 | ISENTRESS NDA-203045 | 74 | 5 (05/18/2021, 07/14/2020, 03/05/2018, 11/22/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1091 | ISENTRESS NDA-205786 | 74 | 5 (05/18/2021, 07/14/2020, 03/05/2018, 11/22/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1092 | NUVARING NDA-021187 | 67 | 8 (05/31/2024, 05/02/2022, 05/08/2019, 12/04/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1093 | BETHKIS NDA-201820 | 57 | 3 (02/10/2023, 12/09/2019, 05/29/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1094 | EMEND NDA-021549 | 42 | 3 (11/14/2019, 09/25/2019, 05/31/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1095 | EMEND NDA-207865 | 42 | 3 (11/14/2019, 09/25/2019, 05/31/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1096 | EMEND NDA-022023 | 53 | 6 (05/02/2022, 11/14/2019, 04/03/2018, 03/26/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Information |
+| 1097 | SAMSCA NDA-022275 | 50 | 3 (04/22/2021, 04/23/2018, 06/01/2017) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Contraindications, Drug Interactions, Warnings, Warnings and Precautions |
+| 1098 | ZYKADIA NDA-205755 | 86 | 6 (10/07/2021, 08/19/2021, 03/05/2019, 12/21/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions, Patient Information |
+| 1099 | SPRITAM NDA-207958 | 72 | 5 (06/27/2025, 03/12/2024, 01/19/2021, 09/12/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 11 | EPANED KIT NDA-204308 | 46 | 3 (07/28/2017, 03/22/2017, 01/29/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 110 | HYDREA NDA-016295 | 44 | 4 (11/28/2023, 06/07/2023, 12/18/2017, 03/23/2016) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Drug Interactions |
+| 1100 | VELCADE NDA-021602 | 55 | 3 (10/25/2021, 04/25/2019, 06/09/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1101 | BIAXIN NDA-050662 | 46 | 4 (09/18/2019, 12/19/2018, 11/25/2018, 06/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1102 | BIAXIN XL NDA-050775 | 46 | 4 (09/18/2019, 12/19/2018, 11/25/2018, 06/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1103 | INTRON A BLA-103132 | 37 | 3 (05/01/2018, 10/02/2017, 06/12/2017) |         	Adverse Reactions |
+| 1104 | ADVIL NDA-201803 | 35 | 2 (02/08/2022, 06/12/2017) |         	Warnings and Precautions, Warnings |
+| 1105 | VERMOX NDA-017481 | 35 | 1 (06/13/2017) |         	Adverse Reactions |
+| 1106 | INCRUSE ELLIPTA NDA-205382 | 48 | 4 (12/13/2023, 06/06/2019, 10/20/2017, 06/13/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1107 | SULAR NDA-020356 | 34 | 1 (06/13/2017) |         	Adverse Reactions,         	Drug Interactions |
+| 1108 | SYNERCID NDA-050747 | 35 | 1 (06/16/2017) |         	Warnings and Precautions |
+| 1109 | VFEND NDA-021266 | 95 | 13 (02/19/2026, 01/28/2026, 03/12/2025, 10/18/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 111 | TYBOST NDA-203094 | 95 | 10 (06/20/2025, 06/20/2025, 08/21/2020, 10/03/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1110 | VFEND NDA-021267 | 95 | 13 (02/19/2026, 01/28/2026, 03/12/2025, 10/18/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1111 | VFEND NDA-021630 | 96 | 14 (02/19/2026, 01/28/2026, 03/12/2025, 08/26/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1112 | SKLICE NDA-202736 | 39 | 1 (06/16/2017) |         	Use in Specific Populations, Patient Information |
+| 1113 | SYNRIBO NDA-203585 | 46 | 3 (11/26/2019, 01/23/2019, 06/21/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1114 | PRIMAQUINE NDA-008316 | 42 | 3 (02/02/2026, 03/10/2025, 06/22/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 1115 | TAFINLAR NDA-202806 | 139 | 20 (03/26/2026, 04/07/2025, 03/19/2025, 03/07/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information |
+| 1116 | AEROSPAN HFA NDA-021247 | 36 | 2 (04/25/2018, 06/23/2017) |         	Use in Specific Populations |
+| 1117 | LIPITOR NDA-020702 | 81 | 9 (04/02/2024, 12/07/2022, 11/16/2020, 09/25/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1118 | CADUET NDA-021540 | 81 | 9 (11/04/2024, 05/17/2024, 01/07/2021, 09/25/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1119 | VALCYTE NDA-021304 | 48 | 2 (08/02/2018, 06/22/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 112 | AFINITOR NDA-022334 | 82 | 8 (06/01/2026, 02/01/2022, 04/16/2021, 02/13/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1120 | VALCYTE NDA-022257 | 48 | 2 (08/02/2018, 06/22/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1121 | NORVIR NDA-209512 | 46 | 7 (07/23/2026, 10/21/2020, 12/19/2019, 08/21/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions, Patient Information |
+| 1122 | OTEZLA NDA-205437 | 71 | 8 (12/23/2025, 07/23/2025, 04/25/2024, 07/20/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Precautions |
+| 1123 | VECTIBIX BLA-125147 | 60 | 3 (01/16/2025, 08/25/2021, 06/29/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1124 | ACTIVASE BLA-103172 | 39 | 2 (02/28/2018, 06/30/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1125 | DESYREL NDA-018207 | 39 | 2 (10/18/2018, 06/30/2017) |         	Use in Specific Populations |
+| 1126 | PREPIDIL NDA-019617 | 35 | 1 (07/05/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1127 | TALTZ BLA-125521 | 70 | 7 (08/20/2024, 07/27/2022, 05/29/2020, 03/26/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1128 | PERTZYE BLA-022175 | 54 | 3 (02/28/2024, 09/28/2022, 07/12/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1129 | ARALEN NDA-006002 | 46 | 2 (10/24/2018, 07/13/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 113 | BENDEKA NDA-208194 | 54 | 6 (01/11/2024, 11/08/2019, 10/08/2019, 07/30/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1130 | EMSAM NDA-021336 | 43 | 1 (07/14/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1131 | FUROSEMIDE NDA-018823 | 36 | 1 (07/14/2017) |         	Drug Interactions,         	Warnings and Precautions |
+| 1132 | FEMARA NDA-020726 | 56 | 3 (12/16/2024, 04/05/2018, 07/13/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1133 | NALLPEN IN PLASTIC CONTAINER NDA-050655 | 36 | 2 (04/05/2018, 07/14/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1134 | CHIRHOSTIM NDA-021256 | 40 | 1 (07/18/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1135 | BLEPHAMIDE NDA-012813 | 35 | 1 (07/18/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1136 | ZESTORETIC NDA-019888 | 37 | 2 (08/20/2020, 07/21/2017) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 1137 | VASOTEC NDA-018998 | 34 | 1 (07/21/2017) |         	Contraindications,         	Warnings and Precautions |
+| 1138 | PROSTIN E2 NDA-017810 | 33 | 1 (07/05/2017) |         	Warnings and Precautions |
+| 1139 | VASERETIC NDA-019221 | 36 | 2 (08/20/2020, 07/21/2017) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 114 | CHILDREN'S MOTRIN NDA-020516 | 35 | 3 (07/22/2026, 03/14/2017, 06/16/2016) |         	Warnings and Precautions, Warnings |
+| 1140 | LOTREL NDA-020364 | 44 | 2 (02/10/2020, 07/21/2017) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1141 | TAZORAC NDA-021184 | 43 | 1 (07/21/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1142 | TAZORAC NDA-020600 | 40 | 2 (04/16/2018, 07/21/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1143 | UPTRAVI NDA-207947 | 66 | 7 (05/23/2026, 05/23/2026, 10/25/2021, 08/19/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 1144 | DOPAMINE HYDROCHLORIDE IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019615 | 34 | 1 (07/21/2017) |         	Warnings and Precautions |
+| 1145 | INVOKAMET XR NDA-205879 | 155 | 13 (08/11/2026, 08/11/2026, 12/18/2024, 08/23/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 1146 | QNASL NDA-202813 | 37 | 1 (07/26/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1147 | FYCOMPA NDA-208277 | 45 | 3 (05/31/2019, 09/27/2018, 07/26/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1148 | ROWASA NDA-019618 | 60 | 7 (07/30/2024, 10/24/2023, 11/16/2022, 11/01/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1149 | ASACOL NDA-019651 | 42 | 2 (10/01/2020, 07/27/2017) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions, Patient Counseling Information, Precautions, Warnings |
+| 115 | FARYDAK NDA-205353 | 35 | 1 (06/06/2016) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1150 | DELZICOL NDA-204412 | 52 | 5 (10/24/2023, 11/16/2022, 11/01/2021, 10/01/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Counseling Information, Warnings |
+| 1151 | ASACOL HD NDA-021830 | 49 | 4 (11/16/2022, 11/01/2021, 10/01/2020, 07/27/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Counseling Information, Warnings |
+| 1152 | PENTASA NDA-020049 | 69 | 10 (07/30/2024, 10/24/2023, 11/16/2022, 11/01/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Precautions |
+| 1153 | LIALDA NDA-022000 | 78 | 11 (10/24/2023, 11/16/2022, 11/01/2021, 05/25/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Warnings |
+| 1154 | APRISO NDA-022301 | 62 | 6 (10/24/2023, 11/16/2022, 11/01/2021, 10/01/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Counseling Information, Warnings |
+| 1155 | KAYEXALATE NDA-011287 | 37 | 1 (07/28/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1156 | EPANED NDA-208686 | 36 | 1 (07/28/2017) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 1157 | QBRELIS NDA-208401 | 36 | 1 (07/28/2017) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 1158 | PROBUPHINE NDA-204442 | 72 | 7 (12/22/2025, 12/15/2023, 06/17/2022, 03/04/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 1159 | FORTAZ NDA-050578 | 34 | 1 (07/28/2017) |         	Warnings and Precautions |
+| 116 | ICLUSIG NDA-203469 | 129 | 10 (10/10/2025, 02/15/2022, 12/18/2020, 07/10/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1160 | FORTAZ IN PLASTIC CONTAINER NDA-050634 | 34 | 1 (07/28/2017) |         	Warnings and Precautions |
+| 1161 | LUMIGAN NDA-021275 | 43 | 3 (03/08/2022, 10/15/2020, 07/29/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1162 | LUMIGAN NDA-022184 | 43 | 3 (03/08/2022, 09/29/2020, 07/29/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1163 | LATISSE NDA-022369 | 45 | 3 (08/26/2021, 09/29/2020, 07/29/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1164 | REVATIO NDA-021845 | 46 | 3 (01/31/2023, 02/01/2018, 07/31/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1165 | REVATIO NDA-022473 | 42 | 3 (03/03/2023, 01/17/2019, 07/31/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1166 | REVATIO NDA-203109 | 42 | 3 (03/03/2023, 01/17/2019, 07/31/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1167 | STAXYN NDA-200179 | 44 | 3 (04/24/2023, 08/16/2017, 08/02/2017) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1168 | CAPOTEN NDA-018343 | 35 | 1 (08/01/2017) |         	Contraindications,         	Warnings and Precautions |
+| 1169 | CYTOVENE NDA-019661 | 43 | 2 (08/06/2018, 07/03/2017) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
 | 117 | LYBREL NDA-021864 | 33 | 1 (06/16/2016) |         	Warnings and Precautions |
+| 1170 | LILETTA NDA-206229 | 122 | 6 (06/29/2023, 11/10/2022, 11/10/2022, 10/25/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1171 | LOTENSIN NDA-019851 | 40 | 2 (01/07/2019, 08/03/2017) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1172 | LOTENSIN HCT NDA-020033 | 37 | 2 (08/20/2020, 08/03/2017) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 1173 | VELPHORO NDA-205109 | 46 | 5 (08/27/2024, 07/01/2024, 02/28/2020, 04/25/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1174 | ALTOPREV NDA-021316 | 69 | 4 (03/14/2024, 09/25/2020, 02/28/2018, 08/04/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1175 | LIPTRUZET NDA-200153 | 45 | 6 (10/28/2024, 10/28/2024, 10/28/2024, 09/25/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1176 | LESCOL NDA-020261 | 33 | 1 (08/04/2017) |         	Adverse Reactions |
+| 1177 | LESCOL XL NDA-021192 | 53 | 3 (11/28/2023, 09/25/2020, 08/04/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1178 | ARGATROBAN NDA-020883 | 39 | 2 (06/16/2026, 08/08/2017) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1179 | FEMRING NDA-021367 | 41 | 5 (02/15/2024, 08/18/2023, 11/01/2017, 08/08/2017) |         	Adverse Reactions,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 118 | NATPARA BLA-125511 | 49 | 4 (07/01/2020, 12/17/2018, 09/27/2018, 06/15/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1180 | ORTHO TRI-CYCLEN LO NDA-021241 | 36 | 1 (08/09/2017) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1181 | YAZ NDA-021676 | 45 | 3 (05/19/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1182 | BEYAZ NDA-022532 | 45 | 3 (05/19/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1183 | YASMIN NDA-021098 | 45 | 3 (05/19/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1184 | SAFYRAL NDA-022574 | 45 | 3 (05/19/2023, 05/02/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1185 | ORTHO-CEPT NDA-020301 | 36 | 1 (08/09/2017) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1186 | ORTHO EVRA NDA-021180 | 36 | 1 (08/09/2017) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1187 | LO MINASTRIN FE NDA-204654 | 36 | 1 (08/09/2017) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1188 | NORETHINDRONE AND ETHINYL ESTRADIOL AND FERROUS FUMARATE NDA-022573 | 45 | 3 (06/26/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Patient Information |
+| 1189 | ESTROSTEP FE NDA-020130 | 50 | 4 (04/29/2022, 07/14/2021, 10/10/2017, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Patient Information, Precautions |
+| 119 | KADCYLA BLA-125427 | 53 | 7 (02/02/2022, 09/27/2020, 05/03/2019, 12/18/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1190 | LO LOESTRIN FE NDA-022501 | 44 | 3 (04/29/2022, 10/15/2021, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1191 | ALESSE NDA-020683 | 55 | 3 (07/16/2024, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 1192 | TRIPHASIL-28 NDA-019190 | 44 | 3 (04/29/2022, 05/08/2019, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information, Precautions, Warnings |
+| 1193 | LO/OVRAL-28 NDA-017802 | 42 | 3 (04/25/2022, 05/08/2019, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1194 | CYCLESSA NDA-021090 | 41 | 2 (04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1195 | TRIPHASIL-21 NDA-019192 | 44 | 3 (04/29/2022, 05/08/2019, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information, Precautions, Warnings |
+| 1196 | NORMINEST FE NDA-017948 | 43 | 3 (04/29/2022, 05/08/2019, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Adverse Reactions, Contraindications, Patient Information |
+| 1197 | NORQUEST FE NDA-018926 | 43 | 3 (04/29/2022, 05/08/2019, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Adverse Reactions, Contraindications, Patient Information |
+| 1198 | LO/OVRAL NDA-017612 | 49 | 3 (10/31/2022, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Precautions, Warnings |
+| 1199 | LO/OVRAL FE NDA-018206 | 74 | 3 (04/29/2022, 10/18/2017, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Patient Information |
+| 12 | HALAVEN NDA-201532 | 36 | 3 (09/13/2022, 10/19/2016, 01/28/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 120 | ACIPHEX NDA-020973 | 62 | 7 (07/18/2023, 03/04/2022, 11/27/2020, 06/07/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1200 | ORTHO CYCLEN-21 NDA-019653 | 36 | 1 (08/09/2017) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1201 | ORTHO TRI-CYCLEN NDA-019697 | 50 | 4 (06/15/2023, 06/15/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1202 | TRI-NORINYL 21-DAY NDA-018977 | 42 | 2 (04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1203 | TRI-NORINYL 28-DAY NDA-018977 | 42 | 2 (04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 1204 | DESOGEN NDA-020071 | 41 | 2 (06/15/2018, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 1205 | NORDETTE-21 NDA-018668 | 44 | 3 (04/29/2022, 05/07/2021, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1206 | NORDETTE-28 NDA-018782 | 45 | 4 (04/29/2022, 05/07/2021, 03/13/2019, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1207 | MIRCETTE NDA-020713 | 48 | 3 (01/04/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1208 | SEASONIQUE NDA-021840 | 82 | 4 (01/27/2023, 01/27/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1209 | LOSEASONIQUE NDA-022262 | 81 | 4 (01/27/2023, 01/27/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 121 | ACIPHEX SPRINKLE NDA-204736 | 55 | 5 (11/27/2020, 06/07/2018, 07/27/2017, 10/24/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1210 | QUARTETTE NDA-204061 | 41 | 3 (08/04/2022, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1211 | LOESTRIN 21 1/20 NDA-017876 | 50 | 3 (01/04/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1212 | LOESTRIN FE 1/20 NDA-017354 | 50 | 3 (01/04/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1213 | LOESTRIN 21 1.5/30 NDA-017875 | 50 | 3 (01/04/2023, 05/02/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1214 | LOESTRIN FE 1.5/30 NDA-017355 | 50 | 3 (01/04/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1215 | MODICON 28 NDA-017735 | 36 | 1 (08/09/2017) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1216 | ORTHO-NOVUM 1/35-28 NDA-017919 | 36 | 1 (08/09/2017) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1217 | ORTHO-NOVUM 7/7/7-28 NDA-018985 | 36 | 1 (08/09/2017) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1218 | ORTHO-NOVUM 7/7/7-21 NDA-018985 | 36 | 1 (08/09/2017) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 1219 | BREVICON 28-DAY NDA-017743 | 37 | 2 (10/10/2017, 08/09/2017) |         	Contraindications,         	Warnings and Precautions, Patient Information, Precautions |
+| 122 | LOPID NDA-018422 | 43 | 4 (12/10/2020, 04/25/2018, 04/18/2017, 04/06/2016) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 1220 | BREVICON 21-DAY NDA-017566 | 37 | 2 (10/10/2017, 08/09/2017) |         	Contraindications,         	Warnings and Precautions, Patient Information, Precautions |
+| 1221 | ADVIL MIGRAINE LIQUI-GELS NDA-020402 | 35 | 2 (01/25/2022, 08/08/2017) |         	Warnings and Precautions, Warnings |
+| 1222 | ADVIL LIQUI-GELS NDA-020402 | 36 | 3 (02/23/2023, 01/25/2022, 08/08/2017) |         	Warnings and Precautions, Warnings |
+| 1223 | TAYTULLA NDA-204426 | 43 | 3 (06/26/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Warnings |
+| 1224 | PLAN B ONE-STEP NDA-021998 | 34 | 1 (08/10/2017) |         	Warnings and Precautions, Patient Information, Warnings |
+| 1225 | CARAFATE NDA-019183 | 33 | 1 (08/15/2017) |         	Warnings and Precautions |
+| 1226 | ULORIC NDA-021856 | 56 | 4 (04/17/2023, 02/21/2019, 02/06/2018, 08/15/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1227 | VIAGRA NDA-020895 | 37 | 2 (12/13/2017, 08/16/2017) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1228 | STENDRA NDA-202276 | 45 | 3 (10/18/2022, 08/03/2018, 08/16/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1229 | GLUCOTROL XL NDA-020329 | 45 | 2 (08/10/2018, 08/16/2017) |         	Drug Interactions,         	Use in Specific Populations |
+| 123 | BETASERON BLA-103471 | 52 | 6 (07/28/2023, 11/03/2021, 10/01/2020, 08/16/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Warnings and Precautions |
+| 1230 | LEVITRA NDA-021400 | 42 | 2 (03/15/2023, 08/16/2017) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1233 | ERAXIS NDA-021632 | 62 | 3 (09/22/2020, 09/22/2020, 08/17/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1234 | ARIXTRA NDA-021345 | 52 | 2 (12/23/2024, 08/11/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1235 | OVRETTE NDA-017031 | 43 | 2 (08/15/2017, 08/15/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1236 | XELJANZ NDA-203214 | 147 | 17 (09/16/2026, 06/30/2026, 03/06/2026, 10/16/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 1237 | XELJANZ XR NDA-208246 | 112 | 14 (09/16/2026, 06/30/2026, 03/06/2026, 02/21/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1238 | ALEVE NDA-020204 | 39 | 5 (03/10/2022, 04/23/2020, 01/03/2019, 09/14/2017) |         	Warnings and Precautions, Warnings |
+| 1239 | ARGATROBAN IN 0.9% SODIUM CHLORIDE NDA-206769 | 42 | 3 (06/26/2026, 07/29/2019, 08/25/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations, Adverse Reactions |
+| 124 | ORFADIN NDA-021232 | 47 | 3 (05/17/2019, 09/01/2017, 06/13/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1240 | HEPARIN SODIUM IN PLASTIC CONTAINER NDA-017029 | 52 | 4 (10/24/2024, 07/02/2020, 11/16/2018, 08/24/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1241 | DOTAREM NDA-204781 | 54 | 6 (03/05/2025, 07/23/2024, 01/26/2024, 04/26/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1242 | TAGITOL V NDA-208143 | 34 | 1 (08/04/2017) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1243 | ADVIL NDA-018989 | 35 | 2 (12/14/2021, 08/23/2017) |         	Warnings and Precautions, Warnings |
+| 1244 | MARINOL NDA-018651 | 57 | 2 (01/17/2023, 08/28/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1245 | SOLIQUA 100/33 BLA-208673 | 69 | 9 (03/12/2026, 05/28/2025, 11/01/2024, 09/28/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1246 | REGLAN NDA-017854 | 48 | 2 (02/09/2026, 08/29/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1247 | DALIRESP NDA-022522 | 39 | 1 (08/31/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1248 | ORFADIN NDA-206356 | 40 | 2 (05/17/2019, 09/01/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 125 | PREZISTA NDA-021976 | 73 | 13 (03/31/2023, 10/20/2022, 04/14/2022, 07/23/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1250 | AMELUZ NDA-208081 | 48 | 4 (09/09/2026, 10/04/2024, 05/25/2021, 09/06/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1251 | AVAGARD NDA-021074 | 34 | 1 (09/06/2017) |         	Warnings and Precautions |
+| 1252 | CHLORHEXIDINE GLUCONATE NDA-021669 | 33 | 1 (09/06/2017) |         	Warnings and Precautions, Warnings |
+| 1253 | CLEOCIN NDA-050680 | 37 | 3 (05/17/2022, 05/21/2019, 09/08/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1254 | CLEOCIN NDA-050767 | 37 | 3 (05/17/2022, 09/16/2019, 09/08/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 1255 | PREVANTICS MAXI SWABSTICK NDA-021524 | 33 | 1 (09/07/2017) |         	Warnings and Precautions, Warnings |
+| 1256 | PREVANTICS SWAB NDA-021524 | 33 | 1 (09/07/2017) |         	Warnings and Precautions, Warnings |
+| 1257 | PREVANTICS SWABSTICK NDA-021524 | 33 | 1 (09/07/2017) |         	Warnings and Precautions, Warnings |
+| 1258 | MIACALCIN NDA-017808 | 35 | 1 (09/11/2017) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1259 | NORINYL 1+35 21-DAY NDA-017565 | 42 | 3 (04/29/2022, 10/10/2017, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Patient Information, Precautions |
+| 126 | PREZISTA NDA-202895 | 64 | 11 (03/31/2023, 10/20/2022, 07/23/2021, 12/22/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1260 | NORINYL 1+35 28-DAY NDA-017565 | 42 | 3 (04/29/2022, 10/10/2017, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Patient Information, Precautions |
+| 1261 | MIACALCIN NDA-020313 | 35 | 1 (09/12/2017) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1262 | CHLORAPREP ONE-STEP SEPP NDA-021555 | 33 | 1 (09/12/2017) |         	Warnings and Precautions |
+| 1263 | CHLORAPREP SINGLE SWABSTICK NDA-021555 | 33 | 1 (09/12/2017) |         	Warnings and Precautions |
+| 1264 | CHLORAPREP TRIPLE SWABSTICK NDA-021555 | 33 | 1 (09/12/2017) |         	Warnings and Precautions |
+| 1265 | ALEVE PM NDA-205352 | 36 | 3 (02/08/2022, 04/06/2020, 09/12/2017) |         	Warnings and Precautions |
+| 1266 | GEMZAR NDA-020509 | 39 | 3 (05/14/2019, 11/20/2018, 09/13/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1267 | XENAZINE NDA-021894 | 41 | 1 (09/13/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1268 | COREG NDA-020297 | 43 | 2 (07/26/2023, 09/14/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1269 | COREG CR NDA-022012 | 47 | 2 (07/26/2023, 09/14/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1270 | EXIDINE NDA-019127 | 33 | 1 (09/14/2017) |         	Warnings and Precautions |
+| 1271 | EXIDINE NDA-019125 | 33 | 1 (09/14/2017) |         	Warnings and Precautions |
+| 1272 | BRIVIACT NDA-205836 | 55 | 5 (08/28/2025, 05/17/2023, 08/27/2021, 05/10/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1273 | BRIVIACT NDA-205837 | 55 | 5 (08/28/2025, 05/17/2023, 08/27/2021, 05/10/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1274 | BRIVIACT NDA-205838 | 55 | 5 (08/28/2025, 05/17/2023, 08/27/2021, 05/10/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1275 | PRINIVIL NDA-019558 | 42 | 3 (11/09/2021, 10/12/2018, 09/19/2017) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1276 | COSENTYX BLA-125504 | 121 | 17 (04/17/2026, 04/17/2026, 08/06/2025, 10/04/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1277 | EDURANT NDA-202022 | 113 | 9 (03/15/2024, 03/15/2024, 03/29/2022, 03/29/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1278 | SOMATULINE DEPOT NDA-022074 | 55 | 4 (07/11/2024, 04/11/2019, 12/12/2018, 09/15/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1279 | EXIDINE NDA-019422 | 33 | 1 (09/15/2017) |         	Warnings and Precautions |
+| 128 | TAMIFLU NDA-021087 | 52 | 4 (08/02/2019, 12/12/2018, 04/04/2018, 06/20/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1280 | SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-018090 | 38 | 1 (09/21/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1281 | QUADRAMET NDA-020570 | 34 | 1 (09/21/2017) |         	Warnings and Precautions |
+| 1282 | SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-016366 | 35 | 1 (09/21/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1283 | PROCYSBI NDA-203389 | 60 | 5 (02/11/2022, 06/24/2020, 05/31/2019, 12/22/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1284 | TRAVATAN Z NDA-021994 | 39 | 2 (04/02/2020, 09/22/2017) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1285 | GANCICLOVIR NDA-209347 | 43 | 1 (09/20/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1286 | SORIATANE NDA-019821 | 34 | 1 (09/27/2017) | (section heading appears as e.g. numbered text, see raw) |
+| 1287 | DOCETAXEL NDA-022234 | 80 | 7 (05/15/2023, 11/24/2020, 10/11/2019, 10/11/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Patient Information |
+| 1288 | CEFOBID NDA-050551 | 41 | 4 (03/03/2025, 12/17/2024, 09/18/2020, 09/28/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1289 | PLAN B NDA-021045 | 38 | 2 (04/24/2018, 09/28/2017) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 129 | TAMIFLU NDA-021246 | 52 | 4 (08/02/2019, 12/12/2018, 04/04/2018, 06/20/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1290 | AFREZZA BLA-022472 | 67 | 5 (05/29/2026, 01/23/2026, 02/03/2023, 10/25/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1291 | QVAR 40 NDA-020911 | 40 | 1 (09/29/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1292 | QVAR 80 NDA-020911 | 40 | 1 (09/29/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1293 | ACEON NDA-020184 | 35 | 1 (09/29/2017) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 1294 | YOSPRALA NDA-205103 | 63 | 7 (11/21/2024, 07/18/2023, 03/04/2022, 04/28/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1295 | LOMOTIL NDA-012462 | 43 | 1 (10/05/2017) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 1296 | LEMTRADA BLA-103948 | 141 | 18 (02/08/2024, 09/27/2022, 05/26/2022, 01/13/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information, Warnings |
+| 1297 | CAMPATH BLA-103948 | 66 | 9 (04/26/2023, 08/18/2021, 10/22/2020, 06/29/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1298 | DUODOTE NDA-021983 | 41 | 1 (10/06/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1299 | TEMODAR NDA-021029 | 52 | 4 (09/14/2023, 11/20/2020, 11/22/2019, 10/06/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information |
+| 13 | KYPROLIS NDA-202714 | 102 | 14 (05/22/2025, 06/30/2022, 11/30/2021, 03/09/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 130 | TYVASO NDA-022387 | 50 | 4 (05/20/2022, 03/31/2021, 10/19/2017, 06/06/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1300 | TEMODAR NDA-022277 | 51 | 4 (09/14/2023, 11/20/2020, 11/22/2019, 10/06/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1301 | ESTROSTEP 21 NDA-020130 | 33 | 1 (10/10/2017) |         	Warnings and Precautions, Precautions |
+| 1302 | ALIMTA NDA-021462 | 62 | 4 (08/31/2022, 01/30/2019, 06/04/2018, 10/11/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1303 | PEGASYS BLA-103964 | 59 | 2 (12/11/2023, 10/13/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1304 | STELARA BLA-125261 | 131 | 16 (08/28/2026, 07/15/2026, 04/15/2026, 11/03/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 1305 | MEPRON NDA-020500 | 49 | 3 (03/20/2026, 02/22/2019, 10/15/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1306 | ENTOCORT EC NDA-021324 | 46 | 4 (06/05/2024, 07/15/2020, 01/18/2019, 10/17/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1307 | EUCRISA NDA-207695 | 41 | 3 (04/03/2023, 03/23/2020, 10/16/2017) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1308 | HIBICLENS NDA-017768 | 34 | 1 (10/17/2017) |         	Warnings and Precautions, Warnings |
+| 131 | AVYCAZ NDA-206494 | 78 | 8 (02/28/2025, 01/26/2024, 12/20/2022, 03/14/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1311 | NUPLAZID NDA-207318 | 48 | 10 (04/27/2026, 01/22/2025, 09/15/2023, 11/23/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1312 | BYDUREON NDA-022200 | 104 | 9 (05/28/2025, 11/01/2024, 12/21/2022, 07/26/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide, Precautions, Warnings and Precautions |
+| 1313 | BAVENCIO BLA-761049 | 78 | 10 (08/31/2026, 06/04/2025, 11/26/2024, 03/06/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 1314 | OXYTROL NDA-021351 | 47 | 3 (05/29/2024, 10/24/2017, 10/24/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1315 | REMICADE BLA-103772 | 48 | 6 (02/28/2025, 05/14/2020, 05/14/2020, 05/14/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1316 | EXCEDRIN (MIGRAINE) NDA-020802 | 36 | 3 (11/03/2021, 01/02/2018, 10/12/2017) |         	Warnings and Precautions, Warnings |
+| 1317 | GELNIQUE NDA-022204 | 37 | 1 (10/25/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1318 | FLORONE NDA-017741 | 37 | 1 (10/25/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1319 | ALEVE-D SINUS & COLD NDA-021076 | 37 | 4 (07/11/2023, 03/02/2022, 04/06/2020, 09/12/2017) |         	Warnings and Precautions, Warnings |
+| 132 | CARDURA NDA-019668 | 33 | 1 (06/09/2016) |         	Use in Specific Populations |
+| 1320 | PSORCON E NDA-017994 | 37 | 1 (10/25/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1321 | FLORONE E NDA-019259 | 37 | 1 (10/25/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1322 | PSORCON NDA-019260 | 37 | 1 (10/25/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1323 | THYRO-TABS NDA-021116 | 56 | 3 (11/16/2023, 04/23/2019, 08/31/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1324 | OMEPRAZOLE NDA-022032 | 36 | 3 (09/30/2022, 04/08/2019, 10/30/2017) |         	Warnings and Precautions, Warnings |
+| 1325 | ZEGERID OTC NDA-022281 | 36 | 3 (11/01/2022, 01/15/2019, 10/30/2017) |         	Warnings and Precautions, Warnings |
+| 1326 | ZEGERID OTC NDA-022283 | 35 | 3 (11/23/2022, 01/15/2019, 10/30/2017) |         	Warnings and Precautions |
+| 1327 | ALORA NDA-020655 | 42 | 3 (05/05/2025, 02/15/2024, 11/01/2017) |         	Warnings and Precautions |
+| 1328 | ANGELIQ NDA-021355 | 66 | 4 (02/15/2024, 10/02/2023, 10/02/2023, 11/01/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1329 | CENESTIN NDA-020992 | 78 | 5 (02/12/2026, 02/15/2024, 11/30/2020, 11/30/2020) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 133 | CEREBYX NDA-020450 | 67 | 7 (04/28/2022, 02/16/2021, 07/12/2019, 10/31/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1330 | CLIMARA PRO NDA-021258 | 53 | 3 (02/15/2024, 11/15/2021, 11/01/2017) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Precautions, Warnings |
+| 1331 | CLIMARA NDA-020375 | 37 | 3 (02/15/2024, 02/15/2024, 11/01/2017) |         	Warnings and Precautions |
+| 1332 | COMBIPATCH NDA-020870 | 36 | 2 (02/15/2024, 11/01/2017) |         	Warnings and Precautions |
+| 1333 | DELESTROGEN NDA-009402 | 43 | 2 (02/15/2024, 11/01/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1334 | LOVENOX NDA-020164 | 45 | 2 (12/11/2018, 10/26/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1335 | DIVIGEL NDA-022038 | 61 | 7 (02/12/2026, 04/29/2025, 02/15/2024, 05/23/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1336 | DUAVEE NDA-022247 | 42 | 4 (03/04/2024, 12/06/2022, 12/18/2019, 11/01/2017) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1337 | ELESTRIN NDA-021813 | 64 | 4 (02/15/2024, 10/27/2020, 10/27/2020, 11/01/2017) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 1338 | ENJUVIA NDA-021443 | 69 | 5 (11/14/2025, 02/15/2024, 11/30/2020, 11/30/2020) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 1339 | ESTRADERM NDA-019081 | 34 | 1 (11/01/2017) |         	Warnings and Precautions |
+| 134 | DILANTIN NDA-010151 | 51 | 4 (10/31/2017, 08/15/2017, 11/30/2016, 06/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1340 | ESTRASORB NDA-021371 | 40 | 3 (09/10/2024, 02/15/2024, 11/01/2017) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1341 | ESTRING NDA-020472 | 40 | 3 (02/12/2026, 02/15/2024, 11/01/2017) |         	Contraindications,         	Warnings and Precautions |
+| 1342 | ESTROGEL NDA-021166 | 69 | 4 (02/15/2024, 08/01/2023, 11/30/2021, 11/01/2017) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1343 | EVAMIST NDA-022014 | 50 | 3 (02/15/2024, 08/03/2023, 11/01/2017) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Warnings |
+| 1344 | FEMHRT NDA-021065 | 41 | 3 (05/18/2023, 05/18/2023, 11/01/2017) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1345 | MINIVELLE NDA-203752 | 37 | 3 (02/15/2024, 10/19/2021, 11/01/2017) |         	Warnings and Precautions |
+| 1346 | PREFEST NDA-021040 | 37 | 2 (02/15/2024, 11/01/2017) |         	Warnings and Precautions, Warnings |
+| 1347 | PREMARIN NDA-010402 | 36 | 2 (02/15/2024, 11/01/2017) |         	Warnings and Precautions |
+| 1348 | PREMARIN NDA-020216 | 40 | 3 (04/22/2025, 02/15/2024, 11/01/2017) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1349 | PREMPHASE 14/14 NDA-020527 | 41 | 3 (04/22/2025, 02/15/2024, 11/01/2017) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 135 | DILANTIN-125 NDA-008762 | 98 | 9 (03/03/2022, 02/16/2021, 07/12/2019, 10/18/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1350 | PREMPRO NDA-020527 | 41 | 3 (04/22/2025, 02/15/2024, 11/01/2017) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1351 | VIVELLE NDA-020323 | 38 | 2 (02/15/2024, 11/01/2017) |         	Warnings and Precautions |
+| 1352 | VIVELLE-DOT NDA-020538 | 42 | 4 (02/15/2024, 10/04/2021, 10/04/2021, 11/01/2017) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1353 | FEMTRACE NDA-021633 | 34 | 1 (11/01/2017) |         	Warnings and Precautions |
+| 1354 | JALYN NDA-022460 | 46 | 3 (12/28/2020, 11/01/2017, 11/01/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1355 | ACTIVELLA NDA-020907 | 68 | 3 (02/15/2024, 08/10/2021, 11/01/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1356 | OCREVUS BLA-761053 | 103 | 13 (05/08/2026, 08/18/2025, 06/21/2024, 01/19/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information |
+| 1357 | MENOSTAR NDA-020375 | 76 | 5 (02/15/2024, 02/15/2024, 09/30/2021, 09/30/2021) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1358 | AURYXIA NDA-205874 | 45 | 3 (01/19/2024, 03/10/2021, 11/06/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1359 | PREMARIN NDA-004782 | 40 | 3 (04/22/2025, 02/15/2024, 11/07/2017) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 136 | ENVARSUS XR NDA-206406 | 55 | 5 (04/08/2024, 09/14/2023, 09/16/2020, 12/19/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1360 | MAXIDEX NDA-013422 | 38 | 3 (12/10/2021, 05/14/2021, 11/03/2017) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 1361 | VOSEVI NDA-209195 | 46 | 3 (11/15/2019, 09/27/2019, 11/09/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1362 | M.V.I.-12 NDA-008809 | 39 | 1 (11/09/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1363 | M.V.I. ADULT NDA-021625 | 39 | 2 (12/16/2020, 11/09/2017) |         	Contraindications,         	Use in Specific Populations |
+| 1364 | M.V.I. ADULT (PHARMACY BULK PACKAGE) NDA-021643 | 36 | 1 (11/09/2017) |         	Contraindications,         	Use in Specific Populations |
+| 1365 | TOVIAZ NDA-022030 | 58 | 4 (02/28/2024, 02/28/2024, 06/17/2021, 11/12/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1366 | GAZYVA BLA-125486 | 103 | 10 (09/25/2026, 12/17/2025, 10/17/2025, 10/17/2025) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1367 | TRAVASOL 10% IN PLASTIC CONTAINER NDA-018931 | 54 | 2 (09/23/2020, 11/16/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1368 | SUTENT NDA-021938 | 99 | 6 (08/30/2021, 08/14/2020, 07/10/2020, 05/07/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1369 | CARBAGLU NDA-022562 | 63 | 6 (01/19/2024, 08/05/2021, 01/22/2021, 01/22/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 137 | KUVAN NDA-022181 | 54 | 5 (08/26/2024, 03/16/2020, 12/13/2019, 02/01/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1370 | DYNA-HEX NDA-020111 | 34 | 1 (11/20/2017) |         	Warnings and Precautions, Warnings |
+| 1371 | PLIAGLIS NDA-021717 | 44 | 3 (12/11/2018, 11/02/2018, 11/21/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1372 | CYKLOKAPRON NDA-019281 | 41 | 4 (08/29/2025, 02/04/2021, 06/07/2020, 11/21/2017) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Boxed Warning |
+| 1373 | SPINRAZA NDA-209531 | 53 | 9 (03/27/2026, 04/10/2024, 06/16/2020, 06/17/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1374 | ENTRESTO NDA-207620 | 53 | 4 (04/12/2024, 02/16/2021, 10/02/2019, 11/22/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 1375 | NOVOLOG MIX 50/50 BLA-021810 | 48 | 4 (11/15/2019, 11/15/2019, 08/07/2019, 11/21/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1376 | ACTICLATE NDA-205931 | 40 | 3 (03/31/2025, 12/26/2019, 11/15/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1377 | ACTICLATE CAP NDA-208253 | 40 | 3 (03/31/2025, 12/26/2019, 11/15/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1378 | INTUNIV NDA-022037 | 43 | 3 (12/27/2019, 03/07/2018, 11/27/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Use in Specific Populations |
+| 1379 | VENOFER NDA-021135 | 43 | 4 (08/01/2024, 09/11/2020, 12/19/2018, 11/28/2017) |         	Adverse Reactions,         	Use in Specific Populations |
+| 138 | TIVICAY NDA-204790 | 127 | 15 (08/25/2026, 10/28/2025, 04/18/2024, 10/07/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Patient Counseling Information, Patient Information, Precautions |
+| 1380 | DOCETAXEL NDA-202356 | 38 | 2 (09/24/2018, 11/21/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1381 | PREVACID 24 HR NDA-022327 | 36 | 3 (06/23/2022, 04/09/2019, 11/28/2017) |         	Warnings and Precautions, Warnings |
+| 1382 | PERFOROMIST NDA-022007 | 44 | 2 (05/29/2019, 11/30/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1383 | BYSTOLIC NDA-021742 | 40 | 2 (06/16/2023, 11/30/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1384 | HIPREX NDA-017681 | 34 | 1 (12/01/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1385 | MOZOBIL NDA-022311 | 42 | 4 (09/21/2023, 08/19/2020, 05/30/2019, 12/01/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1386 | LEVO-T NDA-021342 | 48 | 2 (05/04/2026, 12/05/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1387 | NEULASTA BLA-125031 | 60 | 7 (08/04/2026, 02/02/2021, 01/05/2021, 01/06/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1388 | OMIDRIA NDA-205388 | 37 | 1 (12/08/2017) |         	Adverse Reactions,         	Use in Specific Populations, Adverse Reactions |
+| 1389 | POTASSIUM CHLORIDE 10MEQ IN DEXTROSE 5% AND LACTATED RINGER'S IN PLASTIC CONTAINER NDA-019367 | 55 | 3 (11/05/2025, 10/09/2019, 12/06/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 139 | DEPO-PROVERA NDA-012541 | 36 | 2 (04/03/2017, 06/10/2016) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1390 | POTASSIUM CHLORIDE 15MEQ IN DEXTROSE 5% AND LACTATED RINGER'S IN PLASTIC CONTAINER NDA-019367 | 54 | 2 (10/09/2019, 12/06/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1391 | POTASSIUM CHLORIDE 20MEQ IN DEXTROSE 5% AND LACTATED RINGER'S IN PLASTIC CONTAINER NDA-019367 | 54 | 2 (10/09/2019, 12/06/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1392 | POTASSIUM CHLORIDE 30MEQ IN DEXTROSE 5% AND LACTATED RINGER'S IN PLASTIC CONTAINER NDA-019367 | 54 | 2 (10/09/2019, 12/06/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1393 | POTASSIUM CHLORIDE 40MEQ IN DEXTROSE 5% AND LACTATED RINGER'S IN PLASTIC CONTAINER NDA-019367 | 54 | 2 (10/09/2019, 12/06/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1394 | POTASSIUM CHLORIDE 5MEQ IN DEXTROSE 5% AND LACTATED RINGER'S IN PLASTIC CONTAINER NDA-019367 | 54 | 2 (10/09/2019, 12/06/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1395 | LACTATED RINGER'S AND DEXTROSE 5% IN PLASTIC CONTAINER NDA-016679 | 54 | 3 (11/05/2025, 10/09/2019, 12/06/2017) |         	Adverse Reactions,         	Warnings and Precautions, Drug Interactions |
+| 1396 | FLAGYL I.V. RTU IN PLASTIC CONTAINER NDA-018657 | 58 | 6 (06/24/2025, 03/14/2025, 07/08/2024, 12/15/2021) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Adverse Reactions, Drug Interactions |
+| 1397 | MAVYRET NDA-209394 | 77 | 9 (06/10/2025, 10/25/2023, 06/10/2021, 04/10/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions, Warnings and Precautions |
+| 1398 | IMITREX NDA-020080 | 40 | 3 (12/09/2025, 07/17/2018, 12/14/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1399 | IMITREX STATDOSE NDA-020080 | 40 | 3 (12/09/2025, 07/17/2018, 12/14/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 14 | MAVIK NDA-020528 | 36 | 2 (08/02/2017, 01/29/2016) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 140 | ELELYSO BLA-022458 | 52 | 7 (12/22/2025, 01/17/2025, 07/10/2024, 05/09/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1400 | IMITREX NDA-020132 | 38 | 2 (12/09/2025, 12/14/2017) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1401 | IMITREX NDA-020626 | 41 | 2 (12/09/2025, 12/14/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1402 | XIIDRA NDA-208073 | 36 | 2 (06/04/2020, 12/17/2017) |         	Adverse Reactions |
+| 1403 | XIFAXAN NDA-021361 | 38 | 4 (10/19/2023, 10/19/2022, 11/06/2020, 12/18/2017) |         	Adverse Reactions,         	Drug Interactions, Warnings and Precautions |
+| 1404 | AIRDUO RESPICLICK NDA-208799 | 44 | 4 (07/09/2021, 02/21/2020, 03/02/2018, 12/20/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Warnings |
+| 1405 | NEXIUM 24HR NDA-207920 | 36 | 3 (09/06/2022, 04/04/2019, 12/18/2017) |         	Warnings and Precautions, Warnings |
+| 1406 | CLOMID NDA-016131 | 34 | 1 (12/18/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1407 | CABOMETYX NDA-208692 | 94 | 8 (10/09/2025, 03/26/2025, 09/20/2023, 09/17/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information, Warnings, Warnings and Precautions |
+| 1408 | NEVANAC NDA-021862 | 33 | 1 (12/15/2017) |         	Adverse Reactions |
+| 1409 | LINEZOLID IN SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-206473 | 59 | 8 (06/09/2026, 05/29/2025, 11/08/2024, 02/17/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 141 | SEROQUEL NDA-020639 | 56 | 8 (01/22/2025, 01/27/2022, 09/18/2020, 02/05/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1410 | XYLOCAINE W/ EPINEPHRINE NDA-006488 | 44 | 3 (10/30/2024, 11/02/2018, 12/22/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1411 | BETAGAN NDA-019219 | 35 | 1 (12/22/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1412 | PERJETA BLA-125409 | 54 | 6 (04/23/2026, 06/27/2025, 12/18/2018, 09/20/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1413 | ZERIT NDA-020412 | 49 | 2 (12/17/2018, 12/19/2017) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1414 | ZERIT NDA-020413 | 49 | 2 (12/17/2018, 12/19/2017) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1415 | VENCLEXTA NDA-208573 | 94 | 12 (05/20/2026, 02/19/2026, 06/15/2022, 11/19/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1416 | DTPA NDA-018511 | 43 | 1 (12/26/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1417 | COARTEM NDA-022268 | 41 | 2 (08/05/2019, 01/08/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1418 | UVADEX NDA-020969 | 35 | 2 (03/19/2021, 01/09/2018) |         	Adverse Reactions,         	Warnings and Precautions, Precautions |
+| 1419 | PARNATE NDA-012342 | 42 | 1 (01/04/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 142 | SEROQUEL XR NDA-022047 | 61 | 9 (01/22/2025, 01/27/2022, 09/18/2020, 09/18/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1420 | AZACITIDINE NDA-208216 | 55 | 4 (12/19/2024, 06/08/2023, 07/13/2020, 01/10/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1421 | LYNPARZA NDA-208558 | 113 | 16 (07/10/2025, 11/06/2023, 09/12/2023, 05/31/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 1422 | RAXIBACUMAB BLA-125349 | 47 | 2 (06/02/2021, 01/11/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Patient Information, Warnings, Warnings and Precautions |
+| 1423 | TRISENOX NDA-021248 | 62 | 3 (10/20/2020, 06/20/2019, 01/12/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1424 | CHG SCRUB NDA-019258 | 33 | 1 (01/10/2018) |         	Warnings and Precautions, Warnings |
+| 1425 | CIDA-STAT NDA-019258 | 33 | 1 (01/10/2018) |         	Warnings and Precautions, Warnings |
+| 1426 | KYBELLA NDA-206333 | 60 | 6 (09/11/2026, 09/11/2026, 10/05/2022, 05/20/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1427 | JULUCA NDA-210192 | 91 | 10 (10/28/2025, 04/18/2024, 10/07/2022, 07/09/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 1428 | DIFLUCAN NDA-019949 | 60 | 9 (02/12/2024, 07/12/2023, 01/17/2023, 03/09/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Drug Interactions, Patient Information |
+| 1429 | DIFLUCAN NDA-020090 | 59 | 9 (02/12/2024, 07/12/2023, 01/17/2023, 03/09/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Drug Interactions, Patient Information |
+| 143 | XYZAL NDA-022064 | 49 | 8 (07/11/2025, 01/11/2019, 04/02/2018, 10/16/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1430 | COPAXONE NDA-020622 | 75 | 11 (06/22/2026, 01/22/2025, 01/22/2025, 11/16/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information, Patient Information, Precautions, Warnings |
+| 1431 | SYMPROIC NDA-208854 | 37 | 2 (07/15/2025, 01/24/2018) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1432 | TRULANCE NDA-208745 | 41 | 3 (04/13/2021, 10/29/2020, 01/24/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 1433 | VIDEX NDA-020156 | 48 | 2 (12/17/2018, 01/25/2018) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Medication Guide |
+| 1434 | VIDEX EC NDA-021183 | 49 | 2 (12/17/2018, 01/25/2018) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Medication Guide |
+| 1435 | INJECTAFER NDA-203565 | 76 | 8 (08/13/2026, 01/03/2025, 05/31/2023, 05/31/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 1436 | ERELZI BLA-761042 | 66 | 4 (11/10/2022, 06/11/2020, 10/18/2019, 01/26/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1437 | SPIRIVA NDA-021395 | 37 | 1 (02/01/2018) |         	Use in Specific Populations |
+| 1438 | OCALIVA NDA-207999 | 49 | 2 (05/26/2021, 02/01/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1439 | ZYVOX NDA-021130 | 70 | 9 (06/09/2026, 06/27/2024, 07/18/2023, 10/26/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 144 | XYZAL NDA-022157 | 49 | 8 (07/11/2025, 01/11/2019, 04/02/2018, 10/16/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1440 | MICARDIS HCT NDA-021162 | 41 | 3 (12/19/2022, 08/20/2020, 02/01/2018) |         	Adverse Reactions,         	Use in Specific Populations, Patient Information |
+| 1441 | ZYVOX NDA-021131 | 72 | 9 (06/09/2026, 06/27/2024, 07/18/2023, 10/26/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1442 | ZYVOX NDA-021132 | 71 | 9 (06/09/2026, 06/27/2024, 07/18/2023, 10/26/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1443 | ARGATROBAN NDA-201811 | 39 | 2 (07/13/2026, 01/30/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1444 | MICARDIS NDA-020850 | 44 | 2 (12/19/2022, 02/01/2018) |         	Adverse Reactions,         	Use in Specific Populations, Patient Information |
+| 1445 | FERAHEME NDA-022180 | 55 | 4 (05/27/2026, 06/16/2022, 09/11/2020, 02/02/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1446 | NEXIUM 24HR NDA-204655 | 36 | 3 (09/06/2022, 04/04/2019, 01/24/2018) |         	Warnings and Precautions, Warnings |
+| 1447 | SODIUM IODIDE I 131 NDA-016515 | 33 | 1 (02/06/2018) |         	Adverse Reactions |
+| 1448 | SODIUM IODIDE I 131 NDA-016517 | 33 | 1 (02/06/2018) |         	Adverse Reactions |
+| 1449 | CLARINEX-D 12 HOUR NDA-021313 | 43 | 3 (03/15/2019, 04/19/2018, 02/06/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 145 | ZYBAN NDA-020711 | 46 | 5 (07/19/2019, 05/04/2017, 05/04/2017, 05/04/2017) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions |
+| 1450 | DORYX NDA-050582 | 39 | 2 (03/31/2025, 02/07/2018) |         	Adverse Reactions,         	Warnings and Precautions, Warnings |
+| 1451 | TOTECT NDA-022025 | 51 | 2 (11/02/2020, 02/08/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1452 | EXONDYS 51 NDA-206488 | 40 | 3 (01/18/2022, 10/11/2018, 02/08/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1453 | BEPREVE NDA-022288 | 39 | 1 (02/09/2018) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1454 | CELESTONE SOLUSPAN NDA-014602 | 44 | 4 (07/08/2024, 06/05/2024, 04/10/2018, 02/09/2018) |         	Adverse Reactions,         	Warnings and Precautions, Drug Interactions |
+| 1455 | GEMCITABINE HYDROCHLORIDE NDA-200795 | 77 | 3 (05/31/2024, 06/21/2019, 01/26/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1456 | CYSVIEW KIT NDA-022555 | 42 | 2 (06/18/2026, 02/15/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1457 | IMFINZI BLA-761069 | 136 | 24 (08/31/2026, 05/28/2026, 11/25/2025, 03/28/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide, Use in Specific Populations, Warnings, Warnings and Precautions |
+| 1458 | JADENU SPRINKLE NDA-207968 | 77 | 8 (07/23/2020, 07/25/2019, 05/24/2019, 12/12/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 1459 | CLARINEX D 24 HOUR NDA-021605 | 43 | 3 (03/15/2019, 04/19/2018, 02/28/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 146 | LUPRON DEPOT NDA-019732 | 51 | 6 (08/18/2025, 03/21/2024, 12/04/2023, 03/04/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1460 | VYTORIN NDA-021687 | 69 | 8 (03/28/2024, 02/08/2024, 02/08/2024, 02/08/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Warnings and Precautions |
+| 1461 | TNKASE BLA-103909 | 38 | 3 (02/28/2025, 03/31/2023, 02/28/2018) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1462 | ZOCOR NDA-019766 | 54 | 8 (08/09/2023, 03/14/2023, 05/31/2022, 03/07/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1463 | ASCLERA NDA-021201 | 38 | 2 (08/29/2019, 03/01/2018) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1464 | KYLEENA NDA-208224 | 53 | 4 (05/04/2023, 01/10/2022, 04/13/2021, 03/01/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 1465 | OTIPRIO NDA-207986 | 37 | 1 (03/02/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1466 | ARMONAIR RESPICLICK NDA-208798 | 45 | 4 (04/08/2022, 07/09/2021, 09/18/2020, 03/02/2018) |         	Adverse Reactions,         	Use in Specific Populations, Patient Information |
+| 1467 | STEGLUJAN NDA-209805 | 84 | 10 (06/03/2026, 12/20/2024, 09/12/2023, 10/13/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information, Warnings and Precautions |
+| 1468 | SKELAXIN NDA-013217 | 38 | 2 (06/21/2024, 03/06/2018) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions |
+| 1469 | LEVULAN NDA-020965 | 46 | 3 (05/09/2022, 04/19/2018, 03/06/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 147 | LUPRON DEPOT NDA-020517 | 50 | 6 (08/18/2025, 03/21/2024, 12/04/2023, 03/04/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1470 | ALDACTONE NDA-012151 | 44 | 3 (11/14/2025, 12/19/2022, 03/06/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 1471 | SIGNIFOR NDA-200677 | 49 | 4 (07/11/2024, 01/15/2020, 04/11/2019, 03/09/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1472 | SIGNIFOR LAR NDA-203255 | 49 | 2 (06/29/2018, 03/09/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1473 | TECENTRIQ BLA-761034 | 141 | 23 (05/12/2026, 11/17/2025, 10/02/2025, 08/18/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1474 | PRADAXA NDA-022512 | 58 | 7 (06/17/2025, 11/17/2023, 06/21/2021, 04/20/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1475 | XATMEP NDA-208400 | 36 | 2 (05/27/2026, 03/15/2018) |         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Warnings |
+| 1476 | OTREXUP NDA-204824 | 43 | 3 (12/26/2019, 06/19/2019, 03/15/2018) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Warnings |
+| 1477 | OTREXUP PFS NDA-204824 | 43 | 3 (12/26/2019, 06/19/2019, 03/15/2018) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Warnings |
+| 1478 | RASUVO NDA-205776 | 46 | 2 (03/11/2020, 03/15/2018) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Contraindications, Precautions, Use in Specific Populations, Warnings and Precautions |
+| 1479 | METHOTREXATE SODIUM NDA-008085 | 38 | 3 (05/27/2026, 05/04/2020, 03/15/2018) |         	Warnings and Precautions, Boxed Warning, Drug Interactions |
+| 148 | ANAPROX NDA-018164 | 58 | 5 (11/21/2024, 04/28/2021, 07/22/2019, 03/10/2017) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1480 | METHOTREXATE LPF NDA-011719 | 62 | 4 (05/28/2025, 11/16/2023, 03/29/2021, 03/15/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions |
+| 1481 | METHOTREXATE PRESERVATIVE FREE NDA-011719 | 58 | 3 (11/16/2023, 03/29/2021, 03/15/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions |
+| 1482 | METHOTREXATE SODIUM PRESERVATIVE FREE NDA-011719 | 58 | 3 (11/16/2023, 03/29/2021, 03/15/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions |
+| 1483 | DEXTROSE 20% IN PLASTIC CONTAINER NDA-017521 | 38 | 1 (03/14/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1484 | DEXTROSE 30% IN PLASTIC CONTAINER NDA-017521 | 38 | 1 (03/14/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1485 | DEXTROSE 40% IN PLASTIC CONTAINER NDA-017521 | 38 | 1 (03/14/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1486 | DEXTROSE 50% IN PLASTIC CONTAINER NDA-017521 | 38 | 1 (03/14/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1487 | DEXTROSE 60% IN PLASTIC CONTAINER NDA-017521 | 38 | 1 (03/14/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1488 | DEXTROSE 70% IN PLASTIC CONTAINER NDA-017521 | 38 | 1 (03/14/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1489 | KINEVAC NDA-017697 | 41 | 3 (10/17/2023, 12/18/2018, 03/21/2018) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 149 | ANSAID NDA-018766 | 40 | 1 (05/09/2016) |         	Warnings and Precautions, Boxed Warning |
+| 1490 | AGRYLIN NDA-020333 | 45 | 4 (10/13/2021, 02/28/2020, 12/19/2018, 03/20/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1491 | TEGRETOL NDA-016608 | 49 | 4 (07/15/2026, 09/30/2025, 09/13/2023, 03/20/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1492 | TEGRETOL NDA-018281 | 38 | 1 (03/20/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 1493 | TEGRETOL NDA-018927 | 48 | 3 (07/15/2026, 09/30/2025, 03/20/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1494 | TEGRETOL-XR NDA-020234 | 48 | 3 (07/15/2026, 09/30/2025, 03/20/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1495 | ASMANEX TWISTHALER NDA-021067 | 48 | 4 (02/16/2021, 12/19/2019, 03/26/2018, 03/26/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1496 | VORICONAZOLE NDA-208562 | 70 | 5 (04/18/2025, 01/03/2023, 08/16/2022, 12/17/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Warnings |
+| 1497 | TOUJEO SOLOSTAR BLA-206538 | 64 | 6 (08/29/2024, 08/16/2022, 11/26/2019, 11/15/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1498 | QSYMIA NDA-022580 | 88 | 6 (03/06/2026, 09/13/2024, 06/28/2023, 06/24/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions, Precautions, Warnings, Warnings and Precautions |
+| 1499 | HEPARIN LOCK FLUSH NDA-017007 | 40 | 2 (10/24/2024, 03/27/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 15 | MIOSTAT NDA-016968 | 34 | 1 (01/21/2016) |         	Adverse Reactions,         	Warnings and Precautions |
+| 150 | ARTHROTEC NDA-020607 | 73 | 6 (11/21/2024, 08/26/2022, 08/02/2021, 04/28/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1500 | TRIFERIC NDA-206317 | 36 | 1 (03/29/2018) |         	Use in Specific Populations |
+| 1501 | TRIFERIC NDA-208551 | 36 | 1 (03/29/2018) |         	Use in Specific Populations |
+| 1502 | VARIBAR THIN HONEY NDA-208143 | 33 | 1 (03/26/2018) |         	Use in Specific Populations |
+| 1503 | TYZEKA NDA-022011 | 46 | 2 (12/27/2018, 03/28/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1504 | DIPROLENE NDA-018741 | 39 | 2 (05/01/2019, 03/28/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1505 | DIPROLENE AF NDA-019555 | 39 | 2 (05/01/2019, 03/28/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1506 | FLAGYL NDA-012623 | 44 | 5 (07/08/2024, 10/06/2023, 12/15/2021, 03/05/2021) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 1507 | FLAGYL NDA-020334 | 45 | 5 (07/08/2024, 10/06/2023, 12/15/2021, 03/05/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1508 | FLAGYL ER NDA-020868 | 47 | 5 (07/08/2024, 10/06/2023, 12/15/2021, 03/05/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1509 | METRONIDAZOLE IN PLASTIC CONTAINER NDA-018890 | 47 | 6 (03/14/2025, 07/08/2024, 10/06/2023, 12/15/2021) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 151 | CALDOLOR NDA-022348 | 61 | 5 (11/21/2024, 05/11/2023, 04/28/2021, 07/22/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1510 | STRIVERDI RESPIMAT NDA-203108 | 43 | 2 (05/29/2019, 04/02/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1511 | RITUXAN BLA-103705 | 107 | 10 (12/02/2021, 06/30/2021, 08/28/2020, 01/23/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Warnings |
+| 1512 | BESIVANCE NDA-022308 | 37 | 1 (04/03/2018) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1513 | TYZEKA NDA-022154 | 46 | 2 (12/27/2018, 03/28/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1514 | DIPROLENE NDA-019716 | 39 | 2 (05/01/2019, 03/28/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1515 | RUBRACA NDA-209115 | 59 | 5 (12/17/2025, 12/21/2022, 06/10/2022, 09/30/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1516 | EXPAREL NDA-022496 | 60 | 4 (11/09/2023, 03/22/2021, 11/02/2018, 04/06/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1517 | PRILOSEC OTC NDA-021229 | 36 | 3 (10/04/2022, 04/04/2019, 04/03/2018) |         	Warnings and Precautions, Warnings |
+| 1518 | SEMPREX-D NDA-019806 | 33 | 1 (04/11/2018) |         	Adverse Reactions |
+| 1519 | METRO I.V. IN PLASTIC CONTAINER NDA-018900 | 51 | 7 (04/23/2026, 03/14/2025, 07/08/2024, 12/15/2021) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Warnings |
+| 152 | CAMBIA NDA-022165 | 56 | 5 (11/21/2024, 04/28/2021, 04/28/2021, 03/20/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 1520 | PRAXBIND BLA-761025 | 37 | 1 (04/12/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1521 | NETSPOT NDA-208547 | 45 | 4 (10/26/2023, 12/22/2021, 06/22/2021, 04/12/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1522 | KEVZARA BLA-761037 | 47 | 3 (06/10/2024, 02/28/2023, 04/13/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1523 | VARUBI NDA-206500 | 49 | 2 (08/19/2020, 04/13/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications, Warnings and Precautions |
+| 1524 | DOCETAXEL NDA-203551 | 67 | 4 (08/26/2024, 07/27/2020, 07/09/2019, 04/11/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1525 | EVOCLIN NDA-050801 | 35 | 1 (04/17/2018) |         	Use in Specific Populations |
+| 1526 | AFINITOR DISPERZ NDA-203985 | 67 | 6 (06/01/2026, 02/01/2022, 04/16/2021, 02/13/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1527 | CARNITOR NDA-018948 | 36 | 1 (04/17/2018) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1528 | CARNITOR SF NDA-019257 | 36 | 1 (04/17/2018) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1529 | CARNITOR NDA-020182 | 35 | 1 (04/17/2018) |         	Adverse Reactions,         	Warnings and Precautions |
+| 153 | CATAFLAM NDA-020142 | 52 | 2 (04/28/2021, 05/09/2016) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1530 | GLUCAGON NDA-020928 | 36 | 3 (01/26/2021, 07/06/2018, 04/18/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1531 | SOOLANTRA NDA-206255 | 35 | 2 (10/14/2022, 04/19/2018) |         	Adverse Reactions,         	Use in Specific Populations, Patient Information |
+| 1532 | LUPRON DEPOT NDA-020708 | 61 | 4 (09/10/2025, 09/10/2025, 03/18/2020, 04/18/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1533 | KISQALI FEMARA CO-PACK (COPACKAGED) NDA-209935 | 90 | 9 (07/01/2026, 09/17/2024, 10/03/2022, 09/15/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1534 | TRELEGY ELLIPTA NDA-209482 | 82 | 8 (06/02/2023, 12/02/2022, 05/11/2022, 09/09/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1535 | HIBISTAT NDA-018300 | 33 | 1 (04/19/2018) |         	Warnings and Precautions |
+| 1536 | OLUX NDA-021142 | 41 | 1 (04/25/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1537 | E.E.S. NDA-050207 | 35 | 1 (04/23/2018) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 1538 | ERYPED NDA-050207 | 35 | 1 (04/23/2018) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 1539 | PCE NDA-050611 | 33 | 1 (04/23/2018) |         	Contraindications |
+| 154 | CELEBREX NDA-020998 | 64 | 5 (11/21/2024, 04/28/2021, 05/03/2019, 06/28/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1540 | ERYTHROCIN NDA-050609 | 39 | 2 (11/05/2019, 04/23/2018) |         	Contraindications,         	Warnings and Precautions |
+| 1541 | ERYC NDA-050536 | 33 | 1 (04/23/2018) |         	Contraindications |
+| 1542 | H.P. ACTHAR GEL NDA-008372 | 42 | 2 (03/02/2021, 04/26/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 1543 | ELLA NDA-022474 | 47 | 2 (06/24/2021, 05/01/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Warnings and Precautions |
+| 1544 | MICRO-K NDA-018238 | 42 | 1 (04/30/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1545 | K-TAB NDA-018279 | 42 | 1 (04/30/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1546 | KLOR-CON NDA-019123 | 42 | 1 (04/30/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications |
+| 1547 | SYLATRON BLA-103949 | 39 | 2 (12/21/2018, 05/04/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1548 | NAFTIN NDA-019356 | 34 | 1 (04/30/2018) |         	Warnings and Precautions |
+| 1549 | CATHFLO ACTIVASE BLA-103172 | 34 | 1 (02/28/2018) |         	Adverse Reactions,         	Warnings and Precautions |
+| 155 | DAYPRO NDA-018841 | 51 | 4 (11/21/2024, 04/28/2021, 05/03/2019, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1550 | OMNISCAN NDA-020123 | 52 | 4 (03/05/2025, 07/23/2024, 01/26/2024, 04/26/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1551 | OMNISCAN NDA-022066 | 52 | 5 (03/05/2025, 07/23/2024, 01/26/2024, 10/23/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1552 | EOVIST NDA-022090 | 56 | 5 (02/13/2026, 03/05/2025, 07/23/2024, 01/30/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1553 | GADAVIST NDA-201277 | 60 | 6 (02/13/2026, 03/05/2025, 07/23/2024, 01/26/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Precautions |
+| 1554 | MAGNEVIST NDA-019596 | 46 | 2 (07/25/2018, 04/26/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1555 | ABSORICA NDA-021951 | 95 | 5 (08/11/2026, 06/12/2026, 07/18/2023, 11/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1556 | FLOLAN NDA-020444 | 45 | 4 (08/24/2021, 12/12/2018, 10/23/2018, 05/14/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1557 | OLUX E NDA-022013 | 41 | 1 (05/14/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1558 | DEXTROSE 20% IN PLASTIC CONTAINER NDA-018564 | 33 | 1 (05/14/2018) |         	Contraindications |
+| 1559 | DEXTROSE 30% IN PLASTIC CONTAINER NDA-019345 | 33 | 1 (05/14/2018) |         	Contraindications |
+| 156 | DAYPRO ALTA NDA-020776 | 51 | 4 (11/21/2024, 04/28/2021, 05/03/2019, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1560 | DEXTROSE 40% IN PLASTIC CONTAINER NDA-018562 | 33 | 1 (05/14/2018) |         	Contraindications |
+| 1561 | DEXTROSE 50% IN PLASTIC CONTAINER NDA-018563 | 33 | 1 (05/14/2018) |         	Contraindications |
+| 1562 | DEXTROSE 70% IN PLASTIC CONTAINER NDA-018561 | 33 | 1 (05/14/2018) |         	Contraindications |
+| 1563 | UROXATRAL NDA-021287 | 37 | 2 (05/22/2020, 05/14/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1564 | OZURDEX NDA-022315 | 38 | 3 (03/11/2026, 10/21/2020, 05/15/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1565 | BIOSCRUB NDA-019822 | 33 | 1 (05/11/2018) |         	Warnings and Precautions |
+| 1566 | COSYNTROPIN NDA-022028 | 45 | 2 (07/01/2024, 05/11/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1567 | MAGNEVIST NDA-021037 | 46 | 2 (07/25/2018, 04/26/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1568 | PROHANCE NDA-020131 | 59 | 6 (03/05/2025, 08/14/2024, 07/23/2024, 01/26/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Precautions |
+| 1569 | ARNUITY ELLIPTA NDA-205625 | 59 | 4 (10/18/2023, 03/01/2023, 01/07/2019, 05/17/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 157 | CORDARONE NDA-018972 | 42 | 4 (10/17/2018, 04/07/2017, 11/22/2016, 04/22/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1570 | LIPOFEN NDA-021612 | 64 | 5 (06/06/2025, 06/03/2021, 05/15/2019, 11/06/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications, Patient Counseling Information |
+| 1571 | FIBRICOR NDA-022418 | 64 | 5 (06/06/2025, 06/03/2021, 09/30/2019, 05/15/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications, Warnings |
+| 1572 | TRICOR NDA-021656 | 61 | 5 (06/06/2025, 06/03/2021, 03/28/2019, 11/06/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1573 | FENOGLIDE NDA-022118 | 66 | 5 (06/06/2025, 06/03/2021, 05/15/2019, 03/13/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications, Patient Counseling Information, Precautions, Warnings |
+| 1574 | TRIGLIDE NDA-021350 | 63 | 4 (05/14/2024, 06/03/2021, 05/15/2019, 05/18/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Warnings and Precautions |
+| 1575 | TRILIPIX NDA-022224 | 63 | 5 (06/06/2025, 06/03/2021, 03/28/2019, 11/07/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 1576 | ANTARA (MICRONIZED) NDA-021695 | 73 | 7 (10/01/2025, 07/30/2024, 06/03/2021, 05/15/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Patient Counseling Information, Warnings and Precautions |
+| 1577 | ACZONE NDA-021794 | 38 | 1 (05/18/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1578 | ACZONE NDA-207154 | 40 | 2 (09/10/2019, 05/18/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1579 | PROHANCE MULTIPACK NDA-021489 | 58 | 6 (03/05/2025, 08/14/2024, 07/23/2024, 01/26/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Precautions |
+| 158 | GILOTRIF NDA-201292 | 48 | 5 (04/07/2022, 10/11/2019, 11/06/2017, 10/04/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1580 | OPTIMARK NDA-020937 | 39 | 1 (04/26/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1581 | OPTIMARK NDA-020975 | 39 | 1 (04/26/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1582 | OPTIMARK IN PLASTIC CONTAINER NDA-020976 | 39 | 1 (04/26/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1583 | MULTIHANCE NDA-021357 | 60 | 6 (03/05/2025, 08/14/2024, 07/23/2024, 01/26/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1584 | MULTIHANCE MULTIPACK NDA-021358 | 61 | 6 (03/05/2025, 08/14/2024, 07/23/2024, 01/26/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1585 | LOTRISONE NDA-018827 | 41 | 2 (06/14/2019, 05/21/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1586 | ELOCON NDA-019543 | 52 | 2 (07/06/2026, 05/21/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1587 | PURINETHOL NDA-009053 | 57 | 3 (07/09/2024, 04/29/2020, 05/23/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1588 | THIOGUANINE NDA-012429 | 37 | 2 (07/09/2024, 05/23/2018) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1589 | PROGRAF NDA-050708 | 78 | 7 (09/14/2023, 11/22/2022, 07/16/2021, 12/30/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Drug Interactions, Medication Guide, Precautions, Warnings, Warnings and Precautions |
+| 159 | LENVIMA NDA-206947 | 119 | 16 (09/24/2026, 11/20/2024, 04/03/2024, 11/10/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1590 | VITRASE BLA-021640 | 36 | 1 (05/25/2018) |         	Use in Specific Populations |
+| 1591 | MINIRIN NDA-021333 | 40 | 1 (05/29/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1592 | SYLVANT BLA-125496 | 45 | 2 (12/05/2019, 05/31/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1593 | NOVOLIN R BLA-019938 | 54 | 2 (11/15/2019, 06/01/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1594 | NOVOLIN N BLA-019959 | 45 | 3 (11/15/2019, 06/01/2018, 06/01/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1595 | NOVOLIN 70/30 BLA-019991 | 45 | 3 (11/15/2019, 06/01/2018, 06/01/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1596 | PROGRAF NDA-050709 | 73 | 6 (11/22/2022, 07/16/2021, 12/30/2020, 06/11/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Drug Interactions, Precautions, Warnings, Warnings and Precautions |
+| 1597 | ELOCON NDA-019625 | 52 | 2 (07/06/2026, 05/21/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1598 | GLEOLAN NDA-208630 | 38 | 3 (03/19/2019, 08/22/2018, 06/12/2018) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 1599 | AUSTEDO NDA-208082 | 57 | 7 (11/26/2024, 11/26/2024, 09/28/2023, 06/24/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 16 | SIMPONI BLA-125289 | 69 | 8 (10/07/2025, 04/18/2025, 09/24/2019, 03/06/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 160 | NESINA NDA-022271 | 55 | 5 (07/27/2023, 03/11/2022, 07/01/2019, 12/12/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information |
+| 1600 | MIRCERA BLA-125164 | 49 | 2 (04/30/2024, 06/07/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1601 | ELOCON NDA-019796 | 49 | 2 (07/06/2026, 05/21/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1602 | REMODULIN NDA-021272 | 42 | 2 (07/30/2018, 06/08/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1603 | SPECTAZOLE NDA-018751 | 35 | 1 (06/08/2018) |         	Drug Interactions,         	Use in Specific Populations |
+| 1604 | DICLEGIS NDA-021876 | 36 | 1 (06/18/2018) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1605 | BONJESTA NDA-209661 | 35 | 1 (06/18/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 1606 | AZACTAM NDA-050580 | 33 | 1 (06/18/2018) |         	Adverse Reactions |
+| 1607 | AZACTAM IN PLASTIC CONTAINER NDA-050632 | 33 | 1 (06/18/2018) |         	Adverse Reactions |
+| 1608 | ARGATROBAN IN SODIUM CHLORIDE NDA-022434 | 38 | 2 (06/10/2026, 06/18/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1609 | PEPCID NDA-019462 | 42 | 2 (11/11/2018, 06/21/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 161 | ONGLYZA NDA-022350 | 51 | 5 (10/11/2024, 07/01/2019, 02/27/2017, 01/18/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1610 | EXTINA NDA-021738 | 40 | 1 (06/20/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1611 | RYDAPT NDA-207997 | 50 | 5 (05/22/2023, 11/15/2021, 04/20/2021, 11/24/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1612 | RELENZA NDA-021036 | 36 | 1 (06/21/2018) |         	Use in Specific Populations |
+| 1613 | KENALOG-40 NDA-014901 | 40 | 2 (06/05/2024, 06/22/2018) |         	Warnings and Precautions |
+| 1614 | NASONEX NDA-020762 | 63 | 4 (06/28/2022, 09/09/2020, 06/22/2018, 06/22/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1615 | NAVELBINE NDA-020388 | 44 | 2 (05/07/2019, 06/22/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1616 | ARGATROBAN IN DEXTROSE NDA-201743 | 36 | 2 (06/03/2026, 06/22/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1617 | BENLYSTA BLA-761043 | 108 | 11 (08/21/2026, 06/20/2025, 05/16/2024, 02/09/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1618 | KENALOG-10 NDA-012041 | 39 | 2 (06/05/2024, 06/22/2018) |         	Warnings and Precautions |
+| 1619 | ARRANON NDA-021877 | 54 | 3 (07/31/2019, 11/29/2018, 07/03/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 162 | OXALIPLATIN NDA-022160 | 58 | 3 (10/31/2024, 04/10/2020, 04/20/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 1620 | Xeomin BLA-125360 | 88 | 9 (06/25/2026, 02/26/2026, 07/05/2024, 09/08/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1621 | ARGATROBAN IN SODIUM CHLORIDE NDA-022485 | 38 | 2 (09/25/2026, 07/03/2018) |         	Adverse Reactions,         	Use in Specific Populations, Adverse Reactions |
+| 1622 | PHOSPHOLINE IODIDE NDA-011963 | 40 | 2 (10/28/2021, 07/03/2018) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 1623 | EVISTA NDA-020815 | 40 | 1 (06/27/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1624 | LAMICTAL NDA-020241 | 79 | 11 (10/10/2025, 10/10/2025, 04/25/2025, 04/25/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Warnings and Precautions |
+| 1625 | LAMICTAL CD NDA-020764 | 79 | 11 (10/10/2025, 10/10/2025, 04/25/2025, 04/25/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings and Precautions |
+| 1626 | LAMICTAL ODT NDA-022251 | 79 | 11 (10/10/2025, 10/10/2025, 04/25/2025, 04/25/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings and Precautions |
+| 1627 | LAMICTAL XR NDA-022115 | 77 | 11 (10/10/2025, 10/10/2025, 04/25/2025, 04/25/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings and Precautions |
+| 1628 | CASPOFUNGIN ACETATE NDA-206110 | 52 | 2 (04/01/2021, 06/28/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1629 | NERLYNX NDA-208051 | 54 | 6 (06/28/2021, 07/29/2020, 02/25/2020, 02/25/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 163 | SKYLA NDA-203159 | 72 | 7 (05/04/2023, 01/12/2022, 05/17/2021, 03/01/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1630 | GLUCAGEN NDA-020918 | 46 | 2 (03/11/2021, 07/06/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1631 | ROCEPHIN KIT NDA-050585 | 33 | 1 (07/12/2018) |         	Warnings and Precautions |
+| 1632 | ROCEPHIN NDA-050585 | 33 | 1 (07/12/2018) |         	Warnings and Precautions |
+| 1633 | TIMOPTIC-XE NDA-020330 | 33 | 1 (07/16/2018) |         	Use in Specific Populations |
+| 1634 | INTELENCE NDA-022187 | 48 | 3 (07/10/2019, 11/06/2018, 07/16/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1635 | DETROL LA NDA-021228 | 37 | 1 (07/13/2018) |         	Use in Specific Populations |
+| 1636 | SELZENTRY NDA-208984 | 41 | 2 (10/30/2020, 07/18/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 1637 | LOTEMAX NDA-202872 | 35 | 1 (07/20/2018) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1638 | ANECTINE NDA-008453 | 38 | 2 (11/01/2022, 07/26/2018) |         	Contraindications,         	Warnings and Precautions |
+| 1639 | QUELICIN NDA-008845 | 46 | 3 (11/01/2022, 08/11/2021, 07/26/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 164 | ZONEGRAN NDA-020789 | 48 | 2 (04/13/2020, 04/06/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1640 | MIVACRON NDA-020098 | 36 | 1 (07/26/2018) |         	Warnings and Precautions |
+| 1641 | NIMBEX NDA-020551 | 47 | 3 (10/14/2022, 07/27/2018, 07/26/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1642 | ZEMURON NDA-020214 | 35 | 1 (07/26/2018) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1643 | INFLECTRA BLA-125544 | 86 | 4 (09/03/2025, 06/17/2021, 06/18/2019, 07/27/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1644 | MEDROL NDA-011153 | 39 | 4 (11/04/2025, 06/05/2024, 12/19/2023, 07/24/2018) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1645 | DALVANCE NDA-021883 | 45 | 2 (07/22/2021, 07/24/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1646 | IFEX NDA-019763 | 56 | 2 (12/02/2024, 07/30/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1647 | GEMCITABINE HYDROCHLORIDE NDA-209604 | 46 | 4 (09/24/2024, 06/25/2019, 12/18/2018, 07/30/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1648 | KERYDIN NDA-204427 | 36 | 1 (07/30/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1649 | NITROLINGUAL PUMPSPRAY NDA-018705 | 35 | 1 (07/30/2018) |         	Drug Interactions,         	Use in Specific Populations |
+| 165 | CIALIS NDA-021368 | 43 | 3 (02/15/2018, 05/05/2017, 04/22/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1650 | INLYTA NDA-202324 | 66 | 5 (07/16/2024, 09/22/2022, 06/04/2020, 01/23/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1651 | AVAPRO NDA-020757 | 40 | 5 (08/01/2025, 09/10/2021, 05/11/2021, 12/15/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1652 | CYRAMZA BLA-125477 | 76 | 11 (04/07/2025, 03/22/2022, 06/15/2021, 07/06/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1653 | PREPOPIK NDA-202535 | 58 | 2 (08/29/2023, 08/15/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1654 | COSMEGEN NDA-050682 | 49 | 2 (08/15/2018, 08/15/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1655 | ABRAXANE NDA-021660 | 53 | 3 (08/25/2020, 12/06/2019, 08/16/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information, Precautions, Warnings |
+| 1656 | FROVA NDA-021006 | 37 | 1 (08/20/2018) |         	Use in Specific Populations |
+| 1657 | VERZENIO NDA-208716 | 91 | 7 (09/18/2026, 02/27/2025, 10/12/2021, 10/12/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1658 | PROGESTERONE NDA-017362 | 35 | 1 (08/21/2018) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 1659 | SOMA NDA-011792 | 37 | 1 (08/22/2018) |         	Use in Specific Populations |
+| 166 | LIMBITROL NDA-016949 | 56 | 6 (06/24/2025, 10/28/2024, 01/13/2023, 02/05/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 1660 | CELLCEPT NDA-050722 | 67 | 6 (06/27/2025, 06/06/2022, 10/22/2021, 12/13/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1661 | CELLCEPT NDA-050723 | 67 | 6 (06/27/2025, 06/06/2022, 10/22/2021, 12/13/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1662 | CELLCEPT NDA-050758 | 65 | 6 (06/27/2025, 06/06/2022, 10/22/2021, 12/13/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1663 | CELLCEPT NDA-050759 | 67 | 6 (06/27/2025, 06/06/2022, 10/22/2021, 12/13/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1664 | NUVESSA NDA-205223 | 47 | 3 (02/25/2022, 12/06/2021, 08/03/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1665 | CARBATROL NDA-020712 | 49 | 3 (04/11/2023, 12/01/2021, 08/26/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Precautions, Warnings |
+| 1666 | KISQALI NDA-209092 | 91 | 8 (07/01/2026, 09/17/2024, 10/03/2022, 09/15/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 1667 | VUSION NDA-021026 | 35 | 1 (08/30/2018) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1668 | INGREZZA NDA-209241 | 57 | 5 (02/04/2025, 08/18/2023, 04/09/2020, 05/03/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 1669 | FIASP BLA-208751 | 71 | 6 (06/21/2023, 12/19/2019, 12/19/2019, 10/21/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 167 | TRIUMEQ NDA-205551 | 142 | 15 (10/28/2025, 04/18/2024, 06/15/2023, 10/07/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1670 | BASAGLAR BLA-205692 | 55 | 5 (07/20/2021, 11/15/2019, 11/15/2019, 11/15/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1671 | HYCAMTIN NDA-020671 | 51 | 1 (09/05/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1672 | HYCAMTIN NDA-020981 | 50 | 1 (09/05/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Precautions |
+| 1673 | CERDELGA NDA-205494 | 44 | 1 (08/29/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1674 | DAPTOMYCIN NDA-208385 | 50 | 5 (04/30/2025, 02/07/2022, 02/07/2022, 04/03/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1675 | XOFIGO NDA-203971 | 41 | 2 (12/10/2019, 08/31/2018) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1676 | ASTEPRO NDA-022203 | 41 | 2 (06/28/2021, 09/06/2018) |         	Use in Specific Populations |
+| 1677 | ASTELIN NDA-020114 | 38 | 1 (09/06/2018) |         	Use in Specific Populations |
+| 1678 | DYMISTA NDA-202236 | 50 | 3 (12/17/2024, 04/16/2021, 09/06/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1679 | SODIUM CHLORIDE 3% IN PLASTIC CONTAINER NDA-019022 | 33 | 1 (09/14/2018) |         	Adverse Reactions |
+| 168 | ZESTRIL NDA-019777 | 38 | 2 (07/21/2017, 04/21/2016) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1680 | SODIUM CHLORIDE 5% IN PLASTIC CONTAINER NDA-019022 | 33 | 1 (09/14/2018) |         	Adverse Reactions |
+| 1681 | NOVOTHYROX NDA-021292 | 43 | 1 (09/14/2018) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1682 | ARYMO ER NDA-208603 | 46 | 2 (10/07/2019, 09/18/2018) |         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 1683 | APADAZ NDA-208653 | 79 | 4 (12/15/2023, 03/04/2021, 10/07/2019, 09/18/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Warnings and Precautions |
+| 1684 | ROXYBOND NDA-209777 | 92 | 7 (12/22/2025, 04/19/2024, 12/15/2023, 03/04/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Counseling Information |
+| 1685 | MORPHABOND ER NDA-206544 | 43 | 3 (10/07/2019, 12/31/2018, 09/18/2018) |         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 1686 | SOLTAMOX NDA-021807 | 37 | 1 (09/25/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1687 | HUMALOG MIX 75/25 BLA-021017 | 48 | 4 (07/21/2023, 11/15/2019, 09/26/2018, 09/26/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1688 | HUMALOG MIX 75/25 KWIKPEN BLA-021017 | 48 | 4 (07/21/2023, 11/15/2019, 09/26/2018, 09/26/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1689 | HUMALOG MIX 75/25 PEN BLA-021017 | 48 | 4 (07/21/2023, 11/15/2019, 09/26/2018, 09/26/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 169 | CANCIDAS NDA-021227 | 39 | 3 (02/08/2019, 08/09/2017, 04/12/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1690 | HUMALOG MIX 50/50 BLA-021018 | 48 | 4 (07/21/2023, 11/15/2019, 09/26/2018, 09/26/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1691 | HUMALOG MIX 50/50 KWIKPEN BLA-021018 | 48 | 4 (07/21/2023, 11/15/2019, 09/26/2018, 09/26/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1692 | HUMALOG MIX 50/50 PEN BLA-021018 | 48 | 4 (07/21/2023, 11/15/2019, 09/26/2018, 09/26/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1693 | PANTOPRAZOLE SODIUM NDA-209463 | 45 | 5 (07/18/2023, 03/04/2022, 11/27/2020, 06/23/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 1694 | CHEMET NDA-019998 | 40 | 2 (09/16/2024, 10/02/2018) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1695 | TOBI NDA-050753 | 53 | 2 (02/10/2023, 10/05/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1696 | COZAAR NDA-020386 | 42 | 3 (06/20/2025, 10/15/2021, 10/12/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 1697 | HYZAAR NDA-020387 | 46 | 5 (06/20/2025, 03/17/2023, 08/20/2020, 11/07/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 1698 | TAXOTERE NDA-020449 | 76 | 6 (01/18/2023, 05/15/2020, 12/17/2019, 06/06/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 1699 | STIOLTO RESPIMAT NDA-206756 | 50 | 2 (05/29/2019, 10/05/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 17 | SIMPONI ARIA BLA-125433 | 76 | 8 (09/29/2020, 09/24/2019, 02/09/2018, 10/20/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 170 | RECLAST NDA-021817 | 41 | 4 (02/03/2026, 04/29/2020, 07/07/2017, 04/14/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1700 | HEMLIBRA BLA-761083 | 68 | 6 (07/08/2025, 06/06/2022, 12/16/2021, 09/02/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1701 | METRONIDAZOLE NDA-018764 | 39 | 3 (12/15/2021, 03/05/2021, 10/17/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1702 | BAXDELA NDA-208610 | 57 | 3 (10/24/2019, 05/03/2019, 10/18/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1703 | LITHIUM CARBONATE NDA-017812 | 42 | 4 (10/13/2022, 02/05/2020, 12/20/2018, 10/04/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1704 | LITHIUM CARBONATE NDA-018558 | 42 | 4 (10/13/2022, 02/05/2020, 12/20/2018, 10/04/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1705 | LITHIUM CITRATE NDA-018421 | 42 | 4 (10/13/2022, 02/05/2020, 12/20/2018, 10/04/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1708 | BAXDELA NDA-208611 | 59 | 4 (12/01/2023, 10/24/2019, 05/03/2019, 10/18/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1709 | DUPIXENT BLA-761055 | 184 | 25 (04/22/2026, 04/16/2026, 02/23/2026, 06/18/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Counseling Information, Patient Information, Warnings and Precautions |
+| 171 | VICTOZA NDA-022341 | 97 | 10 (10/14/2025, 05/28/2025, 11/01/2024, 07/05/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1710 | SENSORCAINE NDA-018304 | 45 | 2 (07/19/2022, 11/02/2018) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1711 | EMLA NDA-019941 | 36 | 1 (11/02/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 1712 | MARCAINE NDA-018692 | 41 | 2 (09/28/2022, 11/02/2018) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1713 | BUPIVACAINE HYDROCHLORIDE NDA-018053 | 48 | 2 (03/09/2021, 11/02/2018) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1714 | NAROPIN NDA-020533 | 37 | 2 (06/15/2022, 11/02/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 1715 | LIDODERM NDA-020612 | 36 | 1 (11/02/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 1716 | SEPTOCAINE NDA-020971 | 37 | 1 (11/02/2018) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1717 | CITANEST PLAIN DENTAL NDA-021382 | 36 | 1 (11/02/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 1718 | MARCAINE HYDROCHLORIDE NDA-016964 | 48 | 2 (08/21/2020, 11/02/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1719 | XYLOCAINE DENTAL NDA-021380 | 36 | 1 (11/02/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 172 | WELLBUTRIN NDA-018644 | 47 | 8 (11/05/2025, 05/07/2024, 12/06/2022, 11/05/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1720 | XYLOCAINE DENTAL WITH EPINEPHRINE NDA-021381 | 36 | 1 (11/02/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 1721 | XYLOCAINE NDA-008816 | 50 | 2 (04/01/2025, 11/02/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information |
+| 1722 | NESACAINE NDA-009435 | 36 | 1 (11/02/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 1723 | NESACAINE-MPF NDA-009435 | 36 | 1 (11/02/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 1724 | CITANEST FORTE DENTAL NDA-021383 | 37 | 2 (11/03/2021, 11/02/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 1725 | BUPIVACAINE HYDROCHLORIDE W/EPINEPHRINE NDA-022046 | 36 | 1 (11/02/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 1726 | ORAQIX NDA-021451 | 36 | 1 (11/02/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 1727 | SYNERA NDA-021623 | 39 | 2 (12/16/2020, 11/02/2018) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1728 | MARCAINE HYDROCHLORIDE W/ EPINEPHRINE NDA-016964 | 48 | 2 (08/21/2020, 11/02/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1729 | ZINGO NDA-022114 | 35 | 2 (12/19/2025, 11/02/2018) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 173 | WELLBUTRIN SR NDA-020358 | 48 | 8 (11/05/2025, 05/07/2024, 12/06/2022, 11/05/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1730 | ORABLOC NDA-022466 | 40 | 2 (07/02/2025, 11/02/2018) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1731 | ZTLIDO NDA-207962 | 41 | 2 (04/08/2021, 11/02/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1732 | KOVANAZE NDA-208032 | 36 | 1 (11/02/2018) |         	Drug Interactions,         	Warnings and Precautions |
+| 1733 | CARBOCAINE NDA-012250 | 49 | 2 (12/21/2023, 11/02/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1734 | EDLUAR NDA-021997 | 44 | 3 (08/18/2019, 02/06/2019, 10/24/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1735 | OSPHENA NDA-203505 | 56 | 4 (02/07/2025, 02/15/2024, 01/25/2019, 10/26/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1736 | STEGLATRO NDA-209803 | 70 | 7 (06/03/2026, 12/20/2024, 09/12/2023, 10/13/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications, Medication Guide, Warnings |
+| 1737 | SEGLUROMET NDA-209806 | 84 | 9 (08/11/2026, 08/11/2026, 12/20/2024, 09/12/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1738 | NITYR NDA-209449 | 46 | 3 (01/18/2024, 09/02/2020, 11/05/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1739 | BICILLIN C-R NDA-050138 | 47 | 7 (06/25/2026, 06/25/2026, 12/10/2020, 12/08/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 174 | XALKORI NDA-202570 | 98 | 10 (09/07/2023, 07/14/2022, 09/22/2021, 01/14/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1740 | BICILLIN C-R 900/300 NDA-050138 | 48 | 7 (06/25/2026, 06/25/2026, 12/10/2020, 12/08/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1741 | PROSOL 20% SULFITE FREE IN PLASTIC CONTAINER NDA-020849 | 53 | 2 (09/23/2020, 10/29/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1742 | NAMENDA NDA-021487 | 42 | 1 (11/02/2018) |         	Use in Specific Populations, Patient Information |
+| 1743 | ADMELOG BLA-209196 | 54 | 3 (08/31/2023, 11/15/2019, 11/01/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1744 | HUMALOG BLA-020563 | 59 | 7 (05/07/2025, 07/21/2023, 11/15/2019, 11/15/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1745 | HUMALOG KWIKPEN BLA-205747 | 59 | 7 (05/07/2025, 07/21/2023, 11/15/2019, 11/15/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1746 | CYSTADANE NDA-020576 | 34 | 1 (11/06/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1747 | LUNESTA NDA-021476 | 43 | 3 (08/18/2019, 02/06/2019, 11/07/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Warnings and Precautions |
+| 1748 | RYTHMOL SR NDA-021416 | 43 | 1 (11/02/2018) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1749 | RYTHMOL NDA-019151 | 50 | 1 (11/02/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 175 | DUEXIS NDA-022519 | 51 | 5 (11/21/2024, 04/28/2021, 07/22/2019, 06/07/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1750 | MARPLAN NDA-011961 | 35 | 1 (11/08/2018) |         	Warnings and Precautions |
+| 1751 | AGGRENOX NDA-020884 | 44 | 3 (05/13/2021, 12/11/2019, 11/09/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1752 | ELAPRASE BLA-125151 | 36 | 1 (11/16/2018) |         	Use in Specific Populations |
+| 1753 | MINOCIN NDA-050445 | 36 | 3 (03/31/2025, 07/18/2024, 11/16/2018) |         	Adverse Reactions,         	Warnings and Precautions, Warnings |
+| 1754 | DENAVIR NDA-020629 | 35 | 1 (11/21/2018) |         	Use in Specific Populations |
+| 1756 | OSMITROL 10% IN WATER NDA-013684 | 47 | 2 (08/05/2019, 11/15/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1757 | OSMITROL 20% IN WATER NDA-013684 | 47 | 2 (08/05/2019, 11/15/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1758 | OSMITROL 15% IN WATER NDA-013684 | 47 | 2 (08/05/2019, 11/15/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1759 | OSMITROL 5% IN WATER NDA-013684 | 47 | 2 (08/05/2019, 11/15/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 176 | DYLOJECT NDA-022396 | 40 | 1 (05/09/2016) |         	Warnings and Precautions, Boxed Warning |
+| 1760 | OSMITROL 5% IN WATER IN PLASTIC CONTAINER NDA-013684 | 47 | 2 (08/05/2019, 11/15/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1761 | OSMITROL 10% IN WATER IN PLASTIC CONTAINER NDA-013684 | 44 | 2 (08/05/2019, 11/15/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1762 | OSMITROL 15% IN WATER IN PLASTIC CONTAINER NDA-013684 | 47 | 2 (08/05/2019, 11/15/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1763 | OSMITROL 20% IN WATER IN PLASTIC CONTAINER NDA-013684 | 47 | 2 (08/05/2019, 11/15/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1764 | HYDROCODONE BITARTRATE AND GUAIFENESIN NDA-208085 | 71 | 1 (10/31/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1765 | LETAIRIS NDA-022081 | 45 | 3 (04/04/2025, 08/23/2019, 11/30/2018) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1766 | SERNIVO NDA-208079 | 37 | 2 (03/24/2020, 11/30/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1767 | ZYLOPRIM NDA-016084 | 39 | 4 (09/21/2023, 09/21/2023, 09/21/2023, 12/03/2018) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1768 | NEXAVAR NDA-021923 | 55 | 5 (07/09/2020, 06/19/2020, 04/02/2020, 12/06/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 1769 | PALONOSETRON HYDROCHLORIDE NDA-208109 | 37 | 1 (12/06/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 177 | FELDENE NDA-018147 | 56 | 4 (11/21/2024, 04/28/2021, 05/03/2019, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 1770 | BIAXIN NDA-050698 | 41 | 3 (09/18/2019, 12/19/2018, 11/25/2018) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1771 | ISTODAX NDA-022393 | 45 | 2 (07/30/2021, 11/27/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1772 | REGRANEX BLA-103691 | 39 | 2 (08/26/2019, 11/28/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1773 | ASTAGRAF XL NDA-204096 | 56 | 5 (09/14/2023, 11/22/2022, 12/30/2020, 06/11/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions, Warnings and Precautions |
+| 1774 | NEUPRO NDA-021829 | 63 | 5 (07/12/2021, 07/12/2021, 04/24/2020, 01/18/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1775 | OSMOPREP NDA-021892 | 43 | 1 (11/29/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1776 | MOVIPREP NDA-021881 | 50 | 3 (04/06/2022, 05/14/2021, 12/07/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1777 | NASCOBAL NDA-021642 | 39 | 1 (12/07/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1778 | MESNEX NDA-019884 | 41 | 1 (12/17/2018) |         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1779 | VELETRI NDA-022260 | 37 | 2 (10/21/2020, 12/12/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 178 | RINGER'S IN PLASTIC CONTAINER NDA-016693 | 49 | 2 (02/21/2019, 04/27/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 1780 | PRIMAXIN NDA-050587 | 35 | 2 (01/30/2022, 12/12/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1781 | ANTIVERT NDA-010721 | 38 | 2 (06/28/2019, 12/12/2018) |         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1782 | ZOLINZA NDA-021991 | 40 | 1 (12/11/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1783 | BRINEURA BLA-761052 | 56 | 4 (07/24/2024, 07/10/2024, 03/27/2020, 12/11/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1784 | ZEVALIN BLA-125019 | 36 | 1 (12/11/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1785 | UNITHROID NDA-021210 | 34 | 1 (12/10/2018) | Boxed Warning |
+| 1786 | TRELSTAR NDA-020715 | 53 | 5 (06/26/2026, 09/23/2025, 04/12/2024, 11/17/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1787 | TRELSTAR NDA-021288 | 54 | 5 (06/26/2026, 09/23/2025, 04/12/2024, 11/17/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1788 | TRELSTAR NDA-022437 | 53 | 5 (06/26/2026, 09/23/2025, 04/12/2024, 11/17/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1789 | ARICEPT ODT NDA-021720 | 35 | 1 (12/18/2018) |         	Use in Specific Populations |
+| 179 | PRECEDEX NDA-021038 | 50 | 5 (05/01/2026, 12/16/2022, 08/12/2022, 08/12/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1790 | ARICEPT NDA-022568 | 35 | 1 (12/18/2018) |         	Use in Specific Populations |
+| 1791 | ARICEPT NDA-020690 | 35 | 1 (12/18/2018) |         	Use in Specific Populations |
+| 1792 | FABRAZYME BLA-103979 | 67 | 4 (07/10/2024, 02/06/2024, 03/11/2021, 12/18/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1793 | GATTEX KIT NDA-203441 | 67 | 5 (09/05/2025, 09/19/2024, 01/29/2021, 05/16/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 1794 | KEFLEX NDA-050405 | 39 | 2 (08/03/2026, 12/19/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 1795 | MEGACE ES NDA-021778 | 39 | 1 (12/18/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1796 | ZOLEDRONIC ACID NDA-204016 | 40 | 1 (12/19/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1797 | VEREGEN NDA-021902 | 36 | 1 (12/19/2018) |         	Use in Specific Populations |
+| 1798 | INVANZ NDA-021337 | 41 | 4 (03/17/2022, 12/22/2020, 09/20/2019, 12/19/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1799 | IMURAN NDA-016324 | 38 | 2 (07/09/2024, 12/20/2018) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions |
+| 18 | TARKA NDA-020591 | 40 | 4 (08/20/2019, 08/02/2017, 07/12/2016, 01/29/2016) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Drug Interactions |
+| 180 | VIBRAMYCIN NDA-050442 | 40 | 3 (07/26/2017, 12/21/2016, 03/31/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1800 | HEPARIN SODIUM 10,000 UNITS IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019339 | 54 | 2 (02/07/2024, 12/20/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1801 | HEPARIN SODIUM 12,500 UNITS IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019339 | 54 | 2 (02/07/2024, 12/20/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1802 | HEPARIN SODIUM 25,000 UNITS IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019339 | 54 | 2 (02/07/2024, 12/20/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1803 | IMURAN NDA-017391 | 37 | 2 (07/09/2024, 12/20/2018) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions |
+| 1804 | BARACLUDE NDA-021797 | 38 | 2 (11/06/2019, 12/20/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1805 | BARACLUDE NDA-021798 | 38 | 2 (11/06/2019, 12/20/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1807 | AZILECT NDA-021641 | 38 | 2 (06/16/2020, 12/20/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1808 | APIDRA BLA-021629 | 64 | 4 (11/30/2022, 11/15/2019, 12/20/2018, 12/20/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1809 | BYETTA NDA-021773 | 68 | 8 (05/28/2025, 11/01/2024, 12/21/2022, 06/10/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Precautions, Warnings |
+| 181 | VIBRAMYCIN NDA-050006 | 44 | 6 (08/08/2025, 03/31/2025, 12/03/2018, 07/26/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1810 | ALUNBRIG NDA-208772 | 58 | 4 (02/28/2022, 09/24/2021, 05/22/2020, 12/21/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1811 | DACOGEN NDA-021790 | 42 | 3 (06/29/2020, 02/25/2020, 12/21/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1812 | SANDOSTATIN LAR NDA-021008 | 52 | 5 (07/11/2024, 01/05/2024, 03/30/2021, 04/11/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1814 | TACLONEX NDA-021852 | 38 | 1 (12/21/2018) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1815 | CLOBEX NDA-021835 | 40 | 1 (12/21/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1816 | ROZEREM NDA-021782 | 37 | 1 (12/21/2018) |         	Use in Specific Populations |
+| 1817 | ZOMIG NDA-020768 | 37 | 1 (12/21/2018) |         	Use in Specific Populations, Patient Information |
+| 1818 | CYANOKIT NDA-022041 | 39 | 2 (12/31/2018, 12/31/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1819 | ZYFLO CR NDA-022052 | 33 | 1 (12/31/2018) |         	Use in Specific Populations |
+| 182 | VIBRAMYCIN NDA-050480 | 44 | 6 (08/08/2025, 03/31/2025, 12/03/2018, 07/26/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1820 | FUZEON NDA-021481 | 45 | 1 (12/27/2018) |         	Use in Specific Populations, Patient Information |
+| 1821 | VIVITROL NDA-021897 | 59 | 5 (12/22/2025, 09/30/2022, 03/04/2021, 09/06/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Precautions |
+| 1822 | HEPSERA NDA-021449 | 41 | 1 (12/28/2018) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1823 | ZOMIG-ZMT NDA-021231 | 37 | 1 (12/21/2018) |         	Use in Specific Populations, Patient Information |
+| 1824 | ZOMIG NDA-021450 | 37 | 1 (12/21/2018) |         	Use in Specific Populations, Patient Information |
+| 1825 | SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-021569 | 35 | 1 (12/29/2018) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1826 | FLONASE NDA-020121 | 36 | 1 (01/07/2019) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1827 | ARIMIDEX NDA-020541 | 37 | 2 (12/16/2024, 12/13/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1828 | OXTELLAR XR NDA-202810 | 40 | 1 (12/13/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1829 | XOPENEX NDA-020837 | 34 | 1 (01/03/2019) |         	Use in Specific Populations |
+| 183 | FLECTOR NDA-021234 | 57 | 6 (11/21/2024, 04/28/2021, 03/01/2019, 03/01/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1830 | COLY-MYCIN S NDA-050356 | 34 | 1 (01/05/2019) |         	Adverse Reactions |
+| 1831 | DOCEFREZ NDA-022534 | 71 | 5 (08/22/2023, 12/09/2022, 02/01/2021, 02/25/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 1832 | BILTRICIDE NDA-018714 | 45 | 2 (12/19/2023, 01/08/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1833 | GLIADEL NDA-020637 | 40 | 1 (12/05/2018) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1834 | PROGRAF NDA-210115 | 59 | 6 (09/14/2023, 11/22/2022, 07/16/2021, 12/30/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions, Medication Guide, Precautions, Warnings, Warnings and Precautions |
+| 1835 | MESNEX NDA-020855 | 41 | 1 (12/17/2018) |         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1836 | CINQAIR BLA-761033 | 34 | 1 (01/09/2019) |         	Adverse Reactions |
+| 1837 | NATRECOR NDA-020920 | 35 | 1 (01/09/2019) |         	Use in Specific Populations |
+| 1839 | MANNITOL 20% IN PLASTIC CONTAINER NDA-020006 | 45 | 2 (09/24/2019, 01/09/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 184 | INDOCIN NDA-016059 | 58 | 4 (11/21/2024, 04/28/2021, 03/26/2019, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1840 | MANNITOL 10% IN PLASTIC CONTAINER NDA-020006 | 43 | 1 (09/24/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1841 | MANNITOL 15% IN PLASTIC CONTAINER NDA-020006 | 43 | 1 (09/24/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1842 | MANNITOL 5% IN PLASTIC CONTAINER NDA-020006 | 43 | 1 (09/24/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1845 | MANNITOL 25% NDA-016269 | 44 | 2 (03/17/2020, 01/09/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1847 | MANNITOL 20% IN PLASTIC CONTAINER NDA-019603 | 43 | 2 (04/29/2020, 01/09/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1848 | WELCHOL NDA-021176 | 50 | 4 (10/20/2021, 05/12/2020, 05/21/2019, 01/16/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1849 | RETACRIT BLA-125545 | 49 | 3 (06/04/2024, 06/30/2020, 01/18/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 185 | INDOCIN SR NDA-018185 | 57 | 4 (11/21/2024, 04/28/2021, 03/26/2019, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information, Precautions, Warnings, Warnings and Precautions |
+| 1850 | ALDACTAZIDE NDA-012616 | 39 | 5 (11/14/2025, 12/19/2022, 02/19/2021, 08/20/2020) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions, Drug Interactions |
+| 1851 | WELCHOL NDA-022362 | 50 | 4 (10/20/2021, 05/12/2020, 05/21/2019, 01/16/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1852 | POTASSIUM CHLORIDE 0.15% IN SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-017648 | 38 | 1 (01/11/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1853 | POTASSIUM CHLORIDE 0.15% IN SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-017648 | 38 | 1 (01/11/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1854 | POTASSIUM CHLORIDE 0.224% IN SODIUM CHLORIDE 0.9% NDA-017648 | 38 | 1 (01/11/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1855 | POTASSIUM CHLORIDE 0.3% AND SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-017648 | 38 | 1 (01/11/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1856 | SODIUM CHLORIDE 0.9% AND POTASSIUM CHLORIDE 0.075% IN PLASTIC CONTAINER NDA-017648 | 38 | 1 (01/11/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1857 | FLOMAX NDA-020579 | 36 | 1 (01/23/2019) |         	Use in Specific Populations |
+| 1858 | LYMEPAK NDA-209844 | 36 | 2 (03/31/2025, 01/24/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1859 | SYMTUZA NDA-210455 | 62 | 9 (03/31/2023, 10/20/2022, 04/14/2022, 07/29/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications, Patient Information |
+| 186 | INDOCIN NDA-017814 | 58 | 4 (11/21/2024, 04/28/2021, 03/26/2019, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1860 | ZOVIRAX NDA-018603 | 36 | 1 (01/25/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1861 | TREMFYA BLA-761061 | 109 | 11 (05/28/2026, 09/26/2025, 09/26/2025, 09/19/2025) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1862 | NUEDEXTA NDA-021879 | 35 | 2 (06/11/2019, 01/31/2019) |         	Use in Specific Populations |
+| 1863 | XULTOPHY 100/3.6 BLA-208583 | 91 | 11 (10/14/2025, 05/28/2025, 11/01/2024, 07/10/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Warnings |
+| 1864 | OMEPRAZOLE NDA-209400 | 35 | 2 (10/21/2022, 01/28/2019) |         	Warnings and Precautions |
+| 1865 | SONATA NDA-020859 | 41 | 2 (08/18/2019, 02/06/2019) |         	Contraindications,         	Warnings and Precautions, Boxed Warning |
+| 1866 | INTERMEZZO NDA-022328 | 40 | 2 (08/18/2019, 02/06/2019) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Boxed Warning |
+| 1867 | BUTISOL SODIUM NDA-000793 | 34 | 1 (02/06/2019) |         	Warnings and Precautions, Warnings |
+| 1868 | ZOLPIMIST NDA-022196 | 44 | 2 (08/18/2019, 02/06/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1869 | VANTAS NDA-021732 | 45 | 4 (05/06/2026, 09/23/2025, 12/16/2020, 02/11/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 187 | INDOCIN NDA-018332 | 56 | 4 (11/21/2024, 04/28/2021, 03/26/2019, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information, Warnings, Warnings and Precautions |
+| 1870 | ESKATA NDA-209305 | 33 | 1 (02/07/2019) |         	Adverse Reactions |
+| 1872 | BYDUREON BCISE NDA-209210 | 93 | 9 (05/28/2025, 11/01/2024, 12/21/2022, 07/26/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Precautions |
+| 1877 | CIPRODEX NDA-021537 | 38 | 2 (11/03/2020, 02/21/2019) |         	Use in Specific Populations, Patient Information |
+| 1878 | DEXTROSE 5%, SODIUM CHLORIDE 0.45% AND POTASSIUM CHLORIDE 15MEQ IN PLASTIC CONTAINER NDA-018008 | 51 | 1 (02/21/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1879 | PROAIR HFA NDA-021457 | 34 | 1 (02/26/2019) |         	Use in Specific Populations |
+| 188 | INDOMETHACIN NDA-018829 | 55 | 3 (11/21/2024, 04/28/2021, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 1880 | CAMPTOSAR NDA-020571 | 41 | 3 (01/27/2022, 01/30/2020, 02/22/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1881 | CISPLATIN NDA-018057 | 57 | 1 (02/22/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1882 | CINVANTI NDA-209296 | 40 | 2 (10/21/2019, 02/26/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1883 | CLARINEX NDA-021165 | 41 | 2 (03/15/2019, 03/01/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1884 | CLARINEX NDA-021300 | 41 | 2 (03/15/2019, 03/01/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1885 | CLARINEX NDA-021312 | 41 | 2 (03/15/2019, 03/01/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1886 | CLARINEX NDA-021563 | 41 | 2 (03/15/2019, 03/01/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1887 | TRANSDERM SCOP NDA-017874 | 59 | 4 (04/25/2025, 03/01/2024, 03/01/2019, 03/01/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1888 | NUPLAZID NDA-210793 | 42 | 7 (04/27/2026, 01/22/2025, 09/15/2023, 11/23/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1889 | PREVYMIS NDA-209939 | 73 | 7 (08/30/2024, 08/30/2024, 08/02/2023, 06/05/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 189 | INDOMETHACIN NDA-018851 | 49 | 3 (11/21/2024, 04/28/2021, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1890 | PREVYMIS NDA-209940 | 74 | 7 (08/30/2024, 08/30/2024, 08/02/2023, 06/05/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1891 | DEXTROSE 5%, SODIUM CHLORIDE 0.33% AND POTASSIUM CHLORIDE 10MEQ IN PLASTIC CONTAINER NDA-018629 | 51 | 1 (02/21/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1892 | LUMIFY NDA-208144 | 33 | 1 (02/21/2019) |         	Warnings and Precautions |
+| 1893 | METOZOLV ODT NDA-022246 | 41 | 1 (02/28/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1894 | AIMOVIG BLA-761077 | 59 | 7 (03/21/2025, 10/03/2022, 05/11/2021, 02/03/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 1895 | PARSABIV NDA-208325 | 36 | 1 (03/08/2019) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 1896 | BIDIL NDA-020727 | 37 | 1 (03/12/2019) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations |
+| 1897 | DIFICID NDA-201699 | 46 | 3 (01/24/2020, 04/05/2019, 03/15/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1898 | FULPHILA BLA-761075 | 42 | 3 (03/17/2021, 05/29/2019, 03/21/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1899 | RENFLEXIS BLA-761054 | 49 | 4 (10/28/2025, 12/26/2023, 06/26/2019, 03/21/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 19 | HYLENEX RECOMBINANT BLA-021859 | 36 | 2 (01/12/2024, 01/21/2016) |         	Drug Interactions,         	Use in Specific Populations |
+| 190 | INDOMETHACIN NDA-018858 | 59 | 3 (11/21/2024, 04/28/2021, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1900 | DOPTELET NDA-210238 | 56 | 6 (07/24/2025, 07/18/2024, 10/14/2021, 08/20/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1901 | RHOPRESSA NDA-208254 | 37 | 2 (09/18/2024, 03/22/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1902 | PHENDIMETRAZINE TARTRATE NDA-018074 | 34 | 1 (03/22/2019) |         	Warnings and Precautions, Drug Interactions |
+| 1903 | TAGAMET HB NDA-020238 | 33 | 1 (03/26/2019) |         	Warnings and Precautions |
+| 1904 | DEXTROSE 5%, SODIUM CHLORIDE 0.2% AND POTASSIUM CHLORIDE 10MEQ NDA-018037 | 51 | 1 (02/21/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1905 | POTASSIUM CHLORIDE 10MEQ IN DEXTROSE 5% AND SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019308 | 51 | 1 (02/21/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1906 | ZELNORM NDA-021200 | 37 | 1 (03/29/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1908 | MALARONE NDA-021078 | 47 | 3 (06/10/2026, 03/23/2026, 02/22/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1909 | TIGECYCLINE NDA-205645 | 46 | 3 (03/31/2025, 11/16/2020, 04/04/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 191 | KYNAMRO NDA-203568 | 39 | 2 (03/18/2019, 05/20/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Boxed Warning |
+| 1910 | ZANTAC 150 NDA-021698 | 33 | 1 (04/04/2019) |         	Warnings and Precautions, Warnings |
+| 1911 | ZANTAC 75 NDA-020520 | 33 | 1 (04/04/2019) |         	Warnings and Precautions, Warnings |
+| 1912 | DOBUTAMINE HYDROCHLORIDE IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-020255 | 33 | 1 (03/27/2019) |         	Adverse Reactions |
+| 1913 | LOVAZA NDA-021654 | 38 | 2 (09/04/2020, 04/03/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1914 | PAMELOR NDA-018013 | 35 | 1 (04/09/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1915 | PEPCID AC NDA-020325 | 33 | 1 (04/09/2019) |         	Warnings and Precautions |
+| 1916 | AXID AR NDA-020555 | 33 | 1 (04/09/2019) |         	Warnings and Precautions |
+| 1917 | PEPCID COMPLETE NDA-020958 | 33 | 1 (04/09/2019) |         	Warnings and Precautions |
+| 1918 | BECONASE AQ NDA-019389 | 33 | 1 (04/12/2019) |         	Warnings and Precautions |
+| 1919 | VERDESO NDA-021978 | 37 | 1 (04/15/2019) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 192 | MOBIC NDA-021530 | 56 | 2 (04/28/2021, 05/09/2016) |         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 1921 | UDENYCA BLA-761039 | 54 | 4 (12/15/2023, 11/28/2022, 06/07/2021, 04/16/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1922 | SANDOSTATIN NDA-019667 | 51 | 5 (07/11/2024, 11/03/2023, 10/04/2022, 05/25/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1923 | OGIVRI BLA-761074 | 37 | 2 (11/13/2024, 04/17/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1924 | HALOBETASOL PROPIONATE NDA-210566 | 34 | 1 (04/19/2019) |         	Warnings and Precautions |
+| 1925 | AMRIX NDA-021777 | 34 | 1 (04/23/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1926 | CEFTIN NDA-050605 | 34 | 2 (03/05/2021, 04/25/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1927 | SIGNIFOR LAR KIT NDA-203255 | 46 | 3 (07/11/2024, 07/09/2020, 04/11/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1928 | CARDIOGEN-82 NDA-019414 | 46 | 4 (12/23/2024, 10/15/2020, 10/24/2019, 04/26/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1929 | RUBY-FILL NDA-202153 | 38 | 1 (04/26/2019) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Boxed Warning |
+| 193 | MOBIC NDA-020938 | 49 | 3 (11/21/2024, 04/28/2021, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1930 | PROMACTA KIT NDA-207027 | 55 | 5 (06/06/2025, 03/31/2022, 02/03/2021, 04/29/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Medication Guide |
+| 1931 | VESICARE NDA-021518 | 54 | 2 (05/26/2020, 04/30/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications |
+| 1932 | NORMOCARB HF 25 NDA-021910 | 34 | 1 (05/01/2019) |         	Use in Specific Populations |
+| 1933 | NORMOCARB HF 35 NDA-021910 | 34 | 1 (05/01/2019) |         	Use in Specific Populations |
+| 1934 | TIBSOVO NDA-211192 | 67 | 4 (10/24/2023, 05/25/2022, 08/25/2021, 05/02/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1935 | BICILLIN L-A NDA-050141 | 43 | 5 (06/25/2026, 06/25/2026, 12/10/2020, 12/08/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 1936 | QTERN NDA-209091 | 68 | 7 (06/03/2026, 09/12/2023, 10/13/2022, 03/04/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 1937 | REBETOL NDA-020903 | 47 | 3 (03/16/2022, 01/28/2020, 05/02/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1938 | REBETOL NDA-021546 | 47 | 3 (03/16/2022, 01/28/2020, 05/02/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1939 | CEFTIN NDA-050672 | 34 | 2 (03/05/2021, 04/25/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 194 | NALFON NDA-017604 | 58 | 3 (11/21/2024, 04/28/2021, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1940 | SORILUX NDA-022563 | 44 | 3 (11/05/2019, 11/05/2019, 05/06/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1941 | ENTYVIO BLA-125476 | 77 | 8 (02/25/2026, 03/14/2024, 02/23/2024, 09/28/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1942 | LANTUS BLA-021081 | 56 | 5 (06/29/2023, 06/29/2023, 06/07/2022, 11/15/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1943 | TRACLEER NDA-209279 | 50 | 4 (11/05/2025, 02/08/2024, 05/16/2019, 04/26/2019) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1944 | SPRAVATO NDA-211243 | 65 | 6 (04/28/2025, 01/17/2025, 11/04/2024, 10/18/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1945 | OMNARIS NDA-022004 | 33 | 1 (05/08/2019) |         	Use in Specific Populations |
+| 1946 | ODOMZO NDA-205266 | 38 | 2 (08/22/2023, 05/13/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1947 | VASOSTRICT NDA-204485 | 41 | 3 (03/26/2021, 02/21/2020, 05/14/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1948 | HERZUMA BLA-761091 | 45 | 2 (11/13/2024, 05/16/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1949 | AGGRASTAT NDA-020912 | 33 | 1 (05/16/2019) |         	Use in Specific Populations |
+| 195 | PONSTEL NDA-015034 | 65 | 4 (12/31/2025, 11/21/2024, 04/28/2021, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 1950 | AGGRASTAT NDA-020913 | 33 | 1 (05/16/2019) |         	Use in Specific Populations |
+| 1951 | YUPELRI NDA-210598 | 34 | 2 (05/25/2022, 05/21/2019) |         	Adverse Reactions |
+| 1952 | SIKLOS NDA-208843 | 47 | 3 (11/28/2023, 12/07/2021, 05/22/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1953 | DECITABINE NDA-205582 | 48 | 4 (09/16/2020, 05/21/2020, 02/03/2020, 05/22/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1954 | TRUXIMA BLA-761088 | 63 | 6 (06/09/2025, 02/04/2022, 05/29/2020, 12/18/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 1955 | PLENVU NDA-209381 | 38 | 3 (09/08/2023, 05/14/2021, 05/29/2019) |         	Warnings and Precautions |
+| 1956 | SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-016677 | 38 | 1 (05/29/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1957 | SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-018016 | 38 | 1 (05/29/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1958 | SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-020178 | 38 | 1 (05/29/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 1959 | XOSPATA NDA-211349 | 46 | 2 (01/12/2022, 05/29/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 196 | PENNSAID NDA-204623 | 52 | 4 (11/21/2024, 01/27/2022, 04/28/2021, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1960 | BEVESPI AEROSPHERE NDA-208294 | 39 | 2 (11/05/2020, 05/29/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1961 | BROVANA NDA-021912 | 38 | 1 (05/29/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1962 | ARCAPTA NEOHALER NDA-022383 | 44 | 2 (07/30/2021, 05/29/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1963 | LUMIZYME BLA-125291 | 56 | 5 (12/30/2024, 03/22/2024, 05/24/2023, 02/18/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1964 | MYOZYME BLA-125141 | 38 | 2 (02/18/2020, 05/30/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1965 | ALLEGRA NDA-021963 | 33 | 1 (05/30/2019) |         	Use in Specific Populations |
+| 1966 | EMGALITY BLA-761063 | 53 | 5 (06/05/2026, 03/21/2025, 05/24/2022, 12/05/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1967 | EMFLAZA NDA-208684 | 43 | 3 (06/05/2024, 07/10/2020, 06/07/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1968 | EMFLAZA NDA-208685 | 44 | 3 (06/05/2024, 07/10/2020, 06/07/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1969 | TINDAMAX NDA-021618 | 40 | 2 (12/15/2021, 06/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 197 | EC-NAPROSYN NDA-020067 | 58 | 5 (11/21/2024, 04/28/2021, 07/22/2019, 03/10/2017) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 1970 | FURADANTIN NDA-009175 | 34 | 2 (02/01/2024, 06/11/2019) |         	Adverse Reactions |
+| 1971 | EXFORGE NDA-021990 | 37 | 1 (06/12/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1972 | EXFORGE HCT NDA-022314 | 39 | 2 (08/20/2020, 06/12/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1973 | DIOVAN HCT NDA-020818 | 39 | 2 (08/20/2020, 06/12/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1974 | AMJEVITA BLA-761024 | 84 | 7 (10/16/2025, 09/17/2025, 08/20/2024, 07/12/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1977 | BIKTARVY NDA-210251 | 85 | 12 (07/30/2025, 04/24/2024, 02/23/2024, 10/14/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 1978 | MVASI BLA-761028 | 49 | 4 (02/17/2023, 11/15/2021, 04/19/2021, 06/24/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Warnings and Precautions |
+| 1979 | FLUDEOXYGLUCOSE F18 NDA-021870 | 37 | 1 (06/27/2019) |         	Use in Specific Populations |
+| 198 | NAPROSYN NDA-017581 | 58 | 5 (11/21/2024, 04/28/2021, 07/22/2019, 03/10/2017) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 1982 | DEXTENZA NDA-208742 | 38 | 3 (04/07/2025, 10/07/2021, 06/20/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1983 | THIOLA NDA-019569 | 39 | 1 (06/28/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1984 | EGRIFTA BLA-022505 | 38 | 3 (03/25/2025, 07/05/2019, 07/05/2019) | (section heading appears as e.g. numbered text, see raw) |
+| 1985 | QTERNMET XR NDA-210874 | 43 | 2 (01/24/2020, 07/01/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1986 | LYMPHOSEEK KIT NDA-202207 | 37 | 2 (05/19/2021, 07/08/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 1987 | ALBENZA NDA-020666 | 35 | 1 (07/11/2019) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 1988 | POTASSIUM CHLORIDE NDA-208019 | 36 | 2 (03/05/2020, 07/10/2019) |         	Drug Interactions,         	Use in Specific Populations |
+| 1989 | REBIF BLA-103780 | 52 | 5 (07/28/2023, 11/03/2021, 05/26/2020, 05/26/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions, Warnings, Warnings and Precautions |
+| 199 | NAPRELAN NDA-020353 | 51 | 5 (11/21/2024, 04/28/2021, 07/22/2019, 09/06/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 1990 | ATROPINE (AUTOINJECTOR) NDA-212319 | 39 | 1 (07/09/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1991 | AVONEX BLA-103628 | 52 | 4 (07/28/2023, 11/03/2021, 03/27/2020, 07/12/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 1992 | JEUVEAU BLA-761085 | 33 | 1 (07/12/2019) |         	Warnings and Precautions |
+| 1993 | HEPARIN SODIUM 1,000 UNITS AND SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-018609 | 56 | 2 (01/03/2022, 07/15/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1994 | MEGACE NDA-020264 | 33 | 1 (07/18/2019) |         	Drug Interactions |
+| 1995 | BEVYXXA NDA-208383 | 36 | 2 (08/24/2020, 07/18/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 1996 | ELLENCE NDA-050778 | 47 | 2 (07/26/2019, 07/26/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 1997 | TACLONEX NDA-022185 | 38 | 1 (07/25/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 1998 | ADHANSIA XR NDA-212038 | 38 | 2 (06/25/2021, 07/03/2019) |         	Adverse Reactions,         	Drug Interactions |
+| 1999 | FERRIPROX NDA-021825 | 64 | 5 (03/26/2025, 11/30/2021, 04/30/2021, 02/20/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 20 | TECHNIVIE NDA-207931 | 76 | 9 (12/06/2019, 07/23/2018, 11/09/2017, 03/22/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 200 | NPLATE BLA-125268 | 70 | 9 (02/21/2025, 02/10/2021, 01/28/2021, 11/23/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2000 | CEFOXITIN AND DEXTROSE IN DUPLEX CONTAINER NDA-065214 | 37 | 1 (07/29/2019) |         	Use in Specific Populations |
+| 2001 | VPRIV BLA-022575 | 48 | 4 (07/10/2024, 12/10/2020, 11/06/2019, 07/30/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2002 | ENSTILAR NDA-207589 | 62 | 4 (10/16/2020, 07/30/2019, 07/30/2019, 07/30/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2003 | HEPARIN SODIUM 20,000 UNITS IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019805 | 36 | 1 (08/01/2019) |         	Use in Specific Populations |
+| 2004 | HEPARIN SODIUM 25,000 UNITS IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019805 | 36 | 1 (08/01/2019) |         	Use in Specific Populations |
+| 2005 | CLINDAMYCIN PHOSPHATE IN 0.9% SODIUM CHLORIDE NDA-208083 | 37 | 2 (02/18/2021, 08/01/2019) |         	Drug Interactions,         	Use in Specific Populations |
+| 2006 | ESBRIET NDA-208780 | 38 | 2 (02/24/2023, 07/31/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2007 | IDAMYCIN NDA-050661 | 38 | 3 (04/27/2022, 02/10/2021, 08/02/2019) |         	Warnings and Precautions |
+| 2008 | IDAMYCIN PFS NDA-050734 | 42 | 4 (02/06/2026, 04/27/2022, 02/10/2021, 08/02/2019) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 201 | NAPROSYN NDA-018965 | 50 | 5 (11/21/2024, 04/28/2021, 07/22/2019, 03/10/2017) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2010 | DEXTROSE 10% IN PLASTIC CONTAINER NDA-016694 | 42 | 2 (06/11/2026, 08/05/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2012 | PLASMA-LYTE 148 IN WATER IN PLASTIC CONTAINER NDA-017378 | 35 | 1 (08/05/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 2013 | PLASMA-LYTE A IN PLASTIC CONTAINER NDA-017378 | 35 | 1 (08/05/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 2014 | IMBRUVICA NDA-210563 | 91 | 13 (10/21/2025, 12/20/2024, 05/09/2024, 05/18/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2015 | REOPRO BLA-103575 | 34 | 1 (08/07/2019) |         	Warnings and Precautions |
+| 2016 | CLENPIQ NDA-209589 | 56 | 3 (08/29/2023, 10/18/2019, 08/08/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Precautions, Warnings |
+| 2017 | DOXORUBICIN HYDROCHLORIDE NDA-050629 | 60 | 2 (12/20/2019, 08/09/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 2018 | DOXORUBICIN HYDROCHLORIDE NDA-050467 | 60 | 2 (12/20/2019, 08/09/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 2019 | DOXIL (LIPOSOMAL) NDA-050718 | 41 | 2 (03/10/2026, 08/12/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Contraindications |
+| 202 | PENNSAID NDA-020947 | 40 | 1 (05/09/2016) |         	Warnings and Precautions, Boxed Warning |
+| 2020 | VORAXAZE BLA-125327 | 48 | 1 (08/13/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2021 | PEPCID NDA-019527 | 39 | 1 (08/15/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications |
+| 2022 | FOSAMAX NDA-020560 | 43 | 2 (02/03/2026, 08/16/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2023 | DEXTROSE 5% IN PLASTIC CONTAINER NDA-016673 | 42 | 2 (06/11/2026, 08/05/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2024 | SOMAVERT BLA-021106 | 51 | 3 (07/27/2023, 08/20/2021, 08/16/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2025 | FOSAMAX PLUS D NDA-021762 | 44 | 2 (02/03/2026, 08/16/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2026 | ZELAPAR NDA-021479 | 43 | 2 (06/16/2021, 08/19/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2027 | MYOBLOC BLA-103846 | 46 | 2 (03/10/2021, 08/20/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2028 | VARITHENA NDA-205098 | 33 | 1 (08/21/2019) |         	Use in Specific Populations |
+| 2029 | DEXTROSE 5% IN SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-016678 | 40 | 1 (08/22/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 203 | POTIGA NDA-022345 | 35 | 1 (05/20/2016) |         	Adverse Reactions,         	Warnings and Precautions, Boxed Warning |
+| 2030 | DEXTROSE 5% IN SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-016683 | 40 | 1 (08/22/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2031 | DEXTROSE 5% IN SODIUM CHLORIDE 0.33% IN PLASTIC CONTAINER NDA-016687 | 40 | 1 (08/22/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2032 | DEXTROSE 5% IN SODIUM CHLORIDE 0.2% IN PLASTIC CONTAINER NDA-016689 | 40 | 1 (08/22/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2033 | DEXTROSE 2.5% AND SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-016697 | 40 | 1 (08/22/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2034 | HUMULIN N BLA-018781 | 44 | 3 (06/27/2022, 11/15/2019, 08/22/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2035 | HUMULIN 70/30 BLA-019717 | 45 | 3 (06/27/2022, 11/15/2019, 08/22/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2036 | HUMULIN 70/30 PEN BLA-019717 | 45 | 3 (06/27/2022, 11/15/2019, 08/22/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2037 | HUMULIN R KWIKPEN BLA-018780 | 45 | 3 (06/27/2022, 11/15/2019, 08/22/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2038 | DOXERCALCIFEROL NDA-208614 | 42 | 1 (08/28/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2039 | ORILISSA NDA-210450 | 56 | 3 (06/05/2023, 02/01/2021, 08/28/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications, Medication Guide, Warnings |
+| 204 | VIMOVO NDA-022511 | 83 | 10 (11/21/2024, 07/18/2023, 03/04/2022, 04/28/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 2040 | NICOTROL NDA-020385 | 40 | 2 (05/23/2024, 08/29/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2041 | NICOTROL NDA-020714 | 40 | 2 (05/23/2024, 08/29/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2042 | HEPARIN SODIUM 1,000 UNITS IN SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-018916 | 56 | 4 (11/19/2025, 12/10/2024, 10/24/2024, 09/04/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2043 | HEPARIN SODIUM 10,000 UNITS IN SODIUM CHLORIDE 0.45% NDA-018916 | 74 | 5 (11/19/2025, 12/10/2024, 10/24/2024, 07/30/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2044 | HEPARIN SODIUM 10,000 UNITS IN SODIUM CHLORIDE 0.9% NDA-018916 | 57 | 4 (11/19/2025, 12/10/2024, 10/24/2024, 09/04/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2045 | HEPARIN SODIUM 12,500 UNITS IN SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-018916 | 73 | 5 (11/19/2025, 12/10/2024, 10/24/2024, 07/30/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2046 | HEPARIN SODIUM 12,500 UNITS IN SODIUM CHLORIDE 0.9% NDA-018916 | 53 | 4 (11/19/2025, 12/10/2024, 10/24/2024, 09/04/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 2047 | HEPARIN SODIUM 2,000 UNITS IN SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-018916 | 55 | 4 (11/19/2025, 12/10/2024, 10/24/2024, 09/04/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2048 | HEPARIN SODIUM 25,000 UNITS IN SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-018916 | 73 | 5 (11/19/2025, 12/10/2024, 10/24/2024, 07/30/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2049 | HEPARIN SODIUM 25,000 UNITS IN SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-018916 | 56 | 4 (11/19/2025, 12/10/2024, 10/24/2024, 09/04/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 205 | SOLARAZE NDA-021005 | 69 | 5 (11/21/2024, 11/14/2022, 04/05/2022, 04/28/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2050 | HEPARIN SODIUM 5,000 UNITS IN SODIUM CHLORIDE 0.45% NDA-018916 | 73 | 5 (11/19/2025, 12/10/2024, 10/24/2024, 07/30/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2051 | HEPARIN SODIUM 5,000 UNITS IN SODIUM CHLORIDE 0.9% NDA-018916 | 56 | 4 (11/19/2025, 12/10/2024, 10/24/2024, 09/04/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2052 | REMERON NDA-020415 | 44 | 4 (04/29/2020, 04/29/2020, 03/04/2020, 09/05/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2053 | REMERON SOLTAB NDA-021208 | 45 | 4 (04/29/2020, 04/29/2020, 03/04/2020, 09/05/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2054 | ASPARLAS BLA-761102 | 57 | 4 (11/29/2023, 12/21/2021, 06/24/2020, 09/05/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications |
+| 2055 | PARAGARD T 380A NDA-018680 | 36 | 3 (06/28/2024, 09/05/2019, 09/05/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2056 | GLUCAGON NDA-201849 | 49 | 3 (07/14/2022, 07/29/2021, 09/09/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2057 | ALTABAX NDA-022055 | 36 | 1 (09/10/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2058 | PULMICORT RESPULES NDA-020929 | 35 | 1 (09/06/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2059 | PULMICORT FLEXHALER NDA-021949 | 34 | 1 (09/06/2019) |         	Use in Specific Populations |
+| 206 | SPRIX NDA-022382 | 54 | 4 (11/21/2024, 04/28/2021, 01/22/2018, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Warnings |
+| 2060 | NUCALA BLA-761122 | 56 | 4 (08/06/2025, 07/29/2021, 09/25/2020, 09/12/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2061 | ZULRESSO NDA-211371 | 40 | 2 (06/16/2022, 09/13/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2062 | THALITONE NDA-019574 | 39 | 1 (09/17/2019) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2063 | ERLEADA NDA-210951 | 83 | 11 (06/29/2026, 03/05/2026, 08/02/2024, 02/17/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions, Patient Information |
+| 2064 | DAPTOMYCIN NDA-209949 | 69 | 5 (04/30/2025, 10/06/2023, 05/05/2021, 05/05/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Warnings and Precautions |
+| 2065 | CYLTEZO BLA-761058 | 78 | 6 (10/16/2025, 06/30/2023, 05/18/2023, 03/22/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2066 | SOVALDI NDA-212480 | 37 | 2 (12/23/2024, 09/19/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 2067 | HARVONI NDA-212477 | 43 | 4 (12/19/2024, 03/05/2020, 11/15/2019, 09/19/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations, Patient Information |
+| 2068 | PIFELTRO NDA-210806 | 53 | 6 (09/29/2026, 10/29/2025, 11/07/2024, 01/27/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2069 | DELSTRIGO NDA-210807 | 57 | 7 (09/29/2026, 10/29/2025, 06/12/2025, 11/07/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 207 | TIVORBEX NDA-204768 | 51 | 3 (04/28/2021, 03/26/2019, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 2070 | TALZENNA NDA-211651 | 53 | 6 (06/12/2025, 06/20/2023, 09/20/2021, 09/09/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2071 | MAXALT NDA-020864 | 35 | 1 (10/01/2019) |         	Contraindications,         	Use in Specific Populations |
+| 2072 | MAXALT-MLT NDA-020865 | 35 | 1 (10/01/2019) |         	Contraindications,         	Use in Specific Populations |
+| 2073 | CYCLOPHOSPHAMIDE NDA-203856 | 44 | 1 (09/26/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2074 | IDHIFA NDA-209606 | 57 | 4 (12/18/2024, 12/21/2023, 11/24/2020, 09/27/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2075 | FASENRA BLA-761070 | 56 | 4 (05/13/2026, 09/17/2024, 04/05/2024, 10/03/2019) |         	Adverse Reactions,         	Use in Specific Populations, Patient Information |
+| 2076 | FORTEO NDA-021318 | 56 | 3 (08/03/2026, 11/16/2020, 10/03/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 2077 | CRYSVITA BLA-761068 | 53 | 3 (06/18/2020, 09/27/2019, 09/27/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2078 | HETLIOZ NDA-205677 | 41 | 2 (12/01/2020, 10/07/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 2079 | SUBLOCADE NDA-209819 | 68 | 8 (12/22/2025, 02/21/2025, 12/15/2023, 08/23/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 208 | TREXIMET NDA-021926 | 55 | 5 (11/21/2024, 04/28/2021, 04/28/2021, 07/22/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2080 | MYDAYIS NDA-022063 | 48 | 4 (04/23/2026, 10/13/2023, 02/25/2022, 09/13/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2081 | HYSINGLA ER NDA-206627 | 80 | 4 (12/22/2025, 12/15/2023, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2082 | CASSIPA NDA-208042 | 53 | 4 (12/15/2023, 06/17/2022, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions |
+| 2083 | DSUVIA NDA-209128 | 53 | 3 (12/22/2025, 12/15/2023, 10/07/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2084 | OLUMIANT NDA-207924 | 99 | 7 (09/25/2026, 06/30/2026, 06/13/2022, 05/10/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 2085 | ADDYI NDA-022526 | 56 | 4 (12/13/2025, 09/29/2021, 10/09/2019, 10/09/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2086 | ENTEREG NDA-021775 | 40 | 2 (11/17/2020, 10/10/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2087 | XOFLUZA NDA-210854 | 81 | 7 (05/30/2025, 12/19/2024, 03/01/2024, 08/11/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2088 | VAZCULEP NDA-204300 | 38 | 1 (10/18/2019) |         	Use in Specific Populations |
+| 2089 | PARICALCITOL NDA-207174 | 46 | 1 (10/17/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 209 | VIOXX NDA-021042 | 40 | 1 (05/09/2016) |         	Warnings and Precautions, Boxed Warning |
+| 2090 | STELARA BLA-761044 | 107 | 10 (08/28/2026, 04/15/2026, 11/03/2025, 06/27/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide, Warnings |
+| 2091 | ULTOMIRIS BLA-761108 | 115 | 12 (09/19/2024, 06/28/2024, 03/22/2024, 03/22/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 2092 | KENGREAL NDA-204958 | 37 | 1 (10/23/2019) |         	Drug Interactions,         	Use in Specific Populations |
+| 2093 | ZEJULA NDA-208447 | 71 | 10 (04/26/2023, 12/08/2022, 09/14/2022, 07/27/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 2094 | DOVATO NDA-211994 | 99 | 14 (10/28/2025, 04/18/2024, 04/05/2024, 04/05/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information, Warnings |
+| 2095 | NIPENT NDA-020122 | 34 | 2 (11/03/2025, 10/28/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2096 | ALIQOPA NDA-209936 | 40 | 3 (09/07/2023, 02/23/2022, 10/28/2019) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2097 | PEPCID AC NDA-020801 | 33 | 1 (10/29/2019) |         	Warnings and Precautions, Warnings |
+| 2098 | TEMIXYS NDA-211284 | 42 | 1 (10/29/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 2099 | SYMFI NDA-022142 | 41 | 1 (10/29/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 21 | TRENTAL NDA-018631 | 34 | 1 (01/15/2016) |         	Drug Interactions |
+| 210 | VIOXX NDA-021052 | 40 | 1 (05/09/2016) |         	Warnings and Precautions, Boxed Warning |
+| 2100 | TEGSEDI NDA-211172 | 47 | 3 (01/12/2024, 07/30/2020, 10/25/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2101 | BELRAPZO NDA-205580 | 45 | 2 (01/11/2024, 10/30/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2102 | SYMFI LO NDA-208255 | 40 | 1 (10/29/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2103 | DESMOPRESSIN ACETATE NDA-021795 | 36 | 1 (10/29/2019) |         	Use in Specific Populations |
+| 2104 | ACTONEL NDA-020835 | 43 | 2 (02/03/2026, 11/05/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2105 | MOXATAG NDA-050813 | 45 | 3 (05/01/2024, 05/17/2022, 11/06/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2106 | ZONTIVITY NDA-204886 | 36 | 1 (11/07/2019) |         	Use in Specific Populations |
+| 2107 | BENZNIDAZOLE NDA-209570 | 41 | 2 (12/15/2021, 11/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2108 | PROVOCHOLINE NDA-019193 | 45 | 2 (06/06/2026, 11/08/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2109 | APIDRA SOLOSTAR BLA-021629 | 37 | 1 (11/15/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 211 | VOLTAREN NDA-019201 | 52 | 2 (04/28/2021, 05/09/2016) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2110 | TOUJEO MAX SOLOSTAR BLA-206538 | 58 | 4 (08/29/2024, 08/16/2022, 11/26/2019, 11/15/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2111 | LANTUS SOLOSTAR BLA-021081 | 40 | 3 (06/29/2023, 06/29/2023, 11/15/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2112 | LEVEMIR BLA-021536 | 66 | 4 (12/08/2022, 07/01/2022, 12/27/2019, 11/15/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 2113 | LEVEMIR FLEXTOUCH BLA-021536 | 66 | 4 (12/08/2022, 07/01/2022, 12/27/2019, 11/15/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 2114 | LEVEMIR FLEXPEN BLA-021536 | 66 | 4 (12/08/2022, 07/01/2022, 12/27/2019, 11/15/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 2115 | LEVEMIR INNOLET BLA-021536 | 66 | 4 (12/08/2022, 07/01/2022, 12/27/2019, 11/15/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 2116 | LEVEMIR PENFILL BLA-021536 | 66 | 4 (12/08/2022, 07/01/2022, 12/27/2019, 11/15/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 2117 | HUMULIN R PEN BLA-018780 | 41 | 2 (06/27/2022, 11/15/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2118 | ADMELOG SOLOSTAR BLA-209196 | 40 | 1 (11/15/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2119 | ECOZA NDA-205175 | 37 | 1 (11/18/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 212 | VOLTAREN NDA-022122 | 40 | 1 (05/09/2016) |         	Warnings and Precautions, Boxed Warning |
+| 2120 | XYOSTED (AUTOINJECTOR) NDA-209863 | 49 | 2 (07/11/2025, 11/19/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2121 | CAYSTON NDA-050814 | 39 | 1 (11/20/2019) |         	Use in Specific Populations |
+| 2122 | CALQUENCE NDA-210259 | 83 | 5 (02/19/2026, 01/16/2025, 06/05/2024, 11/21/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2123 | IMVEXXY NDA-208564 | 52 | 3 (02/15/2024, 11/16/2021, 11/21/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2124 | BANZEL NDA-021911 | 40 | 1 (11/28/2019) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2125 | BANZEL NDA-201367 | 40 | 1 (11/29/2019) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2126 | ANTHIM BLA-125509 | 36 | 1 (11/29/2019) |         	Use in Specific Populations |
+| 2127 | XADAGO NDA-207145 | 48 | 2 (08/09/2021, 11/25/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2128 | XURIDEN NDA-208169 | 34 | 1 (12/02/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2129 | SOLAGE NDA-020922 | 39 | 1 (12/02/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 213 | VOLTAREN-XR NDA-020254 | 52 | 2 (04/28/2021, 05/09/2016) |         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 2130 | SIRTURO NDA-204384 | 66 | 6 (07/28/2025, 06/21/2024, 10/12/2023, 09/23/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2131 | VIMIZIM BLA-125460 | 44 | 2 (10/30/2025, 12/04/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2132 | ALDURAZYME BLA-125058 | 52 | 2 (12/14/2023, 12/04/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Warnings and Precautions |
+| 2133 | CARDIOLITE NDA-019785 | 36 | 1 (12/04/2019) |         	Use in Specific Populations |
+| 2134 | KITABIS PAK NDA-205433 | 48 | 3 (04/10/2023, 02/10/2023, 12/06/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 2135 | MEPSEVII BLA-761047 | 37 | 2 (12/23/2020, 12/06/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2136 | CARNEXIV NDA-206030 | 37 | 1 (12/13/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2137 | DOSTINEX NDA-020664 | 44 | 2 (04/21/2025, 12/13/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2138 | TIGLUTIK KIT NDA-209080 | 39 | 3 (09/11/2025, 05/11/2020, 12/13/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2139 | XERESE NDA-022436 | 37 | 1 (12/11/2019) |         	Use in Specific Populations |
+| 214 | ZIPSOR NDA-022202 | 64 | 4 (11/21/2024, 05/25/2021, 05/25/2021, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Contraindications |
+| 2140 | PERSANTINE NDA-012836 | 35 | 1 (12/11/2019) |         	Drug Interactions,         	Warnings and Precautions |
+| 2142 | CRESEMBA NDA-207500 | 56 | 4 (12/08/2023, 12/09/2021, 05/18/2021, 12/09/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2143 | CRESEMBA NDA-207501 | 56 | 4 (12/08/2023, 12/09/2021, 05/18/2021, 12/09/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2144 | VALTREX NDA-020487 | 48 | 2 (11/12/2025, 12/10/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2145 | KEVEYIS NDA-011366 | 45 | 1 (11/22/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 2146 | RITUXAN HYCELA BLA-761064 | 50 | 4 (06/10/2021, 05/05/2020, 05/05/2020, 12/18/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2147 | VENTOLIN HFA NDA-020983 | 34 | 1 (12/16/2019) |         	Use in Specific Populations |
+| 2148 | VENTAVIS NDA-021779 | 38 | 1 (12/16/2019) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2149 | PARICALCITOL NDA-201657 | 42 | 1 (12/17/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 215 | ZORVOLEX NDA-204592 | 49 | 3 (11/21/2024, 04/28/2021, 05/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Warnings |
+| 2150 | SYMLIN NDA-021332 | 37 | 1 (12/18/2019) |         	Use in Specific Populations |
+| 2151 | SITAVIG NDA-203791 | 35 | 1 (12/18/2019) |         	Use in Specific Populations, Patient Information |
+| 2152 | RAYALDEE NDA-208010 | 35 | 1 (12/17/2019) |         	Use in Specific Populations |
+| 2153 | NAGLAZYME BLA-125117 | 46 | 3 (09/12/2024, 07/10/2024, 12/17/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 2154 | GABLOFEN NDA-022462 | 35 | 1 (12/19/2019) |         	Use in Specific Populations |
+| 2155 | ZILRETTA NDA-208845 | 36 | 2 (12/02/2020, 12/23/2019) |         	Adverse Reactions |
+| 2156 | STAVZOR NDA-022152 | 69 | 3 (03/31/2026, 11/30/2021, 12/26/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Warnings |
+| 2157 | XOLEGEL NDA-021946 | 34 | 1 (12/26/2019) |         	Use in Specific Populations |
+| 2158 | SUMAVEL DOSEPRO NDA-022239 | 38 | 2 (07/02/2020, 12/26/2019) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2159 | AN-SULFUR COLLOID NDA-017858 | 36 | 1 (12/19/2019) |         	Use in Specific Populations |
+| 216 | CRESTOR NDA-021366 | 84 | 12 (09/23/2026, 04/29/2026, 07/31/2024, 07/27/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications, Drug Interactions, Warnings |
+| 2160 | RAYOS NDA-202020 | 41 | 2 (06/05/2024, 12/27/2019) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2161 | ZIDOVUDINE NDA-200732 | 39 | 1 (12/27/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information |
+| 2162 | NYMALIZE NDA-203340 | 34 | 1 (12/28/2019) |         	Use in Specific Populations |
+| 2163 | PARLODEL NDA-017962 | 41 | 4 (06/30/2026, 06/30/2026, 07/12/2021, 12/13/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2164 | MYALEPT BLA-125390 | 36 | 3 (02/28/2022, 05/15/2020, 12/13/2019) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2165 | MYCAMINE NDA-021506 | 41 | 1 (12/20/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 2166 | EVENITY BLA-761062 | 36 | 1 (12/20/2019) |         	Use in Specific Populations, Medication Guide |
+| 2167 | STALEVO 100 NDA-021485 | 40 | 2 (03/19/2026, 12/30/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2168 | STALEVO 125 NDA-021485 | 40 | 2 (03/19/2026, 12/30/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2169 | STALEVO 150 NDA-021485 | 40 | 2 (03/19/2026, 12/30/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 217 | DOBUTAMINE HYDROCHLORIDE IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-020201 | 37 | 3 (06/12/2024, 05/24/2019, 05/31/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2170 | STALEVO 200 NDA-021485 | 40 | 2 (03/19/2026, 12/30/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2171 | STALEVO 50 NDA-021485 | 40 | 2 (03/19/2026, 12/30/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2172 | STALEVO 75 NDA-021485 | 40 | 2 (03/19/2026, 12/30/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2173 | MARQIBO KIT NDA-202497 | 53 | 2 (06/08/2020, 01/03/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2174 | PHOTOFRIN NDA-020451 | 44 | 1 (01/01/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2175 | AMYVID NDA-202008 | 38 | 2 (06/23/2025, 12/20/2019) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2176 | PHOTOFRIN NDA-021525 | 41 | 1 (01/01/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2177 | GIAZO NDA-022205 | 56 | 3 (11/01/2021, 10/01/2020, 01/07/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Counseling Information, Warnings and Precautions |
+| 2178 | INFUGEM NDA-208313 | 47 | 2 (09/24/2024, 01/08/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2179 | ATROVENT HFA NDA-021527 | 37 | 1 (01/10/2020) |         	Use in Specific Populations |
+| 218 | ADRENALIN NDA-204200 | 43 | 3 (01/29/2019, 08/09/2017, 05/18/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2180 | VIZAMYL NDA-203137 | 44 | 3 (06/23/2025, 06/10/2025, 01/10/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2181 | FUSILEV NDA-020140 | 42 | 1 (01/08/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2182 | IXIFI BLA-761072 | 55 | 3 (10/09/2025, 12/26/2023, 01/14/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2183 | OZEMPIC NDA-209637 | 76 | 11 (06/01/2026, 10/14/2025, 10/14/2025, 01/28/2025) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide, Patient Counseling Information |
+| 2184 | CALOMIST NDA-022102 | 36 | 1 (01/16/2020) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2185 | AJOVY BLA-761089 | 60 | 5 (06/05/2026, 08/05/2025, 03/21/2025, 09/24/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2186 | MONISTAT 1 COMBINATION PACK NDA-021308 | 33 | 1 (01/28/2020) |         	Warnings and Precautions |
+| 2187 | CEFOTETAN AND DEXTROSE IN DUPLEX CONTAINER NDA-065430 | 33 | 1 (01/30/2020) |         	Use in Specific Populations |
+| 2188 | BELEODAQ NDA-206256 | 42 | 2 (11/19/2024, 01/08/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2189 | AVODART NDA-021319 | 39 | 1 (01/30/2020) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 219 | ADRENALIN NDA-204640 | 43 | 3 (01/29/2019, 08/09/2017, 05/18/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2190 | ONTAK BLA-103767 | 38 | 1 (02/03/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2191 | ORAVIG NDA-022404 | 42 | 1 (02/04/2020) |         	Adverse Reactions,         	Use in Specific Populations, Patient Information |
+| 2192 | PERSERIS KIT NDA-210655 | 53 | 3 (01/24/2025, 12/15/2022, 02/05/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2193 | ABILIFY MYCITE KIT NDA-207202 | 46 | 5 (01/22/2025, 11/30/2022, 12/19/2020, 02/05/2020) |         	Adverse Reactions,         	Use in Specific Populations, Medication Guide, Patient Counseling Information |
+| 2194 | VALCHLOR NDA-202317 | 42 | 1 (01/13/2020) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2195 | ZERVIATE NDA-208694 | 36 | 1 (02/05/2020) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2196 | ZYPITAMAG NDA-208379 | 54 | 3 (01/31/2024, 09/25/2020, 02/07/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2197 | DORYX MPC NDA-050795 | 39 | 3 (03/31/2025, 07/25/2022, 02/12/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2198 | DOCETAXEL NDA-205934 | 51 | 3 (07/05/2023, 08/04/2021, 02/19/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2199 | FERRIPROX NDA-208030 | 57 | 4 (03/26/2025, 11/30/2021, 04/30/2021, 02/20/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 22 | TWYNSTA NDA-022401 | 39 | 2 (02/01/2018, 01/13/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations, Patient Information |
+| 220 | ALLI NDA-021887 | 34 | 3 (03/27/2026, 05/15/2017, 05/25/2016) |         	Warnings and Precautions, Warnings |
+| 2200 | VIBATIV NDA-022110 | 43 | 2 (07/07/2020, 02/20/2020) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2201 | ONEXTON NDA-050819 | 38 | 1 (02/21/2020) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2202 | FIRMAGON NDA-022201 | 42 | 1 (02/24/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2203 | DEXTROSE 5% AND ELECTROLYTE NO. 48 IN PLASTIC CONTAINER NDA-017484 | 51 | 1 (02/13/2020) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2204 | DIFLUCAN IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019950 | 64 | 8 (02/12/2024, 07/12/2023, 01/17/2023, 03/09/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Drug Interactions |
+| 2205 | DIFLUCAN IN SODIUM CHLORIDE 0.9% NDA-019950 | 60 | 6 (02/12/2024, 01/17/2023, 10/25/2021, 09/08/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Drug Interactions |
+| 2206 | DIFLUCAN IN SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019950 | 60 | 6 (02/12/2024, 01/17/2023, 10/25/2021, 09/08/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Drug Interactions |
+| 2207 | CAFCIT NDA-020793 | 35 | 1 (03/02/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2208 | KHAPZORY NDA-211226 | 35 | 1 (03/03/2020) |         	Drug Interactions,         	Warnings and Precautions |
+| 2209 | ADREVIEW NDA-022290 | 36 | 1 (03/05/2020) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 221 | AUVI-Q NDA-201739 | 61 | 5 (04/30/2025, 09/28/2019, 11/17/2017, 11/17/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2210 | POTASSIUM CHLORIDE NDA-206814 | 37 | 1 (03/05/2020) |         	Drug Interactions,         	Use in Specific Populations |
+| 2211 | SOTALOL HYDROCHLORIDE NDA-022306 | 45 | 3 (07/23/2025, 09/21/2023, 03/06/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2212 | ORAPRED ODT NDA-021959 | 41 | 2 (06/05/2024, 03/06/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2213 | GOCOVRI NDA-208944 | 39 | 3 (07/10/2025, 02/01/2021, 03/10/2020) |         	Adverse Reactions,         	Warnings and Precautions, Patient Information |
+| 2214 | ARIKAYCE KIT NDA-207356 | 42 | 4 (06/25/2026, 12/05/2025, 02/10/2023, 03/13/2020) |         	Adverse Reactions,         	Warnings and Precautions, Warnings |
+| 2215 | DAURISMO NDA-210656 | 42 | 3 (03/27/2023, 03/19/2020, 03/19/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2216 | RELPAX NDA-021016 | 38 | 1 (03/25/2020) |         	Use in Specific Populations |
+| 2217 | DATSCAN NDA-022454 | 46 | 3 (04/15/2026, 11/01/2022, 03/25/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Warnings and Precautions |
+| 2218 | FERRLECIT NDA-020955 | 45 | 3 (03/16/2022, 12/02/2020, 03/31/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 2219 | ALOXI NDA-021372 | 44 | 1 (04/01/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 222 | CAVERJECT IMPULSE NDA-021212 | 44 | 4 (12/23/2022, 10/25/2016, 10/25/2016, 05/05/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2220 | ALOXI NDA-022233 | 44 | 1 (04/01/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2221 | HEMANGEOL NDA-205410 | 37 | 2 (06/22/2021, 04/02/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2222 | TOBRAMYCIN SULFATE NDA-050789 | 40 | 3 (02/10/2023, 04/15/2021, 04/03/2020) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2223 | LYRICA CR NDA-209501 | 49 | 3 (04/25/2025, 12/13/2023, 04/03/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2225 | ELOXATIN NDA-021759 | 35 | 2 (06/23/2023, 04/06/2020) |         	Adverse Reactions, Patient Information |
+| 2226 | BRAFTOVI NDA-210496 | 78 | 8 (02/24/2026, 02/24/2026, 12/20/2024, 09/12/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2227 | GRALISE NDA-022544 | 45 | 2 (04/25/2025, 04/02/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2228 | HORIZANT NDA-022399 | 56 | 3 (04/25/2025, 04/17/2020, 04/02/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 2229 | DIDREX NDA-012427 | 33 | 1 (04/08/2020) |         	Use in Specific Populations |
+| 223 | CEFEPIME IN PLASTIC CONTAINER NDA-050817 | 41 | 4 (06/25/2026, 07/29/2025, 05/01/2020, 05/09/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2230 | AKOVAZ NDA-208289 | 34 | 1 (04/08/2020) |         	Use in Specific Populations |
+| 2231 | UCERIS NDA-205613 | 34 | 1 (04/09/2020) |         	Use in Specific Populations |
+| 2233 | FIRAZYR NDA-022150 | 42 | 3 (01/19/2024, 04/16/2020, 04/16/2020) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2234 | ONPATTRO NDA-210922 | 43 | 3 (10/03/2022, 05/06/2021, 04/17/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2235 | TROGARZO BLA-761065 | 51 | 4 (12/12/2023, 10/03/2022, 04/22/2021, 04/17/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2236 | PHENYLEPHRINE HYDROCHLORIDE NDA-203510 | 33 | 1 (04/17/2020) |         	Use in Specific Populations |
+| 2237 | TURALIO NDA-211810 | 59 | 5 (01/03/2025, 11/16/2023, 10/14/2022, 07/14/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Medication Guide, Patient Counseling Information |
+| 2238 | ULESFIA NDA-022129 | 37 | 1 (04/26/2020) |         	Use in Specific Populations |
+| 2239 | JUBLIA NDA-203567 | 40 | 2 (03/31/2022, 04/26/2020) |         	Adverse Reactions,         	Use in Specific Populations |
+| 224 | COMETRIQ NDA-203756 | 59 | 6 (10/09/2025, 08/23/2023, 10/22/2020, 01/31/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Counseling Information |
+| 2240 | ENDARI NDA-208587 | 33 | 1 (04/22/2020) | (section heading appears as e.g. numbered text, see raw) |
+| 2241 | LOKELMA NDA-207078 | 40 | 3 (02/08/2024, 10/19/2021, 04/24/2020) |         	Adverse Reactions,         	Warnings and Precautions, Warnings |
+| 2242 | LEXETTE NDA-210566 | 39 | 2 (08/18/2021, 04/23/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2243 | TOBRADEX NDA-050616 | 38 | 3 (05/14/2021, 05/14/2021, 04/24/2020) |         	Adverse Reactions,         	Warnings and Precautions, Boxed Warning |
+| 2244 | TOBRADEX NDA-050592 | 38 | 3 (05/14/2021, 05/14/2021, 04/24/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2245 | TOBREX NDA-050555 | 36 | 2 (05/14/2021, 04/24/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2246 | TOBREX NDA-050541 | 36 | 2 (05/14/2021, 04/24/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2247 | CYSTARAN NDA-200740 | 35 | 1 (04/24/2020) |         	Use in Specific Populations |
+| 2248 | INVELTYS NDA-210565 | 34 | 1 (04/24/2020) |         	Warnings and Precautions |
+| 2249 | SINUVA NDA-209310 | 41 | 2 (01/20/2023, 04/28/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 225 | COTELLIC NDA-206192 | 47 | 4 (08/20/2026, 10/28/2022, 07/28/2022, 05/31/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2250 | MYFORTIC NDA-050791 | 57 | 3 (06/30/2025, 03/15/2022, 04/28/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2251 | SANCUSO NDA-022198 | 44 | 1 (04/30/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2252 | CYCLOSET NDA-020866 | 54 | 2 (08/17/2020, 04/03/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2253 | NIKITA NDA-209875 | 59 | 3 (10/30/2023, 09/25/2020, 05/05/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2254 | EXSERVAN NDA-212640 | 34 | 1 (05/11/2020) |         	Adverse Reactions |
+| 2255 | RILUTEK NDA-020599 | 38 | 2 (09/11/2025, 05/11/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2256 | CONSENSI NDA-210045 | 46 | 2 (04/28/2021, 05/12/2020) |         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2257 | MEROPENEM AND SODIUM CHLORIDE IN DUPLEX CONTAINER NDA-202106 | 49 | 3 (12/03/2024, 05/12/2020, 01/19/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions, Precautions, Warnings, Warnings and Precautions |
+| 2258 | WELCHOL NDA-210895 | 34 | 1 (05/12/2020) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2259 | COLCRYS NDA-022352 | 36 | 1 (05/14/2020) |         	Adverse Reactions,         	Use in Specific Populations, Medication Guide, Patient Counseling Information |
+| 226 | EPINEPHRINE NDA-205029 | 36 | 2 (09/10/2021, 05/18/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2260 | LIDOCAINE HYDROCHLORIDE 0.2% AND DEXTROSE 5% IN PLASTIC CONTAINER NDA-019830 | 34 | 1 (05/19/2020) |         	Adverse Reactions |
+| 2261 | LIDOCAINE HYDROCHLORIDE 0.4% AND DEXTROSE 5% IN PLASTIC CONTAINER NDA-019830 | 34 | 1 (05/19/2020) |         	Adverse Reactions |
+| 2262 | LIDOCAINE HYDROCHLORIDE 0.8% AND DEXTROSE 5% IN PLASTIC CONTAINER NDA-019830 | 34 | 1 (05/19/2020) |         	Adverse Reactions |
+| 2263 | NEOSPORIN NDA-050417 | 39 | 1 (05/21/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2264 | ATNAA NDA-021175 | 45 | 1 (05/22/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2265 | RUXIENCE BLA-761103 | 64 | 5 (09/28/2026, 06/09/2025, 10/16/2023, 11/15/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2266 | QUTENZA NDA-022395 | 56 | 4 (07/31/2024, 08/05/2021, 07/17/2020, 05/29/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2267 | LUTATHERA NDA-208700 | 68 | 4 (04/23/2024, 03/07/2023, 06/13/2022, 05/28/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2268 | LORBRENA NDA-210868 | 66 | 5 (01/29/2026, 03/03/2021, 02/26/2021, 01/22/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2269 | ROCKLATAN NDA-208259 | 37 | 2 (01/24/2025, 06/01/2020) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions |
+| 227 | EPIPEN NDA-019430 | 52 | 6 (02/10/2023, 12/24/2020, 06/17/2020, 08/23/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 2270 | RECARBRIO NDA-212819 | 37 | 2 (12/09/2025, 06/04/2020) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2271 | PRIFTIN NDA-021024 | 42 | 3 (01/27/2026, 06/05/2020, 06/05/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2272 | GOLYTELY NDA-019011 | 40 | 2 (05/14/2021, 06/05/2020) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2273 | LASTACAFT NDA-022134 | 38 | 1 (06/09/2020) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2274 | BEOVU BLA-761125 | 54 | 8 (07/29/2024, 09/28/2023, 12/19/2022, 05/27/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2275 | LIPIODOL NDA-009190 | 45 | 3 (04/05/2023, 06/10/2020, 06/10/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2276 | MYLOTARG BLA-761060 | 40 | 1 (06/16/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Use in Specific Populations |
+| 2277 | ELMIRON NDA-020193 | 38 | 2 (03/12/2021, 06/16/2020) |         	Adverse Reactions,         	Warnings and Precautions, Patient Information |
+| 2279 | SODIUM THIOSULFATE NDA-203923 | 34 | 1 (06/19/2020) |         	Use in Specific Populations, Patient Counseling Information |
+| 2280 | DRIZALMA SPRINKLE NDA-212516 | 71 | 3 (08/18/2023, 07/23/2021, 06/24/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2281 | ATROPINE SULFATE ANSYR PLASTIC SYRINGE NDA-021146 | 33 | 1 (06/24/2020) |         	Use in Specific Populations |
+| 2282 | LIBTAYO BLA-761097 | 83 | 12 (08/31/2026, 10/29/2025, 10/08/2025, 04/05/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Warnings and Precautions |
+| 2283 | HEPARIN SODIUM NDA-017651 | 41 | 2 (10/24/2024, 07/02/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2284 | CERVIDIL NDA-020411 | 43 | 1 (07/07/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2285 | RINVOQ NDA-211675 | 157 | 18 (06/30/2026, 10/10/2025, 04/28/2025, 03/26/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 2286 | POTASSIUM CHLORIDE 0.037% IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019699 | 44 | 1 (07/10/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2287 | POTASSIUM CHLORIDE 0.075% IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019699 | 44 | 1 (07/10/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2288 | POTASSIUM CHLORIDE 0.11% IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019699 | 44 | 1 (07/10/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2289 | POTASSIUM CHLORIDE 0.15% IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019699 | 44 | 1 (07/10/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 229 | HABITROL NDA-020076 | 35 | 2 (07/06/2016, 05/10/2016) |         	Warnings and Precautions |
+| 2290 | POTASSIUM CHLORIDE 0.22% IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019699 | 44 | 1 (07/10/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2291 | POTASSIUM CHLORIDE 0.3% IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019699 | 44 | 1 (07/10/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2292 | TOBI PODHALER NDA-201688 | 42 | 2 (02/10/2023, 07/13/2020) |         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2293 | TRANEXAMIC ACID NDA-212020 | 39 | 1 (07/16/2020) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2294 | PAZEO NDA-206276 | 34 | 1 (07/13/2020) |         	Warnings and Precautions, Warnings |
+| 2295 | REYVOW NDA-211280 | 41 | 4 (09/15/2022, 07/15/2022, 06/03/2021, 07/17/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations, Medication Guide |
+| 2296 | VECTICAL NDA-022087 | 42 | 1 (07/17/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2297 | TIGECYCLINE NDA-211158 | 39 | 2 (03/31/2025, 07/31/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2298 | EPIDIOLEX NDA-210365 | 117 | 12 (06/05/2026, 06/05/2026, 06/05/2026, 06/26/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Information |
+| 2299 | SUPREP BOWEL PREP KIT NDA-022372 | 50 | 2 (11/18/2025, 08/05/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 23 | VIEKIRA PAK (COPACKAGED) NDA-206619 | 61 | 9 (12/06/2019, 07/23/2018, 11/09/2017, 03/22/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 230 | INSPRA NDA-021437 | 42 | 3 (06/16/2025, 05/30/2018, 05/04/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2300 | SEPTRA NDA-017376 | 57 | 5 (02/21/2025, 06/24/2024, 11/18/2020, 08/10/2020) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2301 | SEPTRA DS NDA-017376 | 57 | 5 (02/21/2025, 06/24/2024, 11/18/2020, 08/10/2020) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2302 | VANCOCIN HYDROCHLORIDE NDA-050606 | 42 | 3 (12/22/2021, 01/29/2021, 08/11/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2303 | KESIMPTA BLA-125326 | 61 | 6 (04/01/2026, 08/18/2025, 04/12/2024, 01/19/2024) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Use in Specific Populations |
+| 2304 | LUMOXITI BLA-761104 | 33 | 1 (08/20/2020) |         	Warnings and Precautions |
+| 2305 | VARUBI NDA-208399 | 40 | 1 (08/19/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications, Warnings and Precautions |
+| 2306 | ATELVIA NDA-022560 | 44 | 2 (02/03/2026, 08/18/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2307 | LOPRESSOR HCT NDA-018303 | 45 | 3 (12/22/2023, 05/03/2022, 08/20/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2308 | MAXZIDE NDA-019129 | 34 | 1 (08/20/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2309 | MAXZIDE-25 NDA-019129 | 34 | 1 (08/20/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 231 | LITHOBID NDA-018027 | 46 | 5 (10/13/2022, 02/05/2020, 12/20/2018, 04/30/2018) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions |
+| 2310 | MICROZIDE NDA-020504 | 34 | 1 (08/20/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2312 | ZIAC NDA-020186 | 40 | 4 (07/24/2026, 12/22/2023, 03/02/2021, 08/20/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2313 | BENICAR HCT NDA-021532 | 43 | 2 (04/10/2025, 08/20/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2314 | DUTOPROL NDA-021956 | 50 | 2 (01/14/2022, 08/20/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 2315 | DYAZIDE NDA-016042 | 34 | 1 (08/20/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2316 | RYANODEX NDA-205579 | 35 | 2 (04/02/2024, 08/25/2020) |         	Adverse Reactions,         	Use in Specific Populations, Patient Counseling Information |
+| 2317 | DAYVIGO NDA-212028 | 42 | 4 (02/19/2025, 04/20/2023, 01/25/2023, 08/25/2020) |         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2318 | VUMERITY NDA-211855 | 57 | 7 (03/22/2024, 12/13/2023, 02/10/2023, 09/29/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 2319 | ULTRAVATE NDA-208183 | 38 | 1 (08/27/2020) |         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information |
+| 232 | NICODERM CQ NDA-020165 | 33 | 1 (05/04/2016) |         	Warnings and Precautions |
+| 2320 | ARISTADA INITIO KIT NDA-209830 | 40 | 2 (01/22/2025, 08/27/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2321 | ALOPRIM NDA-020298 | 47 | 2 (02/17/2022, 08/28/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 2322 | XCOPRI NDA-212839 | 47 | 7 (08/18/2025, 04/05/2024, 04/05/2024, 01/26/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2323 | INBRIJA NDA-209184 | 34 | 2 (07/07/2026, 08/31/2020) |         	Adverse Reactions |
+| 2324 | PIQRAY NDA-212526 | 60 | 5 (01/18/2024, 11/22/2022, 05/04/2022, 07/20/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2325 | CORLOPAM NDA-019922 | 37 | 1 (09/02/2020) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2326 | CEFTRIAXONE AND DEXTROSE IN DUPLEX CONTAINER NDA-050796 | 41 | 3 (01/13/2022, 03/09/2021, 09/09/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2327 | NIASPAN NDA-020381 | 39 | 2 (05/02/2022, 09/09/2020) |         	Adverse Reactions,         	Use in Specific Populations, Warnings and Precautions |
+| 2328 | NIASPAN TITRATION STARTER PACK NDA-020381 | 39 | 2 (05/02/2022, 09/09/2020) |         	Adverse Reactions,         	Use in Specific Populations, Warnings and Precautions |
+| 2329 | MAYZENT NDA-209884 | 87 | 10 (06/30/2026, 08/21/2025, 06/05/2024, 08/10/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 233 | OPDIVO BLA-125554 | 311 | 55 (05/12/2026, 03/20/2026, 07/01/2025, 05/23/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 2330 | LACTATED RINGER'S IN PLASTIC CONTAINER NDA-016682 | 50 | 3 (11/05/2025, 07/24/2024, 10/09/2019) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2331 | NAMENDA XR NDA-022525 | 37 | 1 (11/22/2019) |         	Use in Specific Populations, Patient Information |
+| 2332 | MONOFERRIC NDA-208171 | 39 | 3 (08/01/2024, 08/04/2022, 09/11/2020) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2333 | INFED NDA-017441 | 36 | 3 (08/01/2024, 04/20/2021, 09/11/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2334 | YONSA NDA-210308 | 55 | 3 (03/24/2022, 01/28/2022, 09/17/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2335 | FLOLIPID NDA-206679 | 34 | 1 (09/25/2020) |         	Warnings and Precautions |
+| 2336 | GALAFOLD NDA-208623 | 56 | 4 (03/19/2025, 06/20/2023, 06/20/2023, 09/25/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations, Use in Specific Populations |
+| 2337 | FETROJA NDA-209445 | 44 | 3 (07/01/2026, 06/06/2025, 09/25/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2338 | EZALLOR SPRINKLE NDA-208647 | 71 | 5 (02/12/2025, 03/20/2024, 08/04/2023, 09/25/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2339 | COMBIVENT RESPIMAT NDA-021747 | 34 | 1 (09/27/2020) |         	Use in Specific Populations, Patient Counseling Information, Warnings |
+| 234 | ORKAMBI NDA-206038 | 82 | 9 (03/17/2026, 09/25/2025, 12/13/2024, 08/03/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Counseling Information, Patient Information |
+| 2340 | PROAIR DIGIHALER NDA-205636 | 35 | 1 (09/29/2020) |         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2341 | PHOSLYRA NDA-022581 | 37 | 1 (09/30/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2342 | PALYNZIQ BLA-761079 | 68 | 4 (02/27/2026, 11/20/2025, 11/20/2020, 10/06/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2343 | DIPENTUM NDA-019715 | 61 | 6 (07/30/2024, 10/24/2023, 11/16/2022, 11/01/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2344 | TIGECYCLINE NDA-208744 | 43 | 2 (03/31/2025, 10/21/2020) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Use in Specific Populations |
+| 2345 | CHOLBAM NDA-205750 | 36 | 1 (10/22/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2346 | VYLEESI (AUTOINJECTOR) NDA-210557 | 35 | 1 (10/23/2020) |         	Adverse Reactions |
+| 2347 | TYMLOS NDA-208743 | 49 | 5 (08/03/2026, 03/28/2025, 12/19/2022, 12/22/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 2348 | XERMELO NDA-208794 | 39 | 2 (09/26/2022, 10/26/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2349 | BAQSIMI NDA-210134 | 47 | 2 (03/17/2025, 10/27/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 235 | STERILE WATER FOR INJECTION IN PLASTIC CONTAINER NDA-018632 | 33 | 1 (05/26/2016) |         	Warnings and Precautions |
+| 2350 | SILENOR NDA-022036 | 36 | 1 (10/29/2020) |         	Use in Specific Populations |
+| 2351 | DURYSTA NDA-211911 | 35 | 2 (10/10/2024, 11/03/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2352 | TRIJARDY XR NDA-212614 | 76 | 7 (08/11/2026, 10/24/2025, 10/30/2023, 10/13/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2353 | MOTEGRITY NDA-210166 | 41 | 2 (07/10/2025, 11/09/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2354 | KRINTAFEL NDA-210795 | 34 | 1 (11/16/2020) |         	Warnings and Precautions |
+| 2355 | MYTESI NDA-202292 | 37 | 1 (11/16/2020) |         	Use in Specific Populations |
+| 2356 | ACETAMINOPHEN NDA-204767 | 36 | 1 (11/13/2020) |         	Use in Specific Populations |
+| 2357 | MULTAQ NDA-022425 | 43 | 3 (10/23/2023, 10/23/2023, 11/16/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2358 | TRIKAFTA (COPACKAGED) NDA-212273 | 96 | 10 (03/27/2026, 03/17/2026, 09/25/2025, 12/20/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings, Warnings and Precautions |
+| 2359 | ATROPEN NDA-017106 | 38 | 1 (11/20/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 236 | TWINJECT 0.3 NDA-020800 | 36 | 2 (08/29/2018, 05/18/2016) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2360 | COSOPT NDA-020869 | 33 | 1 (11/23/2020) | (section heading appears as e.g. numbered text, see raw) |
+| 2361 | CEFAZOLIN AND DEXTROSE NDA-050779 | 52 | 3 (08/26/2024, 10/08/2021, 11/23/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2362 | TALICIA NDA-213004 | 52 | 6 (05/01/2024, 09/08/2023, 07/18/2023, 03/04/2022) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Adverse Reactions, Precautions |
+| 2363 | FINACEA NDA-207071 | 46 | 2 (12/01/2020, 12/01/2020) |         	Use in Specific Populations |
+| 2364 | CEFUROXIME AND DEXTROSE IN DUPLEX CONTAINER NDA-050780 | 34 | 1 (12/05/2020) |         	Adverse Reactions |
+| 2365 | ZAVESCA NDA-021348 | 36 | 1 (12/08/2020) |         	Use in Specific Populations |
+| 2366 | LYSTEDA NDA-022430 | 40 | 1 (12/07/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2367 | LOTEMAX NDA-200738 | 39 | 1 (12/08/2020) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2368 | RAPAFLO NDA-022206 | 36 | 1 (12/15/2020) |         	Use in Specific Populations |
+| 2369 | ELEPSIA XR NDA-204417 | 46 | 2 (03/12/2024, 12/17/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 237 | TYSABRI BLA-125104 | 69 | 9 (03/18/2025, 04/11/2023, 12/10/2021, 06/17/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 2370 | ERTACZO NDA-021385 | 38 | 1 (12/17/2020) |         	Use in Specific Populations, Adverse Reactions |
+| 2371 | ARCALYST BLA-125249 | 56 | 2 (03/18/2021, 12/18/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 2372 | XPOVIO NDA-212306 | 55 | 3 (09/26/2025, 07/15/2022, 12/18/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2373 | CABLIVI BLA-761112 | 43 | 4 (12/23/2025, 04/11/2024, 02/23/2022, 12/16/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2374 | ZANAFLEX NDA-021447 | 53 | 2 (11/22/2024, 12/18/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2375 | XELPROS NDA-206185 | 35 | 2 (10/09/2024, 12/21/2020) |         	Adverse Reactions,         	Use in Specific Populations, Patient Counseling Information |
+| 2376 | AMMONUL NDA-020645 | 35 | 1 (12/22/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2377 | ANTIZOL NDA-020696 | 33 | 1 (12/23/2020) |         	Warnings and Precautions, Precautions |
+| 2378 | ZOVIRAX NDA-021478 | 34 | 1 (12/23/2020) |         	Use in Specific Populations, Patient Information |
+| 2379 | TRUSOPT NDA-020408 | 33 | 1 (12/21/2020) |         	Use in Specific Populations |
+| 238 | XARELTO NDA-202439 | 94 | 14 (03/01/2022, 08/23/2021, 01/28/2021, 03/10/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2380 | VIZIMPRO NDA-211288 | 33 | 1 (12/18/2020) |         	Use in Specific Populations |
+| 2381 | KALBITOR BLA-125277 | 37 | 1 (12/28/2020) |         	Use in Specific Populations |
+| 2382 | GONAL-F BLA-020378 | 40 | 3 (12/31/2020, 12/31/2020, 12/31/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2383 | GONAL-F RFF BLA-021765 | 40 | 3 (12/31/2020, 12/31/2020, 12/31/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2384 | NUBEQA NDA-212099 | 48 | 5 (09/22/2026, 06/03/2025, 10/13/2023, 08/05/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2385 | BIVALIRUDIN IN 0.9% SODIUM CHLORIDE NDA-208374 | 39 | 1 (01/08/2021) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2386 | QVAR REDIHALER NDA-207921 | 34 | 2 (09/26/2025, 01/06/2021) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2387 | DARZALEX FASPRO BLA-761145 | 97 | 10 (01/27/2026, 11/06/2025, 07/30/2024, 11/02/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Use in Specific Populations |
+| 2388 | SODIUM NITRITE NDA-203922 | 39 | 1 (01/13/2021) |         	Use in Specific Populations |
+| 2389 | NITHIODOTE NDA-201444 | 40 | 1 (01/13/2021) |         	Use in Specific Populations |
+| 239 | ZARONTIN NDA-012380 | 41 | 2 (10/28/2021, 05/17/2016) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2390 | ENHERTU BLA-761139 | 83 | 10 (05/15/2026, 05/15/2026, 04/27/2026, 12/15/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2391 | GIMOTI NDA-209388 | 39 | 2 (02/09/2026, 01/14/2021) |         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 2392 | JELMYTO NDA-211728 | 36 | 2 (10/04/2024, 01/14/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2393 | BLOXIVERZ NDA-204078 | 33 | 1 (01/19/2021) |         	Use in Specific Populations |
+| 2394 | AZULFIDINE NDA-007073 | 40 | 3 (11/16/2022, 11/01/2021, 01/15/2021) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions, Warnings |
+| 2395 | VANCOMYCIN HYDROCHLORIDE NDA-209481 | 38 | 2 (04/04/2022, 01/29/2021) |         	Adverse Reactions,         	Warnings and Precautions, Patient Counseling Information, Warnings |
+| 2396 | VANCOMYCIN HYDROCHLORIDE NDA-211962 | 56 | 4 (06/27/2025, 06/26/2025, 05/28/2021, 01/29/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Counseling Information, Precautions, Warnings |
+| 2397 | FIRVANQ KIT NDA-208910 | 36 | 1 (01/29/2021) |         	Adverse Reactions,         	Warnings and Precautions, Patient Counseling Information |
+| 2398 | RETEVMO NDA-213246 | 96 | 9 (07/14/2026, 11/20/2025, 11/20/2025, 12/18/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2399 | CEFAZOLIN IN PLASTIC CONTAINER NDA-207131 | 65 | 4 (05/31/2024, 02/01/2024, 09/20/2021, 02/01/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Warnings, Warnings and Precautions |
+| 24 | ABILIFY MAINTENA KIT NDA-202971 | 54 | 6 (01/22/2025, 02/05/2020, 07/27/2017, 02/23/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information |
+| 240 | ZELBORAF NDA-202429 | 57 | 8 (08/20/2026, 05/18/2020, 11/06/2017, 09/13/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2400 | SEIZALAM NDA-209566 | 49 | 2 (01/13/2023, 02/05/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Counseling Information |
+| 2401 | NAYZILAM NDA-211321 | 46 | 2 (01/13/2023, 02/05/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 2402 | SYMPAZAN NDA-210833 | 58 | 4 (03/12/2024, 01/13/2023, 03/16/2021, 02/05/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Warnings |
+| 2403 | VALTOCO NDA-211635 | 54 | 4 (04/15/2025, 01/13/2023, 02/04/2022, 02/05/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 2404 | VANDAZOLE NDA-021806 | 41 | 1 (02/11/2021) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2405 | VYONDYS 53 NDA-211970 | 40 | 2 (06/04/2024, 02/11/2021) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2406 | ZIRABEV BLA-761099 | 41 | 2 (02/17/2023, 02/09/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2407 | XYWAV NDA-212690 | 60 | 3 (08/12/2021, 02/11/2021, 02/11/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2408 | LUPRON DEPOT NDA-019943 | 39 | 3 (09/10/2025, 09/10/2025, 02/12/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2409 | LUPRON DEPOT NDA-020011 | 39 | 3 (09/10/2025, 09/10/2025, 02/12/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 241 | ZITHROMAX NDA-050693 | 44 | 5 (11/22/2021, 04/24/2019, 03/29/2017, 02/10/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Precautions |
+| 2411 | VEKLURY NDA-214787 | 83 | 9 (12/19/2024, 02/28/2024, 08/23/2023, 07/13/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2412 | PEMAZYRE NDA-213736 | 50 | 2 (08/25/2022, 02/23/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2413 | HYRIMOZ BLA-761071 | 88 | 11 (10/16/2025, 07/29/2025, 05/20/2025, 04/05/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2414 | INTEGRILIN NDA-020718 | 35 | 1 (02/28/2021) |         	Use in Specific Populations |
+| 2415 | FIRDAPSE NDA-208078 | 48 | 4 (05/30/2024, 05/15/2023, 09/29/2022, 03/01/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2416 | LOZOL NDA-018538 | 35 | 1 (03/02/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2417 | OLINVYK NDA-210730 | 56 | 3 (12/22/2025, 12/15/2023, 03/04/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2418 | METRONIDAZOLE NDA-018930 | 40 | 3 (07/08/2024, 12/15/2021, 03/05/2021) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Drug Interactions |
+| 2419 | METRONIDAZOLE NDA-018620 | 40 | 3 (07/08/2024, 12/15/2021, 03/05/2021) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 242 | ZITHROMAX NDA-050733 | 43 | 6 (07/13/2026, 11/22/2021, 04/24/2019, 03/29/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 2420 | METRONIDAZOLE NDA-018740 | 40 | 3 (07/08/2024, 12/15/2021, 03/05/2021) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2421 | HELIDAC NDA-050719 | 42 | 4 (03/31/2025, 07/08/2024, 12/15/2021, 03/05/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Warnings |
+| 2422 | MYCOBUTIN NDA-050689 | 41 | 3 (11/20/2024, 09/15/2021, 03/08/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Drug Interactions |
+| 2423 | MOXIDECTIN NDA-210867 | 42 | 2 (02/07/2025, 03/05/2021) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2424 | THIOLA EC NDA-211843 | 33 | 1 (03/08/2021) | (section heading appears as e.g. numbered text, see raw) |
+| 2425 | METRONIDAZOLE NDA-018845 | 40 | 3 (07/08/2024, 12/15/2021, 03/05/2021) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Drug Interactions |
+| 2426 | METRONIDAZOLE NDA-018907 | 40 | 3 (07/08/2024, 12/15/2021, 03/05/2021) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Adverse Reactions |
+| 2427 | PATANASE NDA-021861 | 41 | 1 (03/04/2021) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2428 | VILTEPSO NDA-212154 | 34 | 1 (03/10/2021) |         	Warnings and Precautions |
+| 2429 | ZIEXTENZO BLA-761045 | 44 | 3 (05/12/2026, 02/28/2024, 03/12/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 243 | ZITHROMAX NDA-050730 | 44 | 5 (07/13/2026, 04/24/2019, 03/29/2017, 02/10/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2430 | SARCLISA BLA-761113 | 78 | 8 (06/26/2026, 10/25/2024, 10/25/2024, 09/20/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2431 | LUPRON DEPOT-PED KIT NDA-020263 | 62 | 6 (11/14/2025, 09/23/2025, 04/14/2023, 04/22/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Medication Guide, Use in Specific Populations, Warnings and Precautions |
+| 2432 | PADCEV BLA-761137 | 93 | 8 (07/10/2026, 11/21/2025, 02/27/2025, 04/18/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 2433 | TIVICAY PD NDA-213983 | 64 | 5 (08/25/2026, 10/28/2025, 04/18/2024, 10/07/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information, Precautions |
+| 2434 | CUTIVATE NDA-019957 | 44 | 1 (03/19/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2435 | KARBINAL ER NDA-022556 | 38 | 1 (03/25/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications, Precautions, Warnings |
+| 2436 | VITRAKVI NDA-211710 | 73 | 4 (04/09/2025, 11/03/2023, 11/23/2022, 03/25/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2437 | INDOCIN NDA-018878 | 33 | 1 (03/26/2021) |         	Adverse Reactions |
+| 2438 | VITRAKVI NDA-210861 | 72 | 4 (04/09/2025, 11/03/2023, 11/23/2022, 03/25/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2439 | VYXEOS NDA-209401 | 38 | 3 (01/27/2026, 09/27/2022, 03/30/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 244 | ZITHROMAX NDA-050710 | 53 | 6 (07/13/2026, 11/22/2021, 04/24/2019, 03/30/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Precautions |
+| 2440 | NUTRESTORE NDA-021667 | 35 | 1 (03/31/2021) |         	Use in Specific Populations |
+| 2441 | FULVESTRANT NDA-210063 | 34 | 2 (11/21/2025, 04/06/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 2442 | TRODELVY BLA-761115 | 91 | 8 (06/24/2026, 06/24/2026, 03/26/2025, 11/22/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2443 | BYFAVO NDA-212295 | 43 | 2 (01/13/2023, 04/08/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2444 | PROSCAR NDA-020180 | 39 | 4 (03/18/2026, 08/25/2021, 06/15/2021, 04/13/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2445 | NYVEPRIA BLA-761111 | 47 | 2 (05/21/2026, 04/16/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2446 | EVEKEO ODT NDA-209905 | 42 | 3 (10/13/2023, 02/25/2022, 04/16/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2447 | CLEVIPREX NDA-022156 | 36 | 1 (04/16/2021) |         	Use in Specific Populations |
+| 2448 | SKYRIZI BLA-761105 | 91 | 10 (06/26/2026, 06/12/2026, 03/06/2026, 09/03/2025) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Use in Specific Populations |
+| 2449 | NORGESIC NDA-013416 | 42 | 1 (04/28/2021) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 245 | ZITHROMAX NDA-050711 | 53 | 6 (07/13/2026, 11/22/2021, 04/24/2019, 03/30/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Precautions |
+| 2450 | FIORINAL NDA-017534 | 42 | 1 (04/28/2021) |         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 2451 | ELYXYB NDA-212157 | 41 | 2 (11/21/2024, 04/28/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2452 | QMIIZ ODT NDA-211210 | 39 | 1 (04/28/2021) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2453 | FERRIPROX NDA-212269 | 47 | 3 (03/26/2025, 11/30/2021, 04/30/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2454 | EQUAGESIC NDA-011702 | 44 | 2 (11/21/2024, 04/28/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Precautions, Warnings |
+| 2456 | RYBELSUS NDA-213051 | 83 | 10 (01/30/2026, 10/17/2025, 10/17/2025, 10/17/2025) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information |
+| 2457 | EVRYSDI NDA-213535 | 58 | 8 (09/14/2026, 02/10/2026, 02/11/2025, 09/17/2024) |         	Adverse Reactions,         	Use in Specific Populations, Patient Counseling Information, Patient Information |
+| 2458 | BACTRIM DS NDA-017377 | 54 | 3 (02/21/2025, 06/24/2024, 04/30/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 2459 | MITOSOL NDA-022572 | 38 | 1 (04/23/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 246 | ZITHROMAX NDA-050784 | 48 | 5 (07/13/2026, 04/24/2019, 03/30/2017, 02/10/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2460 | ANJESO NDA-210583 | 42 | 1 (04/28/2021) |         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2461 | LICART NDA-206976 | 48 | 3 (03/27/2026, 11/21/2024, 04/28/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2462 | VIVLODEX NDA-207233 | 46 | 2 (11/21/2024, 04/28/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2463 | NATROBA NDA-022408 | 46 | 1 (04/28/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2464 | IRESSA NDA-206995 | 33 | 1 (05/05/2021) |         	Adverse Reactions |
+| 2465 | UPNEEQ NDA-212520 | 36 | 1 (05/05/2021) |         	Warnings and Precautions |
+| 2466 | ENSPRYNG BLA-761149 | 38 | 2 (09/14/2022, 05/03/2021) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2467 | NIVESTYM BLA-761080 | 51 | 3 (02/16/2024, 08/28/2023, 05/03/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions, Warnings |
+| 2468 | NORGESIC FORTE NDA-013416 | 42 | 1 (04/28/2021) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2469 | URSO 250 NDA-020675 | 38 | 2 (01/12/2023, 05/07/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 247 | ZYTIGA NDA-202379 | 68 | 6 (08/23/2021, 10/02/2020, 06/03/2019, 06/03/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 2470 | URSO FORTE NDA-020675 | 38 | 2 (01/12/2023, 05/07/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 2471 | COLYTE WITH FLAVOR PACKS NDA-018983 | 35 | 1 (05/14/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2472 | NULYTELY NDA-019797 | 36 | 1 (05/14/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2473 | NULYTELY-FLAVORED NDA-019797 | 36 | 1 (05/14/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2474 | COLYTE NDA-018983 | 35 | 1 (05/14/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2475 | COLYTE-FLAVORED NDA-018983 | 35 | 1 (05/14/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2476 | ZINACEF NDA-050558 | 33 | 1 (05/16/2021) |         	Adverse Reactions |
+| 2477 | ZINACEF IN PLASTIC CONTAINER NDA-050643 | 33 | 1 (05/16/2021) |         	Adverse Reactions |
+| 2478 | CUROSURF BLA-020744 | 33 | 1 (05/17/2021) |         	Use in Specific Populations |
+| 2479 | BACTRIM PEDIATRIC NDA-017560 | 48 | 2 (02/21/2025, 05/21/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 248 | ATIVAN NDA-018140 | 68 | 5 (01/13/2023, 02/05/2021, 04/27/2017, 04/27/2017) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Warnings |
+| 2480 | AXUMIN NDA-208054 | 33 | 1 (05/21/2021) | (section heading appears as e.g. numbered text, see raw) |
+| 2481 | XTANDI NDA-213674 | 58 | 7 (07/24/2026, 12/11/2025, 03/21/2025, 01/22/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Precautions |
+| 2482 | ZEPOSIA NDA-209899 | 84 | 9 (08/30/2024, 08/30/2024, 06/05/2024, 06/05/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2483 | NURTEC ODT NDA-212728 | 53 | 6 (03/16/2026, 08/01/2025, 03/21/2025, 04/11/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2484 | CORZIDE NDA-018647 | 34 | 1 (05/26/2021) |         	Warnings and Precautions |
+| 2485 | IMPAVIDO NDA-204684 | 44 | 1 (05/25/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2486 | PROVAYBLUE NDA-204630 | 41 | 3 (01/08/2024, 11/02/2023, 05/26/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2487 | AKYNZEO NDA-210493 | 33 | 1 (06/02/2021) | Patient Information |
+| 2488 | VYNDAQEL NDA-211996 | 35 | 2 (10/17/2023, 06/01/2021) |         	Drug Interactions, Patient Information |
+| 2489 | VYNDAMAX NDA-212161 | 35 | 2 (10/17/2023, 06/01/2021) |         	Drug Interactions, Patient Information |
+| 249 | CAVERJECT NDA-020379 | 62 | 5 (12/23/2022, 12/06/2017, 12/06/2017, 12/06/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2490 | Monjuvi (tafasitamab-cxix) for injection BLA-761163 | 34 | 1 (06/02/2021) |         	Adverse Reactions, Patient Information |
+| 2491 | BETAPACE NDA-019865 | 42 | 2 (06/15/2023, 06/03/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 2492 | IZBA NDA-204822 | 37 | 1 (06/09/2021) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2493 | SOLOSEC NDA-209363 | 60 | 5 (01/26/2022, 01/26/2022, 12/15/2021, 06/30/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2494 | PROPECIA NDA-020788 | 37 | 2 (08/01/2022, 06/15/2021) |         	Adverse Reactions |
+| 2495 | AYVAKIT NDA-212608 | 73 | 4 (11/08/2024, 05/22/2023, 03/09/2023, 06/16/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2496 | QINLOCK NDA-213973 | 46 | 5 (05/06/2025, 10/26/2023, 12/29/2022, 09/15/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2497 | CALCIUM GLUCONATE NDA-208418 | 34 | 2 (12/29/2021, 06/17/2021) |         	Warnings and Precautions |
+| 2498 | BIJUVA NDA-210132 | 58 | 4 (02/12/2026, 02/15/2024, 12/28/2021, 06/22/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2499 | AZOPT NDA-020816 | 41 | 2 (06/28/2023, 06/22/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 25 | CLEOCIN T NDA-050537 | 36 | 4 (11/12/2025, 12/16/2019, 11/16/2017, 01/15/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 250 | FOLOTYN NDA-022468 | 35 | 2 (05/14/2020, 05/13/2016) |         	Use in Specific Populations |
+| 2500 | CAROSPIR NDA-209478 | 35 | 2 (08/24/2023, 06/25/2021) |         	Drug Interactions,         	Use in Specific Populations |
+| 2501 | COTEMPLA XR-ODT NDA-205489 | 44 | 3 (09/23/2025, 10/13/2023, 06/25/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2502 | JORNAY PM NDA-209311 | 48 | 3 (09/23/2025, 10/13/2023, 06/25/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2503 | SYMJEPI NDA-207534 | 36 | 1 (06/29/2021) |         	Adverse Reactions,         	Drug Interactions |
+| 2504 | TRALEMENT NDA-209376 | 41 | 1 (06/30/2021) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2505 | ZURAGARD NDA-210872 | 33 | 1 (06/24/2021) |         	Warnings and Precautions, Warnings |
+| 2506 | VISUDYNE NDA-021119 | 35 | 1 (07/09/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2507 | POTELIGEO BLA-761051 | 38 | 4 (02/19/2026, 01/21/2025, 03/30/2022, 07/08/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2508 | ADAKVEO BLA-761128 | 45 | 2 (06/26/2024, 07/12/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2509 | ENABLEX NDA-021513 | 37 | 1 (07/14/2021) |         	Use in Specific Populations |
+| 251 | VOTRIENT NDA-022465 | 72 | 10 (01/25/2024, 09/22/2021, 09/22/2021, 08/17/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2510 | MEPHYTON NDA-010104 | 36 | 1 (07/19/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations |
+| 2511 | GVOKE HYPOPEN NDA-212097 | 43 | 2 (03/14/2025, 07/15/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 2512 | GVOKE PFS NDA-212097 | 43 | 2 (03/14/2025, 07/15/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 2513 | FLO-PRED NDA-022067 | 47 | 2 (06/05/2024, 07/15/2021) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2514 | AVACLYR NDA-202408 | 36 | 1 (07/16/2021) |         	Warnings and Precautions |
+| 2515 | KIMYRSA NDA-214155 | 33 | 1 (07/23/2021) |         	Adverse Reactions |
+| 2516 | ORIAHNN (COPACKAGED) NDA-213388 | 39 | 2 (06/05/2023, 08/02/2021) |         	Use in Specific Populations |
+| 2517 | ADLYXIN BLA-208471 | 60 | 6 (03/12/2026, 05/28/2025, 11/01/2024, 09/28/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 2518 | PULMOZYME BLA-103532 | 37 | 2 (02/09/2024, 07/30/2021) |         	Use in Specific Populations |
+| 2519 | CORLANOR NDA-209964 | 34 | 1 (08/04/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 252 | ACULAR LS NDA-021528 | 39 | 2 (03/05/2021, 05/25/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2520 | ZUPLENZ NDA-022524 | 38 | 1 (08/05/2021) |         	Use in Specific Populations |
+| 2521 | EVOMELA NDA-207155 | 39 | 1 (08/09/2021) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2522 | MOXEZA NDA-022428 | 38 | 1 (08/11/2021) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2523 | MAXIPIME NDA-050679 | 44 | 1 (08/11/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2524 | ARIDOL NDA-022368 | 42 | 1 (08/13/2021) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2525 | ARIDOL KIT NDA-022368 | 42 | 1 (08/13/2021) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2526 | LYUMJEV BLA-761109 | 42 | 2 (10/14/2022, 08/13/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2527 | INNOPRAN XL NDA-021438 | 38 | 2 (12/22/2023, 08/16/2021) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2528 | ZYKADIA NDA-211225 | 40 | 2 (10/07/2021, 08/19/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2529 | BRUKINSA NDA-213217 | 51 | 3 (06/04/2024, 01/19/2023, 09/01/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 253 | BUSULFEX NDA-020954 | 41 | 4 (09/28/2018, 09/28/2018, 01/24/2018, 05/19/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 2530 | AVSOLA BLA-761086 | 62 | 2 (08/25/2025, 09/09/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2531 | QDOLO NDA-214044 | 72 | 3 (12/22/2025, 12/15/2023, 09/10/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2532 | BORTEZOMIB NDA-205004 | 51 | 1 (09/20/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2533 | VERMOX NDA-208398 | 34 | 1 (09/20/2021) | (section heading appears as e.g. numbered text, see raw) |
+| 2534 | COPIKTRA NDA-211155 | 41 | 2 (07/26/2024, 09/22/2021) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 2535 | VYEPTI BLA-761119 | 53 | 6 (06/05/2026, 10/22/2025, 03/21/2025, 03/21/2025) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2536 | SOGROYA BLA-761156 | 71 | 6 (02/27/2026, 02/27/2026, 02/27/2026, 07/09/2025) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2537 | TOPICORT NDA-204141 | 43 | 1 (10/07/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2538 | EFUDEX NDA-016831 | 34 | 1 (10/14/2021) |         	Warnings and Precautions |
+| 2539 | SULFAMETHOXAZOLE AND TRIMETHOPRIM NDA-018598 | 47 | 3 (02/21/2025, 06/24/2024, 10/15/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 254 | HALDOL NDA-015923 | 59 | 6 (11/17/2020, 11/17/2020, 03/08/2019, 12/05/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 2540 | SULFATRIM NDA-018615 | 45 | 3 (02/21/2025, 06/24/2024, 10/15/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2541 | CEFTAZIDIME IN DEXTROSE CONTAINER NDA-050823 | 44 | 1 (10/20/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings, Warnings and Precautions |
+| 2542 | ALLEGRA HIVES NDA-020872 | 33 | 1 (10/13/2021) |         	Warnings and Precautions |
+| 2543 | ZYLET NDA-050804 | 40 | 1 (10/25/2021) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2544 | TEPEZZA BLA-761143 | 55 | 7 (09/23/2026, 11/24/2025, 09/09/2025, 08/26/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2545 | SUNOSI NDA-211230 | 37 | 2 (06/29/2023, 10/20/2021) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2546 | PONVORY NDA-213498 | 44 | 3 (06/05/2024, 08/10/2023, 10/28/2021) |         	Warnings and Precautions |
+| 2547 | GIVLAARI NDA-212194 | 39 | 2 (04/29/2024, 10/28/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2548 | ACTHAR GEL NDA-008372 | 46 | 3 (10/05/2026, 02/29/2024, 10/29/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2549 | XOFLUZA NDA-214410 | 42 | 4 (05/30/2025, 12/19/2024, 03/01/2024, 09/27/2021) |         	Adverse Reactions,         	Use in Specific Populations |
+| 255 | HALDOL NDA-018701 | 67 | 8 (10/30/2025, 01/22/2025, 11/17/2020, 11/17/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 2550 | AZULFIDINE EN-TABS NDA-007073 | 38 | 2 (11/16/2022, 11/01/2021) |         	Adverse Reactions,         	Warnings and Precautions, Warnings |
+| 2551 | DEXTROSE 5% IN LACTATED RINGER'S IN PLASTIC CONTAINER NDA-019634 | 38 | 2 (11/05/2025, 11/03/2021) |         	Contraindications,         	Warnings and Precautions |
+| 2552 | LACTATED RINGER'S IN PLASTIC CONTAINER NDA-019632 | 36 | 2 (11/05/2025, 11/03/2021) |         	Contraindications,         	Warnings and Precautions |
+| 2553 | RINGER'S IN PLASTIC CONTAINER NDA-020002 | 36 | 2 (11/05/2025, 11/03/2021) |         	Contraindications,         	Warnings and Precautions |
+| 2554 | ROZLYTREK NDA-212725 | 43 | 5 (10/01/2026, 01/26/2024, 06/16/2023, 07/18/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2555 | VOLTAREN ARTHRITIS PAIN NDA-022122 | 33 | 1 (11/03/2021) |         	Warnings and Precautions |
+| 2556 | SALONPAS NDA-022029 | 33 | 1 (11/04/2021) |         	Warnings and Precautions |
+| 2557 | GAVRETO NDA-213721 | 57 | 6 (12/22/2025, 03/22/2024, 08/09/2023, 07/20/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2558 | MICRONOR NDA-016954 | 38 | 2 (11/15/2021, 11/15/2021) |         	Drug Interactions, Drug Interactions |
+| 2559 | KANUMA BLA-125561 | 46 | 2 (07/10/2024, 11/19/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 256 | KINERET BLA-103950 | 50 | 4 (10/27/2025, 09/19/2024, 12/18/2020, 05/19/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2560 | VAZALORE NDA-203697 | 33 | 1 (11/16/2021) |         	Warnings and Precautions |
+| 2561 | INREBIC NDA-212327 | 68 | 7 (07/20/2026, 03/18/2026, 05/12/2025, 07/30/2024) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information, Precautions, Warnings |
+| 2562 | XELJANZ NDA-213082 | 87 | 9 (09/16/2026, 06/30/2026, 03/06/2026, 10/16/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2563 | ZYNRELEF KIT NDA-211988 | 42 | 3 (11/21/2024, 01/23/2024, 12/08/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2564 | ROMIDEPSIN NDA-208574 | 39 | 1 (12/08/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2565 | UROCIT-K NDA-019071 | 35 | 1 (12/10/2021) |         	Contraindications,         	Drug Interactions |
+| 2566 | FEXINIDAZOLE NDA-214429 | 38 | 3 (09/20/2024, 09/20/2024, 12/15/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations |
+| 2567 | ORACEA NDA-050805 | 41 | 2 (04/02/2025, 12/15/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2568 | CAPLYTA NDA-209500 | 80 | 4 (11/05/2025, 06/28/2023, 12/17/2021, 12/17/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2569 | VOCABRIA NDA-212887 | 83 | 10 (04/11/2025, 09/20/2024, 09/20/2024, 12/13/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Drug Interactions, Warnings, Warnings and Precautions |
+| 257 | TYGACIL NDA-021821 | 46 | 4 (03/31/2025, 06/23/2020, 01/16/2020, 05/31/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2570 | OCTREOSCAN NDA-020314 | 42 | 2 (02/09/2022, 12/22/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2571 | DETECTNET NDA-213227 | 35 | 1 (12/22/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2572 | GALLIUM DOTATOC GA 68 NDA-210828 | 35 | 1 (12/22/2021) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2573 | CEREZYME BLA-020367 | 48 | 4 (01/12/2026, 12/19/2024, 07/10/2024, 12/22/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2574 | ADVIL DUAL ACTION WITH ACETAMINOPHEN NDA-211733 | 34 | 1 (01/10/2022) |         	Warnings and Precautions |
+| 2575 | ADVIL PM NDA-021393 | 33 | 1 (01/11/2022) |         	Warnings and Precautions |
+| 2576 | TOPROL-XL NDA-019962 | 46 | 3 (03/10/2023, 03/10/2023, 01/12/2022) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2577 | NOXAFIL POWDERMIX KIT NDA-214770 | 85 | 3 (01/27/2026, 10/25/2024, 01/13/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2578 | IXEMPRA KIT NDA-022065 | 46 | 1 (01/21/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2579 | SUTAB NDA-213135 | 43 | 2 (10/24/2023, 01/28/2022) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Medication Guide, Precautions, Warnings |
+| 258 | BELSOMRA NDA-204569 | 48 | 6 (03/10/2025, 03/25/2021, 03/18/2020, 01/29/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 2580 | CABENUVA KIT NDA-212888 | 82 | 8 (04/11/2025, 09/20/2024, 12/13/2023, 02/27/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2581 | ALKINDI SPRINKLE NDA-213876 | 46 | 3 (06/05/2024, 12/23/2022, 02/03/2022) |         	Adverse Reactions,         	Warnings and Precautions, Medication Guide, Precautions, Warnings |
+| 2582 | ARTESUNATE NDA-213036 | 35 | 1 (02/04/2022) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2583 | PROCYSBI NDA-213491 | 38 | 1 (02/11/2022) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2584 | ANCOBON NDA-017001 | 36 | 1 (02/15/2022) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2585 | ACCRUFER NDA-212320 | 36 | 2 (12/19/2025, 02/16/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 2586 | EGATEN NDA-208711 | 36 | 1 (02/17/2022) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2587 | TETRACAINE HYDROCHLORIDE NDA-210821 | 33 | 1 (02/22/2022) |         	Warnings and Precautions |
+| 2588 | METAXALONE NDA-022503 | 52 | 2 (01/10/2024, 02/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2589 | ADZENYS ER NDA-204325 | 33 | 1 (02/25/2022) |         	Adverse Reactions |
+| 2591 | BORTEZOMIB NDA-206927 | 34 | 1 (02/28/2022) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2592 | AKTEN NDA-022221 | 36 | 2 (11/21/2025, 02/28/2022) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2593 | TETRACAINE HYDROCHLORIDE NDA-208135 | 33 | 1 (02/28/2022) |         	Warnings and Precautions |
+| 2594 | DYANAVEL XR 10 NDA-210526 | 49 | 3 (09/23/2025, 10/13/2023, 02/25/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Use in Specific Populations, Warnings |
+| 2595 | DYANAVEL XR 15 NDA-210526 | 49 | 3 (09/23/2025, 10/13/2023, 02/25/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Use in Specific Populations, Warnings |
+| 2596 | DYANAVEL XR 20 NDA-210526 | 49 | 3 (09/23/2025, 10/13/2023, 02/25/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Use in Specific Populations, Warnings |
+| 2597 | DYANAVEL XR 5 NDA-210526 | 49 | 3 (09/23/2025, 10/13/2023, 02/25/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Use in Specific Populations, Warnings |
+| 2598 | OMNIPRED NDA-017469 | 34 | 1 (03/04/2022) |         	Adverse Reactions,         	Contraindications |
+| 2599 | STROMECTOL NDA-050742 | 35 | 1 (03/14/2022) |         	Adverse Reactions,         	Warnings and Precautions |
+| 26 | MIRAPEX NDA-020667 | 53 | 5 (07/12/2021, 04/03/2020, 05/10/2018, 07/28/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2600 | METROGEL NDA-021789 | 39 | 2 (03/16/2022, 03/16/2022) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2601 | CEFEPIME AND DEXTROSE IN DUPLEX CONTAINER NDA-050821 | 49 | 2 (04/07/2026, 03/18/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2602 | SMOFLIPID 20% NDA-207648 | 58 | 3 (07/24/2025, 05/17/2023, 03/22/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2603 | INQOVI NDA-212576 | 40 | 2 (05/13/2026, 03/24/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2604 | FINTEPLA NDA-212102 | 71 | 5 (10/15/2025, 04/08/2025, 12/11/2023, 01/03/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2605 | ZEPZELCA NDA-213702 | 68 | 6 (09/30/2026, 02/27/2026, 10/02/2025, 04/30/2025) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Use in Specific Populations, Warnings |
+| 2606 | IBSRELA NDA-211801 | 39 | 3 (05/20/2025, 01/10/2025, 04/05/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 2607 | SUSVIMO BLA-761197 | 51 | 4 (09/05/2025, 05/21/2025, 02/03/2025, 04/18/2022) |         	Adverse Reactions,         	Warnings and Precautions, Medication Guide |
+| 2608 | FENSOLVI KIT NDA-213150 | 42 | 2 (09/23/2025, 04/26/2022) |         	Adverse Reactions,         	Warnings and Precautions, Adverse Reactions |
+| 2609 | TRIPTODUR KIT NDA-208956 | 41 | 3 (09/23/2025, 12/07/2022, 04/26/2022) |         	Adverse Reactions,         	Warnings and Precautions |
+| 261 | ZOSYN NDA-050684 | 66 | 12 (12/03/2024, 05/01/2024, 04/08/2022, 07/29/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2610 | EPCLUSA NDA-214187 | 36 | 1 (04/27/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 2611 | EPIDUO FORTE NDA-207917 | 59 | 2 (04/27/2022, 04/27/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2612 | BALVERSA NDA-212018 | 50 | 5 (10/17/2025, 01/19/2024, 03/20/2023, 01/11/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2613 | JEMPERLI BLA-761174 | 61 | 6 (08/01/2024, 03/06/2024, 07/31/2023, 02/09/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 2614 | TWIRLA NDA-204017 | 37 | 1 (04/29/2022) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2615 | TYBLUME NDA-209405 | 37 | 1 (04/29/2022) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2616 | ADUHELM BLA-761178 | 50 | 3 (08/30/2023, 02/08/2023, 04/29/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2617 | QELBREE NDA-211964 | 46 | 2 (01/23/2025, 04/29/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2618 | NATAZIA NDA-022252 | 39 | 2 (06/26/2024, 04/29/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2619 | NEXTSTELLIS NDA-214154 | 37 | 1 (04/29/2022) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 262 | ZOSYN IN PLASTIC CONTAINER NDA-050750 | 62 | 11 (12/03/2024, 05/01/2024, 04/08/2022, 07/29/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2620 | ANNOVERA NDA-209627 | 37 | 1 (04/29/2022) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2621 | BALCOLTRA NDA-208612 | 37 | 1 (04/29/2022) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2622 | KYNMOBI NDA-210875 | 41 | 2 (09/22/2022, 05/05/2022) |         	Adverse Reactions,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 2623 | INTRALIPID 10% NDA-017643 | 41 | 3 (07/24/2025, 05/17/2023, 05/03/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2624 | INTRALIPID 20% NDA-018449 | 42 | 4 (07/24/2025, 05/17/2023, 05/17/2023, 05/03/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2625 | INTRALIPID 30% NDA-019942 | 42 | 4 (07/24/2025, 02/22/2024, 05/17/2023, 05/03/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2626 | INTRALIPID 20% NDA-020248 | 43 | 4 (07/24/2025, 05/17/2023, 05/17/2023, 05/03/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2627 | MIGRANAL NDA-020148 | 39 | 1 (05/09/2022) |         	Warnings and Precautions, Patient Information, Precautions, Warnings |
+| 2628 | D.H.E. 45 NDA-005929 | 39 | 1 (05/09/2022) |         	Adverse Reactions,         	Warnings and Precautions, Patient Information, Precautions, Warnings |
+| 263 | KEYTRUDA BLA-125514 | 381 | 67 (06/24/2026, 06/12/2026, 05/12/2026, 02/10/2026) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 2633 | CARAC NDA-020985 | 35 | 1 (05/26/2022) |         	Warnings and Precautions |
+| 2635 | CREON BLA-020725 | 47 | 2 (02/28/2024, 06/02/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 2636 | BREXAFEMME NDA-214900 | 51 | 4 (07/24/2026, 11/03/2025, 11/30/2022, 06/15/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2637 | HADLIMA BLA-761059 | 67 | 6 (10/17/2025, 06/28/2024, 07/11/2023, 06/26/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2638 | IMCIVREE NDA-213793 | 69 | 4 (03/19/2026, 12/20/2024, 11/15/2023, 06/16/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2639 | KABIVEN IN PLASTIC CONTAINER NDA-200656 | 63 | 3 (07/24/2025, 05/17/2023, 06/28/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 264 | AMBIEN NDA-019908 | 65 | 9 (02/23/2022, 02/23/2022, 02/23/2022, 08/18/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2640 | PERIKABIVEN IN PLASTIC CONTAINER NDA-200656 | 64 | 3 (07/24/2025, 05/17/2023, 06/28/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2641 | DHIVY NDA-214869 | 35 | 2 (03/19/2026, 06/30/2022) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2642 | AUGMENTIN ES-600 NDA-050755 | 66 | 4 (07/17/2026, 12/20/2024, 05/01/2024, 06/30/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2643 | REBLOZYL BLA-761136 | 42 | 3 (02/27/2026, 08/28/2023, 07/08/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2644 | ASCOR NDA-209112 | 33 | 1 (07/08/2022) |         	Warnings and Precautions |
+| 2645 | DIACOMIT NDA-206709 | 37 | 2 (04/15/2026, 07/14/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2646 | DIACOMIT NDA-207223 | 37 | 2 (04/15/2026, 07/14/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2647 | HULIO BLA-761154 | 54 | 3 (02/05/2025, 08/25/2023, 07/14/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2648 | OPZELURA NDA-215309 | 60 | 3 (06/30/2026, 09/18/2025, 07/18/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 265 | AMBIEN CR NDA-021774 | 66 | 9 (02/23/2022, 02/23/2022, 02/23/2022, 08/18/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Counseling Information |
+| 2650 | ABRILADA BLA-761118 | 72 | 5 (12/17/2025, 10/04/2023, 08/16/2023, 06/14/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2652 | DAPTOMYCIN NDA-210282 | 39 | 2 (04/30/2025, 08/08/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2653 | TABRECTA NDA-213591 | 46 | 3 (03/14/2024, 03/24/2023, 08/10/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2654 | XELSTRYM NDA-215401 | 41 | 3 (09/23/2025, 10/13/2023, 08/16/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2655 | VUITY NDA-214028 | 42 | 3 (04/06/2023, 03/28/2023, 08/16/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2656 | TOBRADEX ST NDA-050818 | 57 | 4 (03/17/2026, 08/16/2022, 08/16/2022, 08/16/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2657 | DIFFERIN NDA-022502 | 41 | 2 (04/19/2023, 08/24/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2658 | DIFFERIN NDA-021753 | 40 | 2 (12/27/2023, 08/25/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations, Patient Information |
+| 2659 | AUGMENTIN '250' NDA-050564 | 66 | 3 (07/17/2026, 05/01/2024, 08/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 266 | JADENU NDA-206910 | 82 | 10 (07/23/2020, 07/26/2019, 05/24/2019, 12/12/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Medication Guide, Patient Counseling Information |
+| 2660 | AUGMENTIN '500' NDA-050564 | 66 | 3 (07/17/2026, 05/01/2024, 08/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2661 | AUGMENTIN '125' NDA-050575 | 66 | 3 (07/17/2026, 05/01/2024, 08/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2662 | AUGMENTIN '875' NDA-050720 | 66 | 3 (07/17/2026, 05/01/2024, 08/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2663 | AUGMENTIN '200' NDA-050725 | 66 | 3 (07/17/2026, 05/01/2024, 08/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2664 | AUGMENTIN '400' NDA-050725 | 66 | 3 (07/17/2026, 05/01/2024, 08/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2665 | AUGMENTIN '125' NDA-050597 | 66 | 3 (07/17/2026, 05/01/2024, 08/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2666 | AUGMENTIN '200' NDA-050726 | 66 | 3 (07/17/2026, 05/01/2024, 08/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2667 | AUGMENTIN '250' NDA-050597 | 66 | 3 (07/17/2026, 05/01/2024, 08/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2668 | AUGMENTIN '400' NDA-050726 | 66 | 3 (07/17/2026, 05/01/2024, 08/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2669 | AUGMENTIN '250' NDA-050575 | 66 | 3 (07/17/2026, 05/01/2024, 08/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 267 | EXJADE NDA-021882 | 76 | 8 (07/23/2020, 07/24/2019, 05/24/2019, 12/12/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 2670 | TOLAK NDA-022259 | 36 | 1 (08/25/2022) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2671 | ORKAMBI NDA-211358 | 55 | 5 (03/17/2026, 09/25/2025, 12/13/2024, 08/03/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 2673 | LIVTENCITY NDA-215596 | 38 | 2 (11/21/2025, 09/08/2022) |         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 2675 | MAVENCLAD NDA-022561 | 55 | 5 (05/14/2026, 05/10/2024, 02/07/2024, 12/06/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2676 | OXYTOCIN NDA-018248 | 35 | 1 (09/20/2022) |         	Warnings and Precautions |
+| 2677 | SKYRIZI BLA-761262 | 63 | 7 (06/26/2026, 06/12/2026, 03/06/2026, 09/03/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2678 | ZENPEP BLA-022210 | 49 | 2 (02/28/2024, 09/28/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2679 | VIOKACE BLA-022542 | 44 | 2 (02/28/2024, 09/28/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 268 | XENICAL NDA-020766 | 63 | 3 (09/30/2026, 11/17/2022, 08/12/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2680 | ROBINUL NDA-012827 | 40 | 1 (09/27/2022) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2681 | ROBINUL FORTE NDA-012827 | 40 | 1 (09/27/2022) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2682 | TRIUMEQ PD NDA-215413 | 54 | 4 (10/28/2025, 04/18/2024, 06/15/2023, 10/07/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 2683 | OXLUMO NDA-214103 | 38 | 2 (04/04/2025, 10/06/2022) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2684 | SCEMBLIX NDA-215358 | 57 | 7 (09/22/2026, 11/25/2025, 10/02/2025, 10/29/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2685 | ZYNLONTA BLA-761196 | 46 | 4 (02/20/2026, 01/16/2026, 10/12/2022, 10/12/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2686 | SKYTROFA BLA-761177 | 45 | 3 (07/25/2025, 07/09/2025, 10/20/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2687 | ISUPREL NDA-010515 | 36 | 1 (10/20/2022) |         	Use in Specific Populations |
+| 2688 | BYLVAY NDA-215498 | 56 | 4 (12/19/2025, 03/20/2025, 06/13/2023, 10/21/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2689 | EPRONTIA NDA-214679 | 65 | 3 (03/06/2026, 05/17/2024, 10/26/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2690 | ELZONRIS BLA-761116 | 41 | 2 (07/26/2023, 10/27/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2691 | QBREXZA NDA-210361 | 37 | 1 (10/28/2022) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2692 | SUCCINYLCHOLINE CHLORIDE NDA-215143 | 36 | 1 (11/01/2022) |         	Contraindications,         	Warnings and Precautions |
+| 2693 | AMOXIL NDA-050542 | 41 | 2 (05/01/2024, 11/02/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions, Warnings |
+| 2694 | AMOXIL NDA-050754 | 41 | 2 (05/01/2024, 11/02/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions, Warnings |
+| 2695 | AMOXIL NDA-050760 | 41 | 2 (05/01/2024, 11/02/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions, Warnings |
+| 2696 | AMOXIL NDA-050761 | 41 | 2 (05/01/2024, 11/02/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions, Warnings |
+| 2697 | AUGMENTIN XR NDA-050785 | 63 | 4 (07/17/2026, 12/20/2024, 05/01/2024, 11/02/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions, Warnings |
+| 2698 | ZTALMY NDA-215904 | 39 | 5 (10/16/2025, 10/16/2025, 08/06/2025, 06/21/2023) |         	Drug Interactions,         	Use in Specific Populations, Medication Guide |
+| 2699 | VIJOICE NDA-215039 | 41 | 2 (07/22/2025, 11/17/2022) |         	Adverse Reactions,         	Warnings and Precautions, Patient Information |
+| 27 | MIRAPEX ER NDA-022421 | 57 | 5 (06/07/2024, 07/12/2021, 05/10/2018, 07/28/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 270 | TAGRISSO NDA-208065 | 125 | 16 (09/14/2026, 09/14/2026, 09/25/2024, 04/29/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information, Warnings, Warnings and Precautions |
+| 2700 | LUMAKRAS NDA-214665 | 55 | 4 (01/16/2025, 09/30/2024, 04/24/2023, 11/21/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2701 | PEMETREXED NDA-208419 | 60 | 3 (11/22/2022, 11/22/2022, 11/22/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2702 | RYLAZE BLA-761179 | 44 | 2 (04/15/2024, 11/18/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2703 | UNISOM NDA-018066 | 34 | 1 (12/01/2022) |         	Warnings and Precautions |
+| 2704 | BORTEZOMIB NDA-209191 | 36 | 1 (12/09/2022) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2705 | PEMFEXY NDA-209472 | 37 | 1 (12/14/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2706 | CYTALUX NDA-214907 | 37 | 1 (12/16/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2707 | ILUMYA BLA-761067 | 45 | 4 (07/16/2026, 12/12/2025, 04/03/2024, 12/19/2022) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2708 | PRETOMANID NDA-212862 | 44 | 2 (11/22/2024, 12/21/2022) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions, Medication Guide, Patient Counseling Information |
+| 2709 | PROGLYCEM NDA-017453 | 36 | 2 (07/18/2024, 12/22/2022) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 271 | OPTIRAY 160 NDA-019710 | 72 | 7 (04/25/2023, 05/04/2022, 02/18/2022, 01/23/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 2710 | WAKIX NDA-211150 | 42 | 3 (02/13/2026, 06/21/2024, 12/22/2022) |         	Adverse Reactions,         	Use in Specific Populations, Adverse Reactions |
+| 2711 | WEGOVY NDA-215256 | 72 | 7 (03/19/2026, 10/14/2025, 11/27/2024, 11/01/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2712 | MIFEPREX NDA-020687 | 35 | 1 (01/03/2023) |         	Warnings and Precautions |
+| 2713 | BAFIERTAM NDA-210296 | 49 | 4 (09/26/2024, 12/13/2023, 12/13/2023, 01/12/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2714 | HYDROXYCHLOROQUINE SULFATE NDA-214581 | 46 | 2 (07/24/2023, 01/12/2023) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2715 | MIDAZOLAM IN 0.9% SODIUM CHLORIDE NDA-211844 | 38 | 1 (01/13/2023) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2716 | MIDAZOLAM IN 0.8% SODIUM CHLORIDE NDA-215868 | 37 | 1 (01/13/2023) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2717 | CAPASTAT SULFATE NDA-050095 | 35 | 1 (01/17/2023) |         	Adverse Reactions,         	Warnings and Precautions, Boxed Warning |
+| 2718 | SOLUPREP NDA-208288 | 33 | 1 (01/20/2023) |         	Adverse Reactions |
+| 2719 | LOREEV XR NDA-214826 | 41 | 1 (01/13/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 272 | OPTIRAY 240 NDA-020923 | 74 | 8 (04/25/2023, 02/18/2022, 11/18/2020, 11/18/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 2720 | XHANCE NDA-209022 | 46 | 3 (03/15/2024, 01/20/2023, 01/20/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2721 | ENJAYMO BLA-761164 | 44 | 2 (02/08/2024, 01/25/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2722 | VABYSMO BLA-761235 | 40 | 2 (10/26/2023, 01/27/2023) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2723 | LUPANETA PACK NDA-203696 | 69 | 3 (08/09/2023, 08/09/2023, 01/31/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Use in Specific Populations |
+| 2725 | TAKHZYRO BLA-761090 | 41 | 2 (08/20/2026, 02/03/2023) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2726 | EMPAVELI NDA-215014 | 61 | 6 (08/20/2026, 07/28/2025, 06/10/2025, 02/08/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2728 | TEZSPIRE BLA-761224 | 52 | 3 (10/17/2025, 05/26/2023, 02/01/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 2729 | XARELTO NDA-215859 | 37 | 3 (03/24/2026, 06/17/2025, 02/08/2023) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions |
+| 273 | RAPIVAB NDA-206426 | 49 | 4 (01/28/2021, 05/03/2018, 09/20/2017, 08/12/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2730 | AMVUTTRA NDA-215515 | 41 | 2 (03/20/2025, 02/16/2023) |         	Adverse Reactions,         	Use in Specific Populations, Warnings and Precautions |
+| 2731 | ALVESCO NDA-021658 | 47 | 1 (02/16/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2732 | ZETONNA NDA-202129 | 48 | 1 (02/16/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2733 | UBRELVY NDA-211765 | 50 | 3 (06/05/2025, 03/21/2025, 02/17/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 2734 | VESANOID NDA-020438 | 46 | 2 (10/04/2024, 02/21/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2735 | LAMPIT NDA-213464 | 37 | 2 (06/02/2023, 02/22/2023) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2736 | ZEMDRI NDA-210303 | 34 | 1 (02/10/2023) |         	Warnings and Precautions |
+| 2737 | APRETUDE NDA-215499 | 48 | 4 (04/11/2025, 09/20/2024, 12/13/2023, 02/27/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2738 | PREGNYL BLA-017692 | 35 | 1 (03/02/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2739 | XACIATO NDA-215650 | 34 | 1 (03/06/2023) |         	Adverse Reactions, Patient Information |
+| 274 | DIANEAL PD-2 W/ DEXTROSE 2.5% IN PLASTIC CONTAINER NDA-020163 | 36 | 2 (06/05/2023, 08/16/2016) |         	Use in Specific Populations |
+| 2740 | PHENYLEPHRINE HYDROCHLORIDE NDA-203826 | 35 | 1 (03/09/2023) |         	Use in Specific Populations |
+| 2742 | LIVMARLI NDA-214662 | 99 | 4 (07/24/2024, 03/13/2024, 03/13/2024, 03/13/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 2743 | ZOLADEX NDA-019726 | 41 | 3 (05/06/2026, 09/23/2025, 03/16/2023) |         	Adverse Reactions,         	Warnings and Precautions, Adverse Reactions |
+| 2744 | EVKEEZA BLA-761181 | 41 | 2 (09/25/2025, 03/21/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2745 | TEPMETKO NDA-214096 | 44 | 2 (02/15/2024, 03/23/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2746 | AMONDYS 45 NDA-213026 | 39 | 2 (07/11/2024, 03/23/2023) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2747 | FOLLISTIM AQ BLA-021211 | 49 | 4 (02/24/2026, 03/21/2023, 03/21/2023, 03/21/2023) |         	Adverse Reactions,         	Use in Specific Populations, Patient Information |
+| 2748 | YUSIMRY BLA-761216 | 58 | 4 (08/28/2026, 11/10/2025, 09/13/2023, 03/31/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Warnings and Precautions |
+| 2749 | ORGOVYX NDA-214621 | 40 | 3 (10/08/2025, 10/18/2024, 03/30/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 275 | DIANEAL LOW CALCIUM W/ DEXTROSE 1.5% IN PLASTIC CONTAINER NDA-020183 | 36 | 2 (06/05/2023, 08/16/2016) |         	Use in Specific Populations |
+| 2750 | KAPSPARGO SPRINKLE NDA-210428 | 38 | 1 (04/14/2023) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2751 | QULIPTA NDA-215206 | 59 | 4 (09/30/2025, 06/10/2025, 03/21/2025, 04/17/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2752 | POLIVY BLA-761121 | 43 | 2 (03/18/2026, 04/19/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2753 | SIMBRINZA NDA-204251 | 37 | 1 (05/05/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2754 | VERQUVO NDA-214377 | 35 | 2 (01/21/2026, 05/10/2023) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2755 | CALCIUM CHLORIDE 10% IN PLASTIC CONTAINER NDA-021117 | 43 | 1 (05/11/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2756 | OMEGAVEN NDA-210589 | 42 | 2 (07/24/2025, 05/17/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings and Precautions |
+| 2757 | SUSTOL NDA-022445 | 36 | 2 (02/23/2026, 05/25/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2758 | ZINPLAVA BLA-761046 | 39 | 1 (05/26/2023) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2759 | NUTRILIPID 20% NDA-019531 | 64 | 4 (07/24/2025, 07/24/2025, 05/17/2023, 05/17/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 276 | KAPVAY NDA-022331 | 46 | 2 (02/06/2020, 08/16/2016) |         	Use in Specific Populations |
+| 2760 | SEMGLEE BLA-761201 | 41 | 2 (11/29/2023, 05/30/2023) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2761 | SPY AGENT GREEN KIT NDA-211580 | 41 | 1 (06/05/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2762 | IMJUDO BLA-761289 | 43 | 4 (08/31/2026, 07/24/2024, 01/25/2024, 06/14/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2763 | BREVIBLOC NDA-019386 | 34 | 1 (06/15/2023) |         	Warnings and Precautions |
+| 2764 | LABETALOL HYDROCHLORIDE NDA-213330 | 35 | 1 (06/15/2023) |         	Warnings and Precautions |
+| 2765 | LABETALOL HYDROCHLORIDE IN DEXTROSE NDA-213330 | 35 | 1 (06/15/2023) |         	Warnings and Precautions |
+| 2766 | LABETALOL HYDROCHLORIDE IN SODIUM CHLORIDE NDA-213330 | 35 | 1 (06/15/2023) |         	Warnings and Precautions |
+| 2767 | CAMZYOS NDA-214998 | 49 | 4 (09/30/2026, 04/17/2025, 04/30/2024, 06/15/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information |
+| 2768 | BYVALSON NDA-206302 | 34 | 1 (06/16/2023) |         	Warnings and Precautions |
+| 2769 | ROLVEDON BLA-761148 | 37 | 1 (06/16/2023) | (section heading appears as e.g. numbered text, see raw) |
+| 277 | MYRBETRIQ NDA-202611 | 45 | 4 (03/25/2021, 04/27/2018, 07/28/2017, 08/16/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2770 | POTASSIUM CHLORIDE 0.037% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.2% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2771 | POTASSIUM CHLORIDE 0.037% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2772 | POTASSIUM CHLORIDE 0.037% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2773 | POTASSIUM CHLORIDE 0.037% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.11% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2774 | POTASSIUM CHLORIDE 0.037% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.2% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2775 | POTASSIUM CHLORIDE 0.037% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.33% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2776 | POTASSIUM CHLORIDE 0.037% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2777 | POTASSIUM CHLORIDE 0.037% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2778 | POTASSIUM CHLORIDE 0.075% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.2% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2779 | POTASSIUM CHLORIDE 0.075% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 278 | SILVADENE NDA-017381 | 33 | 1 (08/01/2016) |         	Warnings and Precautions |
+| 2780 | POTASSIUM CHLORIDE 0.075% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2781 | POTASSIUM CHLORIDE 0.075% IN DEXTROSE 3.3% AND SODIUM CHLORIDE 0.3% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2782 | POTASSIUM CHLORIDE 0.075% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.11% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2783 | POTASSIUM CHLORIDE 0.075% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.2% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2784 | POTASSIUM CHLORIDE 0.075% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.33% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Adverse Reactions |
+| 2785 | POTASSIUM CHLORIDE 0.075% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2786 | POTASSIUM CHLORIDE 0.075% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2787 | POTASSIUM CHLORIDE 0.11% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.2% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2788 | POTASSIUM CHLORIDE 0.11% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2789 | POTASSIUM CHLORIDE 0.11% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 279 | CLEOCIN HYDROCHLORIDE NDA-050162 | 52 | 9 (09/01/2026, 03/26/2026, 07/29/2024, 05/20/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2790 | POTASSIUM CHLORIDE 0.15% IN DEXTROSE 3.3% AND SODIUM CHLORIDE 0.3% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2791 | POTASSIUM CHLORIDE 0.11% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.11% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2792 | POTASSIUM CHLORIDE 0.11% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.2% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2793 | POTASSIUM CHLORIDE 0.15% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.33% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2794 | POTASSIUM CHLORIDE 0.11% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2795 | POTASSIUM CHLORIDE 0.11% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2796 | POTASSIUM CHLORIDE 0.15% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.2% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2797 | POTASSIUM CHLORIDE 0.15% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2798 | POTASSIUM CHLORIDE 0.15% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2799 | POTASSIUM CHLORIDE 0.11% IN DEXTROSE 3.3% AND SODIUM CHLORIDE 0.3% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 28 | NEOPROFEN NDA-021903 | 38 | 4 (10/25/2023, 03/26/2021, 10/16/2017, 01/13/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 280 | FRAGMIN NDA-020287 | 57 | 6 (10/24/2024, 10/15/2024, 06/26/2020, 05/16/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2800 | POTASSIUM CHLORIDE 0.15% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.2% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2801 | POTASSIUM CHLORIDE 0.22% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2802 | POTASSIUM CHLORIDE 0.22% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2803 | POTASSIUM CHLORIDE 0.3% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.2% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2804 | POTASSIUM CHLORIDE 0.3% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2805 | POTASSIUM CHLORIDE 0.3% IN DEXTROSE 10% AND SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2806 | POTASSIUM CHLORIDE 0.3% IN DEXTROSE 3.3% AND SODIUM CHLORIDE 0.3% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2807 | POTASSIUM CHLORIDE 0.3% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.11% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2808 | POTASSIUM CHLORIDE 0.3% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.2% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2809 | POTASSIUM CHLORIDE 0.3% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.33% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 281 | PROLIA BLA-125320 | 94 | 14 (06/23/2026, 05/22/2025, 03/05/2024, 01/19/2024) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Precautions, Use in Specific Populations, Warnings |
+| 2810 | POTASSIUM CHLORIDE 0.3% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2811 | POTASSIUM CHLORIDE 0.3% IN DEXTROSE 5% AND SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019630 | 33 | 1 (06/27/2023) |         	Warnings and Precautions |
+| 2812 | LOPRESSOR NDA-017963 | 34 | 2 (12/22/2023, 07/05/2023) |         	Warnings and Precautions |
+| 2813 | LEQEMBI BLA-761269 | 63 | 5 (12/15/2025, 12/15/2025, 01/24/2025, 11/14/2024) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 2814 | LEQVIO NDA-214012 | 49 | 5 (08/19/2026, 02/12/2026, 02/12/2026, 06/06/2024) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2815 | DRAXIMAGE DTPA NDA-018511 | 33 | 1 (06/07/2023) |         	Adverse Reactions |
+| 2816 | HEPARIN SODIUM 20,000 UNITS IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019952 | 47 | 1 (07/12/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 2818 | GOPRELTO NDA-209963 | 34 | 1 (07/18/2023) |         	Use in Specific Populations |
+| 2819 | ABSORICA LD NDA-211913 | 52 | 3 (08/11/2026, 06/12/2026, 07/18/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 282 | FINACEA NDA-021470 | 41 | 3 (11/01/2021, 11/27/2020, 08/05/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2820 | ACTIGALL NDA-019594 | 34 | 1 (07/19/2023) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2821 | ZETIA NDA-021445 | 43 | 2 (02/21/2024, 07/20/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2822 | TIVDAK BLA-761208 | 47 | 3 (11/12/2025, 04/29/2024, 07/26/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 2823 | MOUNJARO NDA-215866 | 85 | 11 (08/27/2026, 08/27/2026, 01/20/2026, 01/07/2026) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2824 | COSELA NDA-214200 | 33 | 1 (08/03/2023) |         	Use in Specific Populations |
+| 2825 | TRIKAFTA (COPACKAGED) NDA-217660 | 51 | 5 (03/27/2026, 03/17/2026, 09/25/2025, 12/20/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2826 | GALLIUM GA 68 DOTATOC NDA-210828 | 34 | 1 (07/27/2023) |         	Adverse Reactions |
+| 2827 | TECVAYLI BLA-761291 | 59 | 4 (03/05/2026, 08/19/2025, 05/28/2024, 08/09/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2828 | TASCENSO ODT NDA-214962 | 58 | 4 (06/29/2026, 01/28/2025, 06/05/2024, 08/10/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2829 | DAXXIFY BLA-761127 | 41 | 1 (08/11/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 283 | KUVAN NDA-205065 | 51 | 4 (08/26/2024, 03/16/2020, 12/13/2019, 08/09/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2830 | GANIRELIX ACETATE NDA-021057 | 42 | 4 (09/23/2024, 08/14/2023, 08/14/2023, 08/14/2023) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2831 | RIMACTANE NDA-050429 | 36 | 2 (08/12/2026, 08/16/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 2832 | VOQUEZNA TRIPLE PAK NDA-215152 | 52 | 5 (10/31/2025, 06/12/2025, 07/31/2024, 05/01/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2833 | VOQUEZNA DUAL PAK NDA-215153 | 52 | 5 (10/31/2025, 06/12/2025, 07/31/2024, 05/01/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2834 | RECORLEV NDA-214133 | 33 | 1 (08/16/2023) |         	Drug Interactions |
+| 2835 | CITALOPRAM HYDROBROMIDE NDA-215428 | 38 | 1 (08/18/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2836 | SERTRALINE HYDROCHLORIDE NDA-215133 | 38 | 2 (10/06/2026, 08/18/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2837 | VENLAFAXINE BESYLATE NDA-215429 | 38 | 1 (08/18/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2838 | OXBRYTA NDA-213137 | 40 | 1 (08/18/2023) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2839 | OXBRYTA NDA-216157 | 40 | 1 (08/18/2023) |         	Adverse Reactions,         	Warnings and Precautions |
+| 284 | GABITRIL NDA-020646 | 33 | 1 (08/09/2016) |         	Drug Interactions |
+| 2840 | JEANATOPE BLA-017836 | 35 | 1 (07/12/2023) |         	Adverse Reactions,         	Warnings and Precautions, Precautions |
+| 2841 | ELIGARD KIT NDA-021343 | 51 | 5 (05/06/2026, 02/24/2025, 07/20/2023, 07/20/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2842 | PULMOTECH MAA BLA-210089 | 43 | 1 (08/25/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2843 | RELEUKO BLA-761082 | 40 | 2 (04/29/2025, 09/01/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2844 | RYALTRIS NDA-211746 | 38 | 2 (07/07/2026, 08/29/2023) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2845 | IBRANCE NDA-212436 | 47 | 6 (06/24/2026, 09/16/2025, 04/23/2025, 03/06/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2847 | BRENZAVVY NDA-214373 | 48 | 2 (06/03/2026, 09/12/2023) |         	Adverse Reactions,         	Warnings and Precautions, Medication Guide |
+| 2848 | NEXVIAZYME BLA-761194 | 39 | 1 (09/15/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2849 | EXKIVITY NDA-215310 | 37 | 1 (09/15/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 285 | HEPARIN SODIUM PRESERVATIVE FREE NDA-201370 | 48 | 5 (09/24/2025, 10/24/2024, 09/19/2019, 09/19/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2850 | NEXLIZET NDA-211617 | 63 | 6 (01/09/2026, 11/21/2025, 07/21/2025, 03/22/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2851 | VABOMERE NDA-209776 | 39 | 3 (02/20/2026, 12/03/2024, 09/21/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2852 | NEXLETOL NDA-211616 | 59 | 6 (01/09/2026, 11/21/2025, 07/21/2025, 03/22/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2853 | LYBALVI NDA-213378 | 41 | 5 (01/30/2026, 02/28/2025, 01/22/2025, 01/30/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2854 | NEORAL NDA-050715 | 35 | 1 (09/26/2023) |         	Warnings and Precautions |
+| 2855 | NEORAL NDA-050716 | 35 | 1 (09/26/2023) |         	Warnings and Precautions |
+| 2856 | SANDIMMUNE NDA-050573 | 44 | 2 (03/06/2026, 09/28/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2857 | SANDIMMUNE NDA-050574 | 44 | 2 (03/06/2026, 09/28/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2858 | SANDIMMUNE NDA-050625 | 44 | 2 (03/06/2026, 09/28/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 286 | TIMOPTIC NDA-018086 | 33 | 1 (08/09/2016) |         	Use in Specific Populations |
+| 2860 | STIMUFEND BLA-761173 | 36 | 1 (09/29/2023) |         	Use in Specific Populations |
+| 2861 | YUFLYMA BLA-761219 | 59 | 5 (10/16/2025, 08/16/2024, 12/22/2023, 11/30/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Warnings |
+| 2862 | IDACIO BLA-761255 | 58 | 4 (12/23/2025, 06/04/2024, 10/31/2023, 10/11/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 2863 | MEKTOVI NDA-210498 | 48 | 2 (09/12/2024, 10/11/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2864 | ZORYVE NDA-215985 | 70 | 4 (06/29/2026, 10/04/2025, 07/09/2024, 10/05/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations |
+| 2865 | RELEXXII NDA-216117 | 42 | 2 (09/23/2025, 10/13/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2867 | SINCALIDE NDA-210850 | 36 | 1 (10/17/2023) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2868 | AZSTARYS NDA-212994 | 42 | 2 (09/23/2025, 10/13/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 2869 | OXERVATE BLA-761094 | 34 | 1 (10/20/2023) |         	Adverse Reactions |
+| 287 | XARELTO NDA-022406 | 116 | 18 (03/24/2026, 06/17/2025, 02/08/2023, 03/01/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2870 | MAVYRET NDA-215110 | 42 | 2 (06/10/2025, 10/25/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 2871 | PURIFIED CORTROPHIN GEL NDA-008975 | 37 | 2 (10/05/2026, 10/26/2023) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2872 | DOJOLVI NDA-213687 | 38 | 1 (10/30/2023) |         	Use in Specific Populations |
+| 2873 | QUVIVIQ NDA-214985 | 44 | 5 (09/30/2024, 09/30/2024, 09/30/2024, 10/30/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2874 | CLINDESSE NDA-050793 | 38 | 2 (01/30/2025, 11/03/2023) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2875 | INDERAL LA NDA-018553 | 37 | 2 (11/07/2023, 11/07/2023) |         	Warnings and Precautions |
+| 2876 | PRADAXA NDA-214358 | 36 | 2 (06/17/2025, 11/14/2023) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2877 | REZUROCK NDA-214783 | 42 | 4 (01/15/2026, 12/30/2024, 04/10/2024, 11/09/2023) |         	Drug Interactions,         	Use in Specific Populations |
+| 2878 | TAZVERIK NDA-211723 | 44 | 2 (08/13/2024, 11/16/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2879 | TIROSINT-SOL NDA-206977 | 41 | 2 (11/16/2023, 11/16/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 288 | TROKENDI XR NDA-201635 | 166 | 10 (03/06/2026, 01/04/2024, 10/07/2022, 02/03/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2880 | BONSITY NDA-211939 | 49 | 2 (08/03/2026, 11/16/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2881 | CYCLOPHOSPHAMIDE NDA-210735 | 38 | 1 (11/20/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 2882 | PACLITAXEL NDA-216338 | 34 | 1 (11/21/2023) |         	Use in Specific Populations |
+| 2883 | COSENTYX BLA-761349 | 55 | 6 (04/17/2026, 04/17/2026, 08/06/2025, 10/04/2024) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2884 | ORLADEYO NDA-214094 | 53 | 3 (12/23/2025, 10/21/2024, 11/21/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2886 | SYFOVRE NDA-217171 | 38 | 2 (12/20/2024, 11/30/2023) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 2887 | SAPHNELO BLA-761123 | 50 | 3 (08/07/2026, 08/07/2024, 12/01/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2888 | TECHNETIUM TC 99M ALBUMIN AGGREGATED KIT BLA-017881 | 35 | 1 (12/01/2023) | (section heading appears as e.g. numbered text, see raw) |
+| 2889 | XENPOZYME BLA-761261 | 37 | 1 (12/05/2023) |         	Warnings and Precautions, Boxed Warning |
+| 289 | MOTRIN IB NDA-019012 | 38 | 4 (11/16/2021, 03/16/2017, 03/16/2017, 08/18/2016) |         	Warnings and Precautions, Warnings |
+| 2890 | FENTANYL CITRATE NDA-215870 | 49 | 2 (12/22/2025, 12/15/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2891 | XTRELUS NDA-208085 | 45 | 2 (12/22/2025, 12/15/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2892 | BRIXADI NDA-210136 | 42 | 2 (12/22/2025, 12/15/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2893 | VYVGART HYTRULO BLA-761304 | 55 | 8 (05/08/2026, 02/26/2026, 10/17/2025, 04/10/2025) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 2894 | SEGLENTIS NDA-213426 | 58 | 2 (11/21/2024, 12/15/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2895 | VISIONBLUE NDA-021670 | 35 | 1 (12/18/2023) |         	Use in Specific Populations |
+| 2896 | CETROTIDE NDA-021197 | 33 | 1 (12/18/2023) |         	Adverse Reactions |
+| 2897 | MANGANESE CHLORIDE IN PLASTIC CONTAINER NDA-018962 | 35 | 1 (12/18/2023) |         	Warnings and Precautions |
+| 2898 | EYLEA HD BLA-761355 | 45 | 4 (04/02/2026, 11/19/2025, 10/10/2024, 12/14/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Precautions, Warnings |
+| 2899 | WELIREG NDA-215383 | 70 | 5 (09/24/2026, 06/12/2026, 05/14/2025, 04/15/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 29 | ORENITRAM NDA-203496 | 48 | 4 (10/18/2019, 06/07/2017, 01/24/2017, 01/28/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations, Patient Information |
+| 290 | GLUCOTROL NDA-017783 | 33 | 1 (08/18/2016) |         	Drug Interactions |
+| 2900 | HEPARIN SODIUM 1,000 UNITS IN SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019953 | 53 | 2 (03/25/2025, 12/15/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2901 | TARPEYO NDA-215935 | 36 | 2 (06/05/2024, 12/20/2023) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2902 | TUXARIN ER NDA-206323 | 42 | 2 (07/10/2026, 12/15/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2904 | CORGARD NDA-018063 | 34 | 1 (12/22/2023) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2905 | TENORETIC 100 NDA-018760 | 34 | 1 (12/22/2023) |         	Warnings and Precautions |
+| 2906 | TENORETIC 50 NDA-018760 | 34 | 1 (12/22/2023) |         	Warnings and Precautions |
+| 2907 | TENORMIN NDA-018240 | 34 | 1 (12/22/2023) |         	Warnings and Precautions |
+| 2908 | FENTANYL CITRATE NDA-019101 | 88 | 5 (12/22/2025, 12/15/2023, 10/08/2019, 01/24/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Drug Interactions |
+| 2909 | SOTYLIZE NDA-205108 | 41 | 1 (01/12/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 291 | ARISTADA NDA-207533 | 52 | 6 (01/22/2025, 08/27/2020, 11/30/2018, 06/05/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2910 | KOSELUGO NDA-213756 | 47 | 3 (05/26/2026, 11/19/2025, 01/24/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2911 | BENDAMUSTINE HYDROCHLORIDE NDA-211530 | 33 | 1 (01/25/2024) |         	Adverse Reactions |
+| 2912 | SKYCLARYS NDA-216718 | 40 | 2 (12/20/2024, 01/25/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations, Patient Counseling Information, Patient Information |
+| 2913 | ELUCIREM NDA-216986 | 44 | 4 (02/20/2026, 03/05/2025, 07/23/2024, 01/26/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 2914 | TAUVID NDA-212123 | 35 | 1 (02/05/2024) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2915 | RUKOBIA NDA-212950 | 37 | 1 (02/13/2024) |         	Use in Specific Populations |
+| 2916 | PROMETRIUM NDA-019781 | 45 | 2 (02/12/2026, 02/15/2024) |         	Contraindications,         	Warnings and Precautions |
+| 2917 | PROVERA NDA-011839 | 35 | 1 (02/15/2024) |         	Warnings and Precautions |
+| 2918 | IMBRUVICA NDA-217003 | 46 | 4 (10/21/2025, 12/20/2024, 05/09/2024, 02/22/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2919 | ENTYVIO BLA-761133 | 55 | 3 (02/25/2026, 03/14/2024, 02/23/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 292 | DAYTRANA NDA-021514 | 63 | 7 (09/23/2025, 10/13/2023, 06/25/2021, 10/22/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 2920 | BEYFORTUS BLA-761328 | 39 | 3 (10/20/2025, 08/22/2024, 02/23/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 2921 | BENDAMUSTINE HYDROCHLORIDE NDA-216078 | 33 | 1 (02/26/2024) |         	Adverse Reactions |
+| 2922 | MEKINIST NDA-217513 | 51 | 8 (03/26/2026, 04/07/2025, 03/19/2025, 03/07/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2923 | TAFINLAR NDA-217514 | 54 | 7 (03/26/2026, 04/07/2025, 03/19/2025, 03/07/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2924 | VIVIMUSTA NDA-212209 | 33 | 1 (02/27/2024) |         	Adverse Reactions |
+| 2925 | PANCREAZE BLA-022523 | 47 | 1 (02/28/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2926 | RYBREVANT BLA-761210 | 77 | 7 (11/07/2025, 10/08/2025, 09/03/2025, 02/14/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 2927 | DEFINITY RT NDA-021064 | 40 | 1 (03/01/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Use in Specific Populations |
+| 2928 | CORTIFOAM NDA-017351 | 34 | 1 (03/01/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2929 | BESPONSA BLA-761040 | 46 | 1 (03/06/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 293 | TRECATOR NDA-013026 | 36 | 2 (08/03/2023, 08/22/2016) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2930 | OPDUALAG BLA-761234 | 33 | 2 (06/08/2026, 03/06/2024) |         	Warnings and Precautions |
+| 2931 | SPEVIGO BLA-761244 | 45 | 3 (10/21/2025, 05/28/2025, 03/18/2024) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2932 | DANYELZA BLA-761171 | 40 | 1 (03/20/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2933 | ZOKINVY NDA-213969 | 41 | 2 (03/21/2024, 03/21/2024) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 2934 | ELAHERE BLA-761310 | 40 | 1 (03/22/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2935 | FABHALTA NDA-218276 | 43 | 3 (07/16/2026, 03/20/2025, 03/26/2024) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2936 | ZEPBOUND NDA-217806 | 68 | 9 (02/25/2026, 01/20/2026, 01/07/2026, 09/25/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 2937 | DANTRIUM NDA-018264 | 34 | 1 (04/02/2024) |         	Adverse Reactions |
+| 2938 | ALLOPURINOL NDA-018832 | 41 | 3 (04/03/2024, 04/03/2024, 04/03/2024) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2939 | ALLOPURINOL NDA-018877 | 41 | 3 (04/03/2024, 04/03/2024, 04/03/2024) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 294 | NITROGLYCERIN IN DEXTROSE 5% NDA-019970 | 38 | 1 (08/22/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2940 | VIVJOA NDA-215888 | 35 | 1 (04/11/2024) |         	Use in Specific Populations |
+| 2941 | DOCETAXEL NDA-215813 | 44 | 2 (04/11/2024, 04/11/2024) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2942 | BENDAMUSTINE HYDROCHLORIDE NDA-215033 | 33 | 1 (04/15/2024) |         	Adverse Reactions |
+| 2943 | LYTGOBI NDA-214801 | 34 | 2 (10/15/2025, 04/17/2024) |         	Drug Interactions,         	Use in Specific Populations |
+| 2944 | LOQTORZI BLA-761240 | 33 | 2 (08/31/2026, 04/22/2024) |         	Warnings and Precautions, Adverse Reactions |
+| 2945 | ATORVALIQ NDA-213260 | 33 | 1 (04/23/2024) |         	Adverse Reactions |
+| 2946 | ZINC CHLORIDE IN PLASTIC CONTAINER NDA-018959 | 34 | 1 (04/25/2024) |         	Warnings and Precautions |
+| 2947 | GALZIN NDA-020458 | 35 | 1 (04/25/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2948 | TRANDATE NDA-018716 | 37 | 1 (04/25/2024) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2949 | ZILBRYSQ NDA-216834 | 52 | 3 (01/22/2026, 02/28/2025, 04/26/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 295 | LOESTRIN 24 FE NDA-021871 | 50 | 5 (01/04/2023, 04/29/2022, 09/02/2021, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2950 | OMVOH BLA-761279 | 61 | 4 (10/23/2025, 01/15/2025, 01/15/2025, 04/29/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 2951 | LUPKYNIS NDA-213716 | 41 | 2 (10/08/2025, 04/29/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2952 | ZYNYZ BLA-761334 | 50 | 5 (05/18/2026, 03/30/2026, 12/17/2025, 05/15/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2953 | BESREMI BLA-761166 | 56 | 3 (08/28/2026, 06/26/2026, 04/29/2024) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2954 | ESMOLOL HYDROCHLORIDE DOUBLE STRENGTH IN PLASTIC CONTAINER NDA-205703 | 37 | 1 (05/02/2024) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2955 | ETICOVO BLA-761066 | 43 | 2 (12/05/2025, 05/03/2024) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 2956 | CERIANNA NDA-212155 | 33 | 1 (05/06/2024) |         	Drug Interactions |
+| 2957 | AUVELITY NDA-215430 | 46 | 4 (04/30/2026, 04/30/2026, 11/05/2025, 05/07/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2958 | GONAL-F RFF REDI-JECT BLA-021684 | 46 | 2 (05/13/2024, 05/13/2024) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2959 | MITIGARE NDA-204820 | 35 | 1 (05/16/2024) |         	Use in Specific Populations |
+| 296 | MOVANTIK NDA-204760 | 49 | 5 (04/13/2020, 05/29/2019, 02/28/2018, 08/22/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2960 | CIMERLI BLA-761165 | 36 | 1 (05/21/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2961 | ACUVAIL NDA-022427 | 39 | 1 (05/24/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2962 | TIMOLOL MALEATE NDA-020963 | 36 | 1 (05/28/2024) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2963 | AUSTEDO XR NDA-216354 | 36 | 2 (07/01/2024, 05/29/2024) | (section heading appears as e.g. numbered text, see raw) |
+| 2964 | ZANAFLEX NDA-020397 | 53 | 2 (11/22/2024, 05/31/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2965 | TPOXX NDA-208627 | 33 | 1 (06/03/2024) |         	Drug Interactions |
+| 2966 | TPOXX NDA-214518 | 33 | 1 (06/03/2024) |         	Drug Interactions |
+| 2967 | HEMADY NDA-211379 | 37 | 1 (06/05/2024) |         	Warnings and Precautions |
+| 2968 | ARISTOCORT NDA-011685 | 37 | 1 (06/05/2024) |         	Warnings and Precautions |
+| 2969 | AGAMREE NDA-215239 | 37 | 1 (06/05/2024) |         	Warnings and Precautions |
+| 297 | REPATHA BLA-125522 | 81 | 7 (11/20/2024, 09/24/2021, 02/15/2019, 10/18/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 2970 | JAYPIRCA NDA-216059 | 50 | 3 (10/02/2026, 12/02/2025, 06/04/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2971 | VELSIPITY NDA-216956 | 39 | 1 (06/05/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2972 | ORTIKOS NDA-211929 | 44 | 1 (06/05/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2973 | HEXADROL NDA-012674 | 38 | 1 (06/05/2024) |         	Warnings and Precautions |
+| 2974 | HEXADROL NDA-012675 | 38 | 1 (06/05/2024) |         	Warnings and Precautions |
+| 2975 | PEDIAPRED NDA-019157 | 37 | 1 (06/05/2024) |         	Warnings and Precautions |
+| 2976 | HEXADROL NDA-014694 | 38 | 1 (06/05/2024) |         	Warnings and Precautions |
+| 2977 | ARISTOSPAN NDA-016466 | 38 | 1 (06/05/2024) |         	Warnings and Precautions |
+| 2978 | ARISTOCORT NDA-012802 | 38 | 1 (06/05/2024) |         	Warnings and Precautions |
+| 2979 | CALQUENCE NDA-216387 | 57 | 3 (02/19/2026, 01/16/2025, 06/05/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 298 | KEPIVANCE BLA-125103 | 39 | 2 (12/18/2019, 07/01/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2980 | MOTPOLY XR NDA-216185 | 37 | 1 (06/07/2024) |         	Adverse Reactions |
+| 2981 | VANCOMYCIN HYDROCHLORIDE IN PLASTIC CONTAINER NDA-050671 | 35 | 3 (06/09/2026, 05/29/2025, 06/07/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2982 | TAVNEOS NDA-214487 | 34 | 1 (06/03/2024) |         	Drug Interactions |
+| 2983 | EPHEDRINE SULFATE NDA-208609 | 35 | 1 (06/10/2024) |         	Use in Specific Populations |
+| 2984 | KLISYRI NDA-213189 | 36 | 3 (06/07/2024, 06/07/2024, 06/07/2024) |         	Adverse Reactions |
+| 2985 | RETEVMO NDA-218160 | 62 | 6 (07/14/2026, 11/20/2025, 11/20/2025, 12/18/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2986 | HERCEPTIN HYLECTA BLA-761106 | 36 | 1 (06/18/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2987 | OJEMDA NDA-217700 | 40 | 2 (08/27/2025, 06/26/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2988 | OJEMDA NDA-218033 | 40 | 2 (08/27/2025, 06/26/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2989 | LIKMEZ NDA-216755 | 37 | 1 (07/08/2024) |         	Adverse Reactions,         	Warnings and Precautions, Warnings and Precautions |
+| 299 | AVELOX NDA-021085 | 62 | 6 (07/11/2025, 05/06/2020, 05/03/2019, 10/18/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 2990 | MYCAPSSA NDA-208232 | 36 | 1 (07/11/2024) |         	Adverse Reactions,         	Warnings and Precautions, Warnings and Precautions |
+| 2991 | LANREOTIDE ACETATE NDA-215395 | 39 | 2 (09/16/2024, 07/11/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 2992 | SUNLENCA NDA-215973 | 48 | 3 (08/27/2026, 11/25/2024, 07/17/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2993 | SUNLENCA NDA-215974 | 50 | 4 (08/27/2026, 11/25/2024, 11/13/2024, 07/17/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 2994 | TOFIDENCE BLA-761354 | 64 | 4 (05/22/2026, 03/06/2025, 12/03/2024, 07/22/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 2995 | VYVGART BLA-761195 | 39 | 4 (05/08/2026, 10/17/2025, 08/08/2024, 07/24/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 2996 | POMBILITI BLA-761204 | 36 | 1 (07/25/2024) |         	Adverse Reactions,         	Use in Specific Populations |
+| 2997 | OPFOLDA NDA-215211 | 33 | 1 (07/25/2024) |         	Adverse Reactions |
+| 2998 | AZASITE NDA-050810 | 34 | 1 (07/25/2024) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 2999 | PHYRAGO NDA-216099 | 42 | 3 (08/01/2025, 12/03/2024, 07/31/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 30 | RANEXA NDA-021526 | 36 | 3 (08/07/2019, 08/07/2019, 01/06/2016) |         	Adverse Reactions |
+| 300 | GLEEVEC NDA-021588 | 58 | 12 (07/13/2026, 01/14/2026, 08/19/2022, 03/24/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3000 | SUCRAID BLA-020772 | 38 | 1 (08/02/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3001 | FOTIVDA NDA-212904 | 36 | 1 (08/06/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3002 | LEUPROLIDE ACETATE FOR DEPOT SUSPENSION NDA-205054 | 41 | 2 (11/14/2024, 08/08/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3003 | REZVOGLAR BLA-761215 | 34 | 1 (08/09/2024) |         	Adverse Reactions |
+| 3004 | FUROSCIX NDA-209988 | 44 | 4 (07/23/2026, 12/22/2025, 03/06/2025, 08/09/2024) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3005 | SCENESSE NDA-210797 | 37 | 1 (08/12/2024) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 3006 | NEXOBRID BLA-761192 | 34 | 1 (08/15/2024) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3007 | EMERPHED NDA-213407 | 36 | 1 (08/15/2024) |         	Drug Interactions,         	Use in Specific Populations |
+| 3009 | SIMLANDI BLA-761299 | 45 | 4 (10/16/2025, 02/14/2025, 08/26/2024, 08/26/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 301 | AVELOX IN SODIUM CHLORIDE 0.8% IN PLASTIC CONTAINER NDA-021277 | 62 | 6 (07/11/2025, 05/06/2020, 05/03/2019, 10/18/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 3010 | ROSZET NDA-213072 | 48 | 1 (08/26/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3011 | GLOPERBA NDA-210942 | 36 | 1 (08/28/2024) |         	Warnings and Precautions |
+| 3012 | AMPHADASE BLA-021665 | 36 | 1 (08/28/2024) |         	Drug Interactions,         	Use in Specific Populations |
+| 3013 | POTASSIUM PHOSPHATES NDA-212832 | 33 | 1 (08/30/2024) |         	Warnings and Precautions |
+| 3014 | DERMA-SMOOTHE/FS NDA-019452 | 33 | 1 (08/30/2024) |         	Use in Specific Populations |
+| 3015 | DERMOTIC NDA-019452 | 34 | 1 (08/30/2024) |         	Use in Specific Populations |
+| 3016 | CYTOXAN NDA-012142 | 50 | 1 (09/05/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Use in Specific Populations |
+| 3017 | CYTOXAN (LYOPHILIZED) NDA-012142 | 50 | 1 (09/05/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Use in Specific Populations |
+| 3018 | LYOPHILIZED CYTOXAN NDA-012142 | 50 | 1 (09/05/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Use in Specific Populations |
+| 3019 | FILSPARI NDA-216403 | 55 | 3 (04/13/2026, 08/27/2025, 09/05/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 302 | EVOTAZ NDA-206353 | 85 | 7 (05/12/2025, 05/12/2023, 07/31/2020, 04/22/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions |
+| 3020 | LUCEMYRA NDA-209229 | 34 | 1 (09/05/2024) |         	Drug Interactions |
+| 3021 | VEOZAH NDA-216578 | 50 | 2 (12/16/2024, 08/31/2024) |         	Adverse Reactions,         	Warnings and Precautions, Boxed Warning |
+| 3022 | CHOLINE C-11 NDA-203155 | 34 | 1 (09/09/2024) |         	Use in Specific Populations |
+| 3023 | METHOTREXATE NDA-214121 | 35 | 2 (03/13/2026, 09/12/2024) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions |
+| 3024 | IYUZEH NDA-216472 | 33 | 1 (09/16/2024) |         	Adverse Reactions |
+| 3025 | ZYCLARA NDA-022483 | 56 | 1 (09/16/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 3026 | BIMZELX BLA-761151 | 52 | 3 (11/19/2024, 10/11/2024, 09/20/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 3027 | TRUQAP NDA-218197 | 55 | 4 (06/12/2026, 11/14/2025, 02/13/2025, 09/23/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 3028 | ALDARA NDA-020723 | 49 | 1 (09/25/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3029 | DAYBUE NDA-217026 | 48 | 4 (03/27/2026, 08/05/2025, 09/30/2024, 09/30/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 303 | HICON NDA-021305 | 72 | 2 (06/11/2021, 07/08/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3030 | LOCOID LIPOCREAM NDA-020769 | 48 | 1 (10/03/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Use in Specific Populations, Warnings and Precautions |
+| 3031 | GEMTESA NDA-213006 | 40 | 2 (12/18/2024, 10/08/2024) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 3032 | SOVUNA NDA-214581 | 35 | 1 (10/10/2024) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3033 | CABAZITAXEL NDA-207949 | 48 | 1 (10/10/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 3034 | SELARSDI BLA-761343 | 46 | 3 (12/01/2025, 10/18/2024, 10/18/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 3035 | JYLAMVO NDA-212479 | 48 | 3 (05/27/2026, 10/23/2024, 10/23/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 3036 | JUBBONTI BLA-761362 | 37 | 2 (10/29/2025, 10/24/2024) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations |
+| 3037 | LIQUAEMIN LOCK FLUSH NDA-000552 | 34 | 1 (10/24/2024) |         	Warnings and Precautions |
+| 3038 | LIQUAEMIN SODIUM NDA-000552 | 34 | 1 (10/24/2024) |         	Warnings and Precautions |
+| 3039 | LIQUAEMIN SODIUM PRESERVATIVE FREE NDA-000552 | 34 | 1 (10/24/2024) |         	Warnings and Precautions |
+| 304 | ISONIAZID NDA-008678 | 37 | 2 (02/05/2025, 07/13/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 3040 | HEPARIN LOCK FLUSH NDA-017064 | 34 | 1 (10/24/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3041 | TOLSURA NDA-208901 | 35 | 1 (10/25/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3042 | BRIUMVI BLA-761238 | 47 | 3 (01/16/2026, 08/18/2025, 10/30/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3043 | VOXZOGO NDA-214938 | 33 | 1 (11/04/2024) |         	Adverse Reactions |
+| 3044 | INFUVITE PEDIATRIC NDA-021265 | 35 | 1 (11/06/2024) |         	Use in Specific Populations |
+| 3045 | INFUVITE ADULT NDA-021163 | 35 | 1 (11/06/2024) |         	Use in Specific Populations |
+| 3046 | VONJO NDA-208712 | 55 | 5 (07/20/2026, 03/18/2026, 10/01/2025, 08/22/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 3047 | EPYSQLI BLA-761340 | 39 | 1 (11/15/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations, Medication Guide |
+| 3048 | FLUDARABINE PHOSPHATE NDA-022137 | 52 | 1 (11/19/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3049 | PAXLOVID (COPACKAGED) NDA-217188 | 47 | 5 (02/11/2026, 02/11/2026, 02/12/2025, 01/31/2025) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations |
+| 305 | LAMPRENE NDA-019500 | 48 | 2 (01/31/2019, 07/08/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3050 | COXANTO NDA-217927 | 34 | 1 (11/21/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3051 | COMBOGESIC NDA-209471 | 35 | 1 (11/21/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3052 | COMBOGESIC IV NDA-215320 | 35 | 1 (11/21/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3053 | PHESGO BLA-761170 | 33 | 1 (11/22/2024) |         	Adverse Reactions |
+| 3054 | LUNSUMIO BLA-761263 | 43 | 2 (06/18/2026, 11/22/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3055 | MELOXICAM NDA-021530 | 35 | 1 (11/21/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3056 | BKEMV BLA-761333 | 38 | 2 (11/24/2025, 10/23/2024) |         	Adverse Reactions,         	Drug Interactions |
+| 3057 | IWILFIN NDA-215500 | 33 | 1 (11/26/2024) |         	Use in Specific Populations |
+| 3058 | MEROPENEM NDA-215212 | 34 | 1 (12/03/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3059 | TYENNE BLA-761275 | 62 | 4 (05/21/2026, 02/28/2025, 12/13/2024, 12/03/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 306 | MIRVASO NDA-204708 | 42 | 1 (07/27/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 3060 | BOSULIF NDA-217729 | 35 | 2 (03/02/2026, 12/03/2024) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3061 | IC-GREEN NDA-011525 | 44 | 1 (12/05/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3062 | VTAMA NDA-215272 | 37 | 1 (12/12/2024) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3063 | CEFAZOLIN SODIUM NDA-216109 | 40 | 1 (12/18/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3064 | KANJINTI BLA-761073 | 41 | 1 (12/19/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3065 | WEZLANA BLA-761285 | 52 | 3 (05/12/2026, 09/25/2025, 12/26/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 3066 | WEZLANA BLA-761331 | 52 | 3 (05/12/2026, 09/25/2025, 12/26/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 3067 | PYZCHIVA BLA-761373 | 44 | 2 (11/18/2025, 12/20/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 3068 | PYZCHIVA BLA-761425 | 44 | 2 (11/18/2025, 12/20/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 3069 | CYCLOPHOSPHAMIDE NDA-217150 | 39 | 1 (12/30/2024) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 307 | ILARIS BLA-125319 | 108 | 8 (11/01/2024, 08/25/2023, 06/16/2020, 12/22/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 3070 | PYRUKYND NDA-216196 | 37 | 1 (01/03/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3071 | SECUADO NDA-212268 | 36 | 1 (01/22/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3072 | RISVAN NDA-214835 | 34 | 1 (01/22/2025) |         	Warnings and Precautions |
+| 3073 | ERZOFRI NDA-216352 | 34 | 1 (01/22/2025) |         	Warnings and Precautions |
+| 3074 | RYKINDO NDA-212849 | 34 | 2 (01/16/2026, 01/22/2025) |         	Drug Interactions,         	Warnings and Precautions |
+| 3075 | UZEDY NDA-213586 | 37 | 3 (10/10/2025, 10/10/2025, 01/22/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3076 | ABILIFY ASIMTUFII NDA-217006 | 39 | 1 (01/22/2025) |         	Adverse Reactions,         	Use in Specific Populations, Patient Counseling Information |
+| 3077 | FRINDOVYX NDA-210852 | 37 | 1 (01/24/2025) |         	Drug Interactions,         	Use in Specific Populations |
+| 3078 | ONGENTYS NDA-212489 | 33 | 2 (10/10/2025, 02/07/2025) |         	Adverse Reactions |
+| 3079 | ENZEEVU BLA-761382 | 38 | 2 (02/12/2026, 02/10/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 308 | HUMULIN R BLA-018780 | 65 | 5 (06/27/2022, 11/15/2019, 08/22/2019, 05/25/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3080 | NYDRAZID NDA-008662 | 36 | 1 (02/05/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3081 | CAMCEVI KIT NDA-211488 | 37 | 2 (09/23/2025, 02/11/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3082 | IZERVAY NDA-217225 | 36 | 2 (02/27/2026, 02/12/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3083 | PROLENSA NDA-203168 | 34 | 1 (02/18/2025) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 3084 | OTULFI BLA-761379 | 45 | 2 (01/15/2026, 02/19/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3085 | FRUZAQLA NDA-217564 | 37 | 1 (02/28/2025) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3086 | ONTRUZANT BLA-761100 | 38 | 1 (02/28/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3087 | NEFFY NDA-214697 | 41 | 3 (03/26/2026, 10/24/2025, 03/05/2025) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3088 | ILUVIEN NDA-201923 | 39 | 1 (03/12/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3089 | SOLODYN NDA-050808 | 50 | 3 (04/01/2025, 03/18/2025, 03/18/2025) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 309 | GLYXAMBI NDA-206073 | 124 | 17 (10/24/2025, 10/30/2023, 10/13/2022, 03/21/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3090 | XPHOZAH NDA-213931 | 36 | 2 (06/16/2025, 03/21/2025) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3091 | ZAVZPRET NDA-216386 | 43 | 2 (08/01/2025, 03/21/2025) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 3092 | ELIGARD KIT NDA-021379 | 41 | 3 (05/06/2026, 02/24/2025, 02/15/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 3093 | ELIGARD KIT NDA-021488 | 41 | 3 (05/06/2026, 02/24/2025, 02/15/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 3094 | ELIGARD KIT NDA-021731 | 41 | 3 (05/06/2026, 02/24/2025, 02/15/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 3095 | RIVFLOZA NDA-215842 | 36 | 1 (03/27/2025) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3096 | RINVOQ LQ NDA-218347 | 43 | 3 (06/30/2026, 10/10/2025, 03/26/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 3097 | PLUVICTO NDA-215833 | 43 | 3 (07/31/2026, 03/28/2025, 03/28/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3098 | LOCAMETZ NDA-215841 | 34 | 1 (03/28/2025) |         	Adverse Reactions |
+| 3099 | ACHROMYCIN V NDA-050278 | 34 | 1 (03/31/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 31 | BOTOX BLA-103000 | 143 | 15 (10/18/2024, 08/11/2023, 08/10/2023, 09/13/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 310 | EPIVIR NDA-020564 | 40 | 2 (04/27/2018, 07/20/2016) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 3100 | MINOCIN NDA-050444 | 33 | 1 (03/31/2025) |         	Warnings and Precautions, Warnings |
+| 3101 | XERAVA NDA-211109 | 33 | 1 (03/31/2025) |         	Warnings and Precautions |
+| 3102 | NUZYRA NDA-209816 | 35 | 2 (05/13/2026, 03/31/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3103 | NUZYRA NDA-209817 | 35 | 2 (05/13/2026, 03/31/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3104 | PERIOSTAT NDA-050783 | 34 | 1 (04/01/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3105 | TRYVIO NDA-217686 | 39 | 1 (04/02/2025) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 3106 | UPLIZNA BLA-761142 | 50 | 2 (12/11/2025, 04/03/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3107 | RETISERT NDA-021737 | 35 | 1 (04/04/2025) |         	Use in Specific Populations |
+| 3108 | OPSYNVI NDA-218490 | 40 | 1 (04/02/2025) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Contraindications |
+| 3109 | ISTURISA NDA-212801 | 45 | 2 (07/03/2025, 04/15/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 311 | EPIVIR NDA-020596 | 40 | 2 (04/27/2018, 07/20/2016) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 3110 | OJJAARA NDA-216873 | 43 | 4 (07/20/2026, 03/18/2026, 03/18/2026, 04/18/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3111 | TEVIMBRA BLA-761232 | 51 | 6 (08/25/2026, 12/09/2025, 12/09/2025, 12/09/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3112 | POSFREA NDA-203050 | 43 | 1 (04/16/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3113 | FYLNETRA BLA-761084 | 37 | 1 (04/23/2025) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3114 | DAPZURA RT NDA-213645 | 33 | 1 (04/30/2025) |         	Adverse Reactions |
+| 3115 | ALHEMO BLA-761315 | 40 | 2 (07/31/2025, 05/02/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3116 | ONYDA XR NDA-217645 | 36 | 1 (05/07/2025) |         	Warnings and Precautions |
+| 3117 | ZINECARD NDA-020212 | 40 | 1 (05/12/2025) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 3118 | DRAXIMAGE MDP-25 NDA-018035 | 35 | 1 (05/22/2025) |         	Drug Interactions,         	Warnings and Precautions |
+| 3119 | PAMIDRONATE DISODIUM NDA-021113 | 39 | 1 (05/22/2025) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 312 | ELIQUIS NDA-202155 | 69 | 8 (04/17/2025, 10/12/2021, 04/20/2021, 11/26/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3120 | TECHNETIUM TC-99M MEDRONATE KIT NDA-018107 | 35 | 1 (05/22/2025) |         	Drug Interactions,         	Warnings and Precautions |
+| 3121 | PHOSPHOTEC NDA-017680 | 35 | 1 (05/22/2025) |         	Drug Interactions,         	Warnings and Precautions |
+| 3122 | EPINEPHRINE NDA-209359 | 33 | 1 (05/13/2025) |         	Adverse Reactions |
+| 3123 | CIS-MDP NDA-018124 | 35 | 1 (05/22/2025) |         	Drug Interactions,         	Warnings and Precautions |
+| 3124 | ZORYVE NDA-217242 | 45 | 1 (05/22/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 3125 | DAPTOMYCIN NDA-217415 | 33 | 1 (04/30/2025) |         	Adverse Reactions |
+| 3126 | OSTEOLITE NDA-017972 | 35 | 1 (05/22/2025) |         	Drug Interactions,         	Warnings and Precautions |
+| 3127 | METHERGINE NDA-006035 | 36 | 1 (05/29/2025) |         	Warnings and Precautions |
+| 3128 | CIS-PYRO NDA-019039 | 35 | 1 (05/22/2025) |         	Drug Interactions,         	Warnings and Precautions |
+| 3129 | JOENJA NDA-217759 | 45 | 2 (09/11/2026, 05/28/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Precautions |
+| 313 | CAPRELSA NDA-022405 | 63 | 7 (05/14/2025, 03/07/2024, 03/28/2022, 06/15/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 3130 | MERREM IV NDA-050706 | 33 | 1 (05/02/2025) |         	Adverse Reactions |
+| 3131 | OPDIVO QVANTIG BLA-761381 | 58 | 5 (05/12/2026, 11/24/2025, 10/27/2025, 10/27/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3132 | OPUVIZ BLA-761350 | 33 | 1 (06/06/2025) |         	Adverse Reactions |
+| 3133 | VYLOY BLA-761365 | 34 | 1 (06/06/2025) |         	Adverse Reactions |
+| 3134 | DEXTROSE 5% IN PLASTIC CONTAINER NDA-016367 | 34 | 1 (06/09/2025) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 3135 | DEXTROSE 10% IN PLASTIC CONTAINER NDA-018080 | 34 | 1 (06/09/2025) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 3136 | STERITALC NDA-205555 | 34 | 1 (06/10/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3137 | HECTOROL NDA-020862 | 33 | 1 (06/11/2025) |         	Use in Specific Populations |
+| 3138 | TALZENNA NDA-217439 | 35 | 1 (06/12/2025) |         	Warnings and Precautions |
+| 3139 | DEXTROSE 5% IN PLASTIC CONTAINER NDA-019466 | 39 | 1 (06/06/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 314 | AROMASIN NDA-020753 | 45 | 3 (12/16/2024, 11/17/2021, 07/25/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3140 | DEXTROSE 5% IN PLASTIC CONTAINER NDA-019479 | 39 | 1 (06/06/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3141 | HARLIKU NDA-209449 | 44 | 1 (06/10/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3142 | ZEJULA NDA-214876 | 40 | 1 (06/18/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3143 | MONJUVI BLA-761163 | 49 | 1 (06/18/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3144 | OMTRYG NDA-204977 | 41 | 1 (06/20/2025) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3145 | NEMLUVIO BLA-761391 | 42 | 1 (06/26/2025) |         	Adverse Reactions,         	Use in Specific Populations, Adverse Reactions |
+| 3146 | NORPRAMIN NDA-014399 | 35 | 1 (06/24/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3147 | MYHIBBIN NDA-216482 | 37 | 1 (06/27/2025) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 3148 | GAMIFANT BLA-761107 | 43 | 2 (03/17/2026, 06/27/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3149 | KISUNLA BLA-761248 | 43 | 1 (07/01/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 315 | ACETADOTE NDA-021539 | 42 | 2 (11/26/2024, 07/29/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3150 | SINEQUAN NDA-016798 | 44 | 1 (07/03/2025) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 3151 | SINEQUAN NDA-017516 | 44 | 1 (07/03/2025) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 3152 | ELREXFIO BLA-761345 | 35 | 3 (02/19/2026, 07/10/2025, 07/08/2025) |         	Adverse Reactions |
+| 3153 | AZMIRO NDA-216318 | 40 | 1 (07/11/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3154 | NGENLA BLA-761184 | 35 | 2 (04/29/2026, 07/09/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3155 | CENTANY NDA-050788 | 38 | 1 (07/10/2025) |         	Use in Specific Populations |
+| 3156 | OSMOLEX ER NDA-209410 | 36 | 1 (07/10/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3157 | KERENDIA NDA-215341 | 42 | 2 (09/16/2026, 07/11/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3158 | JATENZO NDA-206089 | 41 | 1 (07/11/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3159 | KYZATREX NDA-213953 | 43 | 1 (07/11/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 316 | PRISMASOL B22GK 2/0 IN PLASTIC CONTAINER NDA-021703 | 40 | 2 (06/30/2017, 07/20/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3160 | TLANDO NDA-208088 | 43 | 1 (07/11/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3161 | CUPRIC CHLORIDE IN PLASTIC CONTAINER NDA-018960 | 36 | 1 (07/09/2025) |         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 3162 | NEMLUVIO BLA-761390 | 43 | 1 (06/26/2025) |         	Adverse Reactions,         	Use in Specific Populations, Adverse Reactions |
+| 3163 | VIJOICE NDA-218466 | 35 | 1 (07/22/2025) |         	Adverse Reactions |
+| 3164 | DEXTROSE 25% NDA-019445 | 43 | 2 (07/25/2025, 07/25/2025) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3165 | DEXTROSE 50% NDA-019445 | 46 | 2 (07/25/2025, 07/25/2025) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3166 | FEMLYV NDA-218718 | 34 | 1 (07/29/2025) | (section heading appears as e.g. numbered text, see raw) |
+| 3167 | AVTOZMA BLA-761420 | 41 | 3 (09/29/2026, 01/14/2026, 07/29/2025) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3168 | ATROPINE SULFATE NDA-021146 | 36 | 1 (07/30/2025) |         	Use in Specific Populations |
+| 3169 | CORTISPORIN NDA-050168 | 33 | 1 (08/08/2025) |         	Adverse Reactions |
+| 317 | PHOXILLUM B22K 4/0 IN PLASTIC CONTAINER NDA-207026 | 40 | 2 (06/30/2017, 07/20/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3170 | CORTISPORIN NDA-050218 | 33 | 1 (08/08/2025) |         	Adverse Reactions |
+| 3171 | CORTISPORIN NDA-050479 | 33 | 1 (08/08/2025) |         	Adverse Reactions |
+| 3172 | POLYTRIM NDA-050567 | 33 | 1 (08/04/2025) |         	Adverse Reactions |
+| 3173 | BYOOVIZ BLA-761202 | 36 | 1 (08/15/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3174 | TECENTRIQ HYBREZA BLA-761347 | 46 | 5 (05/12/2026, 11/24/2025, 11/17/2025, 10/02/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 3175 | OCREVUS ZUNOVO BLA-761371 | 37 | 1 (08/18/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3176 | TERCONAZOLE NDA-021735 | 40 | 1 (08/22/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3177 | TRAZIMERA BLA-761081 | 39 | 1 (08/21/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3178 | KLOXXADO NDA-212045 | 37 | 1 (08/25/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3179 | VIGAFYDE NDA-217684 | 38 | 2 (09/03/2025, 09/03/2025) |         	Warnings and Precautions |
+| 318 | DECADRON NDA-011664 | 37 | 3 (05/08/2019, 04/23/2018, 07/29/2016) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3180 | RETIN-A MICRO NDA-020475 | 53 | 1 (09/10/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3181 | EPKINLY BLA-761324 | 50 | 4 (06/17/2026, 03/27/2026, 11/18/2025, 09/11/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Warnings |
+| 3182 | STOBOCLO BLA-761404 | 35 | 1 (09/10/2025) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3183 | OSENVELT BLA-761404 | 35 | 1 (09/10/2025) |         	Adverse Reactions |
+| 3184 | HYMPAVZI BLA-761369 | 49 | 2 (06/05/2026, 09/16/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3185 | ALPHAGAN P NDA-021262 | 37 | 1 (09/18/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3186 | ALPHAGAN P NDA-021770 | 37 | 1 (09/18/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3187 | ALPHAGAN NDA-020490 | 36 | 1 (09/18/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3188 | ACULAR NDA-019700 | 34 | 1 (09/18/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3189 | ATROPINE SULFATE NDA-206289 | 37 | 1 (09/18/2025) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 319 | DOCETAXEL NDA-201195 | 58 | 4 (09/20/2023, 07/20/2020, 06/21/2019, 07/26/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Counseling Information, Patient Information, Warnings and Precautions |
+| 3190 | DEXEDRINE SPANSULE NDA-017078 | 33 | 1 (09/23/2025) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 3191 | ZOLADEX NDA-020515 | 36 | 2 (05/06/2026, 09/23/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3192 | ALYFTREK NDA-218730 | 43 | 3 (03/27/2026, 03/17/2026, 09/25/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3193 | ITOVEBI NDA-219249 | 36 | 2 (04/15/2026, 09/25/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3194 | PYRIDOSTIGMINE BROMIDE NDA-020414 | 37 | 1 (09/26/2025) |         	Contraindications,         	Use in Specific Populations, Boxed Warning |
+| 3195 | ZOLADEX NDA-020578 | 36 | 2 (05/06/2026, 09/23/2025) |         	Adverse Reactions,         	Warnings and Precautions, Adverse Reactions |
+| 3196 | TALVEY BLA-761342 | 35 | 1 (10/02/2025) |         	Warnings and Precautions |
+| 3197 | DOVONEX NDA-020273 | 32 | 1 (10/03/2025) |         	Adverse Reactions |
+| 3198 | DOVONEX NDA-020554 | 32 | 1 (10/03/2025) |         	Adverse Reactions |
+| 3199 | AXTLE NDA-210661 | 35 | 1 (10/03/2025) |         	Adverse Reactions |
+| 32 | FLUORESCITE NDA-021980 | 43 | 3 (06/10/2026, 11/17/2021, 02/02/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 320 | DUREZOL NDA-022212 | 40 | 2 (07/15/2025, 07/29/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3200 | OLPRUVA NDA-214860 | 36 | 1 (10/10/2025) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3201 | MIEBO NDA-216675 | 32 | 1 (10/21/2025) |         	Adverse Reactions,         	Contraindications |
+| 3202 | COLUMVI BLA-761309 | 37 | 3 (06/22/2026, 05/28/2026, 10/27/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3203 | EBGLYSS BLA-761306 | 32 | 1 (10/28/2025) |         	Use in Specific Populations, Adverse Reactions |
+| 3204 | REVUFORJ NDA-218944 | 39 | 1 (10/24/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3205 | WYOST BLA-761362 | 33 | 1 (10/29/2025) |         	Adverse Reactions |
+| 3206 | TYRUKO BLA-761322 | 35 | 1 (10/30/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3207 | VOQUEZNA NDA-215151 | 37 | 1 (11/06/2025) |         	Use in Specific Populations |
+| 3208 | LAZCLUZE NDA-219008 | 42 | 2 (04/30/2026, 11/07/2025) |         	Adverse Reactions,         	Warnings and Precautions, Adverse Reactions |
+| 3209 | ZOVIRAX NDA-020089 | 34 | 1 (11/12/2025) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 321 | MERREM NDA-050706 | 44 | 5 (12/03/2024, 04/27/2019, 06/05/2018, 12/30/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 3210 | ZOVIRAX NDA-019909 | 34 | 1 (11/12/2025) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 3211 | ZOVIRAX NDA-018828 | 34 | 1 (11/12/2025) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 3212 | NATACYN NDA-050514 | 36 | 1 (11/17/2025) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3213 | MEMBRANEBLUE NDA-022278 | 35 | 1 (11/17/2025) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 3214 | KOSELUGO NDA-219943 | 46 | 2 (05/26/2026, 11/19/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3215 | IMDELLTRA BLA-761344 | 53 | 2 (09/11/2026, 11/19/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 3216 | IGALMI NDA-215390 | 35 | 1 (11/19/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3217 | QOLIANA NDA-021764 | 44 | 1 (11/21/2025) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3218 | PANRETIN NDA-020886 | 43 | 1 (11/17/2025) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3219 | IMULDOSA BLA-761364 | 50 | 2 (06/05/2026, 11/20/2025) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 322 | FLUOROPLEX NDA-016988 | 36 | 2 (02/28/2022, 07/25/2016) |         	Warnings and Precautions |
+| 3220 | KEYTRUDA QLEX BLA-761467 | 53 | 5 (06/24/2026, 06/12/2026, 05/12/2026, 02/10/2026) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3221 | BLUJEPA NDA-218230 | 50 | 1 (12/11/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Use in Specific Populations |
+| 3222 | PEMETREXED DISODIUM NDA-214657 | 33 | 1 (12/15/2025) |         	Drug Interactions,         	Use in Specific Populations |
+| 3223 | WINREVAIR BLA-761363 | 52 | 6 (09/21/2026, 09/21/2026, 09/21/2026, 08/12/2026) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications |
+| 3224 | RYSTIGGO BLA-761286 | 33 | 1 (12/09/2025) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3225 | REZZAYO NDA-217417 | 35 | 2 (07/16/2026, 12/10/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3226 | AKEEGA NDA-216793 | 40 | 1 (12/12/2025) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3227 | ADBRY BLA-761180 | 35 | 1 (12/12/2025) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3228 | STEQEYMA BLA-761338 | 40 | 1 (12/12/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3229 | REZDIFFRA NDA-217785 | 47 | 4 (07/24/2026, 12/19/2025, 12/19/2025, 12/19/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 323 | JARDIANCE NDA-204629 | 141 | 15 (10/24/2025, 09/21/2023, 09/12/2023, 06/20/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 3230 | HYDROMORPHONE HYDROCHLORIDE NDA-217812 | 41 | 1 (12/22/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3231 | PROSTIN VR PEDIATRIC NDA-018484 | 32 | 1 (12/22/2025) |         	Warnings and Precautions |
+| 3232 | ORLYNVAH NDA-213972 | 33 | 1 (12/23/2025) |         	Warnings and Precautions |
+| 3233 | YESINTEK BLA-761406 | 48 | 2 (08/14/2026, 01/07/2026) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 3234 | ROGAINE (FOR MEN) NDA-019501 | 31 | 1 (01/14/2026) |         	Warnings and Precautions, Warnings |
+| 3235 | ROGAINE (FOR WOMEN) NDA-019501 | 31 | 1 (01/14/2026) |         	Warnings and Precautions, Warnings |
+| 3236 | ROGAINE EXTRA STRENGTH (FOR MEN) NDA-020834 | 31 | 1 (01/14/2026) |         	Warnings and Precautions, Warnings |
+| 3237 | MEN'S ROGAINE NDA-021812 | 31 | 1 (01/14/2026) |         	Warnings and Precautions, Warnings |
+| 3238 | WOMEN'S ROGAINE NDA-021812 | 31 | 1 (01/14/2026) |         	Warnings and Precautions, Warnings |
+| 3239 | YESAFILI BLA-761274 | 32 | 1 (01/13/2026) |         	Adverse Reactions |
+| 324 | NAMZARIC NDA-206439 | 37 | 1 (07/18/2016) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 3240 | ALVAIZ NDA-216774 | 35 | 1 (01/15/2026) |         	Drug Interactions,         	Warnings and Precautions |
+| 3241 | ZIRGAN NDA-022211 | 34 | 1 (01/20/2026) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 3243 | JOURNAVX NDA-219209 | 31 | 1 (01/23/2026) | (section heading appears as e.g. numbered text, see raw) |
+| 3244 | IDOSE TR NDA-218010 | 33 | 1 (01/27/2026) |         	Warnings and Precautions |
+| 3245 | XIMINO NDA-201922 | 52 | 1 (01/29/2026) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3246 | LIVDELZI NDA-217899 | 32 | 1 (01/30/2026) |         	Drug Interactions |
+| 3247 | ATROPINE SULFATE NDA-214652 | 32 | 1 (02/04/2026) |         	Use in Specific Populations |
+| 3248 | NOREPINEPHRINE BITARTRATE IN 5% DEXTROSE NDA-214313 | 34 | 1 (02/06/2026) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3249 | REGLAN NDA-017862 | 46 | 1 (02/09/2026) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 325 | THALLOUS CHLORIDE TL 201 NDA-018150 | 42 | 2 (12/10/2025, 07/13/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3250 | EVRYSDI NDA-219285 | 34 | 2 (09/14/2026, 02/10/2026) |         	Adverse Reactions |
+| 3251 | RAPIBLYK NDA-217202 | 35 | 1 (02/13/2026) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3252 | CEFAZOLIN SODIUM NDA-211413 | 32 | 1 (02/13/2026) |         	Use in Specific Populations |
+| 3253 | ARBLI NDA-218772 | 32 | 1 (02/18/2026) |         	Adverse Reactions |
+| 3254 | ROBINUL NDA-017558 | 35 | 1 (02/24/2026) |         	Use in Specific Populations |
+| 3255 | ZIOPTAN NDA-202514 | 39 | 1 (02/25/2026) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 3256 | JASCAYD NDA-218764 | 40 | 2 (08/14/2026, 02/26/2026) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 3257 | RIZAFILM NDA-205394 | 35 | 1 (02/26/2026) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations |
+| 3258 | KEFLEX NDA-050406 | 37 | 1 (03/05/2026) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3259 | SOTYKTU NDA-214958 | 47 | 2 (06/30/2026, 03/06/2026) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 326 | YONDELIS NDA-207953 | 49 | 6 (12/23/2025, 06/03/2020, 12/28/2018, 06/29/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3260 | OGSIVEO NDA-217677 | 40 | 3 (08/20/2026, 07/17/2026, 03/10/2026) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3261 | APHEXDA NDA-217159 | 32 | 1 (03/11/2026) |         	Adverse Reactions |
+| 3263 | COMBIGAN NDA-021398 | 41 | 1 (03/17/2026) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3264 | XTORO NDA-206307 | 33 | 1 (03/18/2026) | (section heading appears as e.g. numbered text, see raw) |
+| 3266 | SINEMET NDA-017555 | 33 | 1 (03/19/2026) |         	Warnings and Precautions |
+| 3267 | CREXONT NDA-217186 | 35 | 2 (05/15/2026, 03/19/2026) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3268 | VYALEV NDA-216962 | 35 | 1 (03/19/2026) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3269 | SINEMET CR NDA-019856 | 34 | 1 (03/19/2026) |         	Adverse Reactions,         	Warnings and Precautions |
+| 327 | ALINIA NDA-021497 | 42 | 2 (12/16/2021, 07/11/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 3270 | WEGOVY NDA-218316 | 34 | 1 (03/19/2026) |         	Adverse Reactions |
+| 3271 | CHILDREN'S ZYRTEC ALLERGY NDA-021621 | 32 | 1 (03/24/2026) |         	Warnings and Precautions |
+| 3273 | VAFSEO NDA-215192 | 33 | 1 (04/01/2026) |         	Use in Specific Populations |
+| 3274 | COSOPT PF NDA-202667 | 35 | 1 (04/09/2026) |         	Use in Specific Populations |
+| 3275 | ONUREG NDA-214120 | 37 | 1 (04/09/2026) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3276 | VANFLYTA NDA-216993 | 32 | 1 (04/13/2026) |         	Drug Interactions |
+| 3277 | DANZITEN NDA-219293 | 33 | 1 (04/14/2026) | (section heading appears as e.g. numbered text, see raw) |
+| 3278 | WAINUA (AUTOINJECTOR) NDA-217388 | 32 | 1 (04/15/2026) | (section heading appears as e.g. numbered text, see raw) |
+| 3279 | TZIELD BLA-761183 | 53 | 1 (04/20/2026) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 328 | ALINIA NDA-021498 | 40 | 1 (07/11/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 3280 | ZURZUVAE NDA-217369 | 40 | 1 (04/20/2026) |         	Use in Specific Populations |
+| 3281 | SYMBICORT AEROSPHERE NDA-216579 | 54 | 1 (04/27/2026) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3282 | BREZTRI AEROSPHERE NDA-212122 | 55 | 1 (04/27/2026) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 3283 | PAVBLU BLA-761298 | 32 | 1 (04/28/2026) |         	Adverse Reactions |
+| 3284 | PYRIDOSTIGMINE BROMIDE NDA-217604 | 33 | 1 (05/12/2026) |         	Warnings and Precautions |
+| 3285 | BIZENGRI BLA-761352 | 36 | 1 (05/08/2026) |         	Adverse Reactions |
+| 3286 | TYENNE BLA-761449 | 39 | 1 (05/21/2026) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3287 | XYZAL ALLERGY 24HR NDA-209089 | 31 | 1 (05/20/2026) |         	Warnings and Precautions |
+| 3288 | ARGATROBAN IN SODIUM CHLORIDE NDA-212035 | 35 | 2 (07/31/2026, 05/21/2026) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3289 | NULIBRY NDA-214018 | 34 | 1 (05/26/2026) |         	Use in Specific Populations |
+| 329 | ASMANEX HFA NDA-205641 | 54 | 4 (08/12/2019, 03/26/2018, 03/26/2018, 07/12/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3290 | DEXTROSE 5% IN PLASTIC CONTAINER NDA-016730 | 33 | 1 (05/12/2026) |         	Use in Specific Populations |
+| 3291 | DATROWAY BLA-761394 | 42 | 1 (05/22/2026) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3292 | UPTRAVI NDA-214275 | 42 | 1 (05/23/2026) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations, Adverse Reactions |
+| 3293 | VORANIGO NDA-218784 | 31 | 1 (06/10/2026) |         	Warnings and Precautions |
+| 3294 | ARGATROBAN IN SODIUM CHLORIDE NDA-209552 | 32 | 1 (06/10/2026) |         	Adverse Reactions |
+| 3295 | PARICALCITOL NDA-205917 | 32 | 1 (06/17/2026) |         	Use in Specific Populations |
+| 3296 | ZEGALOGUE NDA-214231 | 35 | 1 (06/18/2026) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3297 | ZEGALOGUE (AUTOINJECTOR) NDA-214231 | 35 | 1 (06/18/2026) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3298 | TRYNGOLZA (AUTOINJECTOR) NDA-218614 | 38 | 1 (06/24/2026) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3299 | LEQSELVI NDA-217900 | 34 | 1 (06/30/2026) |         	Warnings and Precautions |
+| 33 | GILENYA NDA-022527 | 94 | 10 (08/22/2025, 06/05/2024, 08/10/2023, 12/26/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 330 | CLINOLIPID 20% NDA-204508 | 71 | 5 (07/24/2025, 04/24/2024, 05/17/2023, 05/17/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3300 | ANZUPGO NDA-219155 | 34 | 1 (06/30/2026) |         	Warnings and Precautions |
+| 3301 | LITFULO NDA-215830 | 33 | 1 (06/30/2026) |         	Warnings and Precautions |
+| 3302 | ZYRTEC ALLERGY NDA-022578 | 31 | 1 (07/02/2026) |         	Warnings and Precautions |
+| 3303 | ZYRTEC-D 12 HOUR NDA-021150 | 31 | 1 (07/02/2026) |         	Warnings and Precautions |
+| 3304 | LUNSUMIO VELO BLA-761263 | 32 | 1 (06/18/2026) |         	Adverse Reactions |
+| 3305 | LEQEMBI IQLIK BLA-761375 | 38 | 1 (07/13/2026) |         	Adverse Reactions |
+| 3306 | SUBVENITE NDA-218879 | 38 | 1 (07/17/2026) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 3307 | ENDOMETRIN NDA-022057 | 45 | 1 (07/15/2026) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3308 | JAKAFI XR NDA-217180 | 31 | 1 (07/20/2026) |         	Adverse Reactions |
+| 3309 | CAMCEVI ETM NDA-219745 | 42 | 1 (07/21/2026) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 331 | DEXILANT SOLUTAB NDA-208056 | 43 | 2 (10/24/2016, 07/08/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3310 | MACRILEN NDA-205598 | 33 | 1 (07/23/2026) |         	Use in Specific Populations |
+| 3311 | IDKIT:HP NDA-021314 | 33 | 1 (07/24/2026) |         	Use in Specific Populations |
+| 3312 | TERIPARATIDE NDA-218771 | 36 | 1 (08/03/2026) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 3313 | YORVIPATH NDA-216490 | 36 | 1 (08/03/2026) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Warnings |
+| 3314 | INPEFA NDA-216203 | 36 | 1 (08/06/2026) |         	Adverse Reactions,         	Warnings and Precautions |
+| 3315 | IQIRVO NDA-218860 | 42 | 1 (08/07/2026) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3316 | RIOMET ER NDA-212595 | 34 | 1 (08/11/2026) |         	Warnings and Precautions, Boxed Warning |
+| 3317 | ZITUVIMET NDA-216743 | 34 | 1 (08/11/2026) |         	Warnings and Precautions, Boxed Warning |
+| 3318 | ZITUVIMET XR NDA-216778 | 34 | 1 (08/11/2026) |         	Warnings and Precautions, Boxed Warning |
+| 3319 | LIDOCAINE HYDROCHLORIDE PRESERVATIVE FREE NDA-017584 | 36 | 1 (08/17/2026) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 332 | DULERA NDA-022518 | 58 | 5 (08/12/2019, 03/23/2018, 03/23/2018, 12/20/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 3320 | TYZAVAN NDA-211962 | 41 | 1 (08/18/2026) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions, Warnings |
+| 3321 | IMAAVY BLA-761430 | 40 | 1 (08/24/2026) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 3322 | ZIIHERA BLA-761416 | 44 | 1 (08/25/2026) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3323 | PENPULIMAB-KCQX BLA-761258 | 31 | 1 (08/31/2026) |         	Warnings and Precautions |
+| 3324 | UNLOXCYT BLA-761297 | 33 | 1 (08/31/2026) |         	Warnings and Precautions |
+| 3325 | CEFAZOLIN IN DEXTROSE NDA-207131 | 31 | 1 (08/31/2026) |         	Adverse Reactions |
+| 3326 | BACTOCILL IN PLASTIC CONTAINER NDA-050640 | 31 | 1 (08/31/2026) |         	Adverse Reactions |
+| 3327 | FYARRO NDA-213312 | 33 | 1 (09/02/2026) |         	Drug Interactions,         	Use in Specific Populations |
+| 3328 | JYNARQUE NDA-204441 | 38 | 1 (09/15/2026) |         	Adverse Reactions,         	Warnings and Precautions, Boxed Warning |
+| 3329 | AQNEURSA NDA-219132 | 33 | 1 (09/18/2026) |         	Adverse Reactions,         	Use in Specific Populations |
+| 333 | DYSPORT BLA-125274 | 73 | 6 (09/21/2023, 09/25/2019, 11/05/2018, 06/14/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3330 | SOHONOS NDA-215559 | 32 | 1 (09/18/2026) | (section heading appears as e.g. numbered text, see raw) |
+| 3331 | INLURIYO NDA-218881 | 41 | 1 (09/18/2026) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3332 | PREXXARTAN NDA-209139 | 41 | 1 (09/22/2026) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 3333 | EYDENZELT BLA-761377 | 31 | 1 (09/29/2026) |         	Adverse Reactions |
+| 334 | EFFIENT NDA-022307 | 41 | 4 (12/22/2020, 03/28/2019, 03/09/2018, 07/12/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations, Patient Information |
+| 335 | FLOVENT DISKUS 100 NDA-020833 | 47 | 4 (01/07/2019, 07/19/2017, 10/05/2016, 07/28/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 3350 | AVTOZMA BLA-761498 | 35 | 1 (09/29/2026) |         	Adverse Reactions,         	Use in Specific Populations |
+| 3351 | PONLIMSI BLA-761385 | 33 | 1 (09/29/2026) |         	Adverse Reactions |
+| 3352 | MATULANE NDA-016785 | 34 | 1 (09/30/2026) |         	Use in Specific Populations |
+| 3353 | ROZLYTREK NDA-218550 | 38 | 1 (10/01/2026) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions |
+| 336 | PLEGRIDY BLA-125499 | 63 | 7 (07/28/2023, 03/29/2022, 11/03/2021, 01/29/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information, Warnings |
+| 337 | PRAVACHOL NDA-019898 | 57 | 3 (05/31/2022, 09/25/2020, 07/05/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 338 | XOLAIR BLA-103976 | 78 | 8 (08/06/2026, 02/16/2024, 03/17/2023, 04/09/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 339 | BRILINTA NDA-022433 | 65 | 13 (05/07/2026, 11/04/2024, 03/22/2024, 05/09/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide, Warnings |
+| 34 | VISTARIL NDA-011459 | 37 | 2 (11/08/2016, 02/18/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 340 | CUBICIN NDA-021572 | 76 | 9 (05/12/2025, 10/26/2021, 10/26/2021, 08/26/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Warnings |
+| 341 | NOROXIN NDA-019384 | 42 | 1 (07/26/2016) |         	Adverse Reactions,         	Warnings and Precautions, Boxed Warning |
+| 342 | SYNJARDY NDA-206111 | 140 | 17 (08/11/2026, 10/24/2025, 03/07/2025, 10/30/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 343 | MOXIFLOXACIN HYDROCHLORIDE NDA-205572 | 51 | 4 (03/27/2020, 05/03/2019, 10/18/2018, 07/26/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 344 | FACTIVE NDA-021158 | 52 | 4 (05/03/2019, 12/13/2018, 10/18/2018, 07/26/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 345 | LEVAQUIN NDA-020634 | 70 | 7 (06/22/2020, 06/28/2019, 05/03/2019, 10/18/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 346 | LEVAQUIN NDA-020635 | 44 | 2 (02/08/2017, 07/26/2016) |         	Adverse Reactions,         	Warnings and Precautions, Boxed Warning |
+| 347 | LEVAQUIN NDA-021721 | 44 | 2 (02/08/2017, 07/26/2016) |         	Adverse Reactions,         	Warnings and Precautions, Boxed Warning |
+| 348 | CIPRO NDA-019537 | 66 | 8 (09/20/2024, 11/11/2021, 05/08/2020, 03/05/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 349 | CIPRO NDA-019847 | 59 | 6 (09/20/2024, 03/05/2020, 05/03/2019, 10/18/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 35 | ATACAND NDA-020838 | 41 | 2 (06/24/2020, 02/09/2016) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 350 | CIPRO IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-019857 | 57 | 5 (03/05/2020, 05/03/2019, 10/18/2018, 07/26/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 351 | CIPRO NDA-020780 | 66 | 7 (09/20/2024, 05/08/2020, 03/05/2020, 05/03/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 352 | CIPRO XR NDA-021473 | 62 | 6 (05/08/2020, 03/05/2020, 05/03/2019, 10/18/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 353 | CALAN NDA-019038 | 33 | 1 (08/24/2016) |         	Drug Interactions |
+| 354 | CALAN SR NDA-019152 | 36 | 3 (10/28/2019, 09/14/2017, 08/24/2016) |         	Drug Interactions,         	Warnings and Precautions |
+| 355 | COVERA-HS NDA-020552 | 35 | 2 (09/14/2017, 08/24/2016) |         	Drug Interactions,         	Warnings and Precautions |
+| 356 | LAMISIL NDA-020539 | 40 | 3 (03/29/2019, 01/19/2017, 08/23/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 357 | LAMISIL NDA-022071 | 46 | 3 (03/29/2019, 01/19/2017, 08/23/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 358 | VIDAZA NDA-050794 | 55 | 6 (06/28/2024, 09/23/2022, 05/20/2022, 03/18/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 36 | AVALIDE NDA-020758 | 54 | 8 (08/01/2025, 09/10/2021, 05/11/2021, 12/15/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 360 | NEURACEQ NDA-204677 | 43 | 3 (06/23/2025, 01/10/2020, 08/25/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 361 | TRIVAGIZOLE 3 NDA-021143 | 35 | 1 (08/25/2016) |         	Warnings and Precautions |
+| 362 | CARDENE NDA-019488 | 34 | 1 (08/26/2016) |         	Drug Interactions |
+| 363 | CARDENE SR NDA-020005 | 34 | 1 (08/26/2016) |         	Drug Interactions |
+| 364 | CARDENE NDA-019734 | 35 | 3 (03/27/2026, 07/27/2018, 08/26/2016) |         	Drug Interactions,         	Warnings and Precautions |
+| 365 | CALAN NDA-018817 | 35 | 2 (09/14/2017, 08/24/2016) |         	Drug Interactions,         	Warnings and Precautions |
+| 366 | PRISTIQ NDA-021992 | 72 | 7 (08/18/2023, 11/10/2021, 09/20/2021, 02/06/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 367 | POMALYST NDA-204026 | 64 | 8 (12/03/2020, 11/20/2020, 10/30/2019, 03/20/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 368 | HUMIRA BLA-125057 | 62 | 7 (07/16/2025, 12/06/2018, 09/28/2018, 08/02/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 369 | IMBRUVICA NDA-205552 | 148 | 20 (10/21/2025, 12/20/2024, 05/09/2024, 05/18/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Precautions |
+| 37 | CIMZIA BLA-125160 | 76 | 11 (09/23/2025, 09/13/2024, 12/22/2022, 09/06/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information |
+| 370 | NEUPOGEN BLA-103353 | 54 | 5 (07/16/2026, 04/18/2023, 01/05/2021, 06/18/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 371 | DORYX NDA-050795 | 53 | 6 (03/31/2025, 07/25/2022, 02/12/2020, 02/07/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 372 | TEFLARO NDA-200327 | 48 | 4 (11/27/2020, 09/13/2019, 05/27/2016, 05/27/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 373 | TOPOTECAN HYDROCHLORIDE NDA-200582 | 48 | 2 (12/16/2019, 01/29/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 374 | CLEOCIN T NDA-050600 | 36 | 4 (11/12/2025, 12/16/2019, 11/16/2017, 01/15/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 375 | CLEOCIN T NDA-050615 | 36 | 4 (11/12/2025, 12/16/2019, 11/16/2017, 01/15/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 376 | CHILDREN'S MOTRIN NDA-020603 | 34 | 2 (03/16/2017, 08/29/2016) |         	Warnings and Precautions, Warnings |
+| 377 | NITROSTAT NDA-021134 | 45 | 3 (01/24/2018, 01/31/2017, 08/29/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 378 | FLOVENT HFA NDA-021433 | 46 | 4 (01/07/2019, 07/19/2017, 10/05/2016, 07/28/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 379 | STIVARGA NDA-203085 | 72 | 7 (02/03/2026, 07/21/2020, 02/13/2020, 07/31/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 38 | ABILIFY NDA-021436 | 50 | 8 (01/22/2025, 11/30/2022, 02/05/2020, 02/05/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information |
+| 380 | DIANEAL 137 W/ DEXTROSE 1.5% IN PLASTIC CONTAINER NDA-017512 | 35 | 1 (08/16/2016) |         	Use in Specific Populations |
+| 381 | TRINTELLIX NDA-204447 | 101 | 13 (08/23/2023, 08/18/2023, 09/20/2021, 01/22/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 382 | LINZESS NDA-202811 | 88 | 9 (05/21/2026, 11/04/2025, 06/12/2023, 08/24/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 383 | BLINCYTO BLA-125557 | 111 | 15 (10/21/2025, 04/29/2025, 12/17/2024, 06/14/2024) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 384 | CYMBALTA NDA-021427 | 74 | 8 (08/18/2023, 08/18/2023, 09/20/2021, 04/20/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Warnings |
+| 385 | ADRENACLICK NDA-020800 | 52 | 4 (03/19/2026, 02/04/2021, 08/29/2018, 05/18/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 388 | CHANTIX NDA-021928 | 65 | 6 (02/22/2019, 06/01/2018, 06/01/2018, 12/16/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 39 | ABILIFY NDA-021713 | 44 | 6 (02/05/2020, 02/05/2020, 08/07/2019, 02/23/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 390 | CANASA NDA-021252 | 66 | 6 (10/24/2023, 11/16/2022, 11/01/2021, 10/01/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 391 | ZERBAXA NDA-206829 | 55 | 5 (05/12/2026, 04/21/2022, 04/21/2022, 06/03/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 392 | GENOTROPIN BLA-020280 | 49 | 4 (07/09/2025, 08/16/2024, 12/13/2016, 09/06/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 393 | KHEDEZLA NDA-204683 | 51 | 5 (09/20/2021, 01/29/2019, 12/19/2017, 01/04/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 394 | VIIBRYD NDA-022567 | 56 | 6 (04/19/2024, 08/18/2023, 09/20/2021, 01/31/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 395 | SAVELLA NDA-022256 | 53 | 5 (08/18/2023, 09/20/2021, 12/19/2017, 12/30/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 396 | DEPO-MEDROL NDA-011757 | 41 | 5 (11/04/2025, 06/05/2024, 12/20/2023, 07/24/2018) |         	Adverse Reactions,         	Warnings and Precautions |
+| 397 | SOLU-MEDROL NDA-011856 | 48 | 8 (11/04/2025, 06/05/2024, 12/20/2023, 05/27/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 398 | ZYMAXID NDA-022548 | 39 | 1 (09/08/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information |
+| 399 | RAVICTI NDA-203284 | 58 | 4 (09/03/2021, 10/04/2019, 04/28/2017, 09/08/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 40 | ABILIFY NDA-021729 | 44 | 6 (02/05/2020, 02/05/2020, 08/07/2019, 02/23/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 400 | COUMADIN NDA-009218 | 45 | 3 (08/14/2017, 05/22/2017, 09/08/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 401 | CORTEF NDA-008697 | 41 | 4 (06/05/2024, 12/20/2023, 09/08/2016, 09/08/2016) |         	Adverse Reactions,         	Warnings and Precautions |
+| 402 | SOLU-CORTEF NDA-009866 | 44 | 5 (06/05/2024, 12/20/2023, 05/27/2021, 09/08/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 403 | NOXAFIL NDA-022003 | 98 | 7 (01/27/2026, 10/25/2024, 01/13/2022, 03/11/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 404 | NOXAFIL NDA-205053 | 120 | 8 (01/27/2026, 10/25/2024, 01/13/2022, 06/17/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 405 | NOXAFIL NDA-205596 | 109 | 8 (01/27/2026, 10/25/2024, 01/13/2022, 06/17/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 406 | REQUIP NDA-020658 | 55 | 4 (07/12/2021, 04/03/2020, 05/05/2017, 09/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 407 | DESVENLAFAXINE NDA-204150 | 61 | 6 (08/18/2023, 09/20/2021, 10/29/2019, 12/19/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 408 | KRYSTEXXA BLA-125293 | 56 | 3 (07/07/2022, 07/13/2018, 09/09/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Counseling Information |
+| 409 | JEVTANA KIT NDA-201023 | 75 | 7 (07/07/2023, 12/18/2020, 03/05/2020, 01/09/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Patient Counseling Information, Patient Information |
+| 41 | ABILIFY NDA-021866 | 44 | 6 (02/05/2020, 02/05/2020, 08/07/2019, 02/23/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 410 | PICATO NDA-202833 | 55 | 4 (03/19/2021, 12/17/2020, 02/13/2020, 09/13/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Warnings and Precautions |
+| 411 | TANZEUM BLA-125431 | 45 | 3 (12/20/2017, 08/01/2017, 09/13/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 412 | DITROPAN XL NDA-020897 | 39 | 4 (03/29/2021, 09/12/2019, 10/26/2018, 09/13/2016) |         	Adverse Reactions,         	Use in Specific Populations |
+| 413 | APTIVUS NDA-021814 | 42 | 3 (04/03/2024, 06/18/2020, 09/15/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 414 | APTIVUS NDA-022292 | 42 | 3 (06/18/2020, 06/22/2018, 09/15/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations |
+| 415 | CRIXIVAN NDA-020685 | 35 | 1 (09/15/2016) |         	Contraindications,         	Drug Interactions, Drug Interactions |
+| 416 | KALETRA NDA-021226 | 54 | 6 (10/21/2020, 08/21/2019, 11/15/2018, 06/15/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 417 | KALETRA NDA-021251 | 62 | 9 (07/23/2026, 10/21/2020, 12/19/2019, 08/21/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Medication Guide |
+| 418 | KALETRA NDA-021906 | 63 | 9 (07/23/2026, 10/21/2020, 12/19/2019, 08/21/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Medication Guide |
+| 419 | LEXIVA NDA-022116 | 56 | 3 (03/28/2019, 12/01/2017, 09/15/2016) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 42 | VISTARIL NDA-011795 | 37 | 2 (11/08/2016, 02/18/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 420 | LEXIVA NDA-021548 | 56 | 3 (03/28/2019, 12/01/2017, 09/15/2016) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 421 | NORVIR NDA-020945 | 61 | 8 (10/21/2020, 12/19/2019, 08/21/2019, 11/15/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Patient Information |
+| 422 | NORVIR NDA-020659 | 66 | 10 (10/21/2020, 12/19/2019, 08/21/2019, 11/15/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Patient Information |
+| 423 | REYATAZ NDA-021567 | 68 | 7 (12/05/2024, 11/07/2023, 09/24/2020, 04/18/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 424 | REYATAZ NDA-206352 | 68 | 7 (12/05/2024, 11/07/2023, 09/24/2020, 04/18/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 425 | VIRACEPT NDA-021503 | 38 | 2 (03/24/2021, 09/15/2016) |         	Contraindications,         	Use in Specific Populations, Drug Interactions, Patient Counseling Information, Patient Information |
+| 426 | VIRACEPT NDA-020778 | 37 | 2 (03/24/2021, 09/15/2016) |         	Contraindications,         	Use in Specific Populations, Drug Interactions, Patient Information |
+| 427 | VIRACEPT NDA-020779 | 37 | 2 (03/24/2021, 09/15/2016) |         	Contraindications,         	Use in Specific Populations, Drug Interactions, Patient Information |
+| 428 | DUOPA NDA-203952 | 47 | 4 (03/19/2026, 05/21/2020, 12/05/2019, 09/15/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 429 | SAVAYSA NDA-206316 | 58 | 8 (10/18/2023, 09/11/2023, 11/01/2021, 04/20/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 43 | FOSRENOL NDA-021468 | 46 | 6 (08/29/2024, 12/12/2023, 05/10/2023, 05/11/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 430 | FAMVIR NDA-020363 | 40 | 2 (12/18/2018, 09/16/2016) |         	Adverse Reactions,         	Use in Specific Populations, Patient Information |
+| 431 | AVAGE NDA-021184 | 53 | 2 (07/21/2017, 09/16/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 432 | PLAVIX NDA-020839 | 60 | 9 (09/16/2022, 03/01/2021, 05/17/2019, 10/11/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 433 | OPTISON NDA-020899 | 40 | 4 (05/09/2025, 09/16/2021, 09/16/2016, 09/16/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 434 | DEXMEDETOMIDINE HYDROCHLORIDE NDA-206628 | 57 | 3 (05/01/2026, 03/21/2024, 09/19/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 435 | AVANDIA NDA-021071 | 39 | 2 (02/05/2019, 09/19/2016) |         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 436 | XIAFLEX BLA-125338 | 53 | 6 (07/12/2023, 08/01/2022, 08/19/2021, 04/13/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 437 | ZYDELIG NDA-205858 | 86 | 5 (02/18/2022, 10/19/2020, 10/10/2018, 01/26/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 438 | SAXENDA NDA-206321 | 106 | 13 (02/25/2026, 10/14/2025, 05/28/2025, 11/01/2024) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 439 | FUROSEMIDE NDA-018667 | 42 | 2 (08/31/2022, 09/22/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 44 | FOSRENOL NDA-204734 | 46 | 6 (08/29/2024, 12/12/2023, 05/10/2023, 05/11/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 440 | ACTEMRA BLA-125276 | 106 | 16 (12/10/2025, 08/08/2025, 09/20/2024, 09/19/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information |
+| 441 | ACTEMRA BLA-125472 | 95 | 13 (12/10/2025, 08/08/2025, 09/20/2024, 12/21/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information |
 | 442 | NICARDIPINE HYDROCHLORIDE NDA-022276 | 32 | 1 (09/23/2016) |         	Drug Interactions |
+| 443 | REXULTI NDA-205422 | 83 | 9 (04/30/2026, 05/09/2025, 05/07/2024, 05/10/2023) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 444 | SPRYCEL NDA-021986 | 64 | 8 (07/31/2024, 02/08/2023, 06/29/2021, 12/21/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 445 | TARCEVA NDA-021743 | 45 | 2 (10/18/2016, 09/28/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 446 | ADASUVE NDA-022549 | 46 | 3 (10/27/2021, 02/23/2017, 09/28/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 447 | SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER NDA-019465 | 35 | 1 (09/27/2016) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 448 | ZOFRAN NDA-020103 | 44 | 4 (06/02/2025, 10/20/2021, 04/29/2021, 09/28/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information |
+| 449 | ZOFRAN NDA-020605 | 44 | 4 (06/02/2025, 10/20/2021, 04/29/2021, 09/28/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information |
+| 45 | INVIRASE NDA-020628 | 47 | 4 (03/28/2019, 03/15/2018, 09/15/2016, 02/26/2016) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Medication Guide |
+| 450 | ZOFRAN ODT NDA-020781 | 44 | 4 (06/02/2025, 10/20/2021, 04/29/2021, 09/28/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information |
+| 451 | FLUOROURACIL NDA-012209 | 34 | 1 (07/29/2016) |         	Warnings and Precautions |
+| 452 | SEREVENT NDA-020692 | 47 | 3 (07/22/2019, 12/21/2018, 09/30/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 453 | ARGATROBAN NDA-203049 | 43 | 3 (05/15/2026, 04/22/2020, 09/30/2016) |         	Adverse Reactions,         	Use in Specific Populations, Adverse Reactions |
+| 454 | CLINIMIX E 2.75/10 SULFITE FREE W/ ELECT IN DEXTROSE 10% W/ CALCIUM IN PLASTIC CONTAINER NDA-020678 | 42 | 2 (04/13/2021, 09/27/2016) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 455 | CLINIMIX 2.75/10 SULFITE FREE IN DEXTROSE 10% IN PLASTIC CONTAINER NDA-020734 | 41 | 2 (04/13/2021, 09/27/2016) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 456 | ZOMACTON BLA-019774 | 117 | 9 (07/09/2025, 04/02/2024, 07/19/2018, 07/19/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 457 | TASIGNA NDA-022068 | 95 | 10 (02/08/2024, 09/23/2021, 09/23/2021, 12/08/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 458 | LIORESAL NDA-020075 | 38 | 2 (01/16/2019, 09/30/2016) |         	Adverse Reactions,         	Warnings and Precautions |
+| 459 | ONCASPAR BLA-103411 | 57 | 6 (03/13/2024, 12/22/2022, 11/02/2021, 06/17/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Counseling Information |
+| 46 | TECFIDERA NDA-204063 | 75 | 12 (03/12/2024, 12/13/2023, 02/10/2023, 09/29/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 460 | EPANOVA NDA-205060 | 37 | 2 (03/09/2017, 10/07/2016) |         	Adverse Reactions,         	Use in Specific Populations, Patient Information |
+| 461 | NORTHERA NDA-203202 | 43 | 2 (02/10/2017, 10/03/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 462 | ZYPREXA NDA-020592 | 65 | 9 (01/30/2026, 01/22/2025, 04/23/2020, 04/21/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 463 | ZYPREXA ZYDIS NDA-021086 | 65 | 9 (01/30/2026, 01/22/2025, 04/23/2020, 04/21/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 464 | ZYPREXA NDA-021253 | 65 | 9 (01/30/2026, 01/22/2025, 04/23/2020, 04/21/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 465 | ZYPREXA RELPREVV NDA-022173 | 73 | 10 (05/07/2026, 01/30/2026, 01/22/2025, 04/23/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 466 | SYMBYAX NDA-021520 | 74 | 12 (01/22/2025, 08/18/2023, 09/20/2021, 03/04/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 467 | ZUBSOLV NDA-204242 | 99 | 10 (12/22/2025, 05/19/2025, 12/15/2023, 06/17/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 468 | AMPYRA NDA-022250 | 48 | 5 (11/18/2021, 02/24/2021, 12/19/2019, 09/29/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 469 | ERBITUX BLA-125084 | 62 | 8 (09/24/2021, 04/06/2021, 04/06/2021, 11/10/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 47 | ATACAND HCT NDA-021093 | 36 | 2 (08/20/2020, 02/09/2016) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions |
+| 470 | AMITIZA NDA-021908 | 47 | 3 (11/30/2020, 04/26/2018, 10/11/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 471 | DEPO-SUBQ PROVERA 104 NDA-021583 | 57 | 9 (12/12/2025, 12/16/2024, 07/11/2024, 12/04/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 472 | VYVANSE NDA-021977 | 72 | 11 (04/23/2026, 09/23/2025, 10/13/2023, 02/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 473 | VAPRISOL NDA-021697 | 36 | 1 (10/14/2016) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 474 | VAPRISOL IN 5% DEXTROSE IN PLASTIC CONTAINER NDA-021697 | 36 | 1 (10/14/2016) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 475 | UCERIS NDA-203634 | 48 | 3 (06/05/2024, 04/09/2020, 10/13/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 476 | PROMACTA NDA-022291 | 70 | 10 (06/06/2025, 03/31/2022, 02/03/2021, 04/29/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Medication Guide, Patient Counseling Information |
+| 477 | PROMACTA NDA-207027 | 58 | 5 (07/24/2018, 05/25/2018, 07/05/2017, 03/09/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 478 | ZORTRESS NDA-021560 | 61 | 5 (09/16/2026, 09/14/2023, 01/12/2018, 01/12/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide, Patient Counseling Information |
+| 479 | STRENSIQ BLA-125513 | 52 | 4 (07/10/2024, 06/12/2020, 01/26/2018, 10/18/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 48 | ATRIPLA NDA-021937 | 71 | 4 (10/29/2019, 07/25/2018, 04/07/2017, 02/11/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 480 | ARAVA NDA-020905 | 41 | 2 (06/28/2024, 10/18/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 481 | TREANDA NDA-022249 | 63 | 5 (10/25/2022, 06/10/2021, 11/21/2019, 12/15/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Precautions |
+| 482 | ZEMPLAR NDA-021606 | 44 | 2 (10/18/2016, 10/18/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 483 | LYNPARZA NDA-206162 | 60 | 5 (09/27/2018, 10/23/2017, 08/17/2017, 01/26/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 484 | TRACLEER NDA-021290 | 67 | 7 (11/05/2025, 07/30/2025, 02/08/2024, 05/16/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 485 | XTANDI NDA-203415 | 96 | 11 (07/24/2026, 12/11/2025, 03/21/2025, 01/22/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Precautions |
+| 486 | ANDROGEL NDA-022309 | 49 | 4 (07/11/2025, 05/10/2019, 02/25/2019, 10/25/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 487 | ANDROGEL NDA-021015 | 48 | 4 (07/11/2025, 05/10/2019, 02/25/2019, 10/25/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 488 | TESTOSTERONE NDA-203098 | 34 | 1 (10/25/2016) |         	Warnings and Precautions |
+| 489 | VOGELXO NDA-204399 | 49 | 3 (07/11/2025, 04/30/2020, 10/25/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 49 | COMPLERA NDA-202123 | 84 | 5 (11/27/2019, 10/31/2018, 04/07/2017, 02/23/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions, Patient Information |
+| 490 | DELATESTRYL NDA-009165 | 34 | 1 (10/25/2016) |         	Warnings and Precautions |
+| 491 | AVEED NDA-022219 | 49 | 4 (07/11/2025, 03/13/2020, 01/24/2018, 10/25/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 492 | TESTIM NDA-021454 | 55 | 4 (07/11/2025, 11/30/2020, 11/30/2020, 10/25/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 493 | NATESTO NDA-205488 | 43 | 2 (07/11/2025, 10/25/2016) |         	Adverse Reactions,         	Warnings and Precautions |
+| 494 | TESTOSTERONE NDA-202763 | 34 | 1 (10/25/2016) |         	Warnings and Precautions |
+| 495 | ANDRODERM NDA-020489 | 35 | 2 (05/11/2020, 10/25/2016) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 496 | STRIANT NDA-021543 | 34 | 1 (10/25/2016) |         	Warnings and Precautions |
+| 497 | FORTESTA NDA-021463 | 50 | 3 (07/11/2025, 03/13/2020, 10/25/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 498 | AXIRON NDA-022504 | 37 | 3 (07/13/2017, 02/03/2017, 10/25/2016) |         	Warnings and Precautions, Medication Guide |
+| 499 | KEPPRA XR NDA-022285 | 65 | 7 (03/12/2024, 08/17/2023, 09/30/2020, 10/23/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
 | 5 | GLEOSTINE NDA-017588 | 32 | 1 (01/06/2016) | Boxed Warning |
+| 50 | INVIRASE NDA-021785 | 50 | 5 (12/19/2019, 03/28/2019, 03/15/2018, 09/15/2016) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 500 | KEPPRA NDA-021872 | 59 | 7 (03/12/2024, 08/17/2023, 09/30/2020, 10/23/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 501 | KEPPRA NDA-021035 | 65 | 7 (03/12/2024, 08/17/2023, 09/30/2020, 10/23/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 502 | KEPPRA NDA-021505 | 65 | 7 (03/12/2024, 08/17/2023, 09/30/2020, 10/23/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 503 | KORLYM NDA-202107 | 45 | 3 (11/05/2019, 05/16/2017, 10/25/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 504 | SECREFLO NDA-021136 | 34 | 1 (10/26/2016) |         	Use in Specific Populations |
+| 505 | PORCINE SECRETIN NDA-021209 | 34 | 1 (10/26/2016) |         	Use in Specific Populations |
+| 506 | CLOLAR NDA-021673 | 40 | 2 (12/20/2019, 10/27/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 507 | RYTARY NDA-203312 | 39 | 3 (03/19/2026, 12/17/2019, 10/27/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 508 | RESTASIS NDA-050790 | 37 | 2 (07/18/2017, 10/27/2016) |         	Adverse Reactions,         	Use in Specific Populations |
+| 509 | SIVEXTRO NDA-205435 | 64 | 9 (02/27/2026, 04/04/2025, 11/17/2021, 06/19/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 51 | DEPAKENE NDA-018081 | 82 | 7 (05/19/2020, 11/22/2019, 02/21/2019, 03/06/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 510 | SIVEXTRO NDA-205436 | 52 | 7 (02/27/2026, 11/17/2021, 06/19/2020, 03/06/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 513 | DOCETAXEL NDA-201525 | 83 | 7 (09/21/2023, 01/13/2021, 08/11/2020, 01/06/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 514 | BRIDION NDA-022225 | 47 | 6 (12/12/2024, 06/25/2021, 01/22/2021, 01/22/2021) |         	Adverse Reactions,         	Use in Specific Populations |
+| 515 | EDARBI NDA-200796 | 36 | 2 (01/16/2024, 10/24/2016) |         	Contraindications,         	Use in Specific Populations |
+| 516 | EDARBYCLOR NDA-202331 | 40 | 2 (03/09/2020, 10/24/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 517 | DEXILANT NDA-022287 | 66 | 9 (07/18/2023, 04/13/2023, 03/04/2022, 11/27/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions |
+| 518 | ESOMEPRAZOLE STRONTIUM NDA-202342 | 52 | 4 (03/04/2022, 11/27/2020, 06/07/2018, 10/24/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions, Medication Guide |
+| 519 | IMODIUM NDA-017690 | 47 | 1 (11/03/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Precautions, Warnings |
+| 52 | DEPAKENE NDA-018082 | 81 | 7 (05/19/2020, 11/22/2019, 02/21/2019, 03/06/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 520 | IMODIUM NDA-017694 | 47 | 1 (11/03/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Precautions, Warnings |
+| 521 | NEXIUM NDA-021153 | 79 | 7 (07/18/2023, 03/04/2022, 08/25/2021, 11/27/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Drug Interactions, Precautions |
+| 522 | NEXIUM NDA-022101 | 79 | 7 (07/18/2023, 03/04/2022, 08/25/2021, 11/27/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Drug Interactions, Precautions |
+| 523 | NEXIUM NDA-021957 | 79 | 7 (07/18/2023, 03/04/2022, 08/25/2021, 11/27/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Drug Interactions, Precautions |
+| 524 | ERIVEDGE NDA-203388 | 61 | 6 (03/27/2023, 07/31/2020, 03/26/2019, 01/18/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 525 | NEXIUM IV NDA-021689 | 66 | 7 (07/18/2023, 03/04/2022, 11/27/2020, 09/30/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions, Warnings |
+| 526 | PREVACID NDA-021428 | 93 | 8 (03/04/2022, 11/27/2020, 09/11/2020, 06/07/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Warnings and Precautions |
+| 527 | PREVACID NDA-020406 | 93 | 8 (03/04/2022, 11/27/2020, 09/11/2020, 06/07/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Warnings and Precautions |
+| 528 | FYCOMPA NDA-202834 | 55 | 4 (05/30/2019, 09/27/2018, 07/26/2017, 11/03/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information |
+| 529 | PRILOSEC NDA-019810 | 65 | 2 (12/19/2016, 10/24/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions, Warnings and Precautions |
+| 53 | DEPAKOTE NDA-018723 | 92 | 13 (03/31/2026, 05/01/2025, 01/23/2025, 03/18/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Warnings and Precautions |
+| 530 | ALECENSA NDA-208434 | 68 | 6 (08/14/2026, 04/18/2024, 09/03/2021, 06/05/2018) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 531 | SUPRANE NDA-020118 | 47 | 5 (11/01/2022, 03/01/2019, 03/01/2019, 04/27/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 532 | PRILOSEC NDA-022056 | 79 | 6 (07/18/2023, 03/04/2022, 11/27/2020, 06/07/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Drug Interactions, Warnings and Precautions |
+| 533 | SELZENTRY NDA-022128 | 60 | 3 (10/30/2020, 07/18/2018, 11/04/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information |
+| 534 | TEKAMLO NDA-022545 | 39 | 1 (11/04/2016) |         	Adverse Reactions,         	Use in Specific Populations, Patient Counseling Information, Patient Information |
+| 535 | TEKTURNA NDA-021985 | 45 | 3 (06/17/2020, 11/14/2017, 11/04/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations, Patient Counseling Information, Patient Information |
+| 536 | AMTURNIDE NDA-200045 | 41 | 1 (11/04/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 537 | PROTONIX NDA-020987 | 74 | 8 (07/18/2023, 03/04/2022, 11/27/2020, 04/25/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Warnings |
+| 538 | TEKTURNA HCT NDA-022107 | 43 | 2 (09/28/2020, 11/04/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 539 | PROTONIX NDA-022020 | 74 | 8 (07/18/2023, 03/04/2022, 11/27/2020, 04/25/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Warnings |
+| 54 | DEPAKOTE NDA-019680 | 98 | 13 (03/31/2026, 05/01/2025, 01/23/2025, 03/18/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Warnings and Precautions |
+| 540 | ENBREL BLA-103795 | 74 | 9 (01/30/2026, 09/12/2024, 07/22/2024, 10/18/2023) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 541 | PROTONIX IV NDA-020988 | 67 | 9 (08/12/2024, 07/18/2023, 03/04/2022, 11/27/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions |
+| 542 | ZEGERID NDA-021849 | 71 | 6 (07/18/2023, 03/04/2022, 11/27/2020, 09/24/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications |
+| 543 | ZEGERID NDA-021636 | 75 | 7 (07/18/2023, 03/04/2022, 11/27/2020, 09/24/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications |
+| 544 | PREVPAC NDA-050757 | 61 | 4 (06/07/2018, 11/29/2017, 03/01/2017, 10/24/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions |
+| 545 | EYLEA BLA-125387 | 56 | 7 (10/10/2024, 12/14/2023, 02/08/2023, 05/13/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 546 | FLAREX NDA-019079 | 47 | 3 (09/23/2025, 08/02/2022, 10/24/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 547 | BENICAR NDA-021286 | 41 | 2 (10/17/2019, 11/01/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 548 | AZOR NDA-022100 | 45 | 3 (10/02/2020, 01/05/2017, 11/01/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Warnings and Precautions |
+| 549 | TRIBENZOR NDA-200175 | 51 | 4 (10/02/2020, 08/20/2020, 01/05/2017, 11/01/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information |
+| 55 | DEPAKOTE ER NDA-021168 | 87 | 12 (03/31/2026, 05/01/2025, 01/23/2025, 03/18/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Warnings and Precautions |
+| 550 | EXELON NDA-020823 | 38 | 2 (12/18/2018, 11/02/2016) |         	Adverse Reactions,         	Use in Specific Populations |
+| 551 | EXELON NDA-021025 | 38 | 2 (12/18/2018, 11/02/2016) |         	Adverse Reactions,         	Use in Specific Populations |
+| 552 | EXELON NDA-022083 | 39 | 3 (05/08/2024, 12/18/2018, 11/02/2016) |         	Adverse Reactions,         	Use in Specific Populations, Patient Information |
+| 553 | OMEPRAZOLE AND CLARITHROMYCIN AND AMOXICILLIN NDA-050824 | 65 | 7 (05/01/2024, 08/16/2023, 08/16/2023, 03/04/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 554 | LINCOCIN NDA-050317 | 43 | 5 (04/11/2022, 11/16/2018, 04/01/2018, 11/08/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Warnings |
+| 555 | ETOPOPHOS PRESERVATIVE FREE NDA-020457 | 34 | 3 (09/02/2026, 05/02/2019, 11/09/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
 | 556 | NAFTIN NDA-019599 | 38 | 1 (11/10/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 557 | FOSCAVIR NDA-020068 | 38 | 2 (02/24/2017, 11/10/2016) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions |
+| 558 | ADZENYS XR-ODT NDA-204326 | 62 | 6 (09/23/2025, 04/01/2025, 10/13/2023, 02/25/2022) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 559 | BOSULIF NDA-203341 | 92 | 12 (03/02/2026, 12/03/2024, 09/26/2023, 04/20/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 56 | DEPACON NDA-020593 | 64 | 7 (05/19/2020, 11/22/2019, 02/21/2019, 03/06/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 560 | LIVALO NDA-022363 | 71 | 6 (03/14/2024, 11/09/2022, 09/25/2020, 10/18/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Warnings and Precautions |
+| 561 | VERAPAMIL HYDROCHLORIDE NDA-018925 | 33 | 1 (11/18/2016) |         	Drug Interactions |
+| 562 | VERELAN NDA-019614 | 36 | 2 (10/01/2019, 11/18/2016) |         	Drug Interactions |
+| 563 | CARDIZEM NDA-018602 | 34 | 2 (04/16/2025, 11/18/2016) |         	Drug Interactions |
+| 564 | CARDIZEM CD NDA-020062 | 34 | 2 (04/16/2025, 11/18/2016) |         	Drug Interactions |
+| 565 | TIAZAC NDA-020401 | 36 | 2 (04/16/2025, 11/18/2016) |         	Adverse Reactions,         	Drug Interactions |
+| 566 | CARDIZEM LA NDA-021392 | 38 | 3 (04/16/2025, 04/16/2025, 11/18/2016) |         	Drug Interactions,         	Use in Specific Populations |
+| 567 | VERELAN PM NDA-020943 | 35 | 2 (10/03/2019, 11/18/2016) |         	Adverse Reactions,         	Drug Interactions |
+| 568 | LEVETIRACETAM IN SODIUM CHLORIDE NDA-202543 | 66 | 7 (03/12/2024, 04/13/2021, 11/21/2019, 07/12/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 569 | NEXTERONE NDA-022325 | 45 | 2 (09/07/2021, 11/22/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 57 | STRIBILD NDA-203100 | 83 | 10 (08/21/2020, 02/06/2019, 11/02/2018, 08/07/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Contraindications, Drug Interactions, Patient Information |
+| 570 | NINLARO NDA-208462 | 68 | 7 (07/01/2024, 03/01/2024, 04/28/2022, 04/28/2022) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 571 | PRESTALIA NDA-205003 | 38 | 2 (09/29/2017, 11/23/2016) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 572 | DARZALEX BLA-761036 | 123 | 19 (05/28/2026, 01/23/2025, 11/01/2022, 03/04/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 573 | VELTASSA NDA-205739 | 44 | 3 (10/02/2023, 03/27/2023, 11/25/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 574 | AMERGE NDA-020763 | 38 | 1 (11/29/2016) |         	Use in Specific Populations |
+| 575 | DIGOXIN NDA-021648 | 38 | 3 (04/14/2025, 08/24/2018, 12/01/2016) |         	Drug Interactions,         	Use in Specific Populations |
+| 576 | LANOXIN NDA-009330 | 38 | 3 (09/20/2018, 08/24/2018, 12/01/2016) |         	Drug Interactions,         	Use in Specific Populations |
+| 577 | LANOXIN PEDIATRIC NDA-009330 | 34 | 2 (08/24/2018, 12/01/2016) |         	Drug Interactions |
+| 578 | LANOXIN NDA-020405 | 39 | 3 (02/22/2019, 08/24/2018, 12/01/2016) |         	Drug Interactions,         	Use in Specific Populations |
+| 579 | SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER NDA-019759 | 36 | 1 (12/01/2016) |         	Drug Interactions,         	Warnings and Precautions |
+| 58 | ELITEK BLA-103946 | 41 | 2 (12/12/2019, 06/13/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 580 | BENLYSTA BLA-125370 | 155 | 13 (08/21/2026, 06/20/2025, 05/16/2024, 02/09/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 581 | AVASTIN BLA-125085 | 102 | 9 (09/18/2022, 10/09/2020, 09/30/2020, 05/29/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 582 | BONIVA NDA-021455 | 40 | 1 (12/07/2016) |         	Adverse Reactions,         	Use in Specific Populations |
+| 583 | FEMCON FE NDA-021490 | 37 | 2 (08/09/2017, 09/22/2016) |         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 584 | EQUETRO NDA-021710 | 63 | 3 (10/14/2022, 09/23/2016, 09/23/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information |
+| 585 | DIAZEPAM NDA-020124 | 46 | 3 (01/13/2023, 02/05/2021, 12/16/2016) |         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Warnings |
+| 586 | ACTOS NDA-021073 | 43 | 2 (12/21/2017, 12/12/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 587 | ACTOPLUS MET NDA-021842 | 85 | 5 (08/11/2026, 06/28/2024, 12/21/2017, 12/12/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Contraindications, Drug Interactions, Precautions, Warnings and Precautions |
+| 588 | ACTOPLUS MET XR NDA-022024 | 60 | 3 (12/21/2017, 12/12/2016, 12/12/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Medication Guide |
+| 589 | OSENI NDA-022426 | 67 | 6 (06/28/2024, 03/11/2022, 07/01/2019, 12/21/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information |
+| 59 | TRUVADA NDA-021752 | 77 | 5 (06/23/2020, 05/15/2018, 04/21/2017, 03/10/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 590 | KAZANO NDA-203414 | 74 | 7 (08/11/2026, 07/27/2023, 03/11/2022, 07/01/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Medication Guide, Patient Counseling Information |
+| 591 | DUETACT NDA-021925 | 52 | 2 (12/21/2017, 12/12/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 592 | ACCRETROPIN BLA-021538 | 35 | 1 (12/13/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 593 | NUTROPIN AQ BLA-020522 | 43 | 2 (07/09/2025, 12/13/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 594 | NUTROPIN BLA-019676 | 41 | 1 (12/13/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 595 | SAIZEN BLA-019764 | 40 | 2 (01/17/2017, 12/13/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 596 | NORDITROPIN BLA-021148 | 91 | 5 (07/09/2025, 01/31/2025, 02/23/2018, 02/23/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 597 | OMNITROPE BLA-021426 | 43 | 3 (07/09/2025, 11/12/2024, 12/13/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 598 | SEROSTIM BLA-020604 | 67 | 4 (07/14/2026, 05/24/2017, 12/13/2016, 12/13/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 599 | HUMATROPE BLA-019640 | 57 | 6 (11/25/2025, 07/09/2025, 12/08/2023, 10/28/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 6 | LOTRONEX NDA-021107 | 38 | 2 (04/03/2019, 01/07/2016) |         	Use in Specific Populations, Boxed Warning |
+| 60 | ANORO ELLIPTA NDA-203975 | 65 | 7 (06/02/2023, 10/20/2022, 06/06/2019, 05/29/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 600 | ONFI NDA-202067 | 66 | 5 (03/12/2024, 01/13/2023, 02/05/2021, 06/15/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information, Precautions |
+| 601 | ONFI NDA-203993 | 66 | 5 (03/12/2024, 01/13/2023, 02/05/2021, 06/15/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information, Precautions |
+| 602 | KLONOPIN RAPIDLY DISINTEGRATING NDA-020813 | 41 | 1 (12/16/2016) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 603 | HALCION NDA-017892 | 67 | 5 (10/27/2021, 02/05/2021, 10/09/2019, 02/06/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information, Warnings |
+| 604 | RESTORIL NDA-018163 | 61 | 4 (01/13/2023, 02/05/2021, 02/06/2019, 12/16/2016) |         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 605 | TRANXENE NDA-017105 | 55 | 3 (01/13/2023, 02/05/2021, 12/16/2016) |         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 606 | DORAL NDA-018708 | 59 | 4 (01/13/2023, 02/05/2021, 02/06/2019, 12/16/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Medication Guide, Warnings and Precautions |
+| 607 | VALIUM NDA-013263 | 76 | 4 (09/24/2026, 01/13/2023, 02/05/2021, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Warnings |
+| 608 | ATIVAN NDA-017794 | 52 | 3 (01/13/2023, 02/05/2021, 12/16/2016) |         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 609 | XANAX NDA-018276 | 74 | 4 (01/13/2023, 03/01/2021, 02/05/2021, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 61 | SABRIL NDA-020427 | 52 | 5 (01/24/2020, 07/31/2019, 08/21/2018, 04/27/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 610 | XANAX XR NDA-021434 | 74 | 4 (01/13/2023, 03/01/2021, 02/05/2021, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 611 | DIASTAT NDA-020648 | 50 | 3 (01/13/2023, 02/05/2021, 12/16/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Precautions, Warnings |
+| 612 | DIASTAT ACUDIAL NDA-020648 | 42 | 2 (01/13/2023, 12/16/2016) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 613 | TRANXENE SD NDA-017105 | 55 | 3 (01/13/2023, 02/05/2021, 12/16/2016) |         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 614 | XELODA NDA-020896 | 67 | 12 (10/03/2025, 12/14/2022, 12/14/2022, 12/14/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 615 | ETHYOL NDA-020221 | 47 | 3 (07/25/2019, 05/25/2017, 12/15/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 616 | MINOCIN NDA-050649 | 37 | 3 (03/31/2025, 07/18/2024, 12/14/2016) |         	Adverse Reactions,         	Warnings and Precautions |
+| 617 | TRESIBA BLA-203314 | 94 | 7 (07/01/2022, 07/01/2022, 11/15/2019, 11/21/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 618 | CYTOTEC NDA-019268 | 35 | 2 (02/28/2018, 12/19/2016) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 619 | RYZODEG 70/30 BLA-203313 | 56 | 4 (10/06/2022, 11/15/2019, 08/09/2018, 12/16/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 62 | SABRIL NDA-022006 | 52 | 5 (01/24/2020, 07/31/2019, 08/21/2018, 04/27/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 620 | EXTRANEAL NDA-021321 | 44 | 3 (04/22/2024, 12/04/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 621 | DEPO-PROVERA NDA-020246 | 44 | 5 (12/12/2025, 07/11/2024, 12/04/2020, 12/04/2020) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 622 | NUTROPIN BLA-020168 | 41 | 1 (12/13/2016) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 623 | SINGULAIR NDA-020829 | 69 | 6 (02/22/2021, 04/29/2020, 08/09/2019, 12/21/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 624 | LIBRIUM NDA-012249 | 37 | 1 (12/16/2016) |         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 625 | SINGULAIR NDA-020830 | 69 | 6 (02/22/2021, 04/29/2020, 08/09/2019, 12/21/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 626 | SINGULAIR NDA-021409 | 69 | 6 (02/22/2021, 04/29/2020, 08/09/2019, 12/21/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 627 | NORVIR NDA-022417 | 67 | 10 (07/23/2026, 10/21/2020, 12/19/2019, 08/21/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Patient Information |
+| 628 | LIBRAX NDA-012750 | 56 | 3 (01/13/2023, 02/05/2021, 12/16/2016) |         	Drug Interactions,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Drug Interactions, Medication Guide, Precautions, Warnings |
+| 629 | AMARYL NDA-020496 | 39 | 2 (12/21/2018, 12/19/2016) |         	Adverse Reactions,         	Use in Specific Populations |
+| 63 | BREO ELLIPTA NDA-204275 | 70 | 6 (05/12/2023, 01/07/2019, 12/20/2017, 05/15/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 630 | CLOZARIL NDA-019758 | 75 | 10 (06/13/2025, 01/22/2025, 09/12/2024, 05/19/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 631 | OMNIPAQUE 350 NDA-020608 | 92 | 7 (10/08/2024, 04/25/2023, 02/18/2022, 11/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 632 | JADELLE NDA-020544 | 60 | 1 (12/20/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 633 | VIBRA-TABS NDA-050533 | 42 | 5 (08/08/2025, 03/31/2025, 12/03/2018, 07/26/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 634 | VIBRAMYCIN NDA-050007 | 42 | 5 (08/08/2025, 03/31/2025, 12/03/2018, 07/26/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 635 | MIRENA NDA-021225 | 81 | 7 (08/12/2022, 08/11/2021, 06/08/2021, 08/20/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Warnings and Precautions |
+| 636 | LUMASON NDA-203684 | 53 | 3 (04/09/2021, 11/13/2019, 12/22/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 637 | LYRICA NDA-021446 | 74 | 6 (04/25/2025, 12/13/2023, 04/03/2020, 05/23/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 638 | LYRICA NDA-022488 | 87 | 6 (04/25/2025, 12/13/2023, 04/03/2020, 05/23/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 639 | MINASTRIN 24 FE NDA-203667 | 46 | 3 (06/26/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Warnings |
+| 64 | XIGDUO XR NDA-205649 | 143 | 15 (08/11/2026, 08/11/2026, 12/20/2024, 09/12/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information, Warnings |
+| 640 | ZOLOFT NDA-019839 | 91 | 9 (08/18/2023, 01/25/2023, 09/20/2021, 12/08/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 641 | ZOLOFT NDA-020990 | 91 | 9 (08/18/2023, 01/25/2023, 09/20/2021, 12/08/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 642 | BINOSTO NDA-202344 | 41 | 4 (02/03/2026, 10/13/2020, 06/08/2020, 12/30/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 643 | JENTADUETO NDA-201281 | 95 | 10 (08/11/2026, 06/20/2023, 04/15/2022, 03/30/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 644 | TRADJENTA NDA-201280 | 62 | 8 (06/20/2023, 04/15/2022, 03/30/2020, 07/03/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Counseling Information |
+| 645 | JENTADUETO XR NDA-208026 | 75 | 9 (08/11/2026, 06/20/2023, 10/01/2021, 03/30/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 646 | SYNJARDY XR NDA-208658 | 116 | 14 (08/11/2026, 10/24/2025, 03/07/2025, 10/30/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 647 | MORPHINE SULFATE NDA-020631 | 70 | 3 (12/15/2023, 10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 648 | NUBAIN NDA-018024 | 81 | 4 (12/22/2025, 12/15/2023, 10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Drug Interactions |
+| 649 | MEPERGAN NDA-011730 | 104 | 4 (12/22/2025, 12/15/2023, 10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 65 | EFFEXOR XR NDA-020699 | 65 | 8 (08/18/2023, 08/15/2022, 11/10/2021, 09/20/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 650 | FIORINAL W/CODEINE NDA-019429 | 158 | 6 (04/28/2021, 04/28/2021, 10/07/2019, 09/18/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Boxed Warning, Precautions |
+| 651 | OXAYDO NDA-202080 | 120 | 8 (12/22/2025, 04/19/2024, 12/15/2023, 03/04/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information, Warnings, Warnings and Precautions |
+| 652 | FIORICET W/ CODEINE NDA-020232 | 133 | 7 (12/22/2025, 12/15/2023, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 653 | ULTIVA NDA-020630 | 65 | 5 (12/22/2025, 12/22/2025, 12/15/2023, 10/07/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 654 | ULTRAM NDA-020281 | 111 | 8 (02/13/2023, 09/10/2021, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings and Precautions |
+| 655 | ROXICODONE NDA-021011 | 130 | 7 (12/22/2025, 04/19/2024, 12/15/2023, 03/04/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 656 | MS CONTIN NDA-019516 | 105 | 6 (12/22/2025, 12/15/2023, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Adverse Reactions, Boxed Warning, Drug Interactions, Medication Guide, Precautions, Warnings, Warnings and Precautions |
+| 657 | DILAUDID NDA-019891 | 108 | 6 (12/22/2025, 12/15/2023, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 658 | DILAUDID-HP NDA-019034 | 94 | 4 (12/22/2025, 12/15/2023, 10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 659 | ULTRACET NDA-021123 | 112 | 8 (02/13/2023, 09/10/2021, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 66 | OPSUMIT NDA-204410 | 65 | 10 (04/02/2025, 02/28/2025, 05/26/2023, 10/25/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 660 | BRISDELLE NDA-204516 | 70 | 6 (02/11/2025, 02/11/2025, 08/18/2023, 09/20/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 661 | SARAFEM NDA-021860 | 39 | 2 (09/20/2021, 01/04/2017) |         	Drug Interactions,         	Warnings and Precautions, Medication Guide |
+| 662 | LUVOX CR NDA-022033 | 35 | 1 (01/04/2017) |         	Warnings and Precautions |
+| 663 | DESOXYN NDA-005378 | 53 | 5 (09/24/2024, 10/13/2023, 02/25/2022, 05/19/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 664 | TALWIN NDA-016194 | 62 | 3 (10/07/2019, 12/16/2016, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 665 | DEMEROL NDA-021171 | 95 | 5 (12/22/2025, 12/15/2023, 10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 666 | KADIAN NDA-020616 | 77 | 4 (03/04/2021, 10/07/2019, 09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Boxed Warning, Medication Guide |
+| 667 | NUCYNTA NDA-022304 | 127 | 7 (12/22/2025, 12/15/2023, 07/03/2023, 03/04/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 668 | PERCODAN NDA-007337 | 134 | 8 (12/22/2025, 11/21/2024, 04/19/2024, 12/15/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Precautions, Warnings |
+| 669 | SYNALGOS-DC NDA-011483 | 159 | 8 (12/22/2025, 11/21/2024, 12/15/2023, 04/28/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information, Precautions, Warnings, Warnings and Precautions |
+| 67 | INVEGA NDA-021999 | 54 | 6 (01/23/2025, 02/12/2021, 01/25/2019, 07/27/2018) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 670 | EXALGO NDA-021217 | 69 | 3 (10/07/2019, 09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 671 | OPANA NDA-021611 | 79 | 4 (10/25/2019, 10/07/2019, 09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 672 | OPANA NDA-011707 | 62 | 2 (10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 673 | BUTRANS NDA-021306 | 107 | 8 (12/22/2025, 12/15/2023, 06/17/2022, 03/04/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Precautions, Warnings, Warnings and Precautions |
+| 674 | MORPHINE SULFATE NDA-022195 | 136 | 7 (12/22/2025, 12/15/2023, 06/02/2021, 03/04/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 675 | MORPHINE SULFATE NDA-022207 | 126 | 7 (12/22/2025, 12/15/2023, 06/02/2021, 03/04/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 676 | DILAUDID NDA-019892 | 108 | 6 (12/22/2025, 12/15/2023, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 677 | MORPHINE SULFATE NDA-019916 | 67 | 3 (10/07/2019, 12/16/2016, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 678 | MORPHINE SULFATE NDA-019917 | 67 | 3 (10/07/2019, 12/16/2016, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 679 | MORPHINE SULFATE NDA-019999 | 62 | 3 (10/07/2019, 12/16/2016, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 68 | INVEGA SUSTENNA NDA-022264 | 69 | 8 (01/23/2025, 02/12/2021, 01/25/2019, 07/27/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 680 | DEMEROL NDA-005010 | 132 | 7 (12/22/2025, 12/15/2023, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Warnings |
+| 681 | OXYCODONE HYDROCHLORIDE NDA-200534 | 122 | 8 (12/22/2025, 04/19/2024, 12/15/2023, 07/21/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 682 | OXYCODONE HYDROCHLORIDE NDA-200535 | 134 | 8 (12/22/2025, 04/19/2024, 12/15/2023, 07/21/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information, Warnings and Precautions |
+| 683 | OPANA ER NDA-021610 | 102 | 6 (12/15/2023, 04/28/2022, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings and Precautions |
+| 684 | OXYCODONE HYDROCHLORIDE NDA-201194 | 134 | 8 (12/22/2025, 04/19/2024, 12/15/2023, 07/21/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 685 | OXYCONTIN NDA-022272 | 108 | 6 (12/22/2025, 12/15/2023, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Medication Guide, Precautions, Warnings, Warnings and Precautions |
+| 686 | APTENSIO XR NDA-205831 | 55 | 5 (09/23/2025, 10/13/2023, 06/25/2021, 06/14/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 687 | LUVOX NDA-021519 | 54 | 4 (08/18/2023, 09/20/2021, 12/16/2019, 01/04/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 688 | FLUOXETINE HYDROCHLORIDE NDA-202133 | 80 | 5 (08/18/2023, 08/18/2023, 09/20/2021, 01/04/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Warnings, Warnings and Precautions |
+| 689 | DESVENLAFAXINE NDA-205583 | 55 | 4 (08/18/2023, 12/10/2019, 12/19/2017, 01/04/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 69 | INVEGA TRINZA NDA-207946 | 67 | 8 (01/23/2025, 09/12/2024, 08/30/2021, 02/12/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 690 | CODEINE SULFATE NDA-022402 | 151 | 7 (12/22/2025, 12/15/2023, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 691 | E-Z-HD NDA-208036 | 45 | 4 (04/30/2019, 04/07/2017, 02/08/2017, 01/03/2017) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 692 | VENLAFAXINE HYDROCHLORIDE NDA-022104 | 50 | 4 (08/18/2023, 09/20/2021, 12/19/2017, 01/04/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 693 | DYANAVEL XR NDA-208147 | 67 | 6 (09/23/2025, 10/13/2023, 02/25/2022, 02/05/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Warnings |
+| 694 | QUILLIVANT XR NDA-202100 | 60 | 5 (09/23/2025, 10/13/2023, 06/25/2021, 01/24/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 695 | QUILLICHEW ER NDA-207960 | 62 | 5 (09/23/2025, 10/13/2023, 06/25/2021, 02/28/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Precautions, Warnings |
+| 696 | METHYLIN NDA-021419 | 54 | 4 (10/13/2023, 07/19/2021, 06/25/2021, 01/04/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 697 | METHYLIN NDA-021475 | 46 | 4 (01/10/2025, 10/13/2023, 06/25/2021, 01/04/2017) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 698 | NUCYNTA ER NDA-200533 | 101 | 6 (12/22/2025, 12/15/2023, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings and Precautions |
+| 699 | METADATE CD NDA-021259 | 52 | 5 (09/23/2025, 10/13/2023, 04/22/2022, 06/25/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 7 | PROPYLTHIOURACIL NDA-006188 | 38 | 2 (09/19/2018, 01/15/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 70 | INVOKAMET NDA-204353 | 181 | 18 (08/11/2026, 08/11/2026, 12/18/2024, 08/23/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 700 | RITALIN NDA-010187 | 57 | 6 (10/13/2023, 10/13/2023, 06/26/2021, 11/19/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 701 | RITALIN LA NDA-021284 | 59 | 6 (09/23/2025, 10/13/2023, 06/26/2021, 11/19/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 702 | RITALIN-SR NDA-018029 | 44 | 3 (11/19/2019, 01/10/2019, 01/04/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 703 | FOCALIN NDA-021278 | 54 | 5 (10/13/2023, 06/26/2021, 11/19/2019, 01/10/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 704 | FOCALIN XR NDA-021802 | 57 | 6 (09/23/2025, 10/13/2023, 06/26/2021, 11/19/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 705 | PROZAC NDA-018936 | 55 | 5 (08/18/2023, 10/06/2021, 04/28/2020, 03/24/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 706 | PROZAC WEEKLY NDA-021235 | 36 | 2 (03/24/2017, 01/04/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 707 | PEXEVA NDA-021299 | 55 | 5 (08/18/2023, 08/18/2023, 09/20/2021, 12/31/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Warnings and Precautions |
+| 708 | HYDROMORPHONE HYDROCHLORIDE NDA-200403 | 80 | 4 (12/22/2025, 12/15/2023, 10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 709 | PAXIL NDA-020031 | 75 | 6 (09/23/2026, 11/26/2024, 08/18/2023, 09/20/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Medication Guide, Precautions |
+| 71 | INVOKANA NDA-204042 | 122 | 16 (06/03/2026, 12/18/2024, 08/23/2024, 08/23/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 710 | PAXIL NDA-020710 | 70 | 5 (09/23/2026, 08/18/2023, 09/20/2021, 02/06/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Precautions |
+| 711 | PAXIL CR NDA-020936 | 81 | 6 (09/23/2026, 08/18/2023, 08/18/2023, 09/20/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Contraindications, Medication Guide, Precautions, Warnings |
+| 712 | CELEXA NDA-020822 | 57 | 5 (04/19/2024, 08/18/2023, 02/04/2022, 09/20/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Warnings, Warnings and Precautions |
+| 713 | LEXAPRO NDA-021323 | 76 | 7 (04/19/2024, 08/18/2023, 05/12/2023, 09/20/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information |
+| 714 | MORPHINE SULFATE NDA-201517 | 125 | 6 (12/22/2025, 12/15/2023, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings and Precautions |
+| 715 | LEXAPRO NDA-021365 | 68 | 6 (04/19/2024, 08/18/2023, 05/12/2023, 09/20/2021) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 716 | LUCENTIS BLA-125156 | 40 | 3 (02/15/2024, 04/15/2017, 01/05/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 717 | OPANA ER NDA-201655 | 69 | 3 (10/07/2019, 09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 718 | CODEINE SULFATE NDA-202245 | 154 | 7 (12/22/2025, 12/15/2023, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings and Precautions |
+| 719 | EMBEDA NDA-022321 | 66 | 3 (10/07/2019, 09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 72 | PLASMA-LYTE 56 AND DEXTROSE 5% IN PLASTIC CONTAINER NDA-017385 | 34 | 1 (03/18/2016) |         	Contraindications,         	Warnings and Precautions |
+| 720 | NUCYNTA NDA-203794 | 157 | 7 (12/22/2025, 12/15/2023, 07/03/2023, 03/04/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Patient Counseling Information, Precautions, Warnings |
+| 721 | TARGINIQ NDA-205777 | 63 | 2 (09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 722 | MORPHINE SULFATE NDA-202515 | 87 | 5 (12/22/2025, 12/15/2023, 04/29/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 723 | METHADOSE NDA-017116 | 91 | 7 (12/22/2025, 12/15/2023, 09/13/2021, 06/02/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Precautions, Warnings |
+| 724 | MORPHABOND NDA-206544 | 60 | 1 (12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 725 | XARTEMIS XR NDA-204031 | 74 | 2 (09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 726 | SUBUTEX NDA-020732 | 92 | 8 (06/17/2022, 03/04/2021, 10/30/2019, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 727 | SUBOXONE NDA-020733 | 83 | 7 (06/17/2022, 03/04/2021, 10/30/2019, 10/07/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 728 | DURAMORPH PF NDA-018565 | 105 | 5 (12/22/2025, 12/15/2023, 12/15/2023, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 729 | MORPHINE SULFATE NDA-204223 | 94 | 4 (12/22/2025, 12/15/2023, 10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 73 | RENAGEL NDA-021179 | 41 | 3 (04/30/2020, 02/21/2019, 03/09/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 730 | METHADONE HYDROCHLORIDE NDA-017058 | 106 | 7 (12/22/2025, 12/15/2023, 06/02/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Patient Counseling Information, Warnings |
+| 731 | SUBSYS NDA-202788 | 87 | 3 (03/04/2021, 10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 732 | HYSINGLA NDA-206627 | 64 | 2 (09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 733 | ADDERALL XR 10 NDA-021303 | 65 | 7 (04/23/2026, 09/23/2025, 10/13/2023, 02/25/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 734 | TROXYCA ER NDA-207621 | 41 | 1 (12/16/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 735 | XTAMPZA ER NDA-208090 | 92 | 6 (12/22/2025, 12/15/2023, 03/04/2021, 10/07/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 736 | INFUMORPH NDA-018565 | 103 | 5 (12/22/2025, 12/15/2023, 12/15/2023, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 737 | BUNAVAIL NDA-205637 | 90 | 7 (06/17/2022, 03/04/2021, 10/07/2019, 02/01/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide |
+| 738 | IONSYS NDA-021338 | 63 | 1 (12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 739 | SUFENTA PRESERVATIVE FREE NDA-019050 | 80 | 4 (12/22/2025, 12/15/2023, 10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 74 | RENVELA NDA-022318 | 45 | 3 (04/30/2020, 11/25/2016, 03/09/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 740 | BUPRENEX NDA-018401 | 65 | 4 (12/15/2023, 06/17/2022, 10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Warnings |
+| 741 | DURAGESIC-100 NDA-019813 | 83 | 4 (03/04/2021, 10/07/2019, 09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Boxed Warning, Medication Guide |
+| 742 | FETZIMA NDA-204168 | 82 | 7 (04/19/2024, 08/18/2023, 03/24/2023, 09/20/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 743 | ADDERALL 10 NDA-011522 | 51 | 3 (10/13/2023, 02/25/2022, 01/04/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 744 | ADDERALL 12.5 NDA-011522 | 51 | 3 (10/13/2023, 02/25/2022, 01/04/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 745 | ADDERALL 15 NDA-011522 | 51 | 3 (10/13/2023, 02/25/2022, 01/04/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 746 | DURAGESIC-75 NDA-019813 | 83 | 4 (03/04/2021, 10/07/2019, 09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Boxed Warning, Medication Guide |
+| 747 | ADDERALL 20 NDA-011522 | 51 | 3 (10/13/2023, 02/25/2022, 01/04/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 748 | ADDERALL 30 NDA-011522 | 51 | 3 (10/13/2023, 02/25/2022, 01/04/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 749 | ADDERALL 5 NDA-011522 | 50 | 3 (10/13/2023, 02/25/2022, 01/04/2017) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 75 | RENVELA NDA-022127 | 45 | 3 (04/30/2020, 11/25/2016, 03/09/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 750 | DURAGESIC-50 NDA-019813 | 83 | 4 (03/04/2021, 10/07/2019, 09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Boxed Warning, Medication Guide |
+| 751 | ADDERALL 7.5 NDA-011522 | 51 | 3 (10/13/2023, 02/25/2022, 01/04/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 752 | DURAGESIC-25 NDA-019813 | 83 | 4 (03/04/2021, 10/07/2019, 09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Boxed Warning, Medication Guide |
+| 753 | DURAGESIC-12 NDA-019813 | 83 | 4 (03/04/2021, 10/07/2019, 09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Boxed Warning, Medication Guide |
+| 754 | ULTRAM ER NDA-021692 | 90 | 2 (08/29/2017, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 755 | CONZIP NDA-022370 | 136 | 8 (12/22/2025, 12/15/2023, 09/10/2021, 03/04/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Adverse Reactions, Boxed Warning, Medication Guide, Warnings |
+| 756 | LAZANDA NDA-022569 | 88 | 3 (03/04/2021, 10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions,      Adverse Reactions, Boxed Warning |
+| 757 | BELBUCA NDA-207932 | 114 | 7 (12/22/2025, 12/15/2023, 06/17/2022, 03/04/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 758 | ZOHYDRO ER NDA-202880 | 76 | 4 (03/04/2021, 10/07/2019, 09/18/2018, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 759 | ALFENTA NDA-019353 | 82 | 4 (12/22/2025, 12/15/2023, 10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Warnings |
+| 76 | RISPERDAL NDA-020272 | 57 | 8 (01/22/2025, 12/02/2022, 02/12/2021, 02/05/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 760 | CONCERTA NDA-021121 | 110 | 7 (02/02/2026, 02/02/2026, 02/02/2026, 09/23/2025) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Warnings and Precautions |
+| 762 | SUBLIMAZE PRESERVATIVE FREE NDA-016619 | 89 | 5 (12/22/2025, 12/15/2023, 10/07/2019, 01/24/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 763 | DEXEDRINE NDA-017078 | 48 | 4 (10/13/2023, 02/25/2022, 05/19/2017, 01/04/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 764 | ZEPATIER NDA-208261 | 56 | 6 (12/09/2021, 12/11/2019, 06/28/2018, 11/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 765 | VANCOCIN HYDROCHLORIDE IN PLASTIC CONTAINER NDA-050671 | 40 | 3 (01/29/2021, 09/28/2017, 01/09/2017) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions |
+| 766 | CORLANOR NDA-206143 | 43 | 3 (08/04/2021, 05/13/2019, 01/10/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 767 | METHADONE HYDROCHLORIDE NDA-006383 | 55 | 2 (02/01/2018, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 768 | ABSTRAL NDA-022510 | 90 | 2 (10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 769 | POTASSIUM CHLORIDE 10MEQ IN PLASTIC CONTAINER NDA-019904 | 49 | 3 (06/13/2022, 06/20/2019, 01/07/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 77 | RISPERDAL NDA-020588 | 57 | 8 (01/22/2025, 03/11/2022, 02/12/2021, 02/05/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information |
+| 770 | POTASSIUM CHLORIDE 20MEQ IN PLASTIC CONTAINER NDA-019904 | 49 | 3 (06/13/2022, 06/20/2019, 01/07/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 771 | POTASSIUM CHLORIDE 40MEQ IN PLASTIC CONTAINER NDA-019904 | 49 | 3 (06/13/2022, 06/20/2019, 01/07/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 772 | POTASSIUM CHLORIDE 30MEQ IN PLASTIC CONTAINER NDA-019904 | 49 | 3 (06/13/2022, 06/20/2019, 01/07/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 773 | LATUDA NDA-200603 | 116 | 8 (01/22/2025, 12/04/2019, 03/05/2018, 09/25/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 774 | DIABETA NDA-017532 | 34 | 1 (01/11/2017) |         	Adverse Reactions |
+| 775 | ESBRIET NDA-022535 | 44 | 3 (02/24/2023, 07/31/2019, 01/11/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 776 | ONSOLIS NDA-022266 | 134 | 4 (03/04/2021, 10/07/2019, 12/16/2016, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 777 | FENTORA NDA-021947 | 175 | 7 (12/22/2025, 12/15/2023, 11/22/2022, 03/04/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 778 | ACTIQ NDA-020747 | 158 | 7 (12/22/2025, 12/15/2023, 11/22/2022, 03/04/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 779 | DOLOPHINE HYDROCHLORIDE NDA-006134 | 145 | 6 (06/02/2021, 10/07/2019, 09/18/2018, 02/01/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Patient Counseling Information, Precautions, Warnings |
+| 78 | RISPERDAL NDA-021444 | 57 | 8 (01/22/2025, 12/02/2022, 02/12/2021, 02/05/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 780 | METHADONE HYDROCHLORIDE NDA-021624 | 112 | 5 (12/22/2025, 12/15/2023, 06/02/2021, 10/07/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Patient Information, Warnings |
+| 781 | FENTANYL CITRATE NDA-019115 | 83 | 5 (12/22/2025, 12/15/2023, 10/07/2019, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 782 | HYCODAN NDA-005213 | 69 | 5 (12/22/2025, 12/15/2023, 09/27/2021, 06/28/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 783 | PHENERGAN VC W/ CODEINE NDA-008306 | 82 | 5 (12/22/2025, 12/15/2023, 06/28/2018, 08/29/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 784 | PHENERGAN W/ CODEINE NDA-008306 | 79 | 4 (12/22/2025, 06/28/2018, 08/29/2017, 01/13/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 785 | TUSSIONEX PENNKINETIC NDA-019111 | 50 | 2 (06/28/2018, 01/13/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 786 | OBREDON NDA-205474 | 64 | 4 (12/22/2025, 12/15/2023, 06/28/2018, 01/13/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 787 | ZUTRIPRO NDA-022439 | 61 | 2 (06/28/2018, 01/13/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 788 | REZIRA NDA-022442 | 59 | 2 (06/28/2018, 01/13/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 789 | VITUZ NDA-204307 | 57 | 2 (06/28/2018, 01/13/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 79 | RISPERDAL CONSTA NDA-021346 | 57 | 7 (01/22/2025, 02/12/2021, 02/05/2020, 01/25/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
 | 790 | VICOPROFEN NDA-020716 | 296 | 4 (12/16/2016, 12/16/2016, 12/16/2016, 12/16/2016) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 791 | CODEINE PHOSPHATE AND CHLORPHENIRAMINE MALEATE NDA-206323 | 67 | 3 (06/28/2018, 08/29/2017, 01/13/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 792 | TUZISTRA XR NDA-207768 | 76 | 5 (12/22/2025, 12/15/2023, 06/28/2018, 08/29/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Medication Guide, Warnings, Warnings and Precautions |
+| 793 | HYCOFENIX NDA-022279 | 71 | 4 (12/22/2025, 12/15/2023, 06/28/2018, 01/13/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Patient Counseling Information, Use in Specific Populations, Warnings and Precautions |
+| 794 | FLOWTUSS NDA-022424 | 69 | 4 (12/22/2025, 12/15/2023, 06/28/2018, 01/13/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 795 | SOLIRIS BLA-125166 | 98 | 11 (02/28/2025, 09/19/2024, 06/28/2024, 03/22/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 796 | SAPHRIS NDA-022117 | 59 | 3 (01/22/2025, 02/23/2017, 01/13/2017) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 797 | ADEMPAS NDA-204819 | 54 | 4 (08/04/2026, 09/10/2021, 01/11/2018, 01/17/2017) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 798 | LEXISCAN NDA-022161 | 41 | 2 (05/31/2018, 01/17/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 799 | JANUVIA NDA-021995 | 58 | 7 (06/21/2022, 12/04/2020, 08/12/2019, 07/01/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 8 | TOPOTECAN HYDROCHLORIDE NDA-022453 | 47 | 3 (06/24/2019, 09/20/2017, 01/29/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 80 | TUDORZA PRESSAIR NDA-202450 | 37 | 2 (03/29/2019, 03/16/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 800 | KOMBIGLYZE XR NDA-200678 | 72 | 6 (08/11/2026, 10/11/2024, 07/01/2019, 02/27/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Warnings |
+| 801 | JANUMET NDA-022044 | 89 | 9 (08/11/2026, 06/21/2022, 12/04/2020, 08/12/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Medication Guide |
+| 802 | JANUMET XR NDA-202270 | 89 | 9 (08/11/2026, 06/21/2022, 12/04/2020, 08/12/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Medication Guide, Warnings |
+| 803 | SEEBRI NDA-207923 | 39 | 2 (07/30/2021, 01/19/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 804 | DEFINITY NDA-021064 | 58 | 7 (03/01/2024, 06/05/2023, 04/09/2021, 04/09/2021) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Contraindications, Warnings and Precautions |
+| 805 | PANDEL NDA-020453 | 46 | 1 (01/25/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 806 | UTIBRON NDA-207930 | 48 | 3 (07/30/2021, 05/29/2019, 01/25/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 807 | PYLERA NDA-050786 | 61 | 7 (03/31/2025, 07/08/2024, 12/15/2021, 03/05/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions |
+| 808 | TRICOR NDA-021203 | 40 | 4 (03/28/2019, 11/06/2018, 05/18/2018, 01/25/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 809 | NARCAN NDA-208411 | 36 | 1 (01/24/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 81 | ADCETRIS BLA-125388 | 77 | 9 (02/11/2025, 06/14/2023, 11/10/2022, 10/15/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 810 | XYREM NDA-021196 | 84 | 6 (02/11/2021, 09/25/2020, 07/21/2020, 10/26/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide, Patient Counseling Information, Warnings |
+| 811 | LANSOPRAZOLE NDA-208025 | 38 | 5 (11/01/2022, 04/09/2019, 11/30/2017, 11/15/2017) |         	Warnings and Precautions, Warnings |
+| 812 | OFIRMEV NDA-022450 | 43 | 2 (04/06/2018, 01/27/2017) |         	Adverse Reactions,         	Use in Specific Populations |
+| 813 | THALOMID NDA-020785 | 65 | 6 (09/02/2026, 02/25/2021, 06/07/2019, 12/29/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 814 | SYMBICORT NDA-021929 | 53 | 3 (12/20/2017, 09/11/2017, 01/27/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 815 | PLAQUENIL NDA-009768 | 116 | 7 (12/12/2023, 07/24/2023, 05/04/2022, 05/03/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings, Warnings and Precautions |
+| 816 | TRULICITY BLA-125469 | 132 | 15 (03/12/2026, 05/28/2025, 11/01/2024, 11/01/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 817 | VICTRELIS NDA-202258 | 33 | 1 (01/30/2017) |         	Contraindications |
+| 818 | BETOPTIC S NDA-019845 | 44 | 2 (06/09/2021, 02/01/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 819 | NULOJIX BLA-125288 | 45 | 4 (07/28/2021, 04/13/2018, 11/09/2017, 02/02/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 82 | ANGIOMAX NDA-020873 | 42 | 2 (12/21/2018, 03/21/2016) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 820 | GRANIX BLA-125294 | 59 | 5 (11/21/2023, 03/28/2019, 07/31/2018, 06/21/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Patient Information |
+| 821 | VIBERZI NDA-206940 | 48 | 5 (06/17/2020, 04/13/2018, 11/08/2017, 04/20/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 822 | ZOLEDRONIC ACID NDA-203231 | 60 | 4 (10/27/2020, 10/27/2020, 10/27/2020, 02/02/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 823 | DIOVAN NDA-021283 | 41 | 3 (04/19/2021, 06/12/2019, 02/03/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 824 | DIOVAN NDA-020665 | 33 | 1 (02/03/2017) |         	Adverse Reactions |
+| 825 | DEMADEX NDA-020136 | 50 | 1 (02/03/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 826 | LIDOCAINE HYDROCHLORIDE 0.1% AND DEXTROSE 5% IN PLASTIC CONTAINER NDA-018461 | 44 | 1 (02/07/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 827 | LIDOCAINE HYDROCHLORIDE 0.2% AND DEXTROSE 5% IN PLASTIC CONTAINER NDA-018461 | 44 | 1 (02/07/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 828 | NUVIGIL NDA-021875 | 47 | 1 (02/07/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 829 | PROAMATINE NDA-019815 | 35 | 1 (02/07/2017) |         	Warnings and Precautions |
+| 83 | DROXIA NDA-016295 | 57 | 8 (11/28/2023, 06/07/2023, 01/13/2022, 08/05/2021) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Drug Interactions |
+| 830 | LIDOCAINE HYDROCHLORIDE 0.4% AND DEXTROSE 5% IN PLASTIC CONTAINER NDA-018461 | 44 | 1 (02/07/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 831 | LIDOCAINE HYDROCHLORIDE 0.8% AND DEXTROSE 5% IN PLASTIC CONTAINER NDA-018461 | 44 | 1 (02/07/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 832 | LUZU NDA-204153 | 44 | 3 (02/20/2018, 02/20/2018, 02/08/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations |
+| 833 | READI-CAT 2 NDA-208143 | 36 | 1 (02/08/2017) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 834 | READI-CAT 2 SMOOTHIES NDA-208143 | 36 | 1 (02/08/2017) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 835 | KALYDECO NDA-203188 | 125 | 11 (03/17/2026, 09/25/2025, 05/22/2025, 08/03/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 836 | KALYDECO NDA-207925 | 123 | 10 (03/17/2026, 09/25/2025, 05/22/2025, 08/03/2023) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 837 | PRANDIN NDA-020741 | 42 | 3 (01/22/2019, 02/08/2017, 02/08/2017) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 838 | ZMAX NDA-050797 | 43 | 4 (11/22/2021, 04/24/2019, 03/30/2017, 02/09/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Precautions |
+| 839 | OFEV NDA-205832 | 99 | 11 (10/11/2024, 06/18/2024, 01/13/2022, 10/28/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 84 | FASLODEX NDA-021344 | 53 | 8 (05/13/2020, 03/11/2019, 07/05/2018, 11/14/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 840 | LEUKINE BLA-103362 | 37 | 1 (02/10/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 841 | VIEKIRA XR NDA-208624 | 51 | 6 (12/06/2019, 07/23/2018, 11/09/2017, 03/22/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 842 | ACCUPRIL NDA-019885 | 35 | 2 (04/26/2017, 02/13/2017) |         	Adverse Reactions,         	Contraindications,         	Warnings and Precautions |
+| 843 | UNASYN NDA-050608 | 39 | 6 (11/05/2025, 01/31/2025, 05/01/2024, 10/09/2020) |         	Adverse Reactions,         	Warnings and Precautions |
+| 844 | SUBOXONE NDA-022410 | 97 | 9 (12/22/2025, 05/19/2025, 12/15/2023, 06/17/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 845 | SOVALDI NDA-204671 | 71 | 8 (12/23/2024, 03/05/2020, 09/19/2019, 08/28/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 846 | HARVONI NDA-205834 | 69 | 8 (12/19/2024, 03/05/2020, 11/15/2019, 09/19/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 847 | OLYSIO NDA-205123 | 42 | 3 (11/09/2017, 05/12/2017, 02/14/2017) |         	Drug Interactions,         	Warnings and Precautions, Boxed Warning |
+| 848 | DAKLINZA NDA-206843 | 42 | 3 (10/16/2019, 11/09/2017, 02/14/2017) |         	Drug Interactions,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 849 | EPCLUSA NDA-208341 | 73 | 10 (04/27/2022, 06/10/2021, 07/14/2020, 03/19/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 85 | HERCEPTIN BLA-103792 | 39 | 3 (06/18/2024, 09/20/2018, 03/17/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 850 | RAZADYNE NDA-021169 | 39 | 3 (08/03/2021, 02/21/2020, 02/14/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 851 | RAZADYNE NDA-021224 | 33 | 1 (02/14/2017) |         	Adverse Reactions |
+| 852 | RAZADYNE ER NDA-021615 | 39 | 3 (08/03/2021, 02/21/2020, 02/14/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 853 | SPIRIVA RESPIMAT NDA-021936 | 52 | 2 (02/14/2019, 02/15/2017) |         	Adverse Reactions,         	Use in Specific Populations |
+| 854 | VASCEPA NDA-202057 | 47 | 2 (12/13/2019, 02/16/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 855 | NUCALA BLA-125526 | 65 | 6 (05/22/2025, 01/22/2022, 07/29/2021, 09/12/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 856 | REVLIMID NDA-021880 | 98 | 9 (05/24/2022, 10/30/2019, 05/28/2019, 01/22/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 857 | VRAYLAR NDA-204370 | 67 | 9 (12/18/2025, 12/18/2025, 12/18/2025, 11/22/2024) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 858 | GEODON NDA-020825 | 55 | 6 (01/22/2025, 01/28/2022, 05/18/2021, 01/23/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Patient Information |
+| 859 | SYNTHROID NDA-021402 | 62 | 5 (02/20/2024, 08/30/2022, 07/15/2020, 02/23/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Drug Interactions |
+| 86 | IMPLANON NDA-021529 | 41 | 2 (01/16/2026, 03/14/2016) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 860 | FAZACLO ODT NDA-021590 | 46 | 2 (04/14/2020, 02/23/2017) |         	Adverse Reactions,         	Drug Interactions,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 861 | LOXITANE C NDA-017658 | 35 | 2 (01/22/2025, 02/23/2017) |         	Warnings and Precautions |
+| 862 | LOXITANE IM NDA-018039 | 33 | 1 (02/23/2017) |         	Warnings and Precautions |
+| 863 | LOXITANE NDA-017525 | 35 | 2 (01/22/2025, 02/23/2017) |         	Warnings and Precautions |
+| 864 | VERSACLOZ NDA-203479 | 79 | 6 (06/13/2025, 01/22/2025, 04/26/2023, 07/29/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 865 | MEKINIST NDA-204114 | 146 | 23 (05/07/2026, 03/26/2026, 04/07/2025, 03/19/2025) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Medication Guide, Patient Information |
+| 866 | GEODON NDA-021483 | 33 | 1 (02/23/2017) |         	Warnings and Precautions |
+| 867 | GEODON NDA-020919 | 55 | 5 (01/22/2025, 05/18/2021, 01/23/2020, 11/05/2018) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Patient Information |
+| 868 | XOPENEX HFA NDA-021730 | 41 | 1 (02/27/2017) |         	Use in Specific Populations, Patient Information |
+| 869 | MOBAN NDA-017111 | 35 | 2 (01/22/2025, 02/23/2017) |         	Warnings and Precautions |
+| 87 | JAKAFI NDA-202192 | 116 | 11 (07/20/2026, 01/31/2023, 12/19/2022, 09/27/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 870 | TRIZIVIR NDA-021205 | 68 | 5 (02/17/2021, 05/10/2019, 04/27/2018, 03/15/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 871 | COMBIVIR NDA-020857 | 56 | 4 (05/10/2019, 04/27/2018, 04/10/2017, 02/24/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 872 | RETROVIR NDA-019655 | 51 | 4 (09/10/2018, 11/28/2017, 04/10/2017, 02/24/2017) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 873 | RETROVIR NDA-019910 | 51 | 4 (09/10/2018, 11/28/2017, 04/10/2017, 02/24/2017) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 874 | RETROVIR NDA-019951 | 51 | 4 (09/10/2018, 11/28/2017, 04/10/2017, 02/24/2017) |         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 875 | CARDURA XL NDA-021269 | 35 | 1 (02/27/2017) |         	Use in Specific Populations |
+| 876 | ADVAIR HFA NDA-021254 | 44 | 3 (01/07/2019, 12/20/2017, 02/28/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 877 | ADVAIR DISKUS 100/50 NDA-021077 | 54 | 4 (01/07/2019, 12/20/2017, 12/20/2017, 02/28/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 878 | ADVAIR DISKUS 250/50 NDA-021077 | 54 | 4 (01/07/2019, 12/20/2017, 12/20/2017, 02/28/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 879 | ADVAIR DISKUS 500/50 NDA-021077 | 54 | 4 (01/07/2019, 12/20/2017, 12/20/2017, 02/28/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 88 | NEXPLANON NDA-021529 | 74 | 10 (05/28/2026, 01/16/2026, 09/29/2023, 09/29/2023) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 880 | VAGIFEM NDA-020908 | 50 | 5 (02/15/2024, 09/29/2022, 04/09/2019, 11/01/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 881 | UNITUXIN BLA-125516 | 44 | 2 (09/29/2020, 03/01/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 882 | YERVOY BLA-125377 | 159 | 24 (08/31/2026, 05/23/2025, 04/11/2025, 04/08/2025) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Medication Guide |
+| 883 | BACTRIM NDA-018374 | 58 | 4 (02/21/2025, 05/21/2021, 02/09/2018, 03/04/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 884 | LIQUID E-Z-PAQUE NDA-208143 | 35 | 1 (03/01/2017) |         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 885 | ZOFRAN PRESERVATIVE FREE NDA-020007 | 49 | 4 (06/02/2025, 10/20/2021, 04/29/2021, 03/08/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Drug Interactions, Patient Counseling Information, Precautions, Warnings |
+| 886 | APTIOM NDA-022416 | 52 | 2 (09/13/2017, 03/07/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Warnings |
+| 887 | LOPERAMIDE HYDROCHLORIDE NDA-021855 | 33 | 1 (03/09/2017) |         	Warnings and Precautions |
+| 888 | CEFOTAN NDA-050588 | 36 | 1 (03/09/2017) |         	Use in Specific Populations,         	Warnings and Precautions |
+| 889 | TIGAN NDA-017531 | 44 | 1 (03/13/2017) |         	Contraindications, Drug Interactions |
+| 89 | OXYTROL FOR WOMEN NDA-202211 | 33 | 1 (03/03/2016) |         	Warnings and Precautions |
+| 890 | VIGAMOX NDA-021598 | 36 | 2 (05/11/2020, 03/14/2017) |         	Use in Specific Populations |
+| 891 | SUPRAX NDA-202091 | 41 | 2 (10/29/2019, 03/16/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 892 | NAPROXEN SODIUM NDA-021920 | 37 | 4 (12/13/2021, 04/30/2020, 12/09/2019, 03/16/2017) |         	Warnings and Precautions |
+| 893 | NOVOLOG BLA-020986 | 62 | 6 (02/28/2023, 03/23/2021, 11/15/2019, 11/15/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Warnings |
+| 894 | NOVOLOG FLEXPEN BLA-020986 | 59 | 4 (02/28/2023, 03/23/2021, 12/20/2018, 03/16/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Warnings |
+| 895 | NOVOLOG FLEXTOUCH BLA-020986 | 59 | 4 (02/28/2023, 03/23/2021, 12/20/2018, 03/16/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Warnings |
+| 896 | NOVOLOG INNOLET BLA-020986 | 59 | 4 (02/28/2023, 03/23/2021, 12/20/2018, 03/16/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Warnings |
+| 897 | NOVOLOG PENFILL BLA-020986 | 59 | 4 (02/28/2023, 03/23/2021, 12/20/2018, 03/16/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Warnings |
+| 898 | SUPRAX NDA-203195 | 41 | 2 (05/22/2025, 03/16/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 899 | MIDOL LIQUID GELS NDA-021472 | 33 | 1 (03/16/2017) |         	Warnings and Precautions, Warnings |
+| 9 | FANAPT NDA-022192 | 64 | 6 (01/22/2025, 04/02/2024, 02/23/2017, 02/23/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 90 | XGEVA BLA-125320 | 102 | 12 (06/23/2026, 05/30/2025, 06/09/2020, 02/10/2020) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 900 | DARAPRIM NDA-008578 | 34 | 2 (06/21/2017, 03/16/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 901 | APOKYN NDA-021264 | 54 | 5 (06/22/2022, 05/05/2022, 05/01/2020, 05/20/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 902 | STARLIX NDA-021204 | 42 | 3 (10/28/2021, 05/10/2018, 03/14/2017) |         	Contraindications,         	Drug Interactions,         	Use in Specific Populations, Drug Interactions |
+| 903 | CHILDREN'S ELIXSURE NDA-021604 | 33 | 1 (03/15/2017) |         	Warnings and Precautions, Warnings |
+| 904 | ZEMBRACE SYMTOUCH NDA-208223 | 38 | 2 (06/10/2019, 03/20/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 905 | PRED-G NDA-050586 | 34 | 2 (06/07/2018, 03/20/2017) |         	Adverse Reactions |
+| 906 | ZIAGEN NDA-020977 | 49 | 4 (11/24/2020, 05/09/2018, 05/09/2018, 03/20/2017) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 907 | ZIAGEN NDA-020978 | 49 | 4 (11/24/2020, 05/09/2018, 05/09/2018, 03/20/2017) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 908 | EPZICOM NDA-021652 | 57 | 4 (12/10/2021, 02/17/2021, 04/27/2018, 03/20/2017) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 909 | CIPRO HC NDA-020805 | 35 | 1 (03/20/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 91 | ZARXIO BLA-125553 | 64 | 6 (10/22/2024, 08/09/2024, 07/26/2021, 08/01/2019) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 910 | ZYMAR NDA-021493 | 39 | 1 (03/21/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 911 | CILOXAN NDA-019992 | 33 | 1 (03/21/2017) |         	Warnings and Precautions |
+| 912 | TECHNESCAN PYP KIT NDA-017538 | 37 | 3 (11/24/2025, 05/22/2025, 03/21/2017) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 913 | CASODEX NDA-020498 | 40 | 1 (03/17/2017) |         	Contraindications,         	Use in Specific Populations, Patient Information |
+| 914 | SPORANOX NDA-020083 | 66 | 10 (07/07/2026, 12/19/2024, 10/25/2024, 02/05/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Patient Counseling Information, Precautions |
+| 915 | SPORANOX NDA-020657 | 66 | 10 (07/07/2026, 12/19/2024, 10/25/2024, 03/18/2024) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Precautions |
+| 916 | REQUIP XL NDA-022008 | 86 | 3 (07/12/2021, 07/12/2021, 03/23/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 917 | CHILDREN'S ADVIL NDA-020589 | 34 | 1 (03/23/2017) |         	Warnings and Precautions, Warnings |
+| 918 | ADVIL COLD AND SINUS NDA-019771 | 35 | 2 (11/19/2021, 03/23/2017) |         	Warnings and Precautions, Warnings |
+| 919 | VIMPAT NDA-022253 | 86 | 11 (04/28/2023, 09/30/2022, 10/14/2021, 09/15/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 92 | GENVOYA NDA-207561 | 130 | 18 (01/07/2022, 09/13/2021, 03/04/2021, 12/02/2020) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 920 | VIMPAT NDA-022254 | 85 | 10 (04/28/2023, 09/30/2022, 10/14/2021, 09/15/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 921 | VIMPAT NDA-022255 | 85 | 10 (04/28/2023, 09/30/2022, 10/14/2021, 09/15/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 922 | NEURONTIN NDA-020235 | 60 | 6 (04/25/2025, 07/12/2024, 12/16/2020, 04/02/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 923 | NEURONTIN NDA-020882 | 64 | 6 (04/25/2025, 07/12/2024, 12/16/2020, 04/02/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 924 | NEURONTIN NDA-021129 | 60 | 6 (04/25/2025, 07/12/2024, 12/16/2020, 04/02/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 925 | BICNU NDA-017422 | 50 | 1 (03/24/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 926 | TRILEPTAL NDA-021014 | 59 | 4 (09/23/2025, 01/04/2019, 11/17/2017, 03/23/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 927 | TRILEPTAL NDA-021285 | 59 | 4 (09/23/2025, 01/04/2019, 11/17/2017, 03/23/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Medication Guide |
+| 928 | ADVIL ALLERGY AND CONGESTION RELIEF NDA-022113 | 35 | 2 (11/23/2021, 03/24/2017) |         	Warnings and Precautions, Warnings |
+| 929 | CHILDREN'S ADVIL NDA-020944 | 34 | 1 (03/27/2017) |         	Warnings and Precautions, Warnings |
+| 93 | KLONOPIN NDA-017533 | 65 | 5 (01/13/2023, 02/05/2021, 10/25/2017, 12/16/2016) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide, Warnings |
+| 930 | PRED-G NDA-050612 | 34 | 2 (06/07/2018, 03/20/2017) |         	Adverse Reactions |
+| 931 | PEDIATRIC ADVIL NDA-020812 | 34 | 1 (03/24/2017) |         	Warnings and Precautions, Warnings |
+| 932 | ADVIL COLD AND SINUS NDA-021374 | 35 | 2 (11/19/2021, 03/24/2017) |         	Warnings and Precautions, Warnings |
+| 933 | SEASONALE NDA-021544 | 131 | 6 (01/27/2023, 01/27/2023, 04/29/2022, 08/09/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 934 | IBRANCE NDA-207103 | 66 | 11 (06/24/2026, 09/16/2025, 04/23/2025, 03/06/2025) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 935 | TECHNESCAN NDA-018321 | 39 | 3 (11/24/2025, 05/22/2025, 03/31/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 936 | ADVIL PM NDA-021394 | 36 | 3 (02/21/2023, 01/10/2022, 03/30/2017) |         	Warnings and Precautions |
+| 937 | LONSURF NDA-207981 | 61 | 4 (08/02/2023, 02/22/2019, 06/29/2017, 03/30/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 938 | VIRAMUNE NDA-020636 | 52 | 2 (06/10/2022, 03/27/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions |
+| 939 | VIRAMUNE NDA-020933 | 55 | 3 (07/22/2024, 06/10/2022, 03/27/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions |
+| 94 | PREZCOBIX NDA-205395 | 125 | 17 (02/27/2026, 03/21/2025, 03/31/2023, 10/20/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 940 | ZITHROMAX NDA-050670 | 54 | 4 (07/13/2026, 11/22/2021, 04/24/2019, 03/30/2017) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information, Precautions |
+| 941 | NORVASC NDA-019787 | 37 | 1 (03/30/2017) |         	Use in Specific Populations |
+| 942 | ORENCIA BLA-125118 | 76 | 7 (01/19/2024, 10/30/2023, 12/15/2021, 06/17/2020) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 943 | VIRAMUNE XR NDA-201152 | 48 | 3 (07/22/2024, 06/10/2022, 03/27/2017) |         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Medication Guide |
+| 944 | JUNIOR STRENGTH ADVIL NDA-020267 | 33 | 1 (03/29/2017) |         	Warnings and Precautions |
+| 945 | MONODOX NDA-050641 | 40 | 3 (03/31/2025, 05/08/2024, 04/03/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 946 | CHILDREN'S MOTRIN COLD NDA-021128 | 33 | 1 (04/03/2017) |         	Warnings and Precautions, Warnings |
+| 947 | QUDEXY XR NDA-205122 | 167 | 9 (03/06/2026, 03/28/2024, 12/02/2022, 02/04/2022) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 948 | CHILDREN'S ADVIL COLD NDA-021373 | 34 | 1 (03/24/2017) |         	Warnings and Precautions, Warnings |
+| 949 | CHILDREN'S ADVIL ALLERGY SINUS NDA-021587 | 34 | 1 (03/24/2017) |         	Warnings and Precautions, Warnings |
+| 95 | SUSTIVA NDA-020972 | 57 | 7 (11/08/2023, 10/29/2019, 10/10/2017, 01/30/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 950 | PRANDIMET NDA-022386 | 55 | 2 (12/08/2017, 04/05/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Drug Interactions |
+| 951 | AVANDAMET NDA-021410 | 48 | 1 (04/05/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 952 | FORTAMET NDA-021574 | 52 | 3 (08/11/2026, 11/08/2018, 04/05/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 953 | GLUMETZA NDA-021748 | 56 | 3 (08/11/2026, 11/07/2018, 04/05/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning |
+| 954 | GLUCOPHAGE NDA-020357 | 56 | 3 (05/30/2018, 04/05/2017, 04/05/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 955 | GLUCOPHAGE XR NDA-021202 | 56 | 3 (05/30/2018, 04/05/2017, 04/05/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Patient Information |
+| 956 | RIOMET NDA-021591 | 46 | 2 (11/06/2018, 04/05/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 957 | GLUCOVANCE NDA-021178 | 86 | 3 (12/27/2018, 04/05/2017, 04/05/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning |
+| 958 | VISIPAQUE 270 NDA-020351 | 53 | 3 (04/25/2023, 02/18/2022, 04/05/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Warnings and Precautions |
+| 959 | VISIPAQUE 320 NDA-020351 | 53 | 3 (04/25/2023, 02/18/2022, 04/05/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Warnings and Precautions |
+| 96 | SUSTIVA NDA-021360 | 57 | 7 (11/08/2023, 10/29/2019, 10/10/2017, 01/30/2017) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Warnings and Precautions, Patient Information |
+| 960 | OMNIPAQUE 140 NDA-018956 | 81 | 6 (10/08/2024, 04/25/2023, 02/18/2022, 08/05/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Warnings |
+| 961 | OMNIPAQUE 180 NDA-018956 | 81 | 6 (10/08/2024, 04/25/2023, 02/18/2022, 08/05/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Warnings |
+| 962 | OMNIPAQUE 210 NDA-018956 | 80 | 6 (10/08/2024, 04/25/2023, 02/18/2022, 08/05/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Warnings |
+| 963 | OMNIPAQUE 240 NDA-018956 | 81 | 6 (10/08/2024, 04/25/2023, 02/18/2022, 08/05/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Warnings |
+| 964 | OMNIPAQUE 300 NDA-018956 | 80 | 6 (10/08/2024, 04/25/2023, 02/18/2022, 08/05/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Warnings |
+| 965 | OMNIPAQUE 70 NDA-018956 | 81 | 6 (10/08/2024, 04/25/2023, 02/18/2022, 08/05/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Boxed Warning, Warnings |
+| 966 | CHOLOGRAFIN MEGLUMINE NDA-009321 | 35 | 1 (04/05/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 967 | CHOLOGRAFIN SODIUM NDA-009321 | 35 | 1 (04/05/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 968 | TIMOPTIC IN OCUDOSE NDA-019463 | 33 | 1 (04/06/2017) |         	Use in Specific Populations |
+| 969 | IOPIDINE NDA-020258 | 36 | 2 (03/18/2026, 04/06/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 97 | CLEOCIN PHOSPHATE NDA-050441 | 53 | 11 (03/26/2026, 02/12/2026, 05/20/2022, 12/04/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 970 | IOPIDINE NDA-019779 | 38 | 3 (03/18/2026, 03/01/2018, 04/06/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 971 | TYKERB NDA-022059 | 47 | 4 (03/27/2022, 12/06/2018, 12/06/2018, 04/06/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Information |
+| 972 | HEXABRIX NDA-018905 | 36 | 1 (04/05/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 973 | MD-76R NDA-019292 | 37 | 1 (04/05/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 974 | OXILAN-300 NDA-020316 | 36 | 1 (04/05/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 975 | OXILAN-350 NDA-020316 | 36 | 1 (04/05/2017) |         	Adverse Reactions,         	Warnings and Precautions |
+| 976 | ULTRAVIST (PHARMACY BULK) NDA-021425 | 76 | 7 (05/25/2023, 04/25/2023, 02/18/2022, 08/01/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 977 | ULTRAVIST 150 NDA-020220 | 48 | 4 (04/25/2023, 02/18/2022, 08/01/2019, 04/05/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 978 | ULTRAVIST 240 NDA-020220 | 49 | 5 (04/25/2023, 02/18/2022, 08/01/2019, 04/02/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 979 | ULTRAVIST 300 IN PLASTIC CONTAINER NDA-020220 | 49 | 5 (04/25/2023, 02/18/2022, 08/01/2019, 04/02/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 98 | CLEOCIN PHOSPHATE IN DEXTROSE 5% IN PLASTIC CONTAINER NDA-050639 | 54 | 11 (03/26/2026, 02/12/2026, 05/20/2022, 12/04/2021) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 980 | ULTRAVIST 300 NDA-020220 | 69 | 6 (05/25/2023, 04/25/2023, 02/18/2022, 08/01/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 981 | ULTRAVIST 370 NDA-020220 | 69 | 6 (05/25/2023, 04/25/2023, 02/18/2022, 08/01/2019) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions |
+| 982 | ISOVUE-128 NDA-018735 | 59 | 5 (10/10/2025, 12/06/2024, 04/25/2023, 02/18/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 983 | ISOVUE-200 NDA-018735 | 59 | 5 (10/10/2025, 12/06/2024, 04/25/2023, 02/18/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 984 | ISOVUE-250 NDA-018735 | 59 | 5 (10/10/2025, 12/06/2024, 04/25/2023, 02/18/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 985 | ISOVUE-300 NDA-018735 | 59 | 5 (10/10/2025, 12/06/2024, 04/25/2023, 02/18/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 986 | ISOVUE-370 NDA-018735 | 59 | 5 (10/10/2025, 12/06/2024, 04/25/2023, 02/18/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 987 | ISOVUE-M 200 NDA-018735 | 59 | 5 (10/10/2025, 12/06/2024, 04/25/2023, 02/18/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 988 | ISOVUE-M 300 NDA-018735 | 59 | 5 (10/10/2025, 12/06/2024, 04/25/2023, 02/18/2022) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 989 | ISOVUE-200 NDA-020327 | 48 | 5 (01/13/2026, 04/25/2023, 02/18/2022, 02/16/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 99 | INCRELEX BLA-021839 | 52 | 5 (07/09/2025, 03/15/2024, 12/03/2019, 01/18/2019) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 990 | ISOVUE-250 NDA-020327 | 47 | 5 (01/13/2026, 04/25/2023, 02/18/2022, 02/16/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 991 | ISOVUE-300 NDA-020327 | 47 | 5 (01/13/2026, 04/25/2023, 02/18/2022, 02/16/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 992 | ISOVUE-370 NDA-020327 | 47 | 5 (01/13/2026, 04/25/2023, 02/18/2022, 02/16/2018) |         	Adverse Reactions,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions |
+| 993 | CONRAY NDA-013295 | 45 | 3 (04/26/2023, 02/18/2022, 04/05/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 994 | CONRAY 43 NDA-013295 | 45 | 3 (04/26/2023, 02/18/2022, 04/05/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 995 | CONRAY 30 NDA-016983 | 39 | 1 (04/05/2017) |         	Adverse Reactions,         	Contraindications,         	Use in Specific Populations,         	Warnings and Precautions |
+| 996 | VISIPAQUE 270 NDA-020808 | 53 | 3 (04/25/2023, 02/18/2022, 04/05/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Warnings and Precautions |
+| 997 | VISIPAQUE 320 NDA-020808 | 53 | 3 (04/25/2023, 02/18/2022, 04/05/2017) |         	Adverse Reactions,         	Use in Specific Populations,         	Warnings and Precautions, Adverse Reactions, Warnings and Precautions |
+| 998 | ODEFSEY NDA-208351 | 115 | 8 (02/19/2025, 09/10/2021, 03/04/2021, 12/03/2019) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Patient Counseling Information, Patient Information |
+| 999 | DESCOVY NDA-208215 | 122 | 9 (06/20/2025, 06/20/2025, 01/07/2022, 09/15/2021) |         	Adverse Reactions,         	Contraindications,         	Drug Interactions,         	Use in Specific Populations,         	Warnings and Precautions, Boxed Warning, Drug Interactions, Patient Information |
 
 ## Source 3: FDA Drug Safety Communications (DSC)
 

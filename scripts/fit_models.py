@@ -38,6 +38,15 @@ OUTCOME = ("confirmed_", "first_confirm", "days_to_confirm", "dsc_drug", "s921_d
 f = duckdb.connect().execute(f"select * from read_parquet('{P}/features_{RULE}.parquet')").df()
 drop = {"drug_ai", "pt_clean", "detection_quarter", "first_quarter_at_3"}
 COLS = [c for c in f.columns if c not in drop and not any(p in c for p in OUTCOME)]
+# A filter applied to the cohort can leave its own flag constant: source_clustered is 0
+# for every surviving row, because the clustered rows were removed. A zero-variance column
+# cannot inform a split or a coefficient, but it does take a line in the importance and
+# SHAP output, where a reader has no way to tell "no signal" from "no variation". Dropped
+# here and named, so the sensitivity arm (which keeps those rows) still gets the feature.
+CONST = [c for c in COLS if f[c].nunique(dropna=False) < 2]
+if CONST:
+    print(f"dropping zero-variance features: {CONST}")
+    COLS = [c for c in COLS if c not in CONST]
 assert f.detection_quarter.max() <= "2023Q2", "censoring violated: a pair lacks 3 years of follow-up"
 
 f["year"] = f.detection_quarter.str[:4]

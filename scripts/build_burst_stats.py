@@ -1,6 +1,7 @@
 """Compute the single-source clustering statistics of decision 85, one row per detected pair.
 
-Run: /usr/local/bin/python3 scripts/build_burst_stats.py
+Run: /usr/local/bin/python3 scripts/build_burst_stats.py   (BEFORE build_confirmation_target.py)
+In : data/processed/detected_pairs_T{1,2,3}.parquet, ps_drug_event_cases.parquet
 Out: data/processed/burst_stats_T{1,2,3}.parquet
        drug_ai, pt_clean, detection_quarter, burst_n, cases_at_detection, burst_share,
        source_clustered
@@ -8,8 +9,12 @@ Out: data/processed/burst_stats_T{1,2,3}.parquet
 Leakage: only cases with init_quarter <= detection_quarter are counted, the same freeze
 rule the feature table uses, so a pair is judged on what was knowable at detection.
 
-This writes the statistic and the flag. It does NOT drop anything: see decision 86 for
-why the exclusion decision is deferred until the label rule of decisions 74-78 lands.
+Reads detected_pairs, NOT confirmation_target: the target build consumes this file to
+apply the exclusion of decision 87, so taking detection quarters from the target would
+be circular.
+
+This writes the statistic and the flag. The exclusion itself is applied in
+build_confirmation_target.py, which keeps every drop in one place.
 """
 import sys
 from pathlib import Path
@@ -24,7 +29,8 @@ P = ROOT / "data/processed"
 SQL = """
 copy (
   with t as (select drug_ai, pt_clean, detection_quarter
-             from read_parquet('{tgt}')),
+             from read_parquet('{tgt}')
+             where status = 'in_window'),
        c as (select p.drug_ai, p.pt_clean, p.init_quarter, count(*) as n
              from read_parquet('{cases}') p
              join t on t.drug_ai = p.drug_ai and t.pt_clean = p.pt_clean
@@ -45,7 +51,7 @@ if __name__ == "__main__":
     con = duckdb.connect()
     for tag in ("T1", "T2", "T3"):
         out = P / f"burst_stats_{tag}.parquet"
-        con.execute(SQL.format(tgt=P / f"confirmation_target_{tag}.parquet",
+        con.execute(SQL.format(tgt=P / f"detected_pairs_{tag}.parquet",
                                cases=P / "ps_drug_event_cases.parquet",
                                share=BURST_SHARE, minn=BURST_MIN_N, out=out))
         r = con.execute(f"""select count(*) n, sum(source_clustered) f,

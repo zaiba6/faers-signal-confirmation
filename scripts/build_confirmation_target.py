@@ -36,7 +36,7 @@ DEFINITIONS (all recorded in the report; see DECISIONS.md)
   class; DSC titles in the index are truncated, so DSC drug matching is name-in-title/URL and is
   reported as supplementary, not folded into the primary target.
 """
-import re, json, sys
+import os, re, json, sys
 from pathlib import Path
 import duckdb, pandas as pd
 
@@ -146,6 +146,27 @@ def main():
         report.setdefault("nonclinical_excluded", {})[t] = dict(
             before=n_before, removed=int(drop.sum()), after=len(pairs),
             removed_pct=round(100 * drop.sum() / n_before, 2))
+
+        # Single-source clustering leaves the cohort too (decision 87). Not because of how
+        # often these pairs confirm - selecting on the outcome would be its own leakage -
+        # but because their reports are not independent, which understates the variance of
+        # the ROR and therefore ror_lcl. Cohort membership IS ror_lcl > 1 (decision 23), so
+        # a flagged pair is here only because a bound computed under a violated assumption
+        # crossed the threshold. KEEP_CLUSTERED=1 runs the pre-committed sensitivity arm.
+        bs = Path(f"{P}/burst_stats_{t}.parquet")
+        if not bs.exists():
+            raise SystemExit(f"missing {bs}: run scripts/build_burst_stats.py first")
+        flags = con.execute(f"""select drug_ai, pt_clean, detection_quarter, source_clustered,
+                                burst_share from read_parquet('{bs}')""").df()
+        n_before = len(pairs)
+        pairs = pairs.merge(flags, on=["drug_ai", "pt_clean", "detection_quarter"], how="left")
+        pairs["source_clustered"] = pairs.source_clustered.fillna(0).astype(int)
+        if os.environ.get("KEEP_CLUSTERED") != "1":
+            pairs = pairs[pairs.source_clustered == 0].reset_index(drop=True)
+        report.setdefault("source_clustered_excluded", {})[t] = dict(
+            before=n_before, removed=n_before - len(pairs), after=len(pairs),
+            removed_pct=round(100 * (n_before - len(pairs)) / n_before, 2),
+            sensitivity_arm=os.environ.get("KEEP_CLUSTERED") == "1")
         pairs["detect_dt"] = pairs.detection_quarter.map(quarter_end)
         con.register("pr", pairs)
 

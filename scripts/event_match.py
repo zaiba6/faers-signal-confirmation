@@ -61,6 +61,48 @@ POP_C = [re.compile(p, re.I) for p in POP_CUES]
 RISK_C = [re.compile(p, re.I) for p in RISK_CUES]
 SENT_END = re.compile(r"[.;:]\s|\u2026")
 
+# ---------------------------------------------------------------- hand-check fixes (decision 99)
+# Both vetoes below come from the seed-2026 hand-check of the baseline rule (decision 95), where
+# 3 of 30 sampled exclusions were wrong. Both error classes are OVER-exclusion, and both are
+# matches on text that is not a statement about the drug at all.
+
+# (a) A SECTION CROSS-REFERENCE. US labels thread "[see Warnings and Precautions (5.3)]" and
+#     "(see Drug Interactions (7.3))" through every section. The bracketed text is a pointer to
+#     another section, not a description of an event, so VOXELOTOR / DRUG INTERACTION was recorded
+#     as already labelled on the strength of "[see Drug Interactions (7.3)]". A hit whose start
+#     falls inside such a bracket is skipped.
+XREF = re.compile(r"\[\s*see\b[^\]]{0,200}\]|\(\s*see\b[^)]{0,200}\)", re.I)
+
+# (b) A SYSTEM ORGAN CLASS TABLE HEADING. Adverse-reaction tables are grouped under MedDRA SOC
+#     names - "Eye disorders: conjunctivitis", "Gastrointestinal Disorders: fundic gland polyps".
+#     The heading names the GROUP; the events are what follows it. TOCILIZUMAB / EYE DISORDER and
+#     RABEPRAZOLE / GASTROINTESTINAL DISORDER both fired on the heading. The veto is deliberately
+#     narrow: it applies only when the matched text is itself one of the 27 SOC names AND is
+#     immediately followed by a colon. A subsection heading that names a real event, which is how
+#     labels usually introduce one ("5.3 Increased Photosensitivity", "Hepatotoxicity:"), is
+#     untouched, because a colon alone is not enough to trigger it.
+SOC_NAMES = {
+    "blood and lymphatic system disorders", "cardiac disorders", "congenital familial and genetic disorders",
+    "ear and labyrinth disorders", "endocrine disorders", "eye disorders", "gastrointestinal disorders",
+    "general disorders and administration site conditions", "hepatobiliary disorders",
+    "immune system disorders", "infections and infestations",
+    "injury poisoning and procedural complications", "investigations",
+    "metabolism and nutrition disorders", "musculoskeletal and connective tissue disorders",
+    "neoplasms benign malignant and unspecified", "nervous system disorders",
+    "pregnancy puerperium and perinatal conditions", "product issues", "psychiatric disorders",
+    "renal and urinary disorders", "reproductive system and breast disorders",
+    "respiratory thoracic and mediastinal disorders", "skin and subcutaneous tissue disorders",
+    "social circumstances", "surgical and medical procedures", "vascular disorders",
+}
+_SOC_NORM = re.compile(r"[^a-z ]+")
+
+
+def _is_soc_heading(text, m):
+    """The hit is a MedDRA SOC name used as a table heading: '<SOC name>:' ."""
+    if _SOC_NORM.sub("", m.group(0).lower()).strip() not in SOC_NAMES:
+        return False
+    return bool(re.match(r"\s{0,3}:", text[m.end():m.end() + 4]))
+
 
 # MedDRA writes PTs in British English; US prescribing information does not. Without this,
 # DYSPNOEA can never match "dyspnea", DIARRHOEA never matches "diarrhea" and OEDEMA
@@ -98,13 +140,37 @@ def pt_regex(pt):
     """
     t = pt.strip()
     low = t.lower()
+    # Decision 99. MedDRA often appends a qualifier noun the label leaves off: the PT is
+    # PHOTOSENSITIVITY REACTION where a Warnings heading reads "Increased Photosensitivity",
+    # so the event was on the label and the rule could not see it. Only REACTION is made
+    # optional, and only as a trailing word. DISORDER and SYNDROME are NOT, because dropping
+    # them changes the concept - SLEEP DISORDER would match bare "sleep", SEROTONIN SYNDROME
+    # bare "serotonin".
+    tail = ""
+    if low.endswith(" reaction"):
+        base = t[:-len(" reaction")].rstrip()
+        # The base has to be able to stand for the event BY ITSELF, or dropping the noun
+        # changes what is being matched. Measured on the 155 rows this relaxation first
+        # moved: a short or multi-word base decays into a location, a route or a substance
+        # and matches text about neither the drug nor an event - SKIN REACTION fired on
+        # "Candida skin test", INFUSION SITE REACTION on "monitor the ABRAXANE infusion
+        # site", CONTRAST MEDIA REACTION on the name of the contrast agent, NONSPECIFIC
+        # REACTION on "nonspecific symptoms". So: one word, at least 8 characters, and not
+        # a word naming the ACT of giving the drug rather than an effect of it (the same
+        # distinction decision 68 draws). PHOTOSENSITIVITY, ANAPHYLACTIC and ANAPHYLACTOID
+        # pass; SKIN, LOCAL, PANIC, INJECTION SITE and TRANSFUSION do not.
+        GIVING = {"transfusion", "injection", "infusion", "application", "administration",
+                  "vaccination", "implantation", "immunisation", "immunization"}
+        if " " not in base and len(base) >= 8 and base.lower() not in GIVING:
+            t, tail = base, r"(?:\s+reactions?)?"
+            low = t.lower()
     if len(t) > 4 and low.endswith("ss"):
         body = _spell(re.escape(t)) + r"(?:es)?"
     elif len(t) > 4 and low.endswith("s"):
         body = _spell(re.escape(t[:-1])) + r"s?"
     else:
         body = _spell(re.escape(t)) + r"s?"
-    return re.compile(r"\b" + body + r"\b", re.I)
+    return re.compile(r"\b" + body + tail + r"\b", re.I)
 
 
 def _nearest(patterns, text):
@@ -121,8 +187,13 @@ def event_match(text, pt, rx=None, section_code="", lookback=140):
     if pt.upper() in GENERIC_PT:
         return False, "generic_pt"
     rx = rx or pt_regex(pt)
+    xref = [(x.start(), x.end()) for x in XREF.finditer(text)]
     seen = False
     for m in rx.finditer(text):
+        if any(a <= m.start() < b for a, b in xref):
+            continue                                # pointer to another section, not an event
+        if _is_soc_heading(text, m):
+            continue                                # names the table group, not a reaction in it
         seen = True
         before = text[max(0, m.start() - lookback):m.start()]
         cut = None                                  # only cues in the PT's own sentence count

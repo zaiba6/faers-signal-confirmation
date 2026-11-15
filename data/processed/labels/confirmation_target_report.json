@@ -19,21 +19,21 @@
  "nonclinical_excluded": {
   "T1": {
    "before": 363502,
-   "removed": 17361,
-   "after": 346141,
-   "removed_pct": 4.78
+   "removed": 17433,
+   "after": 346069,
+   "removed_pct": 4.8
   },
   "T2": {
    "before": 349259,
-   "removed": 15917,
-   "after": 333342,
-   "removed_pct": 4.56
+   "removed": 15989,
+   "after": 333270,
+   "removed_pct": 4.58
   },
   "T3": {
    "before": 259345,
-   "removed": 14203,
-   "after": 245142,
-   "removed_pct": 5.48
+   "removed": 14244,
+   "after": 245101,
+   "removed_pct": 5.49
   }
  },
  "cohort_cascade": {
@@ -41,244 +41,244 @@
    {
     "step": "nonclinical_pts",
     "before": 363502,
-    "after": 346141,
-    "removed": 17361,
-    "removed_pct": 4.78,
+    "after": 346069,
+    "removed": 17433,
+    "removed_pct": 4.8,
     "by_detection_year": {
      "2016": {
       "before": 54301,
-      "after": 51726,
-      "removed_pct": 4.74
+      "after": 51710,
+      "removed_pct": 4.77
      },
      "2017": {
       "before": 49969,
-      "after": 47499,
-      "removed_pct": 4.94
+      "after": 47491,
+      "removed_pct": 4.96
      },
      "2018": {
       "before": 53630,
-      "after": 51110,
-      "removed_pct": 4.7
+      "after": 51100,
+      "removed_pct": 4.72
      },
      "2019": {
       "before": 51057,
-      "after": 48588,
-      "removed_pct": 4.84
+      "after": 48580,
+      "removed_pct": 4.85
      },
      "2020": {
       "before": 50347,
-      "after": 47951,
-      "removed_pct": 4.76
+      "after": 47941,
+      "removed_pct": 4.78
      },
      "2021": {
       "before": 43590,
-      "after": 41542,
-      "removed_pct": 4.7
+      "after": 41536,
+      "removed_pct": 4.71
      },
      "2022": {
       "before": 40776,
-      "after": 38787,
-      "removed_pct": 4.88
+      "after": 38780,
+      "removed_pct": 4.9
      },
      "2023": {
       "before": 19832,
-      "after": 18938,
-      "removed_pct": 4.51
+      "after": 18931,
+      "removed_pct": 4.54
      }
     }
    },
    {
     "step": "source_clustered",
-    "before": 346141,
-    "after": 341298,
-    "removed": 4843,
+    "before": 346069,
+    "after": 341227,
+    "removed": 4842,
     "removed_pct": 1.4,
     "by_detection_year": {
      "2016": {
-      "before": 51726,
-      "after": 50901,
+      "before": 51710,
+      "after": 50886,
       "removed_pct": 1.59
      },
      "2017": {
-      "before": 47499,
-      "after": 46661,
+      "before": 47491,
+      "after": 46653,
       "removed_pct": 1.76
      },
      "2018": {
-      "before": 51110,
-      "after": 50519,
+      "before": 51100,
+      "after": 50509,
       "removed_pct": 1.16
      },
      "2019": {
-      "before": 48588,
-      "after": 48054,
+      "before": 48580,
+      "after": 48046,
       "removed_pct": 1.1
      },
      "2020": {
-      "before": 47951,
-      "after": 47079,
+      "before": 47941,
+      "after": 47069,
       "removed_pct": 1.82
      },
      "2021": {
-      "before": 41542,
-      "after": 41163,
+      "before": 41536,
+      "after": 41157,
       "removed_pct": 0.91
      },
      "2022": {
-      "before": 38787,
-      "after": 38272,
+      "before": 38780,
+      "after": 38265,
       "removed_pct": 1.33
      },
      "2023": {
-      "before": 18938,
-      "after": 18649,
+      "before": 18931,
+      "after": 18642,
       "removed_pct": 1.53
      }
     }
    },
    {
     "step": "no_baseline_version",
-    "before": 341298,
-    "after": 260441,
-    "removed": 80857,
+    "before": 341227,
+    "after": 260380,
+    "removed": 80847,
     "removed_pct": 23.69,
     "by_detection_year": {
      "2016": {
-      "before": 50901,
-      "after": 37510,
+      "before": 50886,
+      "after": 37499,
       "removed_pct": 26.31
      },
      "2017": {
-      "before": 46661,
-      "after": 34688,
+      "before": 46653,
+      "after": 34682,
       "removed_pct": 25.66
      },
      "2018": {
-      "before": 50519,
-      "after": 37953,
-      "removed_pct": 24.87
+      "before": 50509,
+      "after": 37944,
+      "removed_pct": 24.88
      },
      "2019": {
-      "before": 48054,
-      "after": 37117,
+      "before": 48046,
+      "after": 37110,
       "removed_pct": 22.76
      },
      "2020": {
-      "before": 47079,
-      "after": 36617,
+      "before": 47069,
+      "after": 36608,
       "removed_pct": 22.22
      },
      "2021": {
-      "before": 41163,
-      "after": 31801,
-      "removed_pct": 22.74
+      "before": 41157,
+      "after": 31795,
+      "removed_pct": 22.75
      },
      "2022": {
-      "before": 38272,
-      "after": 29902,
+      "before": 38265,
+      "after": 29895,
       "removed_pct": 21.87
      },
      "2023": {
-      "before": 18649,
-      "after": 14853,
-      "removed_pct": 20.35
+      "before": 18642,
+      "after": 14847,
+      "removed_pct": 20.36
      }
     }
    },
    {
     "step": "baseline_text_unavailable",
-    "before": 260441,
-    "after": 259615,
+    "before": 260380,
+    "after": 259554,
     "removed": 826,
     "removed_pct": 0.32,
     "by_detection_year": {
      "2016": {
-      "before": 37510,
-      "after": 37356,
+      "before": 37499,
+      "after": 37345,
       "removed_pct": 0.41
      },
      "2017": {
-      "before": 34688,
-      "after": 34492,
+      "before": 34682,
+      "after": 34486,
       "removed_pct": 0.57
      },
      "2018": {
-      "before": 37953,
-      "after": 37823,
+      "before": 37944,
+      "after": 37814,
       "removed_pct": 0.34
      },
      "2019": {
-      "before": 37117,
-      "after": 37015,
+      "before": 37110,
+      "after": 37008,
       "removed_pct": 0.27
      },
      "2020": {
-      "before": 36617,
-      "after": 36550,
+      "before": 36608,
+      "after": 36541,
       "removed_pct": 0.18
      },
      "2021": {
-      "before": 31801,
-      "after": 31755,
+      "before": 31795,
+      "after": 31749,
       "removed_pct": 0.14
      },
      "2022": {
-      "before": 29902,
-      "after": 29801,
+      "before": 29895,
+      "after": 29794,
       "removed_pct": 0.34
      },
      "2023": {
-      "before": 14853,
-      "after": 14823,
+      "before": 14847,
+      "after": 14817,
       "removed_pct": 0.2
      }
     }
    },
    {
     "step": "already_labelled_at_detection",
-    "before": 259615,
-    "after": 241417,
-    "removed": 18198,
-    "removed_pct": 7.01,
+    "before": 259554,
+    "after": 241443,
+    "removed": 18111,
+    "removed_pct": 6.98,
     "by_detection_year": {
      "2016": {
-      "before": 37356,
-      "after": 33880,
-      "removed_pct": 9.31
+      "before": 37345,
+      "after": 33882,
+      "removed_pct": 9.27
      },
      "2017": {
-      "before": 34492,
-      "after": 31830,
-      "removed_pct": 7.72
+      "before": 34486,
+      "after": 31836,
+      "removed_pct": 7.68
      },
      "2018": {
-      "before": 37823,
-      "after": 35233,
-      "removed_pct": 6.85
+      "before": 37814,
+      "after": 35240,
+      "removed_pct": 6.81
      },
      "2019": {
-      "before": 37015,
-      "after": 34703,
-      "removed_pct": 6.25
+      "before": 37008,
+      "after": 34711,
+      "removed_pct": 6.21
      },
      "2020": {
-      "before": 36550,
-      "after": 34443,
-      "removed_pct": 5.76
+      "before": 36541,
+      "after": 34440,
+      "removed_pct": 5.75
      },
      "2021": {
-      "before": 31755,
+      "before": 31749,
       "after": 29711,
-      "removed_pct": 6.44
+      "removed_pct": 6.42
      },
      "2022": {
-      "before": 29801,
-      "after": 27770,
-      "removed_pct": 6.82
+      "before": 29794,
+      "after": 27781,
+      "removed_pct": 6.76
      },
      "2023": {
-      "before": 14823,
-      "after": 13847,
+      "before": 14817,
+      "after": 13842,
       "removed_pct": 6.58
      }
     }
@@ -288,244 +288,244 @@
    {
     "step": "nonclinical_pts",
     "before": 349259,
-    "after": 333342,
-    "removed": 15917,
-    "removed_pct": 4.56,
+    "after": 333270,
+    "removed": 15989,
+    "removed_pct": 4.58,
     "by_detection_year": {
      "2016": {
       "before": 52423,
-      "after": 50069,
-      "removed_pct": 4.49
+      "after": 50053,
+      "removed_pct": 4.52
      },
      "2017": {
       "before": 48216,
-      "after": 45965,
-      "removed_pct": 4.67
+      "after": 45957,
+      "removed_pct": 4.69
      },
      "2018": {
       "before": 51625,
-      "after": 49336,
-      "removed_pct": 4.43
+      "after": 49325,
+      "removed_pct": 4.46
      },
      "2019": {
       "before": 49108,
-      "after": 46815,
-      "removed_pct": 4.67
+      "after": 46807,
+      "removed_pct": 4.69
      },
      "2020": {
       "before": 48279,
-      "after": 46073,
-      "removed_pct": 4.57
+      "after": 46064,
+      "removed_pct": 4.59
      },
      "2021": {
       "before": 41698,
-      "after": 39855,
-      "removed_pct": 4.42
+      "after": 39849,
+      "removed_pct": 4.43
      },
      "2022": {
       "before": 38933,
-      "after": 37070,
-      "removed_pct": 4.79
+      "after": 37063,
+      "removed_pct": 4.8
      },
      "2023": {
       "before": 18977,
-      "after": 18159,
-      "removed_pct": 4.31
+      "after": 18152,
+      "removed_pct": 4.35
      }
     }
    },
    {
     "step": "source_clustered",
-    "before": 333342,
-    "after": 328724,
-    "removed": 4618,
+    "before": 333270,
+    "after": 328653,
+    "removed": 4617,
     "removed_pct": 1.39,
     "by_detection_year": {
      "2016": {
-      "before": 50069,
-      "after": 49263,
+      "before": 50053,
+      "after": 49248,
       "removed_pct": 1.61
      },
      "2017": {
-      "before": 45965,
-      "after": 45172,
+      "before": 45957,
+      "after": 45164,
       "removed_pct": 1.73
      },
      "2018": {
-      "before": 49336,
-      "after": 48777,
+      "before": 49325,
+      "after": 48766,
       "removed_pct": 1.13
      },
      "2019": {
-      "before": 46815,
-      "after": 46300,
+      "before": 46807,
+      "after": 46292,
       "removed_pct": 1.1
      },
      "2020": {
-      "before": 46073,
-      "after": 45245,
+      "before": 46064,
+      "after": 45236,
       "removed_pct": 1.8
      },
      "2021": {
-      "before": 39855,
-      "after": 39489,
+      "before": 39849,
+      "after": 39483,
       "removed_pct": 0.92
      },
      "2022": {
-      "before": 37070,
-      "after": 36600,
+      "before": 37063,
+      "after": 36593,
       "removed_pct": 1.27
      },
      "2023": {
-      "before": 18159,
-      "after": 17878,
+      "before": 18152,
+      "after": 17871,
       "removed_pct": 1.55
      }
     }
    },
    {
     "step": "no_baseline_version",
-    "before": 328724,
-    "after": 249313,
-    "removed": 79411,
+    "before": 328653,
+    "after": 249252,
+    "removed": 79401,
     "removed_pct": 24.16,
     "by_detection_year": {
      "2016": {
-      "before": 49263,
-      "after": 36066,
+      "before": 49248,
+      "after": 36055,
       "removed_pct": 26.79
      },
      "2017": {
-      "before": 45172,
-      "after": 33407,
-      "removed_pct": 26.04
+      "before": 45164,
+      "after": 33401,
+      "removed_pct": 26.05
      },
      "2018": {
-      "before": 48777,
-      "after": 36399,
+      "before": 48766,
+      "after": 36389,
       "removed_pct": 25.38
      },
      "2019": {
-      "before": 46300,
-      "after": 35591,
+      "before": 46292,
+      "after": 35584,
       "removed_pct": 23.13
      },
      "2020": {
-      "before": 45245,
-      "after": 34947,
+      "before": 45236,
+      "after": 34939,
       "removed_pct": 22.76
      },
      "2021": {
-      "before": 39489,
-      "after": 30349,
+      "before": 39483,
+      "after": 30343,
       "removed_pct": 23.15
      },
      "2022": {
-      "before": 36600,
-      "after": 28403,
+      "before": 36593,
+      "after": 28396,
       "removed_pct": 22.4
      },
      "2023": {
-      "before": 17878,
-      "after": 14151,
+      "before": 17871,
+      "after": 14145,
       "removed_pct": 20.85
      }
     }
    },
    {
     "step": "baseline_text_unavailable",
-    "before": 249313,
-    "after": 248479,
+    "before": 249252,
+    "after": 248418,
     "removed": 834,
     "removed_pct": 0.33,
     "by_detection_year": {
      "2016": {
-      "before": 36066,
-      "after": 35912,
+      "before": 36055,
+      "after": 35901,
       "removed_pct": 0.43
      },
      "2017": {
-      "before": 33407,
-      "after": 33217,
+      "before": 33401,
+      "after": 33211,
       "removed_pct": 0.57
      },
      "2018": {
-      "before": 36399,
-      "after": 36265,
+      "before": 36389,
+      "after": 36255,
       "removed_pct": 0.37
      },
      "2019": {
-      "before": 35591,
-      "after": 35490,
+      "before": 35584,
+      "after": 35483,
       "removed_pct": 0.28
      },
      "2020": {
-      "before": 34947,
-      "after": 34878,
+      "before": 34939,
+      "after": 34870,
       "removed_pct": 0.2
      },
      "2021": {
-      "before": 30349,
-      "after": 30305,
-      "removed_pct": 0.14
+      "before": 30343,
+      "after": 30299,
+      "removed_pct": 0.15
      },
      "2022": {
-      "before": 28403,
-      "after": 28296,
+      "before": 28396,
+      "after": 28289,
       "removed_pct": 0.38
      },
      "2023": {
-      "before": 14151,
-      "after": 14116,
+      "before": 14145,
+      "after": 14110,
       "removed_pct": 0.25
      }
     }
    },
    {
     "step": "already_labelled_at_detection",
-    "before": 248479,
-    "after": 232291,
-    "removed": 16188,
-    "removed_pct": 6.51,
+    "before": 248418,
+    "after": 232298,
+    "removed": 16120,
+    "removed_pct": 6.49,
     "by_detection_year": {
      "2016": {
-      "before": 35912,
-      "after": 32815,
-      "removed_pct": 8.62
+      "before": 35901,
+      "after": 32812,
+      "removed_pct": 8.6
      },
      "2017": {
-      "before": 33217,
-      "after": 30801,
-      "removed_pct": 7.27
+      "before": 33211,
+      "after": 30804,
+      "removed_pct": 7.25
      },
      "2018": {
-      "before": 36265,
-      "after": 33980,
-      "removed_pct": 6.3
+      "before": 36255,
+      "after": 33989,
+      "removed_pct": 6.25
      },
      "2019": {
-      "before": 35490,
-      "after": 33426,
-      "removed_pct": 5.82
+      "before": 35483,
+      "after": 33430,
+      "removed_pct": 5.79
      },
      "2020": {
-      "before": 34878,
-      "after": 33022,
-      "removed_pct": 5.32
+      "before": 34870,
+      "after": 33017,
+      "removed_pct": 5.31
      },
      "2021": {
-      "before": 30305,
-      "after": 28518,
-      "removed_pct": 5.9
+      "before": 30299,
+      "after": 28514,
+      "removed_pct": 5.89
      },
      "2022": {
-      "before": 28296,
-      "after": 26478,
-      "removed_pct": 6.42
+      "before": 28289,
+      "after": 26487,
+      "removed_pct": 6.37
      },
      "2023": {
-      "before": 14116,
-      "after": 13251,
+      "before": 14110,
+      "after": 13245,
       "removed_pct": 6.13
      }
     }
@@ -535,245 +535,245 @@
    {
     "step": "nonclinical_pts",
     "before": 259345,
-    "after": 245142,
-    "removed": 14203,
-    "removed_pct": 5.48,
+    "after": 245101,
+    "removed": 14244,
+    "removed_pct": 5.49,
     "by_detection_year": {
      "2016": {
       "before": 38032,
-      "after": 35987,
-      "removed_pct": 5.38
+      "after": 35977,
+      "removed_pct": 5.4
      },
      "2017": {
       "before": 35176,
-      "after": 33224,
-      "removed_pct": 5.55
+      "after": 33221,
+      "removed_pct": 5.56
      },
      "2018": {
       "before": 38059,
-      "after": 36019,
-      "removed_pct": 5.36
+      "after": 36014,
+      "removed_pct": 5.37
      },
      "2019": {
       "before": 36267,
-      "after": 34258,
-      "removed_pct": 5.54
+      "after": 34251,
+      "removed_pct": 5.56
      },
      "2020": {
       "before": 36117,
-      "after": 34162,
-      "removed_pct": 5.41
+      "after": 34160,
+      "removed_pct": 5.42
      },
      "2021": {
       "before": 31514,
-      "after": 29757,
+      "after": 29755,
       "removed_pct": 5.58
      },
      "2022": {
       "before": 29830,
-      "after": 28206,
-      "removed_pct": 5.44
+      "after": 28198,
+      "removed_pct": 5.47
      },
      "2023": {
       "before": 14350,
-      "after": 13529,
-      "removed_pct": 5.72
+      "after": 13525,
+      "removed_pct": 5.75
      }
     }
    },
    {
     "step": "source_clustered",
-    "before": 245142,
-    "after": 239732,
-    "removed": 5410,
+    "before": 245101,
+    "after": 239692,
+    "removed": 5409,
     "removed_pct": 2.21,
     "by_detection_year": {
      "2016": {
-      "before": 35987,
-      "after": 35062,
+      "before": 35977,
+      "after": 35053,
       "removed_pct": 2.57
      },
      "2017": {
-      "before": 33224,
-      "after": 32293,
+      "before": 33221,
+      "after": 32290,
       "removed_pct": 2.8
      },
      "2018": {
-      "before": 36019,
-      "after": 35334,
+      "before": 36014,
+      "after": 35329,
       "removed_pct": 1.9
      },
      "2019": {
-      "before": 34258,
-      "after": 33657,
+      "before": 34251,
+      "after": 33650,
       "removed_pct": 1.75
      },
      "2020": {
-      "before": 34162,
-      "after": 33192,
+      "before": 34160,
+      "after": 33190,
       "removed_pct": 2.84
      },
      "2021": {
-      "before": 29757,
-      "after": 29324,
+      "before": 29755,
+      "after": 29322,
       "removed_pct": 1.46
      },
      "2022": {
-      "before": 28206,
-      "after": 27657,
+      "before": 28198,
+      "after": 27649,
       "removed_pct": 1.95
      },
      "2023": {
-      "before": 13529,
-      "after": 13213,
+      "before": 13525,
+      "after": 13209,
       "removed_pct": 2.34
      }
     }
    },
    {
     "step": "no_baseline_version",
-    "before": 239732,
-    "after": 187642,
-    "removed": 52090,
+    "before": 239692,
+    "after": 187604,
+    "removed": 52088,
     "removed_pct": 21.73,
     "by_detection_year": {
      "2016": {
-      "before": 35062,
-      "after": 26623,
+      "before": 35053,
+      "after": 26615,
       "removed_pct": 24.07
      },
      "2017": {
-      "before": 32293,
-      "after": 24730,
+      "before": 32290,
+      "after": 24728,
       "removed_pct": 23.42
      },
      "2018": {
-      "before": 35334,
-      "after": 27173,
+      "before": 35329,
+      "after": 27168,
       "removed_pct": 23.1
      },
      "2019": {
-      "before": 33657,
-      "after": 26551,
-      "removed_pct": 21.11
+      "before": 33650,
+      "after": 26544,
+      "removed_pct": 21.12
      },
      "2020": {
-      "before": 33192,
-      "after": 26470,
+      "before": 33190,
+      "after": 26468,
       "removed_pct": 20.25
      },
      "2021": {
-      "before": 29324,
-      "after": 23227,
+      "before": 29322,
+      "after": 23225,
       "removed_pct": 20.79
      },
      "2022": {
-      "before": 27657,
-      "after": 22094,
-      "removed_pct": 20.11
+      "before": 27649,
+      "after": 22086,
+      "removed_pct": 20.12
      },
      "2023": {
-      "before": 13213,
-      "after": 10774,
+      "before": 13209,
+      "after": 10770,
       "removed_pct": 18.46
      }
     }
    },
    {
     "step": "baseline_text_unavailable",
-    "before": 187642,
-    "after": 186903,
+    "before": 187604,
+    "after": 186865,
     "removed": 739,
     "removed_pct": 0.39,
     "by_detection_year": {
      "2016": {
-      "before": 26623,
-      "after": 26515,
+      "before": 26615,
+      "after": 26507,
       "removed_pct": 0.41
      },
      "2017": {
-      "before": 24730,
-      "after": 24615,
+      "before": 24728,
+      "after": 24613,
       "removed_pct": 0.47
      },
      "2018": {
-      "before": 27173,
-      "after": 27054,
+      "before": 27168,
+      "after": 27049,
       "removed_pct": 0.44
      },
      "2019": {
-      "before": 26551,
-      "after": 26465,
+      "before": 26544,
+      "after": 26458,
       "removed_pct": 0.32
      },
      "2020": {
-      "before": 26470,
-      "after": 26394,
+      "before": 26468,
+      "after": 26392,
       "removed_pct": 0.29
      },
      "2021": {
-      "before": 23227,
-      "after": 23157,
+      "before": 23225,
+      "after": 23155,
       "removed_pct": 0.3
      },
      "2022": {
-      "before": 22094,
-      "after": 21983,
+      "before": 22086,
+      "after": 21975,
       "removed_pct": 0.5
      },
      "2023": {
-      "before": 10774,
-      "after": 10720,
+      "before": 10770,
+      "after": 10716,
       "removed_pct": 0.5
      }
     }
    },
    {
     "step": "already_labelled_at_detection",
-    "before": 186903,
-    "after": 170048,
-    "removed": 16855,
-    "removed_pct": 9.02,
+    "before": 186865,
+    "after": 170094,
+    "removed": 16771,
+    "removed_pct": 8.97,
     "by_detection_year": {
      "2016": {
-      "before": 26515,
+      "before": 26507,
       "after": 23273,
-      "removed_pct": 12.23
+      "removed_pct": 12.2
      },
      "2017": {
-      "before": 24615,
-      "after": 22152,
-      "removed_pct": 10.01
+      "before": 24613,
+      "after": 22162,
+      "removed_pct": 9.96
      },
      "2018": {
-      "before": 27054,
-      "after": 24606,
-      "removed_pct": 9.05
+      "before": 27049,
+      "after": 24616,
+      "removed_pct": 8.99
      },
      "2019": {
-      "before": 26465,
-      "after": 24354,
-      "removed_pct": 7.98
+      "before": 26458,
+      "after": 24362,
+      "removed_pct": 7.92
      },
      "2020": {
-      "before": 26394,
-      "after": 24455,
-      "removed_pct": 7.35
+      "before": 26392,
+      "after": 24466,
+      "removed_pct": 7.3
      },
      "2021": {
-      "before": 23157,
-      "after": 21233,
-      "removed_pct": 8.31
+      "before": 23155,
+      "after": 21237,
+      "removed_pct": 8.28
      },
      "2022": {
-      "before": 21983,
-      "after": 20131,
-      "removed_pct": 8.42
+      "before": 21975,
+      "after": 20139,
+      "removed_pct": 8.35
      },
      "2023": {
-      "before": 10720,
-      "after": 9844,
-      "removed_pct": 8.17
+      "before": 10716,
+      "after": 9839,
+      "removed_pct": 8.18
      }
     }
    }
@@ -781,89 +781,89 @@
  },
  "source_clustered_excluded": {
   "T1": {
-   "before": 346141,
-   "removed": 4843,
-   "after": 341298,
+   "before": 346069,
+   "removed": 4842,
+   "after": 341227,
    "removed_pct": 1.4,
    "sensitivity_arm": false
   },
   "T2": {
-   "before": 333342,
-   "removed": 4618,
-   "after": 328724,
+   "before": 333270,
+   "removed": 4617,
+   "after": 328653,
    "removed_pct": 1.39,
    "sensitivity_arm": false
   },
   "T3": {
-   "before": 245142,
-   "removed": 5410,
-   "after": 239732,
+   "before": 245101,
+   "removed": 5409,
+   "after": 239692,
    "removed_pct": 2.21,
    "sensitivity_arm": false
   }
  },
  "T1": {
-  "n_pairs": 241417,
-  "n_drugs": 1756,
-  "n_events": 13497,
+  "n_pairs": 241443,
+  "n_drugs": 1757,
+  "n_events": 13496,
   "detection_range": [
    "2016Q1",
    "2023Q2"
   ],
   "positives": {
-   "drug_1y": 108535,
-   "event_1y": 396,
-   "drug_2y": 150891,
-   "event_2y": 714,
-   "drug_3y": 172408,
-   "event_3y": 971,
-   "drug_5y": 192996,
-   "event_5y": 1371
+   "drug_1y": 108546,
+   "event_1y": 395,
+   "drug_2y": 150905,
+   "event_2y": 710,
+   "drug_3y": 172423,
+   "event_3y": 966,
+   "drug_5y": 193017,
+   "event_5y": 1368
   },
   "rates": {
    "drug_1y": 44.96,
    "event_1y": 0.16,
    "drug_2y": 62.5,
-   "event_2y": 0.3,
-   "drug_3y": 71.42,
+   "event_2y": 0.29,
+   "drug_3y": 71.41,
    "event_3y": 0.4,
    "drug_5y": 79.94,
    "event_5y": 0.57
   },
   "strict_only_3y": {
-   "drug": 172408,
-   "event": 971
+   "drug": 172423,
+   "event": 966
   },
-  "median_days_to_confirm": 470,
+  "median_days_to_confirm": 468,
   "first_confirm_section": {
-   "(none)": 240446,
-   "AR": 587,
-   "WP": 370,
+   "(none)": 240477,
+   "AR": 577,
+   "WP": 375,
    "BW": 13,
    "CONTRA": 1
   },
   "supplementary": {
-   "dsc_drug_3y": 4063,
-   "s921_drug_3y": 69851
+   "dsc_drug_3y": 4064,
+   "s921_drug_3y": 69885
   }
  },
  "T2": {
-  "n_pairs": 232291,
-  "n_drugs": 1756,
-  "n_events": 13499,
+  "n_pairs": 232298,
+  "n_drugs": 1757,
+  "n_events": 13498,
   "detection_range": [
    "2016Q1",
    "2023Q2"
   ],
   "positives": {
-   "drug_1y": 103978,
-   "event_1y": 358,
-   "drug_2y": 144810,
-   "event_2y": 656,
+   "drug_1y": 103977,
+   "event_1y": 355,
+   "drug_2y": 144811,
+   "event_2y": 650,
    "drug_3y": 165471,
-   "event_3y": 887,
-   "drug_5y": 185275,
-   "event_5y": 1253
+   "event_3y": 882,
+   "drug_5y": 185277,
+   "event_5y": 1248
   },
   "rates": {
    "drug_1y": 44.76,
@@ -877,63 +877,63 @@
   },
   "strict_only_3y": {
    "drug": 165471,
-   "event": 887
+   "event": 882
   },
-  "median_days_to_confirm": 468,
+  "median_days_to_confirm": 469,
   "first_confirm_section": {
-   "(none)": 231404,
-   "AR": 537,
-   "WP": 336,
-   "BW": 13,
+   "(none)": 231416,
+   "AR": 518,
+   "WP": 355,
+   "BW": 8,
    "CONTRA": 1
   },
   "supplementary": {
-   "dsc_drug_3y": 3919,
-   "s921_drug_3y": 66853
+   "dsc_drug_3y": 3920,
+   "s921_drug_3y": 66872
   }
  },
  "T3": {
-  "n_pairs": 170048,
+  "n_pairs": 170094,
   "n_drugs": 1603,
-  "n_events": 10886,
+  "n_events": 10885,
   "detection_range": [
    "2016Q1",
    "2023Q2"
   ],
   "positives": {
-   "drug_1y": 78149,
-   "event_1y": 367,
-   "drug_2y": 108173,
-   "event_2y": 664,
-   "drug_3y": 123526,
-   "event_3y": 884,
-   "drug_5y": 137841,
+   "drug_1y": 78176,
+   "event_1y": 369,
+   "drug_2y": 108211,
+   "event_2y": 662,
+   "drug_3y": 123566,
+   "event_3y": 880,
+   "drug_5y": 137878,
    "event_5y": 1259
   },
   "rates": {
    "drug_1y": 45.96,
    "event_1y": 0.22,
-   "drug_2y": 63.61,
+   "drug_2y": 63.62,
    "event_2y": 0.39,
-   "drug_3y": 72.64,
+   "drug_3y": 72.65,
    "event_3y": 0.52,
    "drug_5y": 81.06,
    "event_5y": 0.74
   },
   "strict_only_3y": {
-   "drug": 123526,
-   "event": 884
+   "drug": 123566,
+   "event": 880
   },
-  "median_days_to_confirm": 448,
+  "median_days_to_confirm": 446,
   "first_confirm_section": {
-   "(none)": 169164,
-   "AR": 555,
-   "WP": 319,
-   "BW": 10
+   "(none)": 169214,
+   "AR": 538,
+   "WP": 333,
+   "BW": 9
   },
   "supplementary": {
-   "dsc_drug_3y": 3000,
-   "s921_drug_3y": 49973
+   "dsc_drug_3y": 3002,
+   "s921_drug_3y": 50009
   }
  },
  "label_changes_mapped": {
@@ -943,8 +943,8 @@
   "risk_section_rows": 21039,
   "stub_rows": 1637,
   "by_match_level": {
-   "exact": 20098,
-   "salt_stripped": 6183
+   "exact": 20384,
+   "salt_stripped": 5897
   }
  }
 }

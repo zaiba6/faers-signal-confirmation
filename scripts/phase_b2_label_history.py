@@ -244,3 +244,89 @@ def step_text():
 
 if __name__ == "__main__" and STEP == "text":
     step_text()
+
+
+# ---------------------------------------------------------------- step 4: the baseline rule
+# event_match takes a section_code and treats CONTRA specially: a PT inside a
+# contraindication describes who must not take the drug, not an effect it caused.
+SECTION_CODE = {"contraindications": "CONTRA"}
+
+
+def baseline_for(drug, cut, hist, d2s, prim, sid2app):
+    """(setid, version) of the label in force at `cut`, or None. Decisions 80, 89, 91."""
+    s = prim.get(drug)
+    if s is None:
+        return None
+    before = [(dt, v) for dt, v in hist.get(s, []) if dt <= cut]
+    if not before:
+        papps = sid2app.get(s, set())
+        alt = [x for x in d2s[drug]
+               if hist.get(x) and any(dt <= cut for dt, _ in hist[x])
+               and (sid2app.get(x, set()) & papps)]
+        if not alt:
+            return None
+        s = max(alt, key=lambda x: len(hist[x]))
+        before = [(dt, v) for dt, v in hist[s] if dt <= cut]
+    return s, max(before, key=lambda x: x[0])[1]
+
+
+def step_rule():
+    """Was the event already in a counted section of the label in force at detection?"""
+    import pandas as pd, duckdb
+    sys.path.insert(0, str(Path(__file__).parent))
+    from event_match import event_match, pt_regex
+
+    hist, sid2app = load_histories(), setid_to_apps()
+    m = pd.read_csv(ROOT / "results/phase_b1/b1_drug_to_setid_clean.csv")
+    d2s = {r.drug_ai: [x for x in str(r.setids).split(";") if x] for r in m.itertuples()}
+
+    def primary(sids):
+        cand = [(len(hist[s]), -hist[s][-1][0].value, s) for s in sids if hist.get(s)]
+        return max(cand)[2] if cand else None
+    prim = {d: primary(s) for d, s in d2s.items()}
+
+    con = duckdb.connect()
+    pairs = con.execute(f"""select distinct drug_ai, pt_clean, detection_quarter
+        from read_parquet('{ROOT}/data/processed/detected_pairs_T1.parquet')
+        where status = 'in_window'""").df()
+
+    rxc, seccache, out = {}, {}, []
+    for r in pairs.itertuples():
+        b = baseline_for(r.drug_ai, q_end(r.detection_quarter), hist, d2s, prim, sid2app)
+        if b is None:
+            out.append((r.drug_ai, r.pt_clean, r.detection_quarter, None, None, None, None))
+            continue
+        sid, ver = b
+        if (sid, ver) not in seccache:
+            f = SEC / f"{sid}_{ver}.json"
+            seccache[(sid, ver)] = json.loads(f.read_text()) if f.exists() else None
+        secs = seccache[(sid, ver)]
+        if secs is None:                       # version text not downloaded or failed
+            out.append((r.drug_ai, r.pt_clean, r.detection_quarter, sid, ver, None, None))
+            continue
+        if r.pt_clean not in rxc:
+            rxc[r.pt_clean] = pt_regex(r.pt_clean)
+        hit, where = 0, None
+        for name, text in secs.items():
+            ok, _ = event_match(text, r.pt_clean, rxc[r.pt_clean], SECTION_CODE.get(name, ""))
+            if ok:
+                hit, where = 1, name
+                break
+        out.append((r.drug_ai, r.pt_clean, r.detection_quarter, sid, ver, hit, where))
+
+    df = pd.DataFrame(out, columns=["drug_ai", "pt_clean", "detection_quarter",
+                                    "baseline_setid", "baseline_version",
+                                    "already_labelled", "baseline_section"])
+    con.register("df", df)
+    o = ROOT / "data/processed/baseline_label_T1.parquet"
+    con.execute(f"COPY df TO '{o}' (FORMAT PARQUET)")
+    n = len(df)
+    print(f"pairs {n:,}")
+    print(f"  no baseline version      {df.baseline_setid.isna().sum():,}")
+    print(f"  baseline text missing    {(df.baseline_setid.notna() & df.already_labelled.isna()).sum():,}")
+    print(f"  already labelled         {int(df.already_labelled.fillna(0).sum()):,}")
+    print(df[df.already_labelled == 1].baseline_section.value_counts().to_string())
+
+
+if __name__ == "__main__" and STEP == "rule":
+    step_rule()

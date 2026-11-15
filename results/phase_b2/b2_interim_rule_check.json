@@ -1,0 +1,17 @@
+{
+ "status": "INTERIM, not final",
+ "basis": "1,618 of 9,357 section files downloaded (17%), ordered by set id, NOT a random sample",
+ "testable_pairs": 44786,
+ "testable_Y1": 488,
+ "already_labelled_among_Y1_pct": 65.6,
+ "ci": [
+  61.3,
+  69.7
+ ],
+ "already_labelled_among_Y0_pct": 6.8,
+ "ci_Y0": [
+  6.3,
+  7.4
+ ],
+ "implication": "decision 76 would remove roughly two thirds of current positives as prevalent labelling"
+}

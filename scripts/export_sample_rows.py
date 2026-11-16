@@ -131,9 +131,14 @@ import textwrap
 
 disp = tbl_fmt.copy()
 # Long drug and event names overflow their cell and collide with neighbours, so wrap them.
-disp["Drug"] = [textwrap.fill(v, 32) for v in disp["Drug"]]
-disp["Event (PT)"] = [textwrap.fill(v, 26) for v in disp["Event (PT)"]]
-widths = [0.25, 0.20, 0.08, 0.09, 0.08, 0.10, 0.08, 0.08, 0.04]
+# Wrap widths track the column widths below: narrowing a column without narrowing its wrap
+# is how text starts overhanging its own cell.
+disp["Drug"] = [textwrap.fill(v, 20) for v in disp["Drug"]]
+disp["Event (PT)"] = [textwrap.fill(v, 17) for v in disp["Event (PT)"]]
+# Drug and Event give back 0.11 between them; it goes to the numeric columns rather than
+# shrinking the table, so the figure keeps its proportions. At this width the longer names
+# wrap to two lines, which the row-height calculation below already handles.
+widths = [0.19, 0.15, 0.10, 0.11, 0.10, 0.12, 0.10, 0.09, 0.04]
 
 # Layout computed in inches so the table gets exactly the room it needs. Row heights
 # follow the wrapped line count: with a fixed height a 3-line cell pushes the table past

@@ -1,0 +1,30 @@
+{
+ "decision": "81",
+ "seed": 81,
+ "n_drugs_requested": 100,
+ "n_drugs_sampled": 100,
+ "threshold_pct": 10.0,
+ "threshold_applies_to": "all_setids",
+ "drugs_with_multiple_setids": 984,
+ "pairs_in_sample": 20201,
+ "version_texts_used": 1403,
+ "version_texts_downloaded_now": 762,
+ "arms": {
+  "all_setids": {
+   "pairs_with_a_comparable_sibling": 15960,
+   "missed_by_primary": 222,
+   "extra_by_primary": 79,
+   "disagreement_pct": 1.89,
+   "missed_pct": 1.39
+  },
+  "same_app": {
+   "pairs_with_a_comparable_sibling": 12481,
+   "missed_by_primary": 66,
+   "extra_by_primary": 46,
+   "disagreement_pct": 0.9,
+   "missed_pct": 0.53
+  }
+ },
+ "verdict": "shortcut KEPT",
+ "verdict_basis": "all_setids disagreement 1.89% against a 10.0% threshold"
+}

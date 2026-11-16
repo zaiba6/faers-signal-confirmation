@@ -55,9 +55,11 @@ checks = dict(
 
 # ---------------------------------------------------------------- sample
 # Use the pre-registered rule (scripts/nonclinical_pts.py, decisions 68 and 79) rather
-# than this file's own regex, so the slide shows the same cohort the pipeline will build.
-# The cohort rebuild that applies decision 79 has not run yet; filtering here keeps the
-# sample consistent with the committed rule instead of ahead of or behind it.
+# than this file's own regex, so the slide shows the same cohort the pipeline built. The
+# rebuild has since run, so this filter is now a no-op on features_T1 and is kept as a
+# guard: if a later build stops applying it, the sample will not quietly start showing
+# product-use terms. The NON_CLINICAL regex above is dead and stays only as a record of
+# what the first, keyword-only attempt looked like.
 import sys as _sys; _sys.path.insert(0, str(Path(__file__).parent))
 from nonclinical_pts import is_nonclinical
 pool = f[(f.a >= MIN_A) & (~f.pt_clean.map(is_nonclinical))].copy()
@@ -143,7 +145,8 @@ table_in = sum(row_in)
 # One caption line, on the figure rather than only in speaker notes: what Y means is the
 # most important thing on this table, and "labelling change" is the honest wording, not
 # "confirmed". The longer caveats stay in sample_rows_caption.txt.
-CAP = ("Y = 1: a safety labelling change named this event within 36 months of detection. "
+CAP = ("Y = 1: the event was absent from the drug's label at detection, and a safety labelling "
+       "change named it within 36 months. "
        f"Rows drawn with a \u2265 {MIN_A}; the cohort threshold is unchanged.")
 cap_in = 0.46
 fig_h = table_in + cap_in + 0.12
@@ -173,10 +176,17 @@ plt.close()
 (FIG / "sample_rows_caption.txt").write_text(
     f"Illustrative rows only, drawn with a >= {MIN_A} so \"% serious\" is a meaningful "
     f"fraction. The cohort threshold is unchanged (T1: a >= 3).\n\n"
-    "Y is provisional: a safety labelling change naming this event within 36 months of "
-    "detection. It does NOT yet require the event to have been absent from the label "
-    "beforehand, so some Y=1 rows are events the label already carried. That rule is "
-    "being added (decisions 74-78) and the positive count will fall.\n")
+    "Y = 1 means the event was ABSENT from the drug's label at the detection quarter and a "
+    "safety labelling change named it within the next 36 months. The baseline check "
+    "(decisions 74-78, 99-101) reads the DailyMed label version in force at detection; pairs "
+    "whose label already carried the event are dropped from the cohort rather than scored, so "
+    "no row here is a restatement of something already known. Applying that rule cut T1 from "
+    "349,242 rows and 3,912 positives to 241,443 and 966 (1.12% -> 0.400%): 69.7% of the old "
+    "positives were events the label already carried.\n\n"
+    "Two known limits of the baseline check, both measured: its hand-checked accuracy is 28/30 "
+    "on exclusions with no miss found in 30 kept positives, and where a drug's primary "
+    "registration has no usable history the baseline falls back to another set id for that "
+    "ingredient, which is a median 6.9 years stale.\n")
 
 # ---------------------------------------------------------------- per-row checks
 rowchecks = []
